@@ -6,6 +6,7 @@ import AdSense from './components/ads';
 import NavBar from './components/navbar';
 import Footer from './components/footer';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 
 const geistSans = Geist({
@@ -34,6 +35,7 @@ export default function RootLayout({
 				<meta name="google-adsense-account" content="ca-pub-6105108199502947" />
         <AdSense publisherId="6105108199502947" />
         <Analytics />
+        <SpeedInsights />
 			</head>
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
