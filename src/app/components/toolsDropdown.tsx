@@ -2,11 +2,25 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
+import locales from '../[locale]/util/locales.json';
+
+type LocaleKeys = keyof typeof locales;
 
 const ToolsDropdown: React.FC = () => {
+	const { locale = 'en' } = useParams() as { locale: LocaleKeys };
+	const texts = locales[locale];
+
+	// Items mit lokalisierten Labels und Links, die das Locale enthalten (z. B. /de/unit-converter)
 	const items = [
-		{ label: 'Item 1', href: '/item1' },
-		{ label: 'Item 2', href: '/item2' },
+		{
+			label: texts.toolCard1Title,
+			href: `/${locale}/unit-converter`,
+		},
+		{
+			label: texts.toolCard2Title,
+			href: `/${locale}/file-converter`,
+		},
 	];
 
 	return (

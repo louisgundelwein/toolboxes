@@ -1,6 +1,6 @@
 {
 	"en": {
-		"heroTitle": "Welcome to Toolboxes.app – Your Ultimate Online Toolbox for Modern Digital Workflows",
+		"heroTitle": "Advanced Online Toolbox for Modern Digital Workflows",
 		"heroSubtitle": "Empowering developers, designers, and creative professionals with innovative digital solutions",
 		"heroDescription": "Discover a comprehensive suite of online tools designed to streamline your work. From advanced unit converters to efficient file format changers and beyond, our platform boosts productivity and creativity.",
 		"ctaButton": "Explore Our Tools Now",
@@ -18,7 +18,7 @@
 		"description": "Toolboxes.app is the premier online resource offering a powerful collection of tools to revolutionize your digital workflow."
 	},
 	"de": {
-		"heroTitle": "Willkommen bei Toolboxes.app – Ihre ultimative Online-Toolbox für moderne digitale Arbeitsabläufe",
+		"heroTitle": "Ultimative Online-Toolbox für moderne digitale Arbeitsabläufe",
 		"heroSubtitle": "Entfesseln Sie das Potenzial von Entwicklern, Designern und Kreativen mit innovativen Lösungen",
 		"heroDescription": "Entdecken Sie eine umfassende Sammlung von Online-Tools, die Ihren Arbeitsalltag optimieren. Von fortschrittlichen Einheiten-Konvertern bis hin zu effizienten Dateikonvertern – unsere Plattform steigert Ihre Produktivität und Kreativität.",
 		"ctaButton": "Entdecken Sie unsere Tools",
@@ -36,12 +36,12 @@
 		"description": "Toolboxes.app ist die führende Online-Ressource, die eine leistungsstarke Sammlung von Tools zur Revolutionierung Ihres Arbeitsalltags bietet."
 	},
 	"es": {
-		"heroTitle": "Bienvenido a Toolboxes.app – Tu caja de herramientas online definitiva para flujos de trabajo digitales modernos",
+		"heroTitle": "Caja de herramientas online definitiva para flujos de trabajo digitales modernos",
 		"heroSubtitle": "Impulsando a desarrolladores, diseñadores y creativos con soluciones digitales innovadoras",
 		"heroDescription": "Descubre una completa suite de herramientas en línea diseñadas para optimizar tu trabajo. Desde convertidores de unidades avanzados hasta conversores de archivos eficientes, nuestra plataforma aumenta tu productividad y creatividad.",
 		"ctaButton": "Explora nuestras herramientas",
 		"toolsOverviewTitle": "Descubre nuestra diversa gama de herramientas",
-		"toolsOverviewSubtitle": "Explora nuestros potentes y vanguardistas recursos que simplifican tareas complejas y mejoran tu flujo de trabajo digital.",
+		"toolsOverviewSubtitle": "Explora nuestros poderosos y vanguardistas recursos que simplifican tareas complejas y mejoran tu flujo de trabajo digital.",
 		"toolCard1Title": "Convertidor de Unidades",
 		"toolCard1Description": "Convierte medidas como longitud, peso y temperatura con alta precisión.",
 		"toolCard2Title": "Convertidor de Archivos",
@@ -54,7 +54,7 @@
 		"description": "Toolboxes.app es el recurso online líder que ofrece una colección potente de herramientas para revolucionar tu flujo de trabajo digital."
 	},
 	"fr": {
-		"heroTitle": "Bienvenue sur Toolboxes.app – La boîte à outils en ligne ultime pour des flux de travail numériques modernes",
+		"heroTitle": "Boîte à outils en ligne ultime pour des flux de travail numériques modernes",
 		"heroSubtitle": "Offrant des solutions digitales innovantes aux développeurs, designers et créatifs",
 		"heroDescription": "Découvrez une suite complète d’outils en ligne conçus pour optimiser votre travail. Des convertisseurs d’unités avancés aux convertisseurs de formats de fichiers efficaces, notre plateforme booste votre productivité et votre créativité.",
 		"ctaButton": "Découvrez nos outils dès maintenant",
@@ -66,13 +66,13 @@
 		"toolCard2Description": "Transformez vos fichiers entre différents formats en quelques clics, rapidement et fiablement.",
 		"toolCard3Title": "Calculatrice en Ligne",
 		"toolCard3Description": "Réalisez instantanément des calculs financiers et techniques complexes grâce à notre calculatrice avancée.",
-		"additionalTitle": "Des solutions innovantes pour sublimer votre expérience digitale",
+		"additionalTitle": "Solutions innovantes pour sublimer votre expérience digitale",
 		"additionalDescription": "Notre plateforme évolutive vous offre les outils et fonctionnalités les plus récents pour maximiser votre efficacité. Profitez d’une polyvalence et d’une performance incomparables.",
 		"learnMoreButton": "En savoir plus sur nous",
 		"description": "Toolboxes.app est la ressource en ligne incontournable offrant une collection puissante d’outils pour transformer votre manière de travailler."
 	},
 	"uk": {
-		"heroTitle": "Ласкаво просимо до Toolboxes.app – Вашої остаточної онлайн-скриньки інструментів для сучасних цифрових процесів",
+		"heroTitle": "Остаточна онлайн-скринька інструментів для сучасних цифрових процесів",
 		"heroSubtitle": "Надаємо інноваційні цифрові рішення для розробників, дизайнерів та творчих людей",
 		"heroDescription": "Відкрийте для себе комплекс онлайн-інструментів, створених для оптимізації вашої роботи. Від точних конвертерів одиниць до ефективних конвертерів файлів – наша платформа підвищує вашу продуктивність та креативність.",
 		"ctaButton": "Ознайомтеся з нашими інструментами",
@@ -84,13 +84,13 @@
 		"toolCard2Description": "Швидко та надійно конвертуйте файли між різними форматами.",
 		"toolCard3Title": "Онлайн калькулятор",
 		"toolCard3Description": "Виконуйте складні фінансові та технічні розрахунки миттєво.",
-		"additionalTitle": "Інноваційні рішення для трансформації вашого цифрового досвіду",
-		"additionalDescription": "Наша платформа постійно вдосконалюється, пропонуючи найновіші інструменти та функції для максимізації вашої ефективності. Відчуйте неперевершену універсальність та продуктивність.",
+		"additionalTitle": "Інноваційні рішення для трансформації цифрового досвіду",
+		"additionalDescription": "Наша платформа постійно вдосконалюється, пропонуючи найновіші інструменти та функції для максимізації вашої ефективності. Відчуйте універсальність та продуктивність без компромісів.",
 		"learnMoreButton": "Дізнайтеся більше",
 		"description": "Toolboxes.app – провідний онлайн-ресурс, що пропонує потужну колекцію інструментів для революції вашого робочого процесу."
 	},
 	"zh": {
-		"heroTitle": "欢迎来到 Toolboxes.app – 您的终极在线工具箱，助力现代数字化工作流程",
+		"heroTitle": "终极在线工具箱，助力现代数字化工作流程",
 		"heroSubtitle": "为开发者、设计师和创意工作者提供创新数字解决方案",
 		"heroDescription": "探索一系列专为优化工作流程而设计的在线工具。从先进的单位转换器到高效的文件转换器，我们的平台全方位提升您的生产力与创造力。",
 		"ctaButton": "立即探索我们的工具",
@@ -108,7 +108,7 @@
 		"description": "Toolboxes.app 是领先的在线资源，提供一系列强大工具，彻底革新您的工作方式。"
 	},
 	"pt": {
-		"heroTitle": "Bem-vindo ao Toolboxes.app – A Caixa de Ferramentas Online Definitiva para Fluxos de Trabalho Digitais Modernos",
+		"heroTitle": "Caixa de Ferramentas Online Definitiva para Fluxos de Trabalho Digitais Modernos",
 		"heroSubtitle": "Capacitando desenvolvedores, designers e profissionais criativos com soluções digitais inovadoras",
 		"heroDescription": "Descubra uma coleção abrangente de ferramentas online projetadas para otimizar seu trabalho. De conversores de unidades avançados a conversores de arquivos eficientes, nossa plataforma impulsiona sua produtividade e criatividade.",
 		"ctaButton": "Explore Nossas Ferramentas Agora",
