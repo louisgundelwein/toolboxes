@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Toolboxes.app
+
+[Visit Toolboxes.app](https://toolboxes.app)
+
+This repository contains a Next.js website built with the aim of maximizing SEO performance. Our goal is to deliver an advanced, highly optimized online toolbox that serves developers, designers, and creative professionals with modern digital solutions.
+
+## Overview
+
+The site is designed to provide:
+- A comprehensive collection of online tools including unit converters, file converters, and online calculators.
+- SEO-optimized pages with rich, localized content.
+- A responsive layout with a dynamic hero section, tool overview, and additional information.
+- A language switcher and theme changer accessible via a burger menu.
+- Fully localized texts stored in dedicated JSON files (e.g. `seoLocales.json` and `localbook.json`) supporting multiple languages such as English, German, French, Spanish, Portuguese, Ukrainian, and Chinese.
 
 ## Getting Started
 
