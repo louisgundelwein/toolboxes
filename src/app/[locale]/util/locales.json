@@ -15,10 +15,11 @@
 		"additionalTitle": "Innovative Solutions to Transform Your Digital Experience",
 		"additionalDescription": "Our ever-evolving platform provides the latest tools and features designed to maximize your efficiency. Experience unmatched versatility and performance.",
 		"learnMoreButton": "Learn More About Us",
-		"description": "Toolboxes.app is the premier online resource offering a powerful collection of tools to revolutionize your digital workflow."
+		"description": "Toolboxes.app is the premier online resource offering a powerful collection of tools to revolutionize your digital workflow.",
+    "seeMoreButton": "See More"
 	},
 	"de": {
-		"heroTitle": "Ultimative Online-Toolbox für moderne digitale Arbeitsabläufe",
+		"heroTitle": "Ultimative Online-Toolbox für moderne digitale Aufgaben",
 		"heroSubtitle": "Entfesseln Sie das Potenzial von Entwicklern, Designern und Kreativen mit innovativen Lösungen",
 		"heroDescription": "Entdecken Sie eine umfassende Sammlung von Online-Tools, die Ihren Arbeitsalltag optimieren. Von fortschrittlichen Einheiten-Konvertern bis hin zu effizienten Dateikonvertern – unsere Plattform steigert Ihre Produktivität und Kreativität.",
 		"ctaButton": "Entdecken Sie unsere Tools",
@@ -33,7 +34,8 @@
 		"additionalTitle": "Innovative Lösungen zur Transformation Ihres digitalen Arbeitens",
 		"additionalDescription": "Unsere Plattform wird ständig erweitert und bietet Ihnen die neuesten Tools und Funktionen, um Ihre Effizienz zu maximieren. Erleben Sie unvergleichliche Vielseitigkeit und Leistung.",
 		"learnMoreButton": "Mehr über uns erfahren",
-		"description": "Toolboxes.app ist die führende Online-Ressource, die eine leistungsstarke Sammlung von Tools zur Revolutionierung Ihres Arbeitsalltags bietet."
+		"description": "Toolboxes.app ist die führende Online-Ressource, die eine leistungsstarke Sammlung von Tools zur Revolutionierung Ihres Arbeitsalltags bietet.",
+		"seeMoreButton": "Mehr erfahren"
 	},
 	"es": {
 		"heroTitle": "Caja de herramientas online definitiva para flujos de trabajo digitales modernos",
@@ -51,7 +53,8 @@
 		"additionalTitle": "Soluciones Innovadoras para Transformar Tu Experiencia Digital",
 		"additionalDescription": "Nuestra plataforma en constante evolución ofrece las herramientas más modernas para maximizar tu eficiencia. Experimenta una versatilidad y rendimiento incomparables.",
 		"learnMoreButton": "Conoce más sobre nosotros",
-		"description": "Toolboxes.app es el recurso online líder que ofrece una colección potente de herramientas para revolucionar tu flujo de trabajo digital."
+		"description": "Toolboxes.app es el recurso online líder que ofrece una colección potente de herramientas para revolucionar tu flujo de trabajo digital.",
+		"seeMoreButton": "Ver Más"
 	},
 	"fr": {
 		"heroTitle": "Boîte à outils en ligne ultime pour des flux de travail numériques modernes",
@@ -69,7 +72,8 @@
 		"additionalTitle": "Solutions innovantes pour sublimer votre expérience digitale",
 		"additionalDescription": "Notre plateforme évolutive vous offre les outils et fonctionnalités les plus récents pour maximiser votre efficacité. Profitez d’une polyvalence et d’une performance incomparables.",
 		"learnMoreButton": "En savoir plus sur nous",
-		"description": "Toolboxes.app est la ressource en ligne incontournable offrant une collection puissante d’outils pour transformer votre manière de travailler."
+		"description": "Toolboxes.app est la ressource en ligne incontournable offrant une collection puissante d’outils pour transformer votre manière de travailler.",
+		"seeMoreButton": "Voir Plus"
 	},
 	"uk": {
 		"heroTitle": "Остаточна онлайн-скринька інструментів для сучасних цифрових процесів",
@@ -87,7 +91,8 @@
 		"additionalTitle": "Інноваційні рішення для трансформації цифрового досвіду",
 		"additionalDescription": "Наша платформа постійно вдосконалюється, пропонуючи найновіші інструменти та функції для максимізації вашої ефективності. Відчуйте універсальність та продуктивність без компромісів.",
 		"learnMoreButton": "Дізнайтеся більше",
-		"description": "Toolboxes.app – провідний онлайн-ресурс, що пропонує потужну колекцію інструментів для революції вашого робочого процесу."
+		"description": "Toolboxes.app – провідний онлайн-ресурс, що пропонує потужну колекцію інструментів для революції вашого робочого процесу.",
+		"seeMoreButton": "Дізнатися більше"
 	},
 	"zh": {
 		"heroTitle": "终极在线工具箱，助力现代数字化工作流程",
@@ -105,7 +110,8 @@
 		"additionalTitle": "创新解决方案，全面提升数字体验",
 		"additionalDescription": "我们的平台不断进化，致力于为您提供最新的工具和功能，最大化工作效率。体验无与伦比的多样性与卓越性能。",
 		"learnMoreButton": "了解更多关于我们",
-		"description": "Toolboxes.app 是领先的在线资源，提供一系列强大工具，彻底革新您的工作方式。"
+		"description": "Toolboxes.app 是领先的在线资源，提供一系列强大工具，彻底革新您的工作方式。",
+		"seeMoreButton": "了解更多"
 	},
 	"pt": {
 		"heroTitle": "Caixa de Ferramentas Online Definitiva para Fluxos de Trabalho Digitais Modernos",
@@ -123,6 +129,7 @@
 		"additionalTitle": "Soluções Inovadoras para Potencializar sua Experiência Digital",
 		"additionalDescription": "Nossa plataforma evolui constantemente para oferecer as ferramentas e recursos mais modernos, maximizando sua eficiência. Experimente versatilidade e desempenho sem igual.",
 		"learnMoreButton": "Saiba Mais Sobre Nós",
-		"description": "Toolboxes.app é o recurso online líder, oferecendo uma coleção poderosa de ferramentas que transformam sua forma de trabalhar."
+		"description": "Toolboxes.app é o recurso online líder, oferecendo uma coleção poderosa de ferramentas que transformam sua forma de trabalhar.",
+		"seeMoreButton": "Ver Mais"
 	}
 }

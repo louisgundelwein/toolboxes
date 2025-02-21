@@ -18,12 +18,13 @@ interface PageProps {
 type LocaleKeys = keyof typeof locales;
 
 export default function LandingPage({ params }: PageProps) {
-	// Entpacken des Promise – experimenteller Hook
+	// Unwrap the promise (experimental hook)
 	const resolvedParams = React.use(params);
 	const router = useRouter();
-  const [texts, setTexts] = useState<(typeof locales)['en']>(locales['en']);
-  
-  const targetRef = useRef<HTMLDivElement>(null);
+	// We'll use a state variable to hold the current locale.
+	const [locale, setLocale] = useState<LocaleKeys>('en');
+	const [texts, setTexts] = useState(locales['en']);
+	const targetRef = useRef<HTMLDivElement>(null);
 
 	const scrollToTarget = () => {
 		targetRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -32,12 +33,14 @@ export default function LandingPage({ params }: PageProps) {
 	useEffect(() => {
 		if (resolvedParams.locale && resolvedParams.locale in locales) {
 			const loc = resolvedParams.locale as LocaleKeys;
+			setLocale(loc);
 			setTexts(locales[loc]);
 		} else {
 			const browserLocale = navigator.language.slice(0, 2);
 			const newLocale = (
 				browserLocale in locales ? browserLocale : 'en'
 			) as LocaleKeys;
+			setLocale(newLocale);
 			setTexts(locales[newLocale]);
 			router.replace(`/${newLocale}`);
 		}
@@ -69,7 +72,7 @@ export default function LandingPage({ params }: PageProps) {
 			</section>
 
 			{/* Tools Overview Section */}
-      <section ref={targetRef} className="py-12 px-4">
+			<section ref={targetRef} className="py-12 px-4">
 				<div className="max-w-6xl mx-auto">
 					<h2 className="text-4xl font-bold text-accent mb-8 text-center">
 						{texts.toolsOverviewTitle}
@@ -81,17 +84,20 @@ export default function LandingPage({ params }: PageProps) {
 						<ToolCard
 							title={texts.toolCard1Title}
 							description={texts.toolCard1Description}
-							href="/en/unit-converter"
+							href={`/${locale}/unit-converter`}
+							lang={locale}
 						/>
 						<ToolCard
 							title={texts.toolCard2Title}
 							description={texts.toolCard2Description}
-							href="/en/file-converter"
+							href={`/${locale}/file-converter`}
+							lang={locale}
 						/>
 						<ToolCard
 							title={texts.toolCard3Title}
 							description={texts.toolCard3Description}
-							href="/en/calculator"
+							href={`/${locale}/calculator`}
+							lang={locale}
 						/>
 					</div>
 				</div>
