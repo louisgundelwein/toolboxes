@@ -1,78 +1,159 @@
+// util/unitCategories.ts
+import locales from './locales.json';
+
+export interface Unit {
+	factor: number;
+	abbrev: string;
+}
+
 export interface UnitCategory {
 	name: string;
-	// Der Faktor gibt an, wie viele Basiseinheiten in einer Einheit stecken.
-	// Beispiel: Für Länge (Basis: Meter) gilt: kilometer: 1000, centimeter: 0.01.
-	units: { [unit: string]: number };
-	// Optional: Falls die Umrechnung nicht linear erfolgt, kann hier eine Funktion definiert werden.
+	units: { [unit: string]: Unit };
 	convert?: (value: number, from: string, to: string) => number;
-	// Standardanzahl der Dezimalstellen für Rundungen (optional)
 	precision?: number;
 }
 
-export const unitCategories: { [key: string]: UnitCategory } = {
-	// 1. Länge (Basis: Meter)
+export const getUnitCategories = (
+	locale: keyof typeof locales
+): { [key: string]: UnitCategory } => ({
 	length: {
-		name: 'Länge',
+		name: locales[locale]['unit-converter'].length,
 		units: {
-			meter: 1,
-			kilometer: 1000,
-			centimeter: 0.01,
-			millimeter: 0.001,
-			mile: 1609.34,
-			yard: 0.9144,
-			foot: 0.3048,
-			inch: 0.0254,
+			meter: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.length.meter,
+			},
+			kilometer: {
+				factor: 1000,
+				abbrev: locales[locale]['unit-converter'].units.length.kilometer,
+			},
+			centimeter: {
+				factor: 0.01,
+				abbrev: locales[locale]['unit-converter'].units.length.centimeter,
+			},
+			millimeter: {
+				factor: 0.001,
+				abbrev: locales[locale]['unit-converter'].units.length.millimeter,
+			},
+			mile: {
+				factor: 1609.34,
+				abbrev: locales[locale]['unit-converter'].units.length.mile,
+			},
+			yard: {
+				factor: 0.9144,
+				abbrev: locales[locale]['unit-converter'].units.length.yard,
+			},
+			foot: {
+				factor: 0.3048,
+				abbrev: locales[locale]['unit-converter'].units.length.foot,
+			},
+			inch: {
+				factor: 0.0254,
+				abbrev: locales[locale]['unit-converter'].units.length.inch,
+			},
 		},
 		precision: 4,
 	},
-	// 2. Gewicht (Basis: Kilogramm)
 	weight: {
-		name: 'Gewicht',
+		name: locales[locale]['unit-converter'].weight,
 		units: {
-			kilogram: 1,
-			gram: 0.001,
-			milligram: 0.000001,
-			pound: 0.453592,
-			ounce: 0.0283495,
+			kilogram: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.weight.kilogram,
+			},
+			gram: {
+				factor: 0.001,
+				abbrev: locales[locale]['unit-converter'].units.weight.gram,
+			},
+			milligram: {
+				factor: 0.000001,
+				abbrev: locales[locale]['unit-converter'].units.weight.milligram,
+			},
+			pound: {
+				factor: 0.453592,
+				abbrev: locales[locale]['unit-converter'].units.weight.pound,
+			},
+			ounce: {
+				factor: 0.0283495,
+				abbrev: locales[locale]['unit-converter'].units.weight.ounce,
+			},
 		},
 		precision: 3,
 	},
-	// 3. Fläche (Basis: Quadratmeter)
 	area: {
-		name: 'Fläche',
+		name: locales[locale]['unit-converter'].area,
 		units: {
-			'square meter': 1,
-			'square kilometer': 1_000_000,
-			'square centimeter': 0.0001,
-			'square foot': 0.092903,
-			acre: 4046.86,
+			'square meter': {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.area['square meter'],
+			},
+			'square kilometer': {
+				factor: 1000000,
+				abbrev:
+					locales[locale]['unit-converter'].units.area['square kilometer'],
+			},
+			'square centimeter': {
+				factor: 0.0001,
+				abbrev:
+					locales[locale]['unit-converter'].units.area['square centimeter'],
+			},
+			'square foot': {
+				factor: 0.092903,
+				abbrev: locales[locale]['unit-converter'].units.area['square foot'],
+			},
+			acre: {
+				factor: 4046.86,
+				abbrev: locales[locale]['unit-converter'].units.area.acre,
+			},
 		},
 		precision: 2,
 	},
-	// 4. Volumen (Basis: Kubikmeter)
 	volume: {
-		name: 'Volumen',
+		name: locales[locale]['unit-converter'].volume,
 		units: {
-			'cubic meter': 1,
-			liter: 0.001,
-			milliliter: 0.000001,
-			'cubic centimeter': 0.000001,
-			'gallon (US)': 0.00378541,
+			'cubic meter': {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.volume['cubic meter'],
+			},
+			liter: {
+				factor: 0.001,
+				abbrev: locales[locale]['unit-converter'].units.volume.liter,
+			},
+			milliliter: {
+				factor: 0.000001,
+				abbrev: locales[locale]['unit-converter'].units.volume.milliliter,
+			},
+			'cubic centimeter': {
+				factor: 0.000001,
+				abbrev:
+					locales[locale]['unit-converter'].units.volume['cubic centimeter'],
+			},
+			'gallon (US)': {
+				factor: 0.00378541,
+				abbrev: locales[locale]['unit-converter'].units.volume['gallon (US)'],
+			},
 		},
 		precision: 4,
 	},
-	// 5. Temperatur (Basis: Celsius, mit eigener Konvertierungsfunktion)
 	temperature: {
-		name: 'Temperatur',
+		name: locales[locale]['unit-converter'].temperature,
 		units: {
-			celsius: 1,
-			fahrenheit: 1,
-			kelvin: 1,
+			celsius: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.temperature.celsius,
+			},
+			fahrenheit: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.temperature.fahrenheit,
+			},
+			kelvin: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.temperature.kelvin,
+			},
 		},
 		convert: (value: number, from: string, to: string) => {
 			if (from === to) return value;
 			let celsius: number;
-			// Zuerst in Celsius umrechnen
 			switch (from) {
 				case 'fahrenheit':
 					celsius = (value - 32) * (5 / 9);
@@ -83,7 +164,6 @@ export const unitCategories: { [key: string]: UnitCategory } = {
 				default:
 					celsius = value;
 			}
-			// Von Celsius in Ziel umrechnen
 			switch (to) {
 				case 'fahrenheit':
 					return celsius * (9 / 5) + 32;
@@ -95,162 +175,308 @@ export const unitCategories: { [key: string]: UnitCategory } = {
 		},
 		precision: 2,
 	},
-	// 6. Geschwindigkeit (Basis: Meter pro Sekunde)
 	speed: {
-		name: 'Geschwindigkeit',
+		name: locales[locale]['unit-converter'].speed,
 		units: {
-			'm/s': 1,
-			'km/h': 0.277778,
-			mph: 0.44704,
+			'm/s': {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.speed['m/s'],
+			},
+			'km/h': {
+				factor: 0.277778,
+				abbrev: locales[locale]['unit-converter'].units.speed['km/h'],
+			},
+			mph: {
+				factor: 0.44704,
+				abbrev: locales[locale]['unit-converter'].units.speed.mph,
+			},
 		},
 		precision: 3,
 	},
-	// 7. Zeit (Basis: Sekunde)
 	time: {
-		name: 'Zeit',
+		name: locales[locale]['unit-converter'].time,
 		units: {
-			second: 1,
-			minute: 60,
-			hour: 3600,
-			day: 86400,
+			second: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.time.second,
+			},
+			minute: {
+				factor: 60,
+				abbrev: locales[locale]['unit-converter'].units.time.minute,
+			},
+			hour: {
+				factor: 3600,
+				abbrev: locales[locale]['unit-converter'].units.time.hour,
+			},
+			day: {
+				factor: 86400,
+				abbrev: locales[locale]['unit-converter'].units.time.day,
+			},
 		},
 		precision: 0,
 	},
-	// 8. Druck (Basis: Pascal)
 	pressure: {
-		name: 'Druck',
+		name: locales[locale]['unit-converter'].pressure,
 		units: {
-			pascal: 1,
-			kilopascal: 1000,
-			bar: 100000,
-			psi: 6894.76,
+			pascal: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.pressure.pascal,
+			},
+			kilopascal: {
+				factor: 1000,
+				abbrev: locales[locale]['unit-converter'].units.pressure.kilopascal,
+			},
+			bar: {
+				factor: 100000,
+				abbrev: locales[locale]['unit-converter'].units.pressure.bar,
+			},
+			psi: {
+				factor: 6894.76,
+				abbrev: locales[locale]['unit-converter'].units.pressure.psi,
+			},
 		},
 		precision: 2,
 	},
-	// 9. Energie (Basis: Joule)
 	energy: {
-		name: 'Energie',
+		name: locales[locale]['unit-converter'].energy,
 		units: {
-			joule: 1,
-			kilojoule: 1000,
-			calorie: 4.184,
-			kilocalorie: 4184,
-			'kilowatt-hour': 3.6e6,
+			joule: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.energy.joule,
+			},
+			kilojoule: {
+				factor: 1000,
+				abbrev: locales[locale]['unit-converter'].units.energy.kilojoule,
+			},
+			calorie: {
+				factor: 4.184,
+				abbrev: locales[locale]['unit-converter'].units.energy.calorie,
+			},
+			kilocalorie: {
+				factor: 4184,
+				abbrev: locales[locale]['unit-converter'].units.energy.kilocalorie,
+			},
+			'kilowatt-hour': {
+				factor: 3600000,
+				abbrev: locales[locale]['unit-converter'].units.energy['kilowatt-hour'],
+			},
 		},
 		precision: 2,
 	},
-	// 10. Leistung (Basis: Watt)
 	power: {
-		name: 'Leistung',
+		name: locales[locale]['unit-converter'].power,
 		units: {
-			watt: 1,
-			kilowatt: 1000,
-			horsepower: 745.7,
+			watt: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.power.watt,
+			},
+			kilowatt: {
+				factor: 1000,
+				abbrev: locales[locale]['unit-converter'].units.power.kilowatt,
+			},
+			horsepower: {
+				factor: 745.7,
+				abbrev: locales[locale]['unit-converter'].units.power.horsepower,
+			},
 		},
 		precision: 2,
 	},
-	// 11. Datenspeicher (Basis: Byte)
 	dataStorage: {
-		name: 'Datenspeicher',
+		name: locales[locale]['unit-converter'].dataStorage,
 		units: {
-			byte: 1,
-			kilobyte: 1024,
-			megabyte: 1_048_576,
-			gigabyte: 1_073_741_824,
+			byte: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.dataStorage.byte,
+			},
+			kilobyte: {
+				factor: 1024,
+				abbrev: locales[locale]['unit-converter'].units.dataStorage.kilobyte,
+			},
+			megabyte: {
+				factor: 1048576,
+				abbrev: locales[locale]['unit-converter'].units.dataStorage.megabyte,
+			},
+			gigabyte: {
+				factor: 1073741824,
+				abbrev: locales[locale]['unit-converter'].units.dataStorage.gigabyte,
+			},
 		},
 		precision: 0,
 	},
-	// 12. Winkel (Basis: Radian)
 	angle: {
-		name: 'Winkel',
+		name: locales[locale]['unit-converter'].angle,
 		units: {
-			radian: 1,
-			degree: Math.PI / 180, // 1° = π/180 Rad
-			grad: Math.PI / 200, // 1 grad = π/200 Rad
+			radian: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.angle.radian,
+			},
+			degree: {
+				factor: Math.PI / 180,
+				abbrev: locales[locale]['unit-converter'].units.angle.degree,
+			},
+			grad: {
+				factor: Math.PI / 200,
+				abbrev: locales[locale]['unit-converter'].units.angle.grad,
+			},
 		},
 		precision: 4,
 	},
-	// 13. Frequenz (Basis: Hertz)
 	frequency: {
-		name: 'Frequenz',
+		name: locales[locale]['unit-converter'].frequency,
 		units: {
-			hertz: 1,
-			kilohertz: 1000,
-			megahertz: 1e6,
-			gigahertz: 1e9,
+			hertz: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.frequency.hertz,
+			},
+			kilohertz: {
+				factor: 1000,
+				abbrev: locales[locale]['unit-converter'].units.frequency.kilohertz,
+			},
+			megahertz: {
+				factor: 1e6,
+				abbrev: locales[locale]['unit-converter'].units.frequency.megahertz,
+			},
+			gigahertz: {
+				factor: 1e9,
+				abbrev: locales[locale]['unit-converter'].units.frequency.gigahertz,
+			},
 		},
 		precision: 2,
 	},
-	// 14. Kraft (Basis: Newton)
 	force: {
-		name: 'Kraft',
+		name: locales[locale]['unit-converter'].force,
 		units: {
-			newton: 1,
-			kilonewton: 1000,
-			'pound-force': 4.44822,
+			newton: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.force.newton,
+			},
+			kilonewton: {
+				factor: 1000,
+				abbrev: locales[locale]['unit-converter'].units.force.kilonewton,
+			},
+			'pound-force': {
+				factor: 4.44822,
+				abbrev: locales[locale]['unit-converter'].units.force['pound-force'],
+			},
 		},
 		precision: 2,
 	},
-	// 15. Dichte (Basis: kg/m³)
 	density: {
-		name: 'Dichte',
+		name: locales[locale]['unit-converter'].density,
 		units: {
-			'kg/m³': 1,
-			'g/cm³': 1000,
-			'lb/ft³': 16.0185,
+			'kg/m³': {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.density['kg/m³'],
+			},
+			'g/cm³': {
+				factor: 1000,
+				abbrev: locales[locale]['unit-converter'].units.density['g/cm³'],
+			},
+			'lb/ft³': {
+				factor: 16.0185,
+				abbrev: locales[locale]['unit-converter'].units.density['lb/ft³'],
+			},
 		},
 		precision: 3,
 	},
-	// 16. Volumenstrom (Basis: Kubikmeter pro Sekunde)
 	volumeFlow: {
-		name: 'Volumenstrom',
+		name: locales[locale]['unit-converter'].volumeFlow,
 		units: {
-			'm³/s': 1,
-			'liter/s': 0.001,
-			'gallon/min': 0.00378541 / 60,
+			'm³/s': {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.volumeFlow['m³/s'],
+			},
+			'liter/s': {
+				factor: 0.001,
+				abbrev: locales[locale]['unit-converter'].units.volumeFlow['liter/s'],
+			},
+			'gallon/min': {
+				factor: 0.00378541 / 60,
+				abbrev:
+					locales[locale]['unit-converter'].units.volumeFlow['gallon/min'],
+			},
 		},
 		precision: 4,
 	},
-	// 17. Beschleunigung (Basis: m/s²)
 	acceleration: {
-		name: 'Beschleunigung',
+		name: locales[locale]['unit-converter'].acceleration,
 		units: {
-			'm/s²': 1,
-			'ft/s²': 0.3048,
-			'km/h/s': 0.277778,
+			'm/s²': {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.acceleration['m/s²'],
+			},
+			'ft/s²': {
+				factor: 0.3048,
+				abbrev: locales[locale]['unit-converter'].units.acceleration['ft/s²'],
+			},
+			'km/h/s': {
+				factor: 0.277778,
+				abbrev: locales[locale]['unit-converter'].units.acceleration['km/h/s'],
+			},
 		},
 		precision: 3,
 	},
-	// 18. Flächenmasse (Basis: kg/m²)
 	areaDensity: {
-		name: 'Flächenmasse',
+		name: locales[locale]['unit-converter'].areaDensity,
 		units: {
-			'kg/m²': 1,
-			'g/cm²': 10, // 1 g/cm² = 10 kg/m²
+			'kg/m²': {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.areaDensity['kg/m²'],
+			},
+			'g/cm²': {
+				factor: 10,
+				abbrev: locales[locale]['unit-converter'].units.areaDensity['g/cm²'],
+			},
 		},
 		precision: 2,
 	},
-	// 19. Beleuchtungsstärke (Basis: Lux)
 	illuminance: {
-		name: 'Beleuchtungsstärke',
+		name: locales[locale]['unit-converter'].illuminance,
 		units: {
-			lux: 1,
-			'foot-candle': 10.764,
+			lux: {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.illuminance.lux,
+			},
+			'foot-candle': {
+				factor: 10.764,
+				abbrev:
+					locales[locale]['unit-converter'].units.illuminance['foot-candle'],
+			},
 		},
 		precision: 2,
 	},
-	// 20. Datenübertragungsrate (Basis: Bit pro Sekunde)
 	dataRate: {
-		name: 'Datenübertragungsrate',
+		name: locales[locale]['unit-converter'].dataRate,
 		units: {
-			'bit/s': 1,
-			'kilobit/s': 1000,
-			'megabit/s': 1e6,
-			'gigabit/s': 1e9,
-			'byte/s': 8,
-			'kilobyte/s': 8000,
-			'megabyte/s': 8e6,
+			'bit/s': {
+				factor: 1,
+				abbrev: locales[locale]['unit-converter'].units.dataRate['bit/s'],
+			},
+			'kilobit/s': {
+				factor: 1000,
+				abbrev: locales[locale]['unit-converter'].units.dataRate['kilobit/s'],
+			},
+			'megabit/s': {
+				factor: 1e6,
+				abbrev: locales[locale]['unit-converter'].units.dataRate['megabit/s'],
+			},
+			'gigabit/s': {
+				factor: 1e9,
+				abbrev: locales[locale]['unit-converter'].units.dataRate['gigabit/s'],
+			},
+			'byte/s': {
+				factor: 8,
+				abbrev: locales[locale]['unit-converter'].units.dataRate['byte/s'],
+			},
+			'kilobyte/s': {
+				factor: 8000,
+				abbrev: locales[locale]['unit-converter'].units.dataRate['kilobyte/s'],
+			},
+			'megabyte/s': {
+				factor: 8e6,
+				abbrev: locales[locale]['unit-converter'].units.dataRate['megabyte/s'],
+			},
 		},
 		precision: 0,
 	},
-};
+});

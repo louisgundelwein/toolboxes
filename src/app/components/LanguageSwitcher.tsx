@@ -1,9 +1,21 @@
 // components/LanguageSwitcher.tsx
 'use client';
+
 import { useRouter, usePathname } from 'next/navigation';
 import { useMemo } from 'react';
 
-const SUPPORTED_LOCALES = ['en', 'de', 'fr', 'es'];
+const SUPPORTED_LOCALES = ['en', 'de', 'fr', 'es', 'uk', 'zh', 'pt', 'mn'];
+
+const LANGUAGE_NAMES: { [key: string]: string } = {
+	en: 'English',
+	de: 'Deutsch',
+	fr: 'Français',
+	es: 'Español',
+	uk: 'Українська',
+	zh: '中文',
+	pt: 'Português',
+	mn: 'Монгол',
+};
 
 const LanguageSwitcher: React.FC = () => {
 	const router = useRouter();
@@ -20,13 +32,11 @@ const LanguageSwitcher: React.FC = () => {
 
 	const switchLanguage = (newLocale: string) => {
 		let newPath = '';
-
 		if (segments.length > 0 && SUPPORTED_LOCALES.includes(segments[0])) {
 			newPath = '/' + [newLocale, ...segments.slice(1)].join('/');
 		} else {
 			newPath = '/' + [newLocale, ...segments].join('/');
 		}
-
 		router.push(newPath);
 	};
 
@@ -37,7 +47,7 @@ const LanguageSwitcher: React.FC = () => {
 				role="button"
 				className="btn m-1 flex items-center justify-between"
 			>
-				{currentLocale.toUpperCase()}
+				{LANGUAGE_NAMES[currentLocale] || currentLocale.toUpperCase()}
 				<svg
 					width="12px"
 					height="12px"
@@ -58,7 +68,7 @@ const LanguageSwitcher: React.FC = () => {
 							onClick={() => switchLanguage(locale)}
 							className="btn btn-ghost btn-sm w-full text-left"
 						>
-							{locale.toUpperCase()}
+							{LANGUAGE_NAMES[locale] || locale.toUpperCase()}
 						</button>
 					</li>
 				))}

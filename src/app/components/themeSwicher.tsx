@@ -12,7 +12,7 @@ const themes = [
 ];
 
 const ThemeSwitcher: React.FC = () => {
-	const [theme, setTheme] = useState<string>('light');
+	const [theme, setTheme] = useState<string>('dim');
 
 	useEffect(() => {
 		document.documentElement.setAttribute('data-theme', theme);

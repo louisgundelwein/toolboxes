@@ -1,9 +1,11 @@
+// app/layout.tsx
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import AdSense from './components/ads';
 import NavBar from './components/navbar';
 import Footer from './components/footer';
+
 
 const geistSans = Geist({
 	variable: '--font-geist-sans',
@@ -22,21 +24,21 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
 	children,
-}: Readonly<{
+}: {
 	children: React.ReactNode;
-}>) {
+}) {
 	return (
-		<html lang="en" className="h-full" data-theme="dark">
+		<html lang="en" className="min-h-screen" data-theme="dim">
 			<head>
 				<meta name="google-adsense-account" content="ca-pub-6105108199502947" />
 				<AdSense publisherId="6105108199502947" />
 			</head>
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased h-full`}
+				className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
 			>
-				<div className="flex flex-col h-full">
-          <NavBar />
-					<main className="flex-grow h-full">{children}</main>
+				<div className="flex flex-col min-h-screen">
+					<NavBar />
+					<main className="flex flex-grow">{children}</main>
 					<Footer />
 				</div>
 			</body>

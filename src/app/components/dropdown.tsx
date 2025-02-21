@@ -1,6 +1,6 @@
 // components/Dropdown.tsx
 'use client';
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 
 export interface DropdownItem {
@@ -16,6 +16,7 @@ export interface DropdownProps {
 	buttonClassName?: string;
 	menuClassName?: string;
 	showArrow?: boolean;
+	onOpen?: () => void;
 }
 
 const Dropdown: React.FC<DropdownProps> = ({
@@ -25,10 +26,32 @@ const Dropdown: React.FC<DropdownProps> = ({
 	buttonClassName = 'btn m-1',
 	menuClassName = 'dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl',
 	showArrow = true,
+	onOpen,
 }) => {
+	const [open, setOpen] = useState(false);
+
+	const toggleDropdown = () => {
+		if (!open && onOpen) {
+			onOpen();
+		}
+		setOpen((prev) => !prev);
+	};
+
+	const handleItemClick = (item: DropdownItem) => {
+		if (item.onClick) {
+			item.onClick();
+		}
+		setOpen(false);
+	};
+
 	return (
-		<div className={containerClassName}>
-			<div tabIndex={0} role="button" className={buttonClassName}>
+		<div className={`${containerClassName} ${open ? 'dropdown-open' : ''}`}>
+			<div
+				tabIndex={0}
+				role="button"
+				className={buttonClassName}
+				onClick={toggleDropdown}
+			>
 				{label}
 				{showArrow && (
 					<svg
@@ -42,26 +65,31 @@ const Dropdown: React.FC<DropdownProps> = ({
 					</svg>
 				)}
 			</div>
-			<ul tabIndex={0} className={menuClassName}>
-				{items.map((item, index) => (
-					<li key={index}>
-						{item.href ? (
-							<Link href={item.href}>
-								<span className="btn btn-sm btn-block btn-ghost justify-start">
+			{open && (
+				<ul tabIndex={0} className={menuClassName}>
+					{items.map((item, index) => (
+						<li key={index}>
+							{item.href ? (
+								<Link href={item.href}>
+									<span
+										className="btn btn-sm btn-block btn-ghost justify-start"
+										onClick={() => setOpen(false)}
+									>
+										{item.label}
+									</span>
+								</Link>
+							) : (
+								<button
+									onClick={() => handleItemClick(item)}
+									className="btn btn-sm btn-block btn-ghost justify-start"
+								>
 									{item.label}
-								</span>
-							</Link>
-						) : (
-							<button
-								onClick={item.onClick}
-								className="btn btn-sm btn-block btn-ghost justify-start"
-							>
-								{item.label}
-							</button>
-						)}
-					</li>
-				))}
-			</ul>
+								</button>
+							)}
+						</li>
+					))}
+				</ul>
+			)}
 		</div>
 	);
 };

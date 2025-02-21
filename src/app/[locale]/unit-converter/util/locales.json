@@ -1,0 +1,1250 @@
+{
+	"de": {
+		"unit-converter": {
+			"length": "Länge",
+			"weight": "Gewicht",
+			"area": "Fläche",
+			"volume": "Volumen",
+			"temperature": "Temperatur",
+			"speed": "Geschwindigkeit",
+			"time": "Zeit",
+			"pressure": "Druck",
+			"energy": "Energie",
+			"power": "Leistung",
+			"dataStorage": "Datenspeicher",
+			"angle": "Winkel",
+			"frequency": "Frequenz",
+			"force": "Kraft",
+			"density": "Dichte",
+			"volumeFlow": "Volumenstrom",
+			"acceleration": "Beschleunigung",
+			"areaDensity": "Flächenmasse",
+			"illuminance": "Beleuchtungsstärke",
+			"dataRate": "Datenübertragungsrate",
+			"units": {
+				"length": {
+					"meter": "m",
+					"kilometer": "km",
+					"centimeter": "cm",
+					"millimeter": "mm",
+					"mile": "mi",
+					"yard": "yd",
+					"foot": "ft",
+					"inch": "in"
+				},
+				"weight": {
+					"kilogram": "kg",
+					"gram": "g",
+					"milligram": "mg",
+					"pound": "lb",
+					"ounce": "oz"
+				},
+				"area": {
+					"square meter": "m²",
+					"square kilometer": "km²",
+					"square centimeter": "cm²",
+					"square foot": "ft²",
+					"acre": "ac"
+				},
+				"volume": {
+					"cubic meter": "m³",
+					"liter": "l",
+					"milliliter": "ml",
+					"cubic centimeter": "cm³",
+					"gallon (US)": "gal"
+				},
+				"temperature": {
+					"celsius": "°C",
+					"fahrenheit": "°F",
+					"kelvin": "K"
+				},
+				"speed": {
+					"m/s": "m/s",
+					"km/h": "km/h",
+					"mph": "mph"
+				},
+				"time": {
+					"second": "s",
+					"minute": "min",
+					"hour": "h",
+					"day": "d"
+				},
+				"pressure": {
+					"pascal": "Pa",
+					"kilopascal": "kPa",
+					"bar": "bar",
+					"psi": "psi"
+				},
+				"energy": {
+					"joule": "J",
+					"kilojoule": "kJ",
+					"calorie": "cal",
+					"kilocalorie": "kcal",
+					"kilowatt-hour": "kWh"
+				},
+				"power": {
+					"watt": "W",
+					"kilowatt": "kW",
+					"horsepower": "hp"
+				},
+				"dataStorage": {
+					"byte": "B",
+					"kilobyte": "KB",
+					"megabyte": "MB",
+					"gigabyte": "GB"
+				},
+				"angle": {
+					"radian": "rad",
+					"degree": "°",
+					"grad": "gon"
+				},
+				"frequency": {
+					"hertz": "Hz",
+					"kilohertz": "kHz",
+					"megahertz": "MHz",
+					"gigahertz": "GHz"
+				},
+				"force": {
+					"newton": "N",
+					"kilonewton": "kN",
+					"pound-force": "lbf"
+				},
+				"density": {
+					"kg/m³": "kg/m³",
+					"g/cm³": "g/cm³",
+					"lb/ft³": "lb/ft³"
+				},
+				"volumeFlow": {
+					"m³/s": "m³/s",
+					"liter/s": "l/s",
+					"gallon/min": "gal/min"
+				},
+				"acceleration": {
+					"m/s²": "m/s²",
+					"ft/s²": "ft/s²",
+					"km/h/s": "km/h/s"
+				},
+				"areaDensity": {
+					"kg/m²": "kg/m²",
+					"g/cm²": "g/cm²"
+				},
+				"illuminance": {
+					"lux": "lx",
+					"foot-candle": "fc"
+				},
+				"dataRate": {
+					"bit/s": "bit/s",
+					"kilobit/s": "kbit/s",
+					"megabit/s": "Mbit/s",
+					"gigabit/s": "Gbit/s",
+					"byte/s": "B/s",
+					"kilobyte/s": "KB/s",
+					"megabyte/s": "MB/s"
+				}
+			},
+			"labels": {
+				"category": "Kategorie",
+				"value": "Wert",
+				"from": "Von",
+				"to": "Zu",
+				"calculate": "Umrechnen",
+				"result": "Ergebnis",
+				"select": "Auswählen",
+				"invalidNumber": "Bitte eine gültige Zahl eingeben.",
+				"differentUnits": "Bitte wählen Sie unterschiedliche Einheiten."
+			}
+		}
+	},
+	"en": {
+		"unit-converter": {
+			"length": "Length",
+			"weight": "Weight",
+			"area": "Area",
+			"volume": "Volume",
+			"temperature": "Temperature",
+			"speed": "Speed",
+			"time": "Time",
+			"pressure": "Pressure",
+			"energy": "Energy",
+			"power": "Power",
+			"dataStorage": "Data Storage",
+			"angle": "Angle",
+			"frequency": "Frequency",
+			"force": "Force",
+			"density": "Density",
+			"volumeFlow": "Volume Flow",
+			"acceleration": "Acceleration",
+			"areaDensity": "Area Density",
+			"illuminance": "Illuminance",
+			"dataRate": "Data Rate",
+			"units": {
+				"length": {
+					"meter": "m",
+					"kilometer": "km",
+					"centimeter": "cm",
+					"millimeter": "mm",
+					"mile": "mi",
+					"yard": "yd",
+					"foot": "ft",
+					"inch": "in"
+				},
+				"weight": {
+					"kilogram": "kg",
+					"gram": "g",
+					"milligram": "mg",
+					"pound": "lb",
+					"ounce": "oz"
+				},
+				"area": {
+					"square meter": "m²",
+					"square kilometer": "km²",
+					"square centimeter": "cm²",
+					"square foot": "ft²",
+					"acre": "ac"
+				},
+				"volume": {
+					"cubic meter": "m³",
+					"liter": "l",
+					"milliliter": "ml",
+					"cubic centimeter": "cm³",
+					"gallon (US)": "gal"
+				},
+				"temperature": {
+					"celsius": "°C",
+					"fahrenheit": "°F",
+					"kelvin": "K"
+				},
+				"speed": {
+					"m/s": "m/s",
+					"km/h": "km/h",
+					"mph": "mph"
+				},
+				"time": {
+					"second": "s",
+					"minute": "min",
+					"hour": "h",
+					"day": "d"
+				},
+				"pressure": {
+					"pascal": "Pa",
+					"kilopascal": "kPa",
+					"bar": "bar",
+					"psi": "psi"
+				},
+				"energy": {
+					"joule": "J",
+					"kilojoule": "kJ",
+					"calorie": "cal",
+					"kilocalorie": "kcal",
+					"kilowatt-hour": "kWh"
+				},
+				"power": {
+					"watt": "W",
+					"kilowatt": "kW",
+					"horsepower": "hp"
+				},
+				"dataStorage": {
+					"byte": "B",
+					"kilobyte": "KB",
+					"megabyte": "MB",
+					"gigabyte": "GB"
+				},
+				"angle": {
+					"radian": "rad",
+					"degree": "°",
+					"grad": "gon"
+				},
+				"frequency": {
+					"hertz": "Hz",
+					"kilohertz": "kHz",
+					"megahertz": "MHz",
+					"gigahertz": "GHz"
+				},
+				"force": {
+					"newton": "N",
+					"kilonewton": "kN",
+					"pound-force": "lbf"
+				},
+				"density": {
+					"kg/m³": "kg/m³",
+					"g/cm³": "g/cm³",
+					"lb/ft³": "lb/ft³"
+				},
+				"volumeFlow": {
+					"m³/s": "m³/s",
+					"liter/s": "l/s",
+					"gallon/min": "gal/min"
+				},
+				"acceleration": {
+					"m/s²": "m/s²",
+					"ft/s²": "ft/s²",
+					"km/h/s": "km/h/s"
+				},
+				"areaDensity": {
+					"kg/m²": "kg/m²",
+					"g/cm²": "g/cm²"
+				},
+				"illuminance": {
+					"lux": "lx",
+					"foot-candle": "fc"
+				},
+				"dataRate": {
+					"bit/s": "bit/s",
+					"kilobit/s": "kbit/s",
+					"megabit/s": "Mbit/s",
+					"gigabit/s": "Gbit/s",
+					"byte/s": "B/s",
+					"kilobyte/s": "KB/s",
+					"megabyte/s": "MB/s"
+				}
+			},
+			"labels": {
+				"category": "Category",
+				"value": "Value",
+				"from": "From",
+				"to": "To",
+				"calculate": "Convert",
+				"result": "Result",
+				"select": "Select",
+				"invalidNumber": "Please enter a valid number.",
+				"differentUnits": "Please select different units."
+			}
+		}
+	},
+	"es": {
+		"unit-converter": {
+			"length": "Longitud",
+			"weight": "Peso",
+			"area": "Área",
+			"volume": "Volumen",
+			"temperature": "Temperatura",
+			"speed": "Velocidad",
+			"time": "Tiempo",
+			"pressure": "Presión",
+			"energy": "Energía",
+			"power": "Potencia",
+			"dataStorage": "Almacenamiento de datos",
+			"angle": "Ángulo",
+			"frequency": "Frecuencia",
+			"force": "Fuerza",
+			"density": "Densidad",
+			"volumeFlow": "Flujo de volumen",
+			"acceleration": "Aceleración",
+			"areaDensity": "Densidad de área",
+			"illuminance": "Iluminancia",
+			"dataRate": "Velocidad de datos",
+			"units": {
+				"length": {
+					"meter": "m",
+					"kilometer": "km",
+					"centimeter": "cm",
+					"millimeter": "mm",
+					"mile": "mi",
+					"yard": "yd",
+					"foot": "ft",
+					"inch": "in"
+				},
+				"weight": {
+					"kilogram": "kg",
+					"gram": "g",
+					"milligram": "mg",
+					"pound": "lb",
+					"ounce": "oz"
+				},
+				"area": {
+					"square meter": "m²",
+					"square kilometer": "km²",
+					"square centimeter": "cm²",
+					"square foot": "ft²",
+					"acre": "ac"
+				},
+				"volume": {
+					"cubic meter": "m³",
+					"liter": "l",
+					"milliliter": "ml",
+					"cubic centimeter": "cm³",
+					"gallon (US)": "gal"
+				},
+				"temperature": {
+					"celsius": "°C",
+					"fahrenheit": "°F",
+					"kelvin": "K"
+				},
+				"speed": {
+					"m/s": "m/s",
+					"km/h": "km/h",
+					"mph": "mph"
+				},
+				"time": {
+					"second": "s",
+					"minute": "min",
+					"hour": "h",
+					"day": "d"
+				},
+				"pressure": {
+					"pascal": "Pa",
+					"kilopascal": "kPa",
+					"bar": "bar",
+					"psi": "psi"
+				},
+				"energy": {
+					"joule": "J",
+					"kilojoule": "kJ",
+					"calorie": "cal",
+					"kilocalorie": "kcal",
+					"kilowatt-hour": "kWh"
+				},
+				"power": {
+					"watt": "W",
+					"kilowatt": "kW",
+					"horsepower": "hp"
+				},
+				"dataStorage": {
+					"byte": "B",
+					"kilobyte": "KB",
+					"megabyte": "MB",
+					"gigabyte": "GB"
+				},
+				"angle": {
+					"radian": "rad",
+					"degree": "°",
+					"grad": "gon"
+				},
+				"frequency": {
+					"hertz": "Hz",
+					"kilohertz": "kHz",
+					"megahertz": "MHz",
+					"gigahertz": "GHz"
+				},
+				"force": {
+					"newton": "N",
+					"kilonewton": "kN",
+					"pound-force": "lbf"
+				},
+				"density": {
+					"kg/m³": "kg/m³",
+					"g/cm³": "g/cm³",
+					"lb/ft³": "lb/ft³"
+				},
+				"volumeFlow": {
+					"m³/s": "m³/s",
+					"liter/s": "l/s",
+					"gallon/min": "gal/min"
+				},
+				"acceleration": {
+					"m/s²": "m/s²",
+					"ft/s²": "ft/s²",
+					"km/h/s": "km/h/s"
+				},
+				"areaDensity": {
+					"kg/m²": "kg/m²",
+					"g/cm²": "g/cm²"
+				},
+				"illuminance": {
+					"lux": "lx",
+					"foot-candle": "fc"
+				},
+				"dataRate": {
+					"bit/s": "bit/s",
+					"kilobit/s": "kbit/s",
+					"megabit/s": "Mbit/s",
+					"gigabit/s": "Gbit/s",
+					"byte/s": "B/s",
+					"kilobyte/s": "KB/s",
+					"megabyte/s": "MB/s"
+				}
+			},
+			"labels": {
+				"category": "Categoría",
+				"value": "Valor",
+				"from": "De",
+				"to": "A",
+				"calculate": "Convertir",
+				"result": "Resultado",
+				"select": "Seleccionar",
+				"invalidNumber": "Por favor, ingrese un número válido.",
+				"differentUnits": "Por favor, seleccione unidades diferentes."
+			}
+		}
+	},
+	"fr": {
+		"unit-converter": {
+			"length": "Longueur",
+			"weight": "Poids",
+			"area": "Surface",
+			"volume": "Volume",
+			"temperature": "Température",
+			"speed": "Vitesse",
+			"time": "Temps",
+			"pressure": "Pression",
+			"energy": "Énergie",
+			"power": "Puissance",
+			"dataStorage": "Stockage",
+			"angle": "Angle",
+			"frequency": "Fréquence",
+			"force": "Force",
+			"density": "Densité",
+			"volumeFlow": "Débit",
+			"acceleration": "Accélération",
+			"areaDensity": "Densité de surface",
+			"illuminance": "Éclairement",
+			"dataRate": "Débit",
+			"units": {
+				"length": {
+					"meter": "m",
+					"kilometer": "km",
+					"centimeter": "cm",
+					"millimeter": "mm",
+					"mile": "mi",
+					"yard": "yd",
+					"foot": "ft",
+					"inch": "in"
+				},
+				"weight": {
+					"kilogram": "kg",
+					"gram": "g",
+					"milligram": "mg",
+					"pound": "lb",
+					"ounce": "oz"
+				},
+				"area": {
+					"square meter": "m²",
+					"square kilometer": "km²",
+					"square centimeter": "cm²",
+					"square foot": "ft²",
+					"acre": "ac"
+				},
+				"volume": {
+					"cubic meter": "m³",
+					"liter": "l",
+					"milliliter": "ml",
+					"cubic centimeter": "cm³",
+					"gallon (US)": "gal"
+				},
+				"temperature": {
+					"celsius": "°C",
+					"fahrenheit": "°F",
+					"kelvin": "K"
+				},
+				"speed": {
+					"m/s": "m/s",
+					"km/h": "km/h",
+					"mph": "mph"
+				},
+				"time": {
+					"second": "s",
+					"minute": "min",
+					"hour": "h",
+					"day": "j"
+				},
+				"pressure": {
+					"pascal": "Pa",
+					"kilopascal": "kPa",
+					"bar": "bar",
+					"psi": "psi"
+				},
+				"energy": {
+					"joule": "J",
+					"kilojoule": "kJ",
+					"calorie": "cal",
+					"kilocalorie": "kcal",
+					"kilowatt-hour": "kWh"
+				},
+				"power": {
+					"watt": "W",
+					"kilowatt": "kW",
+					"horsepower": "hp"
+				},
+				"dataStorage": {
+					"byte": "B",
+					"kilobyte": "KB",
+					"megabyte": "MB",
+					"gigabyte": "GB"
+				},
+				"angle": {
+					"radian": "rad",
+					"degree": "°",
+					"grad": "gon"
+				},
+				"frequency": {
+					"hertz": "Hz",
+					"kilohertz": "kHz",
+					"megahertz": "MHz",
+					"gigahertz": "GHz"
+				},
+				"force": {
+					"newton": "N",
+					"kilonewton": "kN",
+					"pound-force": "lbf"
+				},
+				"density": {
+					"kg/m³": "kg/m³",
+					"g/cm³": "g/cm³",
+					"lb/ft³": "lb/ft³"
+				},
+				"volumeFlow": {
+					"m³/s": "m³/s",
+					"liter/s": "l/s",
+					"gallon/min": "gal/min"
+				},
+				"acceleration": {
+					"m/s²": "m/s²",
+					"ft/s²": "ft/s²",
+					"km/h/s": "km/h/s"
+				},
+				"areaDensity": {
+					"kg/m²": "kg/m²",
+					"g/cm²": "g/cm²"
+				},
+				"illuminance": {
+					"lux": "lx",
+					"foot-candle": "fc"
+				},
+				"dataRate": {
+					"bit/s": "bit/s",
+					"kilobit/s": "kbit/s",
+					"megabit/s": "Mbit/s",
+					"gigabit/s": "Gbit/s",
+					"byte/s": "B/s",
+					"kilobyte/s": "KB/s",
+					"megabyte/s": "MB/s"
+				}
+			},
+			"labels": {
+				"category": "Catégorie",
+				"value": "Valeur",
+				"from": "De",
+				"to": "À",
+				"calculate": "Convertir",
+				"result": "Résultat",
+				"select": "Sélectionner",
+				"invalidNumber": "Veuillez entrer un nombre valide.",
+				"differentUnits": "Veuillez choisir des unités différentes."
+			}
+		}
+	},
+	"uk": {
+		"unit-converter": {
+			"length": "Довжина",
+			"weight": "Вага",
+			"area": "Площа",
+			"volume": "Об'єм",
+			"temperature": "Температура",
+			"speed": "Швидкість",
+			"time": "Час",
+			"pressure": "Тиск",
+			"energy": "Енергія",
+			"power": "Потужність",
+			"dataStorage": "Зберігання даних",
+			"angle": "Кут",
+			"frequency": "Частота",
+			"force": "Сила",
+			"density": "Густина",
+			"volumeFlow": "Об'ємний потік",
+			"acceleration": "Прискорення",
+			"areaDensity": "Площа щільності",
+			"illuminance": "Освітленість",
+			"dataRate": "Швидкість передачі даних",
+			"units": {
+				"length": {
+					"meter": "м",
+					"kilometer": "км",
+					"centimeter": "см",
+					"millimeter": "мм",
+					"mile": "ми",
+					"yard": "ярд",
+					"foot": "фт",
+					"inch": "дюйм"
+				},
+				"weight": {
+					"kilogram": "кг",
+					"gram": "г",
+					"milligram": "мг",
+					"pound": "фунт",
+					"ounce": "унція"
+				},
+				"area": {
+					"square meter": "м²",
+					"square kilometer": "км²",
+					"square centimeter": "см²",
+					"square foot": "фт²",
+					"acre": "акр"
+				},
+				"volume": {
+					"cubic meter": "м³",
+					"liter": "л",
+					"milliliter": "мл",
+					"cubic centimeter": "см³",
+					"gallon (US)": "гал"
+				},
+				"temperature": {
+					"celsius": "°C",
+					"fahrenheit": "°F",
+					"kelvin": "K"
+				},
+				"speed": {
+					"m/s": "м/с",
+					"km/h": "км/г",
+					"mph": "миль/г"
+				},
+				"time": {
+					"second": "с",
+					"minute": "хв",
+					"hour": "год",
+					"day": "дн"
+				},
+				"pressure": {
+					"pascal": "Па",
+					"kilopascal": "кПа",
+					"bar": "бар",
+					"psi": "psi"
+				},
+				"energy": {
+					"joule": "Дж",
+					"kilojoule": "кДж",
+					"calorie": "кал",
+					"kilocalorie": "ккал",
+					"kilowatt-hour": "кВт⋅год"
+				},
+				"power": {
+					"watt": "Вт",
+					"kilowatt": "кВт",
+					"horsepower": "л.с."
+				},
+				"dataStorage": {
+					"byte": "Б",
+					"kilobyte": "КБ",
+					"megabyte": "МБ",
+					"gigabyte": "ГБ"
+				},
+				"angle": {
+					"radian": "рад",
+					"degree": "°",
+					"grad": "град"
+				},
+				"frequency": {
+					"hertz": "Гц",
+					"kilohertz": "кГц",
+					"megahertz": "МГц",
+					"gigahertz": "ГГц"
+				},
+				"force": {
+					"newton": "Н",
+					"kilonewton": "кН",
+					"pound-force": "фунт-сила"
+				},
+				"density": {
+					"kg/m³": "кг/м³",
+					"g/cm³": "г/см³",
+					"lb/ft³": "фунт/фт³"
+				},
+				"volumeFlow": {
+					"m³/s": "м³/с",
+					"liter/s": "л/с",
+					"gallon/min": "гал/хв"
+				},
+				"acceleration": {
+					"m/s²": "м/с²",
+					"ft/s²": "фт/с²",
+					"km/h/s": "км/г/с"
+				},
+				"areaDensity": {
+					"kg/m²": "кг/м²",
+					"g/cm²": "г/см²"
+				},
+				"illuminance": {
+					"lux": "лк",
+					"foot-candle": "фт-св"
+				},
+				"dataRate": {
+					"bit/s": "бит/с",
+					"kilobit/s": "Кбит/с",
+					"megabit/s": "Мбит/с",
+					"gigabit/s": "Гбит/с",
+					"byte/s": "Б/с",
+					"kilobyte/s": "КБ/с",
+					"megabyte/s": "МБ/с"
+				}
+			},
+			"labels": {
+				"category": "Категорія",
+				"value": "Значення",
+				"from": "З",
+				"to": "До",
+				"calculate": "Перетворити",
+				"result": "Результат",
+				"select": "Вибрати",
+				"invalidNumber": "Будь ласка, введіть правильне число.",
+				"differentUnits": "Будь ласка, виберіть різні одиниці."
+			}
+		}
+	},
+	"zh": {
+		"unit-converter": {
+			"length": "长度",
+			"weight": "重量",
+			"area": "面积",
+			"volume": "体积",
+			"temperature": "温度",
+			"speed": "速度",
+			"time": "时间",
+			"pressure": "压力",
+			"energy": "能量",
+			"power": "功率",
+			"dataStorage": "数据存储",
+			"angle": "角度",
+			"frequency": "频率",
+			"force": "力",
+			"density": "密度",
+			"volumeFlow": "流量",
+			"acceleration": "加速度",
+			"areaDensity": "面密度",
+			"illuminance": "照度",
+			"dataRate": "数据传输率",
+			"units": {
+				"length": {
+					"meter": "米",
+					"kilometer": "公里",
+					"centimeter": "厘米",
+					"millimeter": "毫米",
+					"mile": "英里",
+					"yard": "码",
+					"foot": "英尺",
+					"inch": "英寸"
+				},
+				"weight": {
+					"kilogram": "千克",
+					"gram": "克",
+					"milligram": "毫克",
+					"pound": "磅",
+					"ounce": "盎司"
+				},
+				"area": {
+					"square meter": "平方米",
+					"square kilometer": "平方公里",
+					"square centimeter": "平方厘米",
+					"square foot": "平方英尺",
+					"acre": "英亩"
+				},
+				"volume": {
+					"cubic meter": "立方米",
+					"liter": "升",
+					"milliliter": "毫升",
+					"cubic centimeter": "立方厘米",
+					"gallon (US)": "加仑"
+				},
+				"temperature": {
+					"celsius": "°C",
+					"fahrenheit": "°F",
+					"kelvin": "K"
+				},
+				"speed": {
+					"m/s": "米/秒",
+					"km/h": "公里/小时",
+					"mph": "英里/小时"
+				},
+				"time": {
+					"second": "秒",
+					"minute": "分",
+					"hour": "时",
+					"day": "天"
+				},
+				"pressure": {
+					"pascal": "帕",
+					"kilopascal": "千帕",
+					"bar": "巴",
+					"psi": "磅/平方英寸"
+				},
+				"energy": {
+					"joule": "焦耳",
+					"kilojoule": "千焦",
+					"calorie": "卡",
+					"kilocalorie": "千卡",
+					"kilowatt-hour": "千瓦时"
+				},
+				"power": {
+					"watt": "瓦",
+					"kilowatt": "千瓦",
+					"horsepower": "马力"
+				},
+				"dataStorage": {
+					"byte": "字节",
+					"kilobyte": "KB",
+					"megabyte": "MB",
+					"gigabyte": "GB"
+				},
+				"angle": {
+					"radian": "弧度",
+					"degree": "°",
+					"grad": "百分度"
+				},
+				"frequency": {
+					"hertz": "赫兹",
+					"kilohertz": "千赫",
+					"megahertz": "兆赫",
+					"gigahertz": "吉赫"
+				},
+				"force": {
+					"newton": "牛",
+					"kilonewton": "千牛",
+					"pound-force": "磅力"
+				},
+				"density": {
+					"kg/m³": "千克/立方米",
+					"g/cm³": "克/立方厘米",
+					"lb/ft³": "磅/立方英尺"
+				},
+				"volumeFlow": {
+					"m³/s": "立方米/秒",
+					"liter/s": "升/秒",
+					"gallon/min": "加仑/分钟"
+				},
+				"acceleration": {
+					"m/s²": "米/秒²",
+					"ft/s²": "英尺/秒²",
+					"km/h/s": "公里/小时²"
+				},
+				"areaDensity": {
+					"kg/m²": "千克/平方米",
+					"g/cm²": "克/平方厘米"
+				},
+				"illuminance": {
+					"lux": "勒克斯",
+					"foot-candle": "英尺烛光"
+				},
+				"dataRate": {
+					"bit/s": "比特/秒",
+					"kilobit/s": "千比特/秒",
+					"megabit/s": "兆比特/秒",
+					"gigabit/s": "吉比特/秒",
+					"byte/s": "字节/秒",
+					"kilobyte/s": "KB/秒",
+					"megabyte/s": "MB/秒"
+				}
+			},
+			"labels": {
+				"category": "类别",
+				"value": "数值",
+				"from": "从",
+				"to": "到",
+				"calculate": "转换",
+				"result": "结果",
+				"select": "选择",
+				"invalidNumber": "请输入有效的数字。",
+				"differentUnits": "请选择不同的单位。"
+			}
+		}
+	},
+	"pt": {
+		"unit-converter": {
+			"length": "Comprimento",
+			"weight": "Peso",
+			"area": "Área",
+			"volume": "Volume",
+			"temperature": "Temperatura",
+			"speed": "Velocidade",
+			"time": "Tempo",
+			"pressure": "Pressão",
+			"energy": "Energia",
+			"power": "Potência",
+			"dataStorage": "Armazenamento",
+			"angle": "Ângulo",
+			"frequency": "Frequência",
+			"force": "Força",
+			"density": "Densidade",
+			"volumeFlow": "Fluxo de volume",
+			"acceleration": "Aceleração",
+			"areaDensity": "Densidade de área",
+			"illuminance": "Iluminância",
+			"dataRate": "Taxa de dados",
+			"units": {
+				"length": {
+					"meter": "m",
+					"kilometer": "km",
+					"centimeter": "cm",
+					"millimeter": "mm",
+					"mile": "mi",
+					"yard": "yd",
+					"foot": "ft",
+					"inch": "in"
+				},
+				"weight": {
+					"kilogram": "kg",
+					"gram": "g",
+					"milligram": "mg",
+					"pound": "lb",
+					"ounce": "oz"
+				},
+				"area": {
+					"square meter": "m²",
+					"square kilometer": "km²",
+					"square centimeter": "cm²",
+					"square foot": "ft²",
+					"acre": "ac"
+				},
+				"volume": {
+					"cubic meter": "m³",
+					"liter": "l",
+					"milliliter": "ml",
+					"cubic centimeter": "cm³",
+					"gallon (US)": "gal"
+				},
+				"temperature": {
+					"celsius": "°C",
+					"fahrenheit": "°F",
+					"kelvin": "K"
+				},
+				"speed": {
+					"m/s": "m/s",
+					"km/h": "km/h",
+					"mph": "mph"
+				},
+				"time": {
+					"second": "s",
+					"minute": "min",
+					"hour": "h",
+					"day": "d"
+				},
+				"pressure": {
+					"pascal": "Pa",
+					"kilopascal": "kPa",
+					"bar": "bar",
+					"psi": "psi"
+				},
+				"energy": {
+					"joule": "J",
+					"kilojoule": "kJ",
+					"calorie": "cal",
+					"kilocalorie": "kcal",
+					"kilowatt-hour": "kWh"
+				},
+				"power": {
+					"watt": "W",
+					"kilowatt": "kW",
+					"horsepower": "hp"
+				},
+				"dataStorage": {
+					"byte": "B",
+					"kilobyte": "KB",
+					"megabyte": "MB",
+					"gigabyte": "GB"
+				},
+				"angle": {
+					"radian": "rad",
+					"degree": "°",
+					"grad": "gon"
+				},
+				"frequency": {
+					"hertz": "Hz",
+					"kilohertz": "kHz",
+					"megahertz": "MHz",
+					"gigahertz": "GHz"
+				},
+				"force": {
+					"newton": "N",
+					"kilonewton": "kN",
+					"pound-force": "lbf"
+				},
+				"density": {
+					"kg/m³": "kg/m³",
+					"g/cm³": "g/cm³",
+					"lb/ft³": "lb/ft³"
+				},
+				"volumeFlow": {
+					"m³/s": "m³/s",
+					"liter/s": "l/s",
+					"gallon/min": "gal/min"
+				},
+				"acceleration": {
+					"m/s²": "m/s²",
+					"ft/s²": "ft/s²",
+					"km/h/s": "km/h/s"
+				},
+				"areaDensity": {
+					"kg/m²": "kg/m²",
+					"g/cm²": "g/cm²"
+				},
+				"illuminance": {
+					"lux": "lx",
+					"foot-candle": "fc"
+				},
+				"dataRate": {
+					"bit/s": "bit/s",
+					"kilobit/s": "kbit/s",
+					"megabit/s": "Mbit/s",
+					"gigabit/s": "Gbit/s",
+					"byte/s": "B/s",
+					"kilobyte/s": "KB/s",
+					"megabyte/s": "MB/s"
+				}
+			},
+			"labels": {
+				"category": "Categoria",
+				"value": "Valor",
+				"from": "De",
+				"to": "Para",
+				"calculate": "Converter",
+				"result": "Resultado",
+				"select": "Selecionar",
+				"invalidNumber": "Por favor, insira um número válido.",
+				"differentUnits": "Por favor, selecione unidades diferentes."
+			}
+		}
+	},
+	"mn": {
+		"unit-converter": {
+			"length": "Урт",
+			"weight": "Жинхэнэ",
+			"area": "Талбай",
+			"volume": "Бутархай",
+			"temperature": "Халуун/Хүйтэн",
+			"speed": "Хурд",
+			"time": "Цаг хугацаа",
+			"pressure": "Даралт",
+			"energy": "Эрчим хүч",
+			"power": "Эрчим хүч",
+			"dataStorage": "Мэдээллийн хадгалалт",
+			"angle": "Оронд",
+			"frequency": "Давтамж",
+			"force": "Хүч",
+			"density": "Нягтрал",
+			"volumeFlow": "Бутархай урсгал",
+			"acceleration": "Хурдац",
+			"areaDensity": "Талбай нягтрал",
+			"illuminance": "Гэрэлтүүлэг",
+			"dataRate": "Мэдээллийн хурд",
+			"units": {
+				"length": {
+					"meter": "м",
+					"kilometer": "км",
+					"centimeter": "см",
+					"millimeter": "мм",
+					"mile": "ми",
+					"yard": "ярд",
+					"foot": "фт",
+					"inch": "дюйм"
+				},
+				"weight": {
+					"kilogram": "кг",
+					"gram": "г",
+					"milligram": "мг",
+					"pound": "фунт",
+					"ounce": "унція"
+				},
+				"area": {
+					"square meter": "м²",
+					"square kilometer": "км²",
+					"square centimeter": "см²",
+					"square foot": "фт²",
+					"acre": "акр"
+				},
+				"volume": {
+					"cubic meter": "м³",
+					"liter": "л",
+					"milliliter": "мл",
+					"cubic centimeter": "см³",
+					"gallon (US)": "гал"
+				},
+				"temperature": {
+					"celsius": "°C",
+					"fahrenheit": "°F",
+					"kelvin": "K"
+				},
+				"speed": {
+					"m/s": "м/с",
+					"km/h": "км/ц",
+					"mph": "ми/ц"
+				},
+				"time": {
+					"second": "с",
+					"minute": "хв",
+					"hour": "ц",
+					"day": "өд"
+				},
+				"pressure": {
+					"pascal": "Па",
+					"kilopascal": "кПа",
+					"bar": "бар",
+					"psi": "psi"
+				},
+				"energy": {
+					"joule": "Дж",
+					"kilojoule": "кДж",
+					"calorie": "кал",
+					"kilocalorie": "ккал",
+					"kilowatt-hour": "кВт⋅ц"
+				},
+				"power": {
+					"watt": "W",
+					"kilowatt": "кW",
+					"horsepower": "л.с."
+				},
+				"dataStorage": {
+					"byte": "Б",
+					"kilobyte": "КБ",
+					"megabyte": "МБ",
+					"gigabyte": "ГБ"
+				},
+				"angle": {
+					"radian": "рад",
+					"degree": "°",
+					"grad": "гр"
+				},
+				"frequency": {
+					"hertz": "Гц",
+					"kilohertz": "кГц",
+					"megahertz": "МГц",
+					"gigahertz": "ГГц"
+				},
+				"force": {
+					"newton": "Н",
+					"kilonewton": "кН",
+					"pound-force": "фунт-сила"
+				},
+				"density": {
+					"kg/m³": "кг/м³",
+					"g/cm³": "г/см³",
+					"lb/ft³": "фунт/фт³"
+				},
+				"volumeFlow": {
+					"m³/s": "м³/с",
+					"liter/s": "л/с",
+					"gallon/min": "гал/хв"
+				},
+				"acceleration": {
+					"m/s²": "м/с²",
+					"ft/s²": "фт/с²",
+					"km/h/s": "км/ц/с"
+				},
+				"areaDensity": {
+					"kg/m²": "кг/м²",
+					"g/cm²": "г/см²"
+				},
+				"illuminance": {
+					"lux": "лк",
+					"foot-candle": "фт-св"
+				},
+				"dataRate": {
+					"bit/s": "бит/с",
+					"kilobit/s": "Кбит/с",
+					"megabit/s": "Мбит/с",
+					"gigabit/s": "Гбит/с",
+					"byte/s": "Б/с",
+					"kilobyte/s": "КБ/с",
+					"megabyte/s": "МБ/с"
+				}
+			},
+			"labels": {
+				"category": "Категорія",
+				"value": "Значення",
+				"from": "З",
+				"to": "До",
+				"calculate": "Перетворити",
+				"result": "Результат",
+				"select": "Вибрати",
+				"invalidNumber": "Будь ласка, введіть коректне число.",
+				"differentUnits": "Будь ласка, виберіть різні одиниці."
+			}
+		}
+	}
+}

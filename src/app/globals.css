@@ -19,3 +19,35 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.burger-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  z-index: 50;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-modal.open {
+  transform: translateX(0);
+}
+
+.close-button {
+  background: transparent;
+  border: none;
+  color: white;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
