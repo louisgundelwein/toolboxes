@@ -64,9 +64,16 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 					setToUnit('');
 				}
 			}
-			if (onConversionChange) onConversionChange(''); // Initialer leerer Titel
 		}
 	}, [searchParamsString, categoryKeys, unitCategories, onConversionChange]);
+
+	useEffect(() => {
+		if (fromUnit && toUnit) {
+			if (onConversionChange) onConversionChange(`${fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)} ${locales[locale]['unit-converter'].to} ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`);
+		} else {
+			if (onConversionChange) onConversionChange('');
+		}
+	}, [fromUnit, toUnit, onConversionChange]);
 
 	// Beim Kategorienwechsel: Wenn eine Kategorie ausgewählt wurde,
 	// werden automatisch (sofern vorhanden) die ersten beiden Einheiten gesetzt.
@@ -84,13 +91,11 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 			setValue('');
 			setResult('');
 			router.replace(`?category=${encodeURIComponent(category)}`);
-			if (onConversionChange) onConversionChange('');
 		} else {
 			router.replace(``);
 			setFromUnit('');
 			setToUnit('');
 			setResult('');
-			if (onConversionChange) onConversionChange('');
 		}
 	}, [category, unitCategories, router, onConversionChange]);
 
@@ -98,7 +103,6 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 	useEffect(() => {
 		if (!category) {
 			setResult('');
-			if (onConversionChange) onConversionChange('');
 			return;
 		}
 		const cat = unitCategories[category];
@@ -111,13 +115,11 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 			!(toUnit in cat.units)
 		) {
 			setResult('');
-			if (onConversionChange) onConversionChange('');
 			return;
 		}
 		const numValue = parseFloat(value);
 		if (isNaN(numValue)) {
 			setResult(labels.invalidNumber);
-			if (onConversionChange) onConversionChange('');
 			return;
 		}
 		let converted: number;
@@ -136,10 +138,7 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 			`?category=${encodeURIComponent(category)}&from=${encodeURIComponent(
 				fromUnit
 			)}&to=${encodeURIComponent(toUnit)}`
-		);
-		// Nur wenn eine gültige Umrechnung vorliegt, wird der Conversion-Titel gesetzt.
-		if (onConversionChange) onConversionChange(`${fromUnit}-to-${toUnit}`);
-	}, [
+		);	}, [
 		value,
 		fromUnit,
 		toUnit,
@@ -191,7 +190,6 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 						// Beim Öffnen des Kategorie-Dropdowns soll die Kategorie zurückgesetzt werden.
 						onOpen={() => {
 							setCategory('');
-							if (onConversionChange) onConversionChange('');
 						}}
 					/>
 				</div>

@@ -21,6 +21,7 @@
 			"areaDensity": "Flächenmasse",
 			"illuminance": "Beleuchtungsstärke",
 			"dataRate": "Datenübertragungsrate",
+			"to": "zu",
 			"units": {
 				"length": {
 					"meter": "m",
@@ -146,7 +147,7 @@
 				"category": "Kategorie",
 				"value": "Wert",
 				"from": "Von",
-				"to": "Zu",
+				"to": "zu",
 				"calculate": "Umrechnen",
 				"result": "Ergebnis",
 				"select": "Auswählen",
@@ -177,6 +178,7 @@
 			"areaDensity": "Area Density",
 			"illuminance": "Illuminance",
 			"dataRate": "Data Rate",
+			"to": "to",
 			"units": {
 				"length": {
 					"meter": "m",
@@ -333,6 +335,7 @@
 			"areaDensity": "Densidad de área",
 			"illuminance": "Iluminancia",
 			"dataRate": "Velocidad de datos",
+			"to": "a",
 			"units": {
 				"length": {
 					"meter": "m",
@@ -414,7 +417,7 @@
 					"hertz": "Hz",
 					"kilohertz": "kHz",
 					"megahertz": "MHz",
-					"gigahertz": "GHz"
+					"gigabit/s": "Gbit/s"
 				},
 				"force": {
 					"newton": "N",
@@ -458,7 +461,7 @@
 				"category": "Categoría",
 				"value": "Valor",
 				"from": "De",
-				"to": "A",
+				"to": "a",
 				"calculate": "Convertir",
 				"result": "Resultado",
 				"select": "Seleccionar",
@@ -489,6 +492,7 @@
 			"areaDensity": "Densité de surface",
 			"illuminance": "Éclairement",
 			"dataRate": "Débit",
+			"to": "À",
 			"units": {
 				"length": {
 					"meter": "m",
@@ -645,6 +649,7 @@
 			"areaDensity": "Площа щільності",
 			"illuminance": "Освітленість",
 			"dataRate": "Швидкість передачі даних",
+			"to": "До",
 			"units": {
 				"length": {
 					"meter": "м",
@@ -774,7 +779,7 @@
 				"calculate": "Перетворити",
 				"result": "Результат",
 				"select": "Вибрати",
-				"invalidNumber": "Будь ласка, введіть правильне число.",
+				"invalidNumber": "Будь ласка, введіть коректне число.",
 				"differentUnits": "Будь ласка, виберіть різні одиниці."
 			}
 		}
@@ -801,37 +806,38 @@
 			"areaDensity": "面密度",
 			"illuminance": "照度",
 			"dataRate": "数据传输率",
+			"to": "到",
 			"units": {
 				"length": {
-					"meter": "米",
-					"kilometer": "公里",
-					"centimeter": "厘米",
-					"millimeter": "毫米",
-					"mile": "英里",
-					"yard": "码",
-					"foot": "英尺",
-					"inch": "英寸"
+					"meter": "m",
+					"kilometer": "km",
+					"centimeter": "cm",
+					"millimeter": "mm",
+					"mile": "mi",
+					"yard": "yd",
+					"foot": "ft",
+					"inch": "in"
 				},
 				"weight": {
-					"kilogram": "千克",
-					"gram": "克",
-					"milligram": "毫克",
-					"pound": "磅",
-					"ounce": "盎司"
+					"kilogram": "kg",
+					"gram": "g",
+					"milligram": "mg",
+					"pound": "lb",
+					"ounce": "oz"
 				},
 				"area": {
-					"square meter": "平方米",
-					"square kilometer": "平方公里",
-					"square centimeter": "平方厘米",
-					"square foot": "平方英尺",
-					"acre": "英亩"
+					"square meter": "m²",
+					"square kilometer": "km²",
+					"square centimeter": "cm²",
+					"square foot": "ft²",
+					"acre": "ac"
 				},
 				"volume": {
-					"cubic meter": "立方米",
-					"liter": "升",
-					"milliliter": "毫升",
-					"cubic centimeter": "立方厘米",
-					"gallon (US)": "加仑"
+					"cubic meter": "m³",
+					"liter": "l",
+					"milliliter": "ml",
+					"cubic centimeter": "cm³",
+					"gallon (US)": "gal"
 				},
 				"temperature": {
 					"celsius": "°C",
@@ -839,87 +845,87 @@
 					"kelvin": "K"
 				},
 				"speed": {
-					"m/s": "米/秒",
-					"km/h": "公里/小时",
-					"mph": "英里/小时"
+					"m/s": "m/s",
+					"km/h": "km/h",
+					"mph": "mph"
 				},
 				"time": {
-					"second": "秒",
-					"minute": "分",
-					"hour": "时",
-					"day": "天"
+					"second": "s",
+					"minute": "min",
+					"hour": "h",
+					"day": "d"
 				},
 				"pressure": {
-					"pascal": "帕",
-					"kilopascal": "千帕",
-					"bar": "巴",
-					"psi": "磅/平方英寸"
+					"pascal": "Pa",
+					"kilopascal": "kPa",
+					"bar": "bar",
+					"psi": "psi"
 				},
 				"energy": {
-					"joule": "焦耳",
-					"kilojoule": "千焦",
-					"calorie": "卡",
-					"kilocalorie": "千卡",
-					"kilowatt-hour": "千瓦时"
+					"joule": "J",
+					"kilojoule": "kJ",
+					"calorie": "cal",
+					"kilocalorie": "kcal",
+					"kilowatt-hour": "kWh"
 				},
 				"power": {
-					"watt": "瓦",
-					"kilowatt": "千瓦",
-					"horsepower": "马力"
+					"watt": "W",
+					"kilowatt": "kW",
+					"horsepower": "hp"
 				},
 				"dataStorage": {
-					"byte": "字节",
+					"byte": "B",
 					"kilobyte": "KB",
 					"megabyte": "MB",
 					"gigabyte": "GB"
 				},
 				"angle": {
-					"radian": "弧度",
+					"radian": "rad",
 					"degree": "°",
-					"grad": "百分度"
+					"grad": "gon"
 				},
 				"frequency": {
-					"hertz": "赫兹",
-					"kilohertz": "千赫",
-					"megahertz": "兆赫",
-					"gigahertz": "吉赫"
+					"hertz": "Hz",
+					"kilohertz": "kHz",
+					"megahertz": "MHz",
+					"gigahertz": "GHz"
 				},
 				"force": {
-					"newton": "牛",
-					"kilonewton": "千牛",
-					"pound-force": "磅力"
+					"newton": "N",
+					"kilonewton": "kN",
+					"pound-force": "lbf"
 				},
 				"density": {
-					"kg/m³": "千克/立方米",
-					"g/cm³": "克/立方厘米",
-					"lb/ft³": "磅/立方英尺"
+					"kg/m³": "kg/m³",
+					"g/cm³": "g/cm³",
+					"lb/ft³": "lb/ft³"
 				},
 				"volumeFlow": {
-					"m³/s": "立方米/秒",
-					"liter/s": "升/秒",
-					"gallon/min": "加仑/分钟"
+					"m³/s": "m³/s",
+					"liter/s": "l/s",
+					"gallon/min": "gal/min"
 				},
 				"acceleration": {
-					"m/s²": "米/秒²",
-					"ft/s²": "英尺/秒²",
-					"km/h/s": "公里/小时²"
+					"m/s²": "m/s²",
+					"ft/s²": "ft/s²",
+					"km/h/s": "km/h/s"
 				},
 				"areaDensity": {
-					"kg/m²": "千克/平方米",
-					"g/cm²": "克/平方厘米"
+					"kg/m²": "kg/m²",
+					"g/cm²": "g/cm²"
 				},
 				"illuminance": {
-					"lux": "勒克斯",
-					"foot-candle": "英尺烛光"
+					"lux": "lx",
+					"foot-candle": "fc"
 				},
 				"dataRate": {
-					"bit/s": "比特/秒",
-					"kilobit/s": "千比特/秒",
-					"megabit/s": "兆比特/秒",
-					"gigabit/s": "吉比特/秒",
-					"byte/s": "字节/秒",
-					"kilobyte/s": "KB/秒",
-					"megabyte/s": "MB/秒"
+					"bit/s": "bit/s",
+					"kilobit/s": "kbit/s",
+					"megabit/s": "Mbit/s",
+					"gigabit/s": "Gbit/s",
+					"byte/s": "B/s",
+					"kilobyte/s": "KB/s",
+					"megabyte/s": "MB/s"
 				}
 			},
 			"labels": {
@@ -957,6 +963,7 @@
 			"areaDensity": "Densidade de área",
 			"illuminance": "Iluminância",
 			"dataRate": "Taxa de dados",
+			"to": "para",
 			"units": {
 				"length": {
 					"meter": "m",
@@ -1113,6 +1120,7 @@
 			"areaDensity": "Талбай нягтрал",
 			"illuminance": "Гэрэлтүүлэг",
 			"dataRate": "Мэдээллийн хурд",
+			"to": "До",
 			"units": {
 				"length": {
 					"meter": "м",

@@ -36,7 +36,7 @@ export default function Home({ params }: PageProps) {
 	return (
 		<div className="w-full bg-base-100 flex flex-col items-center py-10">
 			<h1 className="text-4xl font-bold text-accent mb-6">
-				{conversionTitle ? `Convert ${conversionTitle}` : t.description}
+				{conversionTitle ? `${conversionTitle}` : t.description}
 			</h1>
 			<Converter onConversionChange={setConversionTitle} />
 		</div>

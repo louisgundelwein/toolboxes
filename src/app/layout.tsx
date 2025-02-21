@@ -8,7 +8,6 @@ import Footer from './components/footer';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
-
 const geistSans = Geist({
 	variable: '--font-geist-sans',
 	subsets: ['latin'],
@@ -20,8 +19,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Toolboxes.app',
-	description: 'An advanced toolbox for everyone.',
+	title:
+		'Toolboxes.app - The Advanced Toolbox for Developers, Designers, and Enthusiasts',
+	description:
+		'Toolboxes.app offers a comprehensive suite of advanced tools for developers, designers, and creative professionals to boost productivity.',
 };
 
 export default function RootLayout({
@@ -33,9 +34,9 @@ export default function RootLayout({
 		<html lang="en" className="min-h-screen" data-theme="dim">
 			<head>
 				<meta name="google-adsense-account" content="ca-pub-6105108199502947" />
-        <AdSense publisherId="6105108199502947" />
-        <Analytics />
-        <SpeedInsights />
+				<AdSense publisherId="6105108199502947" />
+				<Analytics />
+				<SpeedInsights />
 			</head>
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
