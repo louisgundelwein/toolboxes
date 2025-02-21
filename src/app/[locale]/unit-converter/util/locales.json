@@ -417,6 +417,7 @@
 					"hertz": "Hz",
 					"kilohertz": "kHz",
 					"megahertz": "MHz",
+          "gigahertz": "GHz",
 					"gigabit/s": "Gbit/s"
 				},
 				"force": {

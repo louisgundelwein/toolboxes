@@ -1,7 +1,6 @@
 // components/Footer.tsx
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -17,9 +16,7 @@ const Footer: React.FC = () => {
 					<img
 						src="https://github.com/louisgundelwein.png"
 						alt="GitHub Profile"
-            className="rounded-full w-9 h-9"
-            width={36}
-            height={36}
+						className="rounded-full w-9 h-9"
 					/>
 				</Link>
 				<p>Copyright © 2025 - All rights reserved</p>
