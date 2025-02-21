@@ -7,7 +7,7 @@ import Burger from './Burger';
 import Menu from './Menu';
 
 function useOnClickOutside(
-	ref: React.RefObject<HTMLDivElement>,
+	ref: React.RefObject<HTMLDivElement | null>,
 	handler: (event: MouseEvent) => void
 ) {
 	useEffect(() => {
