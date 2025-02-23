@@ -1,44 +1,20 @@
-// app/[locale]/page.tsx
+// app/[locale]/unit-converter/page.tsx
 'use client';
 
-import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
-import translations from '../../lang/locales.json';
+import React from 'react';
+import { useParams } from 'next/navigation';
+import locales from '../util/locales.json';
 import Converter from './components/Converter';
 
-interface Params {
-	locale: string;
-}
-
-interface PageProps {
-	params: Promise<Params>;
-}
-
-export default function Home({ params }: PageProps) {
-	const resolvedParams = React.use(params);
-	const router = useRouter();
-	const [locale, setLocale] = useState<string>('de');
-	const [conversionTitle, setConversionTitle] = useState<string>('');
-
-	useEffect(() => {
-		if (resolvedParams.locale && resolvedParams.locale in translations) {
-			setLocale(resolvedParams.locale);
-		} else {
-			const browserLocale = navigator.language.slice(0, 2);
-			const newLocale = browserLocale in translations ? browserLocale : 'de';
-			setLocale(newLocale);
-			router.replace(`/${newLocale}`);
-		}
-	}, [resolvedParams.locale, router]);
-
-	const t = translations[locale as keyof typeof translations];
+export default function UnitConverterPage() {
+	const { locale } = useParams() as { locale: "de" | "en" | "es" | "fr" | "uk" | "zh" };
 
 	return (
 		<div className="w-full bg-base-100 flex flex-col items-center py-10">
 			<h1 className="text-4xl font-bold text-accent mb-6">
-				{conversionTitle ? `${conversionTitle}` : t.description}
+				{locales[locale]?.description || 'Unit Converter'}
 			</h1>
-			<Converter onConversionChange={setConversionTitle} />
+			<Converter locale={locale} />
 		</div>
 	);
 }

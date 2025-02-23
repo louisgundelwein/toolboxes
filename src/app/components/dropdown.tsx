@@ -5,6 +5,7 @@ import Link from 'next/link';
 
 export interface DropdownItem {
 	label: string;
+	value?: string; // <-- Diese Zeile hinzufügen
 	href?: string;
 	onClick?: () => void;
 }
@@ -17,6 +18,7 @@ export interface DropdownProps {
 	menuClassName?: string;
 	showArrow?: boolean;
 	onOpen?: () => void;
+	onSelect?: (item: DropdownItem) => void;
 }
 
 const Dropdown: React.FC<DropdownProps> = ({
@@ -27,6 +29,7 @@ const Dropdown: React.FC<DropdownProps> = ({
 	menuClassName = 'dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl',
 	showArrow = true,
 	onOpen,
+	onSelect,
 }) => {
 	const [open, setOpen] = useState(false);
 
@@ -40,6 +43,9 @@ const Dropdown: React.FC<DropdownProps> = ({
 	const handleItemClick = (item: DropdownItem) => {
 		if (item.onClick) {
 			item.onClick();
+		}
+		if (onSelect) {
+			onSelect(item);
 		}
 		setOpen(false);
 	};

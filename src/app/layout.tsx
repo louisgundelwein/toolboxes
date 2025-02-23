@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
 	title:
-		'Toolboxes.app - The Advanced Toolbox for Developers, Designers, and Enthusiasts',
+		'The Advanced Toolbox for Developers, Designers, and Enthusiasts',
 	description:
 		'Toolboxes.app offers a comprehensive suite of advanced tools for developers, designers, and creative professionals to boost productivity.',
 };

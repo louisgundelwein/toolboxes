@@ -1,61 +1,64 @@
 // components/Converter.tsx
 'use client';
-import { useState, useEffect, useMemo } from 'react';
-import { useRouter, useParams, useSearchParams } from 'next/navigation';
+
+import React, { useState, useEffect, useMemo } from 'react';
+import { useRouter } from 'next/navigation';
 import { getUnitCategories } from '../util/unitCategories';
 import { roundValue } from '../util/rounding';
-import Dropdown from '@/app/components/dropdown';
 import locales from '../util/locales.json';
+import UnitDefinitions, { UnitCategoryKey } from './UnitDefinitions';
+import Dropdown from '@/app/components/dropdown';
 
 export interface ConverterProps {
 	onConversionChange?: (conversionTitle: string) => void;
+	locale: keyof typeof locales;
+	initialCategory?: UnitCategoryKey | '';
+	initialFromUnit?: string;
+	initialToUnit?: string;
 }
 
-const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
+const Converter: React.FC<ConverterProps> = ({
+	onConversionChange,
+	locale,
+	initialCategory = '',
+	initialFromUnit = '',
+	initialToUnit = '',
+}) => {
 	const router = useRouter();
-	const searchParams = useSearchParams();
-	const searchParamsString = useMemo(
-		() => searchParams.toString(),
-		[searchParams]
-	);
-	const { locale = 'en' } = useParams() as { locale: keyof typeof locales };
-
 	const unitCategories = useMemo(() => getUnitCategories(locale), [locale]);
 	const labels = useMemo(
 		() => locales[locale]['unit-converter'].labels,
 		[locale]
 	);
+	const defaultDescription =
+		locales[locale]['unit-converter'].description || 'Unit Converter';
 	const categoryKeys = useMemo(
 		() => Object.keys(unitCategories),
 		[unitCategories]
 	);
 
-	// Alle Felder starten leer (auch Kategorie)
-	const [category, setCategory] = useState<string>('');
-	const [fromUnit, setFromUnit] = useState<string>('');
-	const [toUnit, setToUnit] = useState<string>('');
+	// State – initial Werte
+	const [category, setCategory] = useState<UnitCategoryKey | ''>(
+		initialCategory
+	);
+	const [fromUnit, setFromUnit] = useState<string>(initialFromUnit);
+	const [toUnit, setToUnit] = useState<string>(initialToUnit);
 	const [value, setValue] = useState<string>('');
 	const [result, setResult] = useState<string>('');
 
-	// Beim ersten Laden: Falls URL-Parameter vorhanden sind, diese übernehmen.
+	// Falls noch keine from/to-Einheit gesetzt ist, Fallback-Titel übergeben
 	useEffect(() => {
-		const urlCategory = searchParams.get('category');
-		const urlFrom = searchParams.get('from');
-		const urlTo = searchParams.get('to');
-		if (urlCategory && categoryKeys.includes(urlCategory)) {
-			setCategory(urlCategory);
-			const cat = unitCategories[urlCategory];
-			if (
-				urlFrom &&
-				urlTo &&
-				urlFrom in cat.units &&
-				urlTo in cat.units &&
-				urlFrom !== urlTo
-			) {
-				setFromUnit(urlFrom);
-				setToUnit(urlTo);
-			} else {
-				const units = Object.keys(cat.units);
+		if (onConversionChange && (!fromUnit || !toUnit)) {
+			onConversionChange(defaultDescription);
+		}
+	}, [fromUnit, toUnit, defaultDescription, onConversionChange]);
+
+	// Effekt: Beim Kategorienwechsel (abhängig von [category, unitCategories])
+	useEffect(() => {
+		if (category) {
+			const units = Object.keys(unitCategories[category].units);
+			// Setze Standardwerte, falls noch nicht gesetzt
+			if (!fromUnit || !toUnit) {
 				if (units.length >= 2) {
 					setFromUnit(units[0]);
 					setToUnit(units[1]);
@@ -64,42 +67,32 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 					setToUnit('');
 				}
 			}
-		}
-	}, [searchParamsString, categoryKeys, unitCategories, onConversionChange]);
-
-	useEffect(() => {
-		if (fromUnit && toUnit) {
-			if (onConversionChange) onConversionChange(`${fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)} ${locales[locale]['unit-converter'].to} ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`);
-		} else {
-			if (onConversionChange) onConversionChange('');
-		}
-	}, [fromUnit, toUnit, onConversionChange]);
-
-	// Beim Kategorienwechsel: Wenn eine Kategorie ausgewählt wurde,
-	// werden automatisch (sofern vorhanden) die ersten beiden Einheiten gesetzt.
-	// Außerdem wird die URL aktualisiert.
-	useEffect(() => {
-		if (category) {
-			const units = Object.keys(unitCategories[category].units);
-			if (units.length >= 2) {
-				setFromUnit(units[0]);
-				setToUnit(units[1]);
-			} else if (units.length === 1) {
-				setFromUnit(units[0]);
-				setToUnit('');
-			}
 			setValue('');
 			setResult('');
-			router.replace(`?category=${encodeURIComponent(category)}`);
 		} else {
-			router.replace(``);
 			setFromUnit('');
 			setToUnit('');
 			setResult('');
 		}
-	}, [category, unitCategories, router, onConversionChange]);
+	}, [category, unitCategories]);
 
-	// Automatische Umrechnung: Nur wenn alle Felder gültig sind.
+	// Effekt: Aktualisiere URL und Conversion-Titel, wenn Kategorie, fromUnit und toUnit gesetzt sind
+	useEffect(() => {
+		if (category && fromUnit && toUnit) {
+			const filler = locales[locale]['unit-converter'].to || 'in';
+			const slug = `${fromUnit}-${filler}-${toUnit}`;
+			router.replace(`/${locale}/unit-converter/${category}/${slug}`);
+			if (onConversionChange) {
+				const toWord = locales[locale]['unit-converter'].to;
+				const title = `${
+					fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)
+				} ${toWord} ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`;
+				onConversionChange(title);
+			}
+		}
+	}, [category, fromUnit, toUnit, locale, router, onConversionChange]);
+
+	// Effekt: Berechne das Conversion-Ergebnis, sobald alle Eingaben vorhanden sind
 	useEffect(() => {
 		if (!category) {
 			setResult('');
@@ -133,29 +126,15 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 		const precision = cat.precision ?? 2;
 		const rounded = roundValue(converted, precision).toString();
 		setResult(rounded);
-		// URL-Parameter aktualisieren
-		router.replace(
-			`?category=${encodeURIComponent(category)}&from=${encodeURIComponent(
-				fromUnit
-			)}&to=${encodeURIComponent(toUnit)}`
-		);	}, [
-		value,
-		fromUnit,
-		toUnit,
-		category,
-		unitCategories,
-		labels,
-		router,
-		onConversionChange,
-	]);
+	}, [value, fromUnit, toUnit, category, unitCategories, labels]);
 
-	// Dropdown-Items für Kategorien
+	// Dropdown-Items für Kategorien (mit extra Property "value")
 	const categoryItems = categoryKeys.map((key) => ({
 		label: unitCategories[key].name,
-		onClick: () => setCategory(key),
+		value: key,
 	}));
 
-	// Für "From": Zeige alle Einheiten der aktuellen Kategorie außer der in "To" gewählten.
+	// Dropdown-Items für "From" und "To"
 	const unitItemsForFrom = category
 		? Object.keys(unitCategories[category].units)
 				.filter((unit) => unit !== toUnit)
@@ -165,7 +144,6 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 				}))
 		: [];
 
-	// Für "To": Zeige alle Einheiten der aktuellen Kategorie außer der in "From" gewählten.
 	const unitItemsForTo = category
 		? Object.keys(unitCategories[category].units)
 				.filter((unit) => unit !== fromUnit)
@@ -175,8 +153,23 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 				}))
 		: [];
 
+	// Erzeuge einen Conversion-Titel, der "FromUnit to ToUnit" anzeigt, wenn beide gesetzt sind
+	const conversionTitle =
+		fromUnit && toUnit
+			? `${fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)} ${
+					locales[locale]['unit-converter'].to
+			  } ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`
+			: '';
+
 	return (
+		<div className='flex flex-col w-full items-center '>
 		<div className="card w-full max-w-lg bg-base-100 shadow-xl p-6">
+			{/* Ganz oben: H2 mit Conversion-Titel, falls vorhanden */}
+			{conversionTitle && (
+				<h2 className="text-2xl font-semibold text-secondary text-center w-full mb-4">
+					{conversionTitle}
+				</h2>
+			)}
 			<form onSubmit={(e) => e.preventDefault()} className="space-y-4">
 				{/* Kategorie-Dropdown */}
 				<div className="form-control">
@@ -187,13 +180,18 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 						label={category ? unitCategories[category].name : labels.select}
 						items={categoryItems}
 						buttonClassName="btn btn-outline w-full"
-						// Beim Öffnen des Kategorie-Dropdowns soll die Kategorie zurückgesetzt werden.
-						onOpen={() => {
-							setCategory('');
+						onSelect={(item) => {
+							const newCategory = item.value as UnitCategoryKey;
+							if (newCategory && newCategory !== category) {
+								// Neue Kategorie setzen und vorhandene Units zurücksetzen,
+								// damit der Kategorienwechsel-Effekt die Standardwerte setzt.
+								setCategory(newCategory);
+								setFromUnit('');
+								setToUnit('');
+							}
 						}}
 					/>
 				</div>
-				{/* Nur anzeigen, wenn eine Kategorie gewählt ist */}
 				{category && (
 					<>
 						<div className="form-control">
@@ -250,6 +248,17 @@ const Converter: React.FC<ConverterProps> = ({ onConversionChange }) => {
 				</div>
 			)}
 		</div>
+		<div>
+				{category && fromUnit && toUnit && (
+				<UnitDefinitions
+					locale={locale}
+					category={category}
+					fromUnit={fromUnit}
+					toUnit={toUnit}
+				/>
+			)}
+			</div>
+			</div>
 	);
 };
 
