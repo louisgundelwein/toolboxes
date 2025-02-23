@@ -8,6 +8,7 @@ import { roundValue } from '../util/rounding';
 import locales from '../util/locales.json';
 import UnitDefinitions, { UnitCategoryKey } from './UnitDefinitions';
 import Dropdown from '@/app/components/dropdown';
+import { slugifyUnit } from '../util/util';
 
 export interface ConverterProps {
 	onConversionChange?: (conversionTitle: string) => void;
@@ -80,7 +81,8 @@ const Converter: React.FC<ConverterProps> = ({
 	useEffect(() => {
 		if (category && fromUnit && toUnit) {
 			const filler = locales[locale]['unit-converter'].to || 'in';
-			const slug = `${fromUnit}-${filler}-${toUnit}`;
+			// Hier werden die Unit-Namen slugifiziert:
+			const slug = `${slugifyUnit(fromUnit)}-${filler}-${slugifyUnit(toUnit)}`;
 			router.replace(`/${locale}/unit-converter/${category}/${slug}`);
 			if (onConversionChange) {
 				const toWord = locales[locale]['unit-converter'].to;

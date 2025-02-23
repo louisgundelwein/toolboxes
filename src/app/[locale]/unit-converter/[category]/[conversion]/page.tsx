@@ -5,6 +5,7 @@ import React from 'react';
 import { useParams } from 'next/navigation';
 import Converter from '../../components/Converter';
 import locales from '../../util/locales.json';
+import { findUnitKey } from '../../util/util';
 
 export default function ConversionDetailPage() {
 	const { locale, category, conversion } = useParams() as {
@@ -29,14 +30,18 @@ export default function ConversionDetailPage() {
 		conversion: string;
 	};
 
-	// Annahme: Der Conversion-Slug hat das Format "fromUnit-filler-toUnit"
-	// Beispiel: "meter-in-kilometer" oder "pounds-to-kilograms"
+	// Angenommen: Der Conversion-Slug hat das Format "fromUnit-filler-toUnit"
 	const parts = conversion.split('-');
 	let initialFromUnit = '';
 	let initialToUnit = '';
-	if (parts.length >= 3) {
-		initialFromUnit = parts[0];
-		initialToUnit = parts[parts.length - 1];
+	if (parts.length >= 3 && category !== '') {
+		const rawFrom = parts[0];
+		const rawTo = parts[parts.length - 1];
+
+		// Hole die Einheiten der Kategorie
+		const units = locales[locale]['unit-converter'].units[category] || {};
+		initialFromUnit = findUnitKey(rawFrom, units);
+		initialToUnit = findUnitKey(rawTo, units);
 	}
 
 	return (
