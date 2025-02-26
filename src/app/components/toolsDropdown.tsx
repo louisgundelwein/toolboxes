@@ -21,6 +21,22 @@ const ToolsDropdown: React.FC = () => {
 			label: texts.toolCard2Title,
 			href: `/${locale}/file-converter`,
 		},
+		{
+			label: texts.toolCard3Title,
+			href: `/${locale}/password-generator`,
+		},
+		{
+			label: texts.toolCard4Title,
+			href: `/${locale}/qr-code-generator`,
+		},
+		{
+			label: texts.toolCard5Title,
+			href: `/${locale}/tip-calculator`,
+		},
+		{
+			label: texts.toolCard6Title,
+			href: `/${locale}/json-validator`,
+		},
 	];
 
 	return (

@@ -96,7 +96,25 @@ export default function LandingPage({ params }: PageProps) {
 						<ToolCard
 							title={texts.toolCard3Title}
 							description={texts.toolCard3Description}
-							href={`/${locale}/calculator`}
+							href={`/${locale}/password-generator`}
+							lang={locale}
+						/>
+						<ToolCard
+							title={texts.toolCard4Title}
+							description={texts.toolCard4Description}
+							href={`/${locale}/qr-code-generator`}
+							lang={locale}
+						/>
+						<ToolCard
+							title={texts.toolCard5Title}
+							description={texts.toolCard5Description}
+							href={`/${locale}/tip-calculator`}
+							lang={locale}
+						/>
+						<ToolCard
+							title={texts.toolCard6Title}
+							description={texts.toolCard6Description}
+							href={`/${locale}/json-validator`}
 							lang={locale}
 						/>
 					</div>
