@@ -8,34 +8,38 @@ import locales from '../[locale]/util/locales.json';
 type LocaleKeys = keyof typeof locales;
 
 const ToolsDropdown: React.FC = () => {
-	const { locale = 'en' } = useParams() as { locale: LocaleKeys };
-	const texts = locales[locale];
+	const { locale } = useParams() as { locale?: string };
+
+	// Standard-Sprache auf 'en' setzen, falls locale nicht gültig ist
+	const validLocale =
+		locale && locales.hasOwnProperty(locale) ? (locale as LocaleKeys) : 'en';
+	const texts = locales[validLocale];
 
 	// Items mit lokalisierten Labels und Links, die das Locale enthalten (z. B. /de/unit-converter)
 	const items = [
 		{
 			label: texts.toolCard1Title,
-			href: `/${locale}/unit-converter`,
+			href: `/${validLocale}/unit-converter`,
 		},
 		{
 			label: texts.toolCard2Title,
-			href: `/${locale}/file-converter`,
+			href: `/${validLocale}/file-converter`,
 		},
 		{
 			label: texts.toolCard3Title,
-			href: `/${locale}/password-generator`,
+			href: `/${validLocale}/password-generator`,
 		},
 		{
 			label: texts.toolCard4Title,
-			href: `/${locale}/qr-code-generator`,
+			href: `/${validLocale}/qr-code-generator`,
 		},
 		{
 			label: texts.toolCard5Title,
-			href: `/${locale}/tip-calculator`,
+			href: `/${validLocale}/tip-calculator`,
 		},
 		{
 			label: texts.toolCard6Title,
-			href: `/${locale}/json-validator`,
+			href: `/${validLocale}/json-validator`,
 		},
 	];
 
@@ -59,17 +63,11 @@ const ToolsDropdown: React.FC = () => {
 			>
 				{items.map((item, index) => (
 					<li key={index}>
-						{item.href ? (
-							<Link href={item.href}>
-								<span className="btn btn-sm btn-block btn-ghost justify-start">
-									{item.label}
-								</span>
-							</Link>
-						) : (
-							<button className="btn btn-sm btn-block btn-ghost justify-start">
+						<Link href={item.href}>
+							<span className="btn btn-sm btn-block btn-ghost justify-start">
 								{item.label}
-							</button>
-						)}
+							</span>
+						</Link>
 					</li>
 				))}
 			</ul>
