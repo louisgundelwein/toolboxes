@@ -34,11 +34,11 @@ export default function RootLayout({
 		<html lang="en" className="min-h-screen" data-theme="dim">
 			<head>
 				<meta name="google-adsense-account" content="ca-pub-6105108199502947" />
-				<link rel="alternate" hreflang="en" href="https://toolboxes.app/en" />
-				<link rel="alternate" hreflang="de" href="https://toolboxes.app/de" />
-				<link rel="alternate" hreflang="fr" href="https://toolboxes.app/fr" />
-				<link rel="alternate" hreflang="es" href="https://toolboxes.app/es" />
-				<link rel="alternate" hreflang="x-default" href="https://toolboxes.app/en" />
+				<link rel="alternate" hrefLang="en" href="https://toolboxes.app/en" />
+				<link rel="alternate" hrefLang="de" href="https://toolboxes.app/de" />
+				<link rel="alternate" hrefLang="fr" href="https://toolboxes.app/fr" />
+				<link rel="alternate" hrefLang="es" href="https://toolboxes.app/es" />
+				<link rel="alternate" hrefLang="x-default" href="https://toolboxes.app/en" />
 				<AdSense publisherId="6105108199502947" />
 				<Analytics />
 				<SpeedInsights />
