@@ -8,12 +8,19 @@ const nextConfig: NextConfig = {
 				destination: '/en',
 				permanent: true,
 			},
-			{
-				source: '/:path((?!en|de|fr|es|uk|zh|pt|mn)/.*)',
-				destination: '/en/:path*',
-				permanent: true,
-			},
 		];
+	},
+	async rewrites() {
+		return {
+			beforeFiles: [
+				{
+					source: '/:path((?!en|de|fr|es|uk|zh|pt|mn)/.*)',
+					destination: '/en/:path*',
+				},
+			],
+			afterFiles: [],
+			fallback: [],
+		};
 	},
 };
 

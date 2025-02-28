@@ -1,14 +1,15 @@
 User-agent: *
+Allow: /
+Allow: /en/qr-code-generator
+Allow: /de/qr-code-generator
+Allow: /fr/qr-code-generator
+Allow: /es/qr-code-generator
+Allow: /uk/qr-code-generator
+Allow: /zh/qr-code-generator
+Allow: /pt/qr-code-generator
+Allow: /mn/qr-code-generator
+
 Disallow: /forgot-password
+Disallow: /api/*
 
-# Language redirects
-Allow: /en/
-Allow: /de/
-Allow: /fr/
-Allow: /es/
-Allow: /uk/
-Allow: /zh/
-Allow: /pt/
-Allow: /mn/
-
-Sitemap: https://www.toolboxes.app/sitemap.xml
+Sitemap: https://toolboxes.app/sitemap.xml
