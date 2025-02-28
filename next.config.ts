@@ -4,8 +4,13 @@ const nextConfig: NextConfig = {
 	async redirects() {
 		return [
 			{
-				source: '/:path((?!en|de|fr|es|uk|zh|pt|mn)/.*)',
+				source: '/',
 				destination: '/en',
+				permanent: true,
+			},
+			{
+				source: '/:path((?!en|de|fr|es|uk|zh|pt|mn)/.*)',
+				destination: '/en/:path*',
 				permanent: true,
 			},
 		];
