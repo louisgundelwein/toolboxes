@@ -2,7 +2,7 @@
 'use client';
 
 import React, { useEffect, useState, useRef } from 'react';
-import { useRouter } from 'next/navigation';
+import { permanentRedirect } from 'next/navigation';
 import locales from './util/locales.json';
 import ToolCard from './components/Tool-Card';
 import Link from 'next/link';
@@ -20,7 +20,6 @@ type LocaleKeys = keyof typeof locales;
 export default function LandingPage({ params }: PageProps) {
 	// Unwrap the promise (experimental hook)
 	const resolvedParams = React.use(params);
-	const router = useRouter();
 	// We'll use a state variable to hold the current locale.
 	const [locale, setLocale] = useState<LocaleKeys>('en');
 	const [texts, setTexts] = useState(locales['en']);
@@ -42,9 +41,9 @@ export default function LandingPage({ params }: PageProps) {
 			) as LocaleKeys;
 			setLocale(newLocale);
 			setTexts(locales[newLocale]);
-			router.replace(`/${newLocale}`);
+			permanentRedirect(`/${newLocale}`, );
 		}
-	}, [resolvedParams.locale, router]);
+	}, [resolvedParams.locale]);
 
 	return (
 		<div className="bg-base-100 flex flex-col py-10 w-full">
