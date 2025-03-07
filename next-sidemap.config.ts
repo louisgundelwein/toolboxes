@@ -1,9 +1,8 @@
-
-import { getUnitCategories } from '@/app/[locale]/unit-converter/util/unitCategories';
-import locales from '@/app/[locale]/unit-converter/util/locales.json';
+import { getUnitCategories } from '@/app/[locale]/tools/unit-converter/util/unitCategories';
+import locales from '@/app/[locale]/tools/unit-converter/util/locales.json';
 import type { IConfig } from 'next-sitemap';
+import { LOCALES } from '@/shared';
 
-const supportedLanguages = ['en', 'de', 'fr', 'es', 'uk', 'zh', 'pt'];
 
 // Mapping für das Verbindungswort je Sprache
 const conversionConnector: Record<string, string> = {
@@ -35,7 +34,7 @@ const config: IConfig = {
 	// Dynamische Einträge für die Unit-Converter-Seiten
 	additionalPaths: async () => {
 		const paths: { loc: string; lastmod: string }[] = [];
-		supportedLanguages.forEach((lang) => {
+		LOCALES.forEach((lang) => {
 			// Hole die Kategorien für die jeweilige Sprache
 			const categories = getUnitCategories(lang as keyof typeof locales);
 			Object.keys(categories).forEach((categoryKey) => {

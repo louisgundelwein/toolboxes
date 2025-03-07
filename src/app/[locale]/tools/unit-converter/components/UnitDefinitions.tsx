@@ -1,6 +1,8 @@
 // components/UnitDefinitions.tsx
 import React from 'react';
 import locales from '../util/locales.json';
+import { useTranslations } from 'next-intl';
+import { UNITS } from '@/shared';
 
 // Typ für die Detailinformationen einer Einheit
 interface UnitDetail {
@@ -29,13 +31,13 @@ export interface UnitDefinitionsProps {
 }
 
 const UnitDefinitions: React.FC<UnitDefinitionsProps> = ({
-	locale,
 	category,
 	fromUnit,
 	toUnit,
 }) => {
+	const t = useTranslations('UnitConverterPage');
 	// Casten des units-Objekts in den Typ "Units", sodass wir beliebig indexieren können.
-	const units = locales[locale]['unit-converter'].units as Units;
+	const units = UNITS;
 	const unitData = units[category];
 	if (!unitData) return null;
 	const fromData = unitData[fromUnit];
