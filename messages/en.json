@@ -1,0 +1,504 @@
+{
+	"HomePage": {
+		"heroTitle": "Advanced Online Toolbox for Modern Digital Workflows",
+		"heroSubtitle": "Empowering developers, designers, and creative professionals with innovative digital solutions",
+		"heroDescription": "Discover a comprehensive suite of online tools designed to streamline your work. From advanced unit converters to efficient file format changers and beyond, our platform boosts productivity and creativity.",
+		"usageInstructions": "Use the burger menu in the top-right corner to choose your tools, change the theme, or switch the language between English, German, French, Spanish, Portuguese, Ukrainian, and Chinese.",
+		"ctaButton": "Explore Our Tools Now",
+		"toolsOverviewTitle": "Explore Our Diverse Range of Tools",
+		"toolsOverviewSubtitle": "Browse our powerful, cutting-edge tools that simplify complex tasks and elevate your digital workflow.",
+		"toolCard1Title": "Unit Converter",
+		"toolCard1Description": "Easily convert measurements like length, weight, temperature, and more with high precision.",
+		"toolCard2Title": "File Converter",
+		"toolCard2Description": "Quickly transform files between various formats with just a few clicks.",
+		"toolCard3Title": "Password Generator",
+		"toolCard3Description": "Generate secure and random passwords with ease and customizable options.",
+		"toolCard4Title": "QR Code Generator",
+		"toolCard4Description": "Create QR codes for URLs, texts, and more in seconds with our easy-to-use tool.",
+		"toolCard5Title": "Tip Generator",
+		"toolCard5Description": "Quickly calculate the perfect tip for your bill with our intuitive tip generator.",
+		"toolCard6Title": "JSON Formatter & Validator",
+		"toolCard6Description": "Format and validate your JSON data effortlessly to ensure proper syntax and structure.",
+		"additionalTitle": "Innovative Solutions to Transform Your Digital Experience",
+		"additionalDescription": "Our ever-evolving platform provides the latest tools and features designed to maximize your efficiency. Experience unmatched versatility and performance.",
+		"learnMoreButton": "Learn More About Us",
+		"description": "Toolboxes.app is the premier online resource offering a powerful collection of tools to revolutionize your digital workflow.",
+		"seeMoreButton": "See More"
+	},
+  "UnitConverterPage": {
+    "definitions": {
+      "for": "Definition for",
+      "more": "More on Wikipedia"
+    },
+    "description": "A comprehensive unit converter",
+    "length": "Length",
+    "weight": "Weight",
+    "area": "Area",
+    "volume": "Volume",
+    "temperature": "Temperature",
+    "speed": "Speed",
+    "time": "Time",
+    "pressure": "Pressure",
+    "energy": "Energy",
+    "power": "Power",
+    "dataStorage": "Data Storage",
+    "angle": "Angle",
+    "frequency": "Frequency",
+    "force": "Force",
+    "density": "Density",
+    "volumeFlow": "Volume Flow",
+    "acceleration": "Acceleration",
+    "areaDensity": "Area Density",
+    "illuminance": "Illuminance",
+    "dataRate": "Data Transfer Rate",
+    "to": "to",
+    "units": {
+      "length": {
+        "meter": {
+          "abbr": "m",
+          "definition": "The meter is the SI base unit of length and serves as the standard measure for distances. It is historically defined and recognized worldwide.",
+          "wiki": "https://de.wikipedia.org/wiki/Meter"
+        },
+        "kilometer": {
+          "abbr": "km",
+          "definition": "A kilometer equals 1000 meters and is commonly used to indicate distances in practice. It is a common unit in everyday life.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilometer"
+        },
+        "centimeter": {
+          "abbr": "cm",
+          "definition": "A centimeter is one hundredth of a meter and is often used to measure small lengths. This unit is used in many everyday applications.",
+          "wiki": "https://de.wikipedia.org/wiki/Zentimeter"
+        },
+        "millimeter": {
+          "abbr": "mm",
+          "definition": "A millimeter is one thousandth of a meter and is used for precise measurement of small lengths. This unit is important especially in technical fields.",
+          "wiki": "https://de.wikipedia.org/wiki/Millimeter"
+        },
+        "mile": {
+          "abbr": "mi",
+          "definition": "A mile is a unit of length primarily used in the Anglophone world. It is approximately equal to 1.609 kilometers and has historical significance.",
+          "wiki": "https://de.wikipedia.org/wiki/Meile"
+        },
+        "yard": {
+          "abbr": "yd",
+          "definition": "A yard is a unit of length commonly used in the USA and the UK. It is equivalent to 0.9144 meters and is used, among others, in the textile and sports industries.",
+          "wiki": "https://de.wikipedia.org/wiki/Yard"
+        },
+        "foot": {
+          "abbr": "ft",
+          "definition": "A foot is a traditional unit of length used in the USA and some other countries. It is equivalent to 0.3048 meters and is mainly used in construction.",
+          "wiki": "https://de.wikipedia.org/wiki/Fuß"
+        },
+        "inch": {
+          "abbr": "in",
+          "definition": "An inch is a unit of length used primarily in the Anglophone world. It is equivalent to 2.54 centimeters and is used in technology as well as everyday life.",
+          "wiki": "https://de.wikipedia.org/wiki/Inch"
+        }
+      },
+      "weight": {
+        "kilogram": {
+          "abbr": "kg",
+          "definition": "The kilogram is the SI base unit for mass and serves as the standard measure in science and commerce. It is recognized as a unit of measurement worldwide.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilogramm"
+        },
+        "gram": {
+          "abbr": "g",
+          "definition": "A gram is one thousandth of a kilogram and is frequently used for lighter masses. This unit is especially common in the kitchen and in commerce.",
+          "wiki": "https://de.wikipedia.org/wiki/Gramm"
+        },
+        "milligram": {
+          "abbr": "mg",
+          "definition": "A milligram is one thousandth of a gram and is used to measure very small masses, especially in medicine. It is often used for precise dosage measurements.",
+          "wiki": "https://de.wikipedia.org/wiki/Milligramm"
+        },
+        "pound": {
+          "abbr": "lb",
+          "definition": "The pound is a traditional unit of mass used primarily in the Anglophone world. It is approximately equal to 0.4536 kilograms and is used in commerce and everyday life.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund"
+        },
+        "ounce": {
+          "abbr": "oz",
+          "definition": "An ounce is a smaller unit of mass known primarily in the Anglophone world. It is approximately 28.35 grams and is often used in the food industry.",
+          "wiki": "https://de.wikipedia.org/wiki/Unze"
+        }
+      },
+      "area": {
+        "square meter": {
+          "abbr": "m²",
+          "definition": "The square meter is the unit of area in the International System of Units and is used for measuring areas in architecture and agriculture. It is a standardized and widely used unit.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratmeter"
+        },
+        "square kilometer": {
+          "abbr": "km²",
+          "definition": "A square kilometer corresponds to an area of one million square meters. This unit is primarily used to represent large areas, such as land regions.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratkilometer"
+        },
+        "square centimeter": {
+          "abbr": "cm²",
+          "definition": "A square centimeter is a small unit of area, often used in materials science and everyday life. It measures the area of a square with a side length of 1 cm.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratzentimeter"
+        },
+        "square foot": {
+          "abbr": "ft²",
+          "definition": "A square foot is an area unit used primarily in the USA and the UK, approximately equal to 0.0929 square meters. This unit is often used in real estate.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratfuß"
+        },
+        "acre": {
+          "abbr": "ac",
+          "definition": "An acre is a traditional unit of area used primarily in the USA and the UK. It is approximately equal to 4047 square meters and is used in agriculture and real estate appraisal.",
+          "wiki": "https://de.wikipedia.org/wiki/Acre"
+        }
+      },
+      "volume": {
+        "cubic meter": {
+          "abbr": "m³",
+          "definition": "The cubic meter is the unit of volume in the International System of Units and is used to measure space. This unit is important in fields such as construction, storage, and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikmeter"
+        },
+        "liter": {
+          "abbr": "l",
+          "definition": "The liter is a unit of volume commonly used to measure liquids. It corresponds to one cubic decimeter and is widely used in everyday life.",
+          "wiki": "https://de.wikipedia.org/wiki/Liter"
+        },
+        "milliliter": {
+          "abbr": "ml",
+          "definition": "A milliliter is one thousandth of a liter and is used to measure smaller quantities of liquid. This unit is mainly used in medicine and cooking.",
+          "wiki": "https://de.wikipedia.org/wiki/Milliliter"
+        },
+        "cubic centimeter": {
+          "abbr": "cm³",
+          "definition": "A cubic centimeter is equivalent to one milliliter and is often used in technology and medicine to measure small volumes. This unit is precise and widely used.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikzentimeter"
+        },
+        "gallon (US)": {
+          "abbr": "gal",
+          "definition": "A US gallon is a unit of volume used in the United States for measuring liquids. It is approximately equal to 3.785 liters and has both historical and practical significance.",
+          "wiki": "https://de.wikipedia.org/wiki/Gallone"
+        }
+      },
+      "temperature": {
+        "celsius": {
+          "abbr": "°C",
+          "definition": "The Celsius scale is a temperature unit where 0 °C represents the freezing point of water. It is used worldwide in most countries and is easy to understand.",
+          "wiki": "https://de.wikipedia.org/wiki/Celsius"
+        },
+        "fahrenheit": {
+          "abbr": "°F",
+          "definition": "The Fahrenheit scale is a temperature unit primarily used in the USA. On this scale, the freezing point of water is at 32 °F, distinguishing it from Celsius.",
+          "wiki": "https://de.wikipedia.org/wiki/Fahrenheit"
+        },
+        "kelvin": {
+          "abbr": "K",
+          "definition": "The Kelvin scale is the SI unit for temperature measurements and starts at absolute zero. It is mainly used in science and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Kelvin"
+        }
+      },
+      "speed": {
+        "m/s": {
+          "abbr": "m/s",
+          "definition": "Speed in meters per second is an SI unit that indicates how many meters are traveled in one second. It is widely used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
+        },
+        "km/h": {
+          "abbr": "km/h",
+          "definition": "Kilometers per hour indicate how many kilometers are traveled in one hour. This unit is often used in road traffic and meteorology.",
+          "wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
+        },
+        "mph": {
+          "abbr": "mph",
+          "definition": "Miles per hour is a speed unit primarily used in the USA and the UK. It measures how many miles are traveled in one hour.",
+          "wiki": "https://de.wikipedia.org/wiki/Meile"
+        }
+      },
+      "time": {
+        "second": {
+          "abbr": "s",
+          "definition": "The second is the base unit of time in the International System of Units. It is used to measure time intervals and is standardized worldwide.",
+          "wiki": "https://de.wikipedia.org/wiki/Sekunde"
+        },
+        "minute": {
+          "abbr": "min",
+          "definition": "A minute consists of 60 seconds and is used to measure shorter time periods. This unit is very common in everyday life.",
+          "wiki": "https://de.wikipedia.org/wiki/Minute"
+        },
+        "hour": {
+          "abbr": "h",
+          "definition": "An hour consists of 60 minutes and is a common unit of time for daily use. It is used worldwide and forms the basis of many schedules.",
+          "wiki": "https://de.wikipedia.org/wiki/Stunde"
+        },
+        "day": {
+          "abbr": "d",
+          "definition": "A day corresponds to the Earth's rotation and comprises 24 hours. It is the fundamental unit of time in daily life and is used in almost all cultures.",
+          "wiki": "https://de.wikipedia.org/wiki/Tag"
+        }
+      },
+      "pressure": {
+        "pascal": {
+          "abbr": "Pa",
+          "definition": "The pascal is the SI unit for pressure and measures the force per unit area. It is used in physics and engineering to describe pressure conditions.",
+          "wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
+        },
+        "kilopascal": {
+          "abbr": "kPa",
+          "definition": "A kilopascal equals 1000 pascals and is often used to represent pressures in engineering and meteorology. It extends the representation of the pascal to higher values.",
+          "wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
+        },
+        "bar": {
+          "abbr": "bar",
+          "definition": "The bar is a unit of pressure used primarily in engineering and weather reports. One bar equals 100,000 pascals and is easy to understand.",
+          "wiki": "https://de.wikipedia.org/wiki/Bar_(Einheit)"
+        },
+        "psi": {
+          "abbr": "psi",
+          "definition": "PSI stands for pounds per square inch and is a pressure unit commonly used in the USA. It measures pressure as force per unit area and is often used in the automotive sector.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund_pro_Quadratzoll"
+        }
+      },
+      "energy": {
+        "joule": {
+          "abbr": "J",
+          "definition": "The joule is the SI unit for energy and measures the amount of work or heat. It is used in physics, engineering, and chemistry.",
+          "wiki": "https://de.wikipedia.org/wiki/Joule"
+        },
+        "kilojoule": {
+          "abbr": "kJ",
+          "definition": "A kilojoule equals 1000 joules and is often used in nutrition and engineering. This unit facilitates dealing with larger amounts of energy.",
+          "wiki": "https://de.wikipedia.org/wiki/Joule"
+        },
+        "calorie": {
+          "abbr": "cal",
+          "definition": "The calorie is a unit of energy often used in nutrition. It measures the amount of energy needed to raise the temperature of water.",
+          "wiki": "https://de.wikipedia.org/wiki/Kalorie"
+        },
+        "kilocalorie": {
+          "abbr": "kcal",
+          "definition": "The kilocalorie corresponds to 1000 calories and is commonly used to indicate the energy content of foods. It is widely used in nutrition science.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
+        },
+        "kilowatt-hour": {
+          "abbr": "kWh",
+          "definition": "The kilowatt-hour is a unit of energy primarily used for billing electric power. It measures energy consumption over one hour at a power of one kilowatt.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilowattstunde"
+        }
+      },
+      "power": {
+        "watt": {
+          "abbr": "W",
+          "definition": "The watt is the SI unit of power and measures the amount of energy transferred per unit time. It is used in electrical engineering and physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Watt"
+        },
+        "kilowatt": {
+          "abbr": "kW",
+          "definition": "A kilowatt equals 1000 watts and is often used to indicate the power of devices and engines. This unit is widely used in the energy industry and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilowatt"
+        },
+        "horsepower": {
+          "abbr": "hp",
+          "definition": "Horsepower is a unit of power historically used to describe the power of machines. It indicates how much power is required to perform a certain amount of work and is often used in the automotive industry.",
+          "wiki": "https://de.wikipedia.org/wiki/Pferdestärke"
+        }
+      },
+      "dataStorage": {
+        "byte": {
+          "abbr": "B",
+          "definition": "A byte is the basic unit of digital information, typically consisting of 8 bits. It forms the basis of data storage in computers.",
+          "wiki": "https://de.wikipedia.org/wiki/Byte"
+        },
+        "kilobyte": {
+          "abbr": "KB",
+          "definition": "A kilobyte equals 1024 bytes and is used to measure the size of small files. This unit is common in computer science.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilobyte"
+        },
+        "megabyte": {
+          "abbr": "MB",
+          "definition": "A megabyte equals 1024 kilobytes and is often used to describe file size or storage capacity. This unit is common in the digital world.",
+          "wiki": "https://de.wikipedia.org/wiki/Megabyte"
+        },
+        "gigabyte": {
+          "abbr": "GB",
+          "definition": "A gigabyte equals 1024 megabytes and is used to measure the storage capacity of hard drives and other devices. This unit is common in information technology.",
+          "wiki": "https://de.wikipedia.org/wiki/Gigabyte"
+        }
+      },
+      "angle": {
+        "radian": {
+          "abbr": "rad",
+          "definition": "The radian is the SI unit for measuring angles and describes the angle as the arc length relative to the radius of a circle. It is fundamental in mathematics and physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Radiant"
+        },
+        "degree": {
+          "abbr": "°",
+          "definition": "The degree is a common unit for angles, with a full circle consisting of 360 degrees. It is frequently used in geometry and everyday life.",
+          "wiki": "https://de.wikipedia.org/wiki/Grad"
+        },
+        "grad": {
+          "abbr": "gon",
+          "definition": "The grad is an alternative unit for measuring angles, where a right angle is equal to 100 gons. It is used in certain technical fields and provides a decimal-based representation.",
+          "wiki": "https://de.wikipedia.org/wiki/Gon"
+        }
+      },
+      "frequency": {
+        "hertz": {
+          "abbr": "Hz",
+          "definition": "The hertz is the SI unit for frequency and indicates how many oscillations occur per second. It is widely used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "kilohertz": {
+          "abbr": "kHz",
+          "definition": "A kilohertz equals 1000 hertz and is frequently used to describe audio frequencies and in communication technology. This unit is common in electronics.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "megahertz": {
+          "abbr": "MHz",
+          "definition": "A megahertz equals 1,000,000 hertz and is often used in radio technology and frequency measurements. It is significant in communication and electronics.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "gigahertz": {
+          "abbr": "GHz",
+          "definition": "A gigahertz equals 1,000,000,000 hertz and is primarily used in describing processor and radio frequencies. This unit is indispensable in modern technology.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        }
+      },
+      "force": {
+        "newton": {
+          "abbr": "N",
+          "definition": "The newton is the SI unit for force and is defined as the force needed to accelerate a 1-kilogram mass at 1 m/s². This unit is fundamental in physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "kilonewton": {
+          "abbr": "kN",
+          "definition": "A kilonewton equals 1000 newtons and is frequently used in engineering and construction to measure larger forces. It provides a more convenient representation of high force values.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "pound-force": {
+          "abbr": "lbf",
+          "definition": "Pound-force is a unit of force used primarily in the Anglophone world that indicates the force resulting from the weight of one pound. This unit is often used in engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
+        }
+      },
+      "density": {
+        "kg/m³": {
+          "abbr": "kg/m³",
+          "definition": "Density in kilograms per cubic meter is an SI unit that indicates mass per unit volume. It is used to characterize the properties of materials.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "g/cm³": {
+          "abbr": "g/cm³",
+          "definition": "Density in grams per cubic centimeter is often used in materials science to determine the mass in a given volume. This unit allows comparison of material densities.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "lb/ft³": {
+          "abbr": "lb/ft³",
+          "definition": "Density in pounds per cubic foot is a unit commonly used in the Anglophone world. It measures mass per unit volume and is frequently used in construction and materials engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        }
+      },
+      "volumeFlow": {
+        "m³/s": {
+          "abbr": "m³/s",
+          "definition": "The volume flow in cubic meters per second measures the amount of a fluid flowing through a cross-section per second. This unit is important in fluid dynamics.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "liter/s": {
+          "abbr": "l/s",
+          "definition": "The volume flow in liters per second indicates how many liters of a fluid flow per second. This unit is frequently used in process engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "gallon/min": {
+          "abbr": "gal/min",
+          "definition": "The volume flow in gallons per minute measures the amount of a fluid flowing per minute. This unit is common in the USA and used in technical applications.",
+          "wiki": "https://de.wikipedia.org/wiki/Gallone"
+        }
+      },
+      "acceleration": {
+        "m/s²": {
+          "abbr": "m/s²",
+          "definition": "Acceleration in meters per second squared indicates how quickly the speed changes. It is the SI unit for acceleration and central to physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "ft/s²": {
+          "abbr": "ft/s²",
+          "definition": "Acceleration in feet per second squared is an alternative unit used primarily in the Anglophone world. It indicates the rate of change of speed in these units.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "km/h/s": {
+          "abbr": "km/h/s",
+          "definition": "Acceleration in kilometers per hour per second measures how quickly the speed in km/h changes. This unit is frequently used in the automotive sector.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        }
+      },
+      "areaDensity": {
+        "kg/m²": {
+          "abbr": "kg/m²",
+          "definition": "Area density in kilograms per square meter indicates how much mass is distributed over a given area. It is used primarily in construction and materials science.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "g/cm²": {
+          "abbr": "g/cm²",
+          "definition": "Area density in grams per square centimeter measures the mass per unit area and is used in engineering. This unit enables precise calculations for small areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        }
+      },
+      "illuminance": {
+        "lux": {
+          "abbr": "lx",
+          "definition": "The lux is the SI unit for illuminance and measures how much light falls on a surface per square meter. It is significant in lighting technology and architecture.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        },
+        "foot-candle": {
+          "abbr": "fc",
+          "definition": "A foot-candle is a unit of illuminance used primarily in the Anglophone world that indicates how much light falls on one square foot. This unit is often used in lighting design.",
+          "wiki": "https://de.wikipedia.org/wiki/Foot-candle"
+        }
+      },
+      "dataRate": {
+        "bit/s": {
+          "abbr": "bit/s",
+          "definition": "Bits per second is the unit for data transfer rate and indicates how many bits are transmitted in one second. This unit is central in information technology.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "kilobit/s": {
+          "abbr": "kbit/s",
+          "definition": "Kilobits per second equals 1000 bits per second and is frequently used in network communications. This unit helps determine internet speeds.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "megabit/s": {
+          "abbr": "Mbit/s",
+          "definition": "Megabits per second equals 1,000,000 bits per second and is often used to indicate internet and data transfer speeds. It is common in telecommunications.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "gigabit/s": {
+          "abbr": "Gbit/s",
+          "definition": "Gigabits per second equals 1,000,000,000 bits per second and is primarily used in high-speed networks. This unit is indispensable for modern data communication systems.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "byte/s": {
+          "abbr": "B/s",
+          "definition": "Bytes per second measures the data transfer rate in bytes and is used to determine the speed of data transfers. This unit is relevant in computer technology.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "kilobyte/s": {
+          "abbr": "KB/s",
+          "definition": "Kilobytes per second equals 1024 bytes per second and is often used to measure download and upload speeds. This unit is common in computer science.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "megabyte/s": {
+          "abbr": "MB/s",
+          "definition": "Megabytes per second equals 1024 kilobytes per second and is used to indicate data transfer rates in computers and networks. This unit is common in digital data transfer.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        }
+      }
+    },
+    "labels": {
+      "category": "Category",
+      "value": "Value",
+      "from": "From",
+      "to": "to",
+      "calculate": "Convert",
+      "result": "Result",
+      "select": "Select",
+      "invalidNumber": "Please enter a valid number.",
+      "differentUnits": "Please choose different units."
+    }
+  }
+}

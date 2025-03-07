@@ -1,0 +1,504 @@
+{
+  "HomePage":{
+		"heroTitle": "Caixa de Ferramentas Online Definitiva para Fluxos de Trabalho Digitais Modernos",
+		"heroSubtitle": "Capacitando desenvolvedores, designers e profissionais criativos com soluções digitais inovadoras",
+		"heroDescription": "Descubra uma coleção abrangente de ferramentas online projetadas para otimizar seu trabalho. De conversores de unidades avançados a conversores de arquivos eficientes, nossa plataforma impulsiona sua produtividade e criatividade.",
+		"usageInstructions": "Use o menu de hambúrguer no canto superior direito para escolher suas ferramentas, alterar o tema ou mudar o idioma entre inglês, alemão, francês, espanhol, português, ucraniano e chinês.",
+		"ctaButton": "Explore Nossas Ferramentas Agora",
+		"toolsOverviewTitle": "Conheça Nossa Diversificada Gama de Ferramentas",
+		"toolsOverviewSubtitle": "Explore nossos poderosos e inovadores recursos que simplificam tarefas complexas e elevam seu desempenho digital.",
+		"toolCard1Title": "Conversor de Unidades",
+		"toolCard1Description": "Converta medidas com precisão, de comprimentos a pesos e temperaturas, de forma rápida e eficiente.",
+		"toolCard2Title": "Conversor de Arquivos",
+		"toolCard2Description": "Transforme seus arquivos entre diversos formatos com facilidade e confiabilidade.",
+		"toolCard3Title": "Gerador de Senhas",
+		"toolCard3Description": "Gere senhas seguras e aleatórias com facilidade e opções personalizáveis.",
+		"toolCard4Title": "Gerador de Código QR",
+		"toolCard4Description": "Crie códigos QR para URLs, textos e muito mais em segundos com nossa ferramenta intuitiva.",
+		"toolCard5Title": "Gerador de Gorjetas",
+		"toolCard5Description": "Calcule rapidamente a gorjeta ideal para sua conta com nosso gerador intuitivo.",
+		"toolCard6Title": "Formatador e Validador de JSON",
+		"toolCard6Description": "Formate e valide seus dados JSON sem esforço para garantir uma sintaxe e estrutura corretas.",
+		"additionalTitle": "Soluções Inovadoras para Potencializar sua Experiência Digital",
+		"additionalDescription": "Nossa plataforma evolui constantemente para oferecer as ferramentas e recursos mais modernos, maximizando sua eficiência. Experimente versatilidade e desempenho sem igual.",
+		"learnMoreButton": "Saiba Mais Sobre Nós",
+		"description": "Toolboxes.app é o recurso online líder, oferecendo uma coleção poderosa de ferramentas que transformam sua forma de trabalhar.",
+		"seeMoreButton": "Ver Mais"
+	},
+  "UnitConverterPage": {
+    "definitions": {
+      "for": "Definição para",
+      "more": "Mais na Wikipedia"
+    },
+    "description": "Um conversor de unidades abrangente",
+    "length": "Comprimento",
+    "weight": "Peso",
+    "area": "Área",
+    "volume": "Volume",
+    "temperature": "Temperatura",
+    "speed": "Velocidade",
+    "time": "Tempo",
+    "pressure": "Pressão",
+    "energy": "Energia",
+    "power": "Potência",
+    "dataStorage": "Armazenamento de dados",
+    "angle": "Ângulo",
+    "frequency": "Frequência",
+    "force": "Força",
+    "density": "Densidade",
+    "volumeFlow": "Vazão",
+    "acceleration": "Aceleração",
+    "areaDensity": "Densidade de área",
+    "illuminance": "Iluminância",
+    "dataRate": "Taxa de transferência de dados",
+    "to": "para",
+    "units": {
+      "length": {
+        "meter": {
+          "abbr": "m",
+          "definition": "O metro é a unidade base do SI para comprimento e serve como medida padrão para distâncias. É definido historicamente e reconhecido mundialmente.",
+          "wiki": "https://de.wikipedia.org/wiki/Meter"
+        },
+        "kilometer": {
+          "abbr": "km",
+          "definition": "Um quilômetro equivale a 1000 metros e é comumente usado para indicar distâncias na prática. É uma unidade comum no cotidiano.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilometer"
+        },
+        "centimeter": {
+          "abbr": "cm",
+          "definition": "Um centímetro é um centésimo de metro e é frequentemente usado para medir comprimentos pequenos. Esta unidade é utilizada em muitas aplicações diárias.",
+          "wiki": "https://de.wikipedia.org/wiki/Zentimeter"
+        },
+        "millimeter": {
+          "abbr": "mm",
+          "definition": "Um milímetro é um milésimo de metro e é usado para medições precisas de comprimentos pequenos. Esta unidade é especialmente importante em áreas técnicas.",
+          "wiki": "https://de.wikipedia.org/wiki/Millimeter"
+        },
+        "mile": {
+          "abbr": "mi",
+          "definition": "Uma milha é uma unidade de comprimento usada principalmente em países anglófonos. Equivale a aproximadamente 1,609 quilômetros e possui importância histórica.",
+          "wiki": "https://de.wikipedia.org/wiki/Meile"
+        },
+        "yard": {
+          "abbr": "yd",
+          "definition": "Um jarda é uma unidade de comprimento comum nos EUA e no Reino Unido. Equivale a 0,9144 metros e é utilizada, entre outras, na indústria têxtil e esportiva.",
+          "wiki": "https://de.wikipedia.org/wiki/Yard"
+        },
+        "foot": {
+          "abbr": "ft",
+          "definition": "Um pé é uma unidade tradicional de comprimento utilizada nos EUA e em alguns outros países. Equivale a 0,3048 metros e é usado principalmente na construção.",
+          "wiki": "https://de.wikipedia.org/wiki/Fuß"
+        },
+        "inch": {
+          "abbr": "in",
+          "definition": "Uma polegada é uma unidade de comprimento usada principalmente em países anglófonos. Equivale a 2,54 centímetros e é utilizada na tecnologia e no cotidiano.",
+          "wiki": "https://de.wikipedia.org/wiki/Inch"
+        }
+      },
+      "weight": {
+        "kilogram": {
+          "abbr": "kg",
+          "definition": "O quilograma é a unidade base do SI para massa e serve como medida padrão na ciência e no comércio. É reconhecido mundialmente.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilogramm"
+        },
+        "gram": {
+          "abbr": "g",
+          "definition": "Um grama é um milésimo de um quilograma e é frequentemente usado para massas leves. Esta unidade é comum na cozinha e no comércio.",
+          "wiki": "https://de.wikipedia.org/wiki/Gramm"
+        },
+        "milligram": {
+          "abbr": "mg",
+          "definition": "Um miligrama equivale a um milésimo de um grama e é usado para medir massas muito pequenas, especialmente na medicina. É frequentemente usado para dosagens precisas.",
+          "wiki": "https://de.wikipedia.org/wiki/Milligramm"
+        },
+        "pound": {
+          "abbr": "lb",
+          "definition": "A libra é uma unidade de massa tradicional utilizada principalmente em países anglófonos. Equivale a aproximadamente 0,4536 quilogramas e é usada no comércio e no dia a dia.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund"
+        },
+        "ounce": {
+          "abbr": "oz",
+          "definition": "A onça é uma unidade de massa menor, conhecida principalmente em países anglófonos. Equivale a cerca de 28,35 gramas e é frequentemente usada na indústria alimentícia.",
+          "wiki": "https://de.wikipedia.org/wiki/Unze"
+        }
+      },
+      "area": {
+        "square meter": {
+          "abbr": "m²",
+          "definition": "O metro quadrado é a unidade de área do Sistema Internacional e é usado para medir superfícies em arquitetura e agricultura. É uma unidade padronizada e amplamente utilizada.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratmeter"
+        },
+        "square kilometer": {
+          "abbr": "km²",
+          "definition": "Um quilômetro quadrado corresponde a um milhão de metros quadrados. Esta unidade é utilizada principalmente para representar grandes áreas, como extensões de terra.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratkilometer"
+        },
+        "square centimeter": {
+          "abbr": "cm²",
+          "definition": "Um centímetro quadrado é uma pequena unidade de área, frequentemente usada em ciência dos materiais e no cotidiano. Mede a área de um quadrado de 1 cm de lado.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratzentimeter"
+        },
+        "square foot": {
+          "abbr": "ft²",
+          "definition": "Um pé quadrado é uma unidade de área usada principalmente nos EUA e no Reino Unido, equivalente a aproximadamente 0,0929 m². É frequentemente utilizada no setor imobiliário.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratfuß"
+        },
+        "acre": {
+          "abbr": "ac",
+          "definition": "Um acre é uma unidade de área tradicional utilizada principalmente nos EUA e no Reino Unido. Equivale a cerca de 4047 metros quadrados e é usada na agricultura e na avaliação imobiliária.",
+          "wiki": "https://de.wikipedia.org/wiki/Acre"
+        }
+      },
+      "volume": {
+        "cubic meter": {
+          "abbr": "m³",
+          "definition": "O metro cúbico é a unidade de volume do Sistema Internacional e é usado para medir espaço. Esta unidade é importante em áreas como construção, armazenagem e engenharia.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikmeter"
+        },
+        "liter": {
+          "abbr": "l",
+          "definition": "O litro é uma unidade de volume comumente usada para medir líquidos. Corresponde a um decímetro cúbico e é amplamente utilizado no dia a dia.",
+          "wiki": "https://de.wikipedia.org/wiki/Liter"
+        },
+        "milliliter": {
+          "abbr": "ml",
+          "definition": "Um mililitro é um milésimo de um litro e serve para medir pequenas quantidades de líquido. Esta unidade é principalmente utilizada na medicina e na culinária.",
+          "wiki": "https://de.wikipedia.org/wiki/Milliliter"
+        },
+        "cubic centimeter": {
+          "abbr": "cm³",
+          "definition": "Um centímetro cúbico equivale a um mililitro e é frequentemente usado na tecnologia e na medicina para medir pequenos volumes. É uma unidade precisa e amplamente utilizada.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikzentimeter"
+        },
+        "gallon (US)": {
+          "abbr": "gal",
+          "definition": "Um galão (EUA) é uma unidade de volume utilizada nos Estados Unidos para medir líquidos. Equivale a aproximadamente 3,785 litros e possui importância histórica e prática.",
+          "wiki": "https://de.wikipedia.org/wiki/Gallone"
+        }
+      },
+      "temperature": {
+        "celsius": {
+          "abbr": "°C",
+          "definition": "A escala Celsius é uma unidade de temperatura onde 0 °C representa o ponto de congelamento da água. É usada na maioria dos países e é fácil de compreender.",
+          "wiki": "https://de.wikipedia.org/wiki/Celsius"
+        },
+        "fahrenheit": {
+          "abbr": "°F",
+          "definition": "A escala Fahrenheit é uma unidade de temperatura utilizada principalmente nos EUA. Nessa escala, o ponto de congelamento da água é 32 °F, diferenciando-a da Celsius.",
+          "wiki": "https://de.wikipedia.org/wiki/Fahrenheit"
+        },
+        "kelvin": {
+          "abbr": "K",
+          "definition": "A escala Kelvin é a unidade SI para medições de temperatura e inicia no zero absoluto. É utilizada principalmente em ciência e engenharia.",
+          "wiki": "https://de.wikipedia.org/wiki/Kelvin"
+        }
+      },
+      "speed": {
+        "m/s": {
+          "abbr": "m/s",
+          "definition": "A velocidade em metros por segundo é uma unidade SI que indica quantos metros são percorridos em um segundo. É amplamente utilizada em física e engenharia.",
+          "wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
+        },
+        "km/h": {
+          "abbr": "km/h",
+          "definition": "Quilômetros por hora indicam quantos quilômetros são percorridos em uma hora. Esta unidade é frequentemente usada no trânsito e na meteorologia.",
+          "wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
+        },
+        "mph": {
+          "abbr": "mph",
+          "definition": "Milhas por hora são uma unidade de velocidade utilizada principalmente nos EUA e no Reino Unido. Medem quantas milhas são percorridas em uma hora.",
+          "wiki": "https://de.wikipedia.org/wiki/Meile"
+        }
+      },
+      "time": {
+        "second": {
+          "abbr": "s",
+          "definition": "O segundo é a unidade base do tempo no Sistema Internacional. É usado para medir intervalos de tempo e é padronizado mundialmente.",
+          "wiki": "https://de.wikipedia.org/wiki/Sekunde"
+        },
+        "minute": {
+          "abbr": "min",
+          "definition": "Um minuto é composto por 60 segundos e é utilizado para medir períodos curtos de tempo. Esta unidade é muito comum no dia a dia.",
+          "wiki": "https://de.wikipedia.org/wiki/Minute"
+        },
+        "hour": {
+          "abbr": "h",
+          "definition": "Uma hora é composta por 60 minutos e é uma unidade comum de tempo para o cotidiano. É utilizada mundialmente e forma a base de muitos planejamentos.",
+          "wiki": "https://de.wikipedia.org/wiki/Stunde"
+        },
+        "day": {
+          "abbr": "d",
+          "definition": "Um dia corresponde à rotação da Terra e compreende 24 horas. É a unidade fundamental do tempo no cotidiano e utilizada em quase todas as culturas.",
+          "wiki": "https://de.wikipedia.org/wiki/Tag"
+        }
+      },
+      "pressure": {
+        "pascal": {
+          "abbr": "Pa",
+          "definition": "O pascal é a unidade SI de pressão e mede a força por unidade de área. É usado em física e engenharia para descrever condições de pressão.",
+          "wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
+        },
+        "kilopascal": {
+          "abbr": "kPa",
+          "definition": "Um quilopascal equivale a 1000 pascals e é frequentemente usado para representar pressões em engenharia e meteorologia.",
+          "wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
+        },
+        "bar": {
+          "abbr": "bar",
+          "definition": "O bar é uma unidade de pressão usada principalmente em engenharia e em boletins meteorológicos. Um bar equivale a 100.000 pascals e é de fácil compreensão.",
+          "wiki": "https://de.wikipedia.org/wiki/Bar_(Einheit)"
+        },
+        "psi": {
+          "abbr": "psi",
+          "definition": "PSI significa libras por polegada quadrada e é uma unidade de pressão comumente usada nos EUA. Mede a pressão como força por unidade de área e é frequentemente utilizada no setor automotivo.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund_pro_Quadratzoll"
+        }
+      },
+      "energy": {
+        "joule": {
+          "abbr": "J",
+          "definition": "O joule é a unidade SI de energia e mede a quantidade de trabalho ou calor. É usado em física, engenharia e química.",
+          "wiki": "https://de.wikipedia.org/wiki/Joule"
+        },
+        "kilojoule": {
+          "abbr": "kJ",
+          "definition": "Um quilojoule equivale a 1000 joules e é frequentemente usado em nutrição e engenharia.",
+          "wiki": "https://de.wikipedia.org/wiki/Joule"
+        },
+        "calorie": {
+          "abbr": "cal",
+          "definition": "A caloria é uma unidade de energia frequentemente usada em nutrição. Mede a quantidade de energia necessária para elevar a temperatura da água.",
+          "wiki": "https://de.wikipedia.org/wiki/Kalorie"
+        },
+        "kilocalorie": {
+          "abbr": "kcal",
+          "definition": "A quilocaloria equivale a 1000 calorias e é comumente usada para indicar o valor energético dos alimentos. É amplamente utilizada na ciência da nutrição.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
+        },
+        "kilowatt-hour": {
+          "abbr": "kWh",
+          "definition": "O quilowatt-hora é uma unidade de energia usada principalmente para faturamento de eletricidade. Mede o consumo de energia durante uma hora a uma potência de um quilowatt.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilowattstunde"
+        }
+      },
+      "power": {
+        "watt": {
+          "abbr": "W",
+          "definition": "O watt é a unidade SI de potência e mede a quantidade de energia transferida por unidade de tempo. É usado em engenharia elétrica e física.",
+          "wiki": "https://de.wikipedia.org/wiki/Watt"
+        },
+        "kilowatt": {
+          "abbr": "kW",
+          "definition": "Um quilowatt equivale a 1000 watts e é frequentemente usado para indicar a potência de dispositivos e motores. Esta unidade é amplamente utilizada na indústria de energia e engenharia.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilowatt"
+        },
+        "horsepower": {
+          "abbr": "hp",
+          "definition": "A potência em cavalos é uma unidade de potência historicamente utilizada para descrever a força de máquinas. Indica a quantidade de potência necessária para realizar um determinado trabalho e é comumente utilizada na indústria automotiva.",
+          "wiki": "https://de.wikipedia.org/wiki/Pferdestärke"
+        }
+      },
+      "dataStorage": {
+        "byte": {
+          "abbr": "B",
+          "definition": "Um byte é a unidade básica de informação digital, normalmente composto por 8 bits. Forma a base do armazenamento de dados em computadores.",
+          "wiki": "https://de.wikipedia.org/wiki/Byte"
+        },
+        "kilobyte": {
+          "abbr": "KB",
+          "definition": "Um kilobyte equivale a 1024 bytes e é usado para medir o tamanho de arquivos pequenos. Esta unidade é comum em ciência da computação.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilobyte"
+        },
+        "megabyte": {
+          "abbr": "MB",
+          "definition": "Um megabyte equivale a 1024 kilobytes e é frequentemente usado para descrever o tamanho de arquivos ou a capacidade de armazenamento. Esta unidade é comum no mundo digital.",
+          "wiki": "https://de.wikipedia.org/wiki/Megabyte"
+        },
+        "gigabyte": {
+          "abbr": "GB",
+          "definition": "Um gigabyte equivale a 1024 megabytes e é usado para medir a capacidade de armazenamento de discos rígidos e outros dispositivos. É uma unidade comum em tecnologia da informação.",
+          "wiki": "https://de.wikipedia.org/wiki/Gigabyte"
+        }
+      },
+      "angle": {
+        "radian": {
+          "abbr": "rad",
+          "definition": "O radiano é a unidade SI para medir ângulos e descreve o ângulo como o comprimento do arco em relação ao raio de um círculo. É fundamental em matemática e física.",
+          "wiki": "https://de.wikipedia.org/wiki/Radiant"
+        },
+        "degree": {
+          "abbr": "°",
+          "definition": "O grau é uma unidade comum para medir ângulos, com um círculo completo contendo 360 graus. É frequentemente usado em geometria e no cotidiano.",
+          "wiki": "https://de.wikipedia.org/wiki/Grad"
+        },
+        "grad": {
+          "abbr": "gon",
+          "definition": "O grad é uma unidade alternativa para medir ângulos, na qual um ângulo reto equivale a 100 gons. É utilizado em alguns campos técnicos e fornece uma representação decimal.",
+          "wiki": "https://de.wikipedia.org/wiki/Gon"
+        }
+      },
+      "frequency": {
+        "hertz": {
+          "abbr": "Hz",
+          "definition": "O hertz é a unidade SI de frequência e indica quantas oscilações ocorrem por segundo. É amplamente utilizado em física e engenharia.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "kilohertz": {
+          "abbr": "kHz",
+          "definition": "Um quilohertz equivale a 1000 hertz e é frequentemente usado para descrever frequências de áudio e em tecnologia de comunicação. É comum em eletrônica.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "megahertz": {
+          "abbr": "MHz",
+          "definition": "Um megahertz equivale a 1.000.000 hertz e é frequentemente usado em tecnologia de rádio e medições de frequência. É importante em comunicação e eletrônica.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "gigahertz": {
+          "abbr": "GHz",
+          "definition": "Um gigahertz equivale a 1.000.000.000 hertz e é usado principalmente para descrever frequências de processadores e sinais de rádio. Esta unidade é indispensável na tecnologia moderna.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        }
+      },
+      "force": {
+        "newton": {
+          "abbr": "N",
+          "definition": "O newton é a unidade SI de força e é definido como a força necessária para acelerar uma massa de 1 quilograma a 1 m/s². Esta unidade é fundamental em física.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "kilonewton": {
+          "abbr": "kN",
+          "definition": "Um quilonewton equivale a 1000 newtons e é frequentemente usado em engenharia e construção para medir forças maiores. Permite uma representação mais prática de valores elevados de força.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "pound-force": {
+          "abbr": "lbf",
+          "definition": "A força em libras é uma unidade de força utilizada principalmente em países anglófonos que indica a força resultante do peso de uma libra. Esta unidade é frequentemente usada em engenharia.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
+        }
+      },
+      "density": {
+        "kg/m³": {
+          "abbr": "kg/m³",
+          "definition": "A densidade em quilogramas por metro cúbico é uma unidade SI que indica a massa por unidade de volume. É usada para caracterizar as propriedades dos materiais.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "g/cm³": {
+          "abbr": "g/cm³",
+          "definition": "A densidade em gramas por centímetro cúbico é frequentemente usada na ciência dos materiais para determinar a massa em um determinado volume. Esta unidade permite comparar as densidades dos materiais.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "lb/ft³": {
+          "abbr": "lb/ft³",
+          "definition": "A densidade em libras por pé cúbico é uma unidade comumente usada em países anglófonos. Mede a massa por unidade de volume e é frequentemente utilizada em construção e engenharia de materiais.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        }
+      },
+      "volumeFlow": {
+        "m³/s": {
+          "abbr": "m³/s",
+          "definition": "O fluxo volumétrico em metros cúbicos por segundo mede a quantidade de um fluido que passa por uma seção por segundo. Esta unidade é importante em dinâmica dos fluidos.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "liter/s": {
+          "abbr": "l/s",
+          "definition": "O fluxo em litros por segundo indica quantos litros de um fluido passam por segundo. É frequentemente usado em engenharia de processos.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "gallon/min": {
+          "abbr": "gal/min",
+          "definition": "O fluxo em galões por minuto mede a quantidade de um fluido que passa por minuto. Esta unidade é comum nos EUA e utilizada em aplicações técnicas.",
+          "wiki": "https://de.wikipedia.org/wiki/Gallone"
+        }
+      },
+      "acceleration": {
+        "m/s²": {
+          "abbr": "m/s²",
+          "definition": "A aceleração em metros por segundo ao quadrado indica quão rapidamente a velocidade muda. É a unidade SI de aceleração e central em física.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "ft/s²": {
+          "abbr": "ft/s²",
+          "definition": "A aceleração em pés por segundo ao quadrado é uma unidade alternativa usada principalmente em países anglófonos. Indica a taxa de variação da velocidade nessas unidades.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "km/h/s": {
+          "abbr": "km/h/s",
+          "definition": "A aceleração em quilômetros por hora por segundo mede quão rapidamente a velocidade em km/h muda. Esta unidade é frequentemente usada no setor automobilístico.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        }
+      },
+      "areaDensity": {
+        "kg/m²": {
+          "abbr": "kg/m²",
+          "definition": "A densidade superficial em quilogramas por metro quadrado indica quanta massa está distribuída sobre uma determinada área. É usada principalmente em construção e na ciência dos materiais.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "g/cm²": {
+          "abbr": "g/cm²",
+          "definition": "A densidade superficial em gramas por centímetro quadrado mede a massa por unidade de área e é utilizada em engenharia para cálculos precisos em áreas pequenas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        }
+      },
+      "illuminance": {
+        "lux": {
+          "abbr": "lx",
+          "definition": "O lux é a unidade SI de iluminância e mede quanta luz incide sobre uma superfície por metro quadrado. É importante em tecnologia de iluminação e arquitetura.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        },
+        "foot-candle": {
+          "abbr": "fc",
+          "definition": "O foot-candle é uma unidade de iluminância usada principalmente em países anglófonos que indica quanta luz incide sobre um pé quadrado. É frequentemente utilizado em projetos de iluminação.",
+          "wiki": "https://de.wikipedia.org/wiki/Foot-candle"
+        }
+      },
+      "dataRate": {
+        "bit/s": {
+          "abbr": "bit/s",
+          "definition": "Bits por segundo é a unidade de taxa de transferência de dados e indica quantos bits são transmitidos em um segundo. Esta unidade é central na tecnologia da informação.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "kilobit/s": {
+          "abbr": "kbit/s",
+          "definition": "Kilobits por segundo equivalem a 1000 bits por segundo e são frequentemente usados em comunicações de rede para determinar a velocidade da internet.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "megabit/s": {
+          "abbr": "Mbit/s",
+          "definition": "Megabits por segundo equivalem a 1.000.000 de bits por segundo e são frequentemente usados para indicar velocidades de transferência de dados. São comuns em telecomunicações.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "gigabit/s": {
+          "abbr": "Gbit/s",
+          "definition": "Gigabits por segundo equivalem a 1.000.000.000 de bits por segundo e são usados principalmente em redes de alta velocidade. Esta unidade é indispensável para os sistemas modernos de comunicação de dados.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "byte/s": {
+          "abbr": "B/s",
+          "definition": "Bytes por segundo medem a taxa de transferência de dados em bytes e são usados para determinar a velocidade de transmissão. Esta unidade é relevante em tecnologia da computação.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "kilobyte/s": {
+          "abbr": "KB/s",
+          "definition": "Kilobytes por segundo equivalem a 1024 bytes por segundo e são frequentemente usados para medir velocidades de download e upload. É uma unidade comum em ciência da computação.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "megabyte/s": {
+          "abbr": "MB/s",
+          "definition": "Megabytes por segundo equivalem a 1024 kilobytes por segundo e são usados para indicar taxas de transferência de dados em computadores e redes. Esta unidade é comum em transferências digitais.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        }
+      }
+    },
+    "labels": {
+      "category": "Categoria",
+      "value": "Valor",
+      "from": "De",
+      "to": "para",
+      "calculate": "Converter",
+      "result": "Resultado",
+      "select": "Selecionar",
+      "invalidNumber": "Por favor, insira um número válido.",
+      "differentUnits": "Por favor, escolha unidades diferentes."
+    }
+  }
+}

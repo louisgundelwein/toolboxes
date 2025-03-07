@@ -25,20 +25,18 @@ export const metadata: Metadata = {
 		'Toolboxes.app offers a comprehensive suite of advanced tools for developers, designers, and creative professionals to boost productivity.',
 };
 
-export default function RootLayout({
-	children,
-}: {
+type RootLayoutProps = {
 	children: React.ReactNode;
-}) {
+	params?: { locale?: string };
+};
+
+export default function RootLayout({ children, params }: RootLayoutProps) {
+	const locale = params?.locale || 'en';
+
 	return (
-		<html lang="en" className="min-h-screen" data-theme="dim">
+		<html lang={locale} className="min-h-screen" data-theme="dim">
 			<head>
 				<meta name="google-adsense-account" content="ca-pub-6105108199502947" />
-				<link rel="alternate" hrefLang="en" href="https://toolboxes.app/en" />
-				<link rel="alternate" hrefLang="de" href="https://toolboxes.app/de" />
-				<link rel="alternate" hrefLang="fr" href="https://toolboxes.app/fr" />
-				<link rel="alternate" hrefLang="es" href="https://toolboxes.app/es" />
-				<link rel="alternate" hrefLang="x-default" href="https://toolboxes.app/en" />
 				<AdSense publisherId="6105108199502947" />
 				<Analytics />
 				<SpeedInsights />

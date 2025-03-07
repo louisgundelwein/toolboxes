@@ -5,45 +5,26 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { getUnitCategories } from '../util/unitCategories';
 import { roundValue } from '../util/rounding';
-import locales from '../util/locales.json';
 import UnitDefinitions, { UnitCategoryKey } from './UnitDefinitions';
 import Dropdown from '@/app/components/dropdown';
 import { slugifyUnit } from '../util/util';
+import { useTranslations } from 'next-intl';
+import { redirect } from '@/i18n/navigation';
 
-export interface ConverterProps {
-	onConversionChange?: (conversionTitle: string) => void;
-	locale: keyof typeof locales;
-	initialCategory?: UnitCategoryKey | '';
-	initialFromUnit?: string;
-	initialToUnit?: string;
-}
-
-const Converter: React.FC<ConverterProps> = ({
-	onConversionChange,
-	locale,
-	initialCategory = '',
-	initialFromUnit = '',
-	initialToUnit = '',
-}) => {
+export default function Converter() {
 	const router = useRouter();
+	const t = useTranslations('UnitConverterPage');
 	const unitCategories = useMemo(() => getUnitCategories(locale), [locale]);
-	const labels = useMemo(
-		() => locales[locale]['unit-converter'].labels,
-		[locale]
-	);
-	const defaultDescription =
-		locales[locale]['unit-converter'].description || 'Unit Converter';
+	const defaultDescription = t('description') || 'Unit Converter';
 	const categoryKeys = useMemo(
 		() => Object.keys(unitCategories),
 		[unitCategories]
 	);
 
 	// State – initial Werte
-	const [category, setCategory] = useState<UnitCategoryKey | ''>(
-		initialCategory
-	);
-	const [fromUnit, setFromUnit] = useState<string>(initialFromUnit);
-	const [toUnit, setToUnit] = useState<string>(initialToUnit);
+	const [category, setCategory] = useState<UnitCategoryKey | ''>('');
+	const [fromUnit, setFromUnit] = useState<string>('');
+	const [toUnit, setToUnit] = useState<string>('');
 	const [value, setValue] = useState<string>('');
 	const [result, setResult] = useState<string>('');
 
@@ -80,12 +61,12 @@ const Converter: React.FC<ConverterProps> = ({
 	// Effekt: Aktualisiere URL und Conversion-Titel, wenn Kategorie, fromUnit und toUnit gesetzt sind
 	useEffect(() => {
 		if (category && fromUnit && toUnit) {
-			const filler = locales[locale]['unit-converter'].to || 'in';
+			const filler = t('to');
 			// Hier werden die Unit-Namen slugifiziert:
 			const slug = `${slugifyUnit(fromUnit)}-${filler}-${slugifyUnit(toUnit)}`;
-			router.replace(`/${locale}/unit-converter/${category}/${slug}`);
+			redirect(`/unit-converter/${category}/${slug}`);
 			if (onConversionChange) {
-				const toWord = locales[locale]['unit-converter'].to;
+				const toWord = t('to');
 				const title = `${
 					fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)
 				} ${toWord} ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`;
@@ -114,7 +95,7 @@ const Converter: React.FC<ConverterProps> = ({
 		}
 		const numValue = parseFloat(value);
 		if (isNaN(numValue)) {
-			setResult(labels.invalidNumber);
+			setResult(t('labels.invalidNumber'));
 			return;
 		}
 		let converted: number;
@@ -158,110 +139,110 @@ const Converter: React.FC<ConverterProps> = ({
 	// Erzeuge einen Conversion-Titel, der "FromUnit to ToUnit" anzeigt, wenn beide gesetzt sind
 	const conversionTitle =
 		fromUnit && toUnit
-			? `${fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)} ${
-					locales[locale]['unit-converter'].to
-			  } ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`
+			? `${fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)} ${t('to')} ${
+					toUnit.charAt(0).toUpperCase() + toUnit.slice(1)
+			  }`
 			: '';
 
 	return (
-		<div className='flex flex-col w-full items-center '>
-		<div className="card w-full max-w-lg bg-base-100 shadow-xl p-6">
-			{/* Ganz oben: H2 mit Conversion-Titel, falls vorhanden */}
-			{conversionTitle && (
-				<h2 className="text-2xl font-semibold text-secondary text-center w-full mb-4">
-					{conversionTitle}
-				</h2>
-			)}
-			<form onSubmit={(e) => e.preventDefault()} className="space-y-4">
-				{/* Kategorie-Dropdown */}
-				<div className="form-control">
-					<label className="label">
-						<span className="label-text">{labels.category}</span>
-					</label>
-					<Dropdown
-						label={category ? unitCategories[category].name : labels.select}
-						items={categoryItems}
-						buttonClassName="btn btn-outline w-full"
-						onSelect={(item) => {
-							const newCategory = item.value as UnitCategoryKey;
-							if (newCategory && newCategory !== category) {
-								// Neue Kategorie setzen und vorhandene Units zurücksetzen,
-								// damit der Kategorienwechsel-Effekt die Standardwerte setzt.
-								setCategory(newCategory);
-								setFromUnit('');
-								setToUnit('');
-							}
-						}}
-					/>
-				</div>
-				{category && (
-					<>
-						<div className="form-control">
-							<label htmlFor="value" className="label">
-								<span className="label-text">{labels.value}</span>
-							</label>
-							<input
-								id="value"
-								type="text"
-								value={value}
-								onChange={(e) => setValue(e.target.value)}
-								placeholder={labels.value}
-								className="input input-bordered w-full"
-							/>
-						</div>
-						<div className="flex gap-2">
-							<div className="form-control flex-1">
-								<label className="label">
-									<span className="label-text">{labels.from}</span>
-								</label>
-								<Dropdown
-									label={
-										fromUnit
-											? unitCategories[category].units[fromUnit].abbrev
-											: labels.select
-									}
-									items={unitItemsForFrom}
-									buttonClassName="btn btn-outline w-full"
-								/>
-							</div>
-							<div className="form-control flex-1">
-								<label className="label">
-									<span className="label-text">{labels.to}</span>
-								</label>
-								<Dropdown
-									label={
-										toUnit
-											? unitCategories[category].units[toUnit].abbrev
-											: labels.select
-									}
-									items={unitItemsForTo}
-									buttonClassName="btn btn-outline w-full"
-								/>
-							</div>
-						</div>
-					</>
+		<div className="flex flex-col w-full items-center ">
+			<div className="card w-full max-w-lg bg-base-100 shadow-xl p-6">
+				{/* Ganz oben: H2 mit Conversion-Titel, falls vorhanden */}
+				{conversionTitle && (
+					<h2 className="text-2xl font-semibold text-secondary text-center w-full mb-4">
+						{conversionTitle}
+					</h2>
 				)}
-			</form>
-			{result && (
-				<div className="alert alert-info mt-4">
-					<span>
-						{labels.result}: {result}
-					</span>
-				</div>
-			)}
-		</div>
-		<div>
+				<form onSubmit={(e) => e.preventDefault()} className="space-y-4">
+					{/* Kategorie-Dropdown */}
+					<div className="form-control">
+						<label className="label">
+							<span className="label-text">{t('labels.category')}</span>
+						</label>
+						<Dropdown
+							label={
+								category ? unitCategories[category].name : t('labels.select')
+							}
+							items={categoryItems}
+							buttonClassName="btn btn-outline w-full"
+							onSelect={(item) => {
+								const newCategory = item.value as UnitCategoryKey;
+								if (newCategory && newCategory !== category) {
+									// Neue Kategorie setzen und vorhandene Units zurücksetzen,
+									// damit der Kategorienwechsel-Effekt die Standardwerte setzt.
+									setCategory(newCategory);
+									setFromUnit('');
+									setToUnit('');
+								}
+							}}
+						/>
+					</div>
+					{category && (
+						<>
+							<div className="form-control">
+								<label htmlFor="value" className="label">
+									<span className="label-text">{t('labels.value')}</span>
+								</label>
+								<input
+									id="value"
+									type="text"
+									value={value}
+									onChange={(e) => setValue(e.target.value)}
+									placeholder={t('labels.value')}
+									className="input input-bordered w-full"
+								/>
+							</div>
+							<div className="flex gap-2">
+								<div className="form-control flex-1">
+									<label className="label">
+										<span className="label-text">{t('labels.from')}</span>
+									</label>
+									<Dropdown
+										label={
+											fromUnit
+												? unitCategories[category].units[fromUnit].abbrev
+												: t('labels.select')
+										}
+										items={unitItemsForFrom}
+										buttonClassName="btn btn-outline w-full"
+									/>
+								</div>
+								<div className="form-control flex-1">
+									<label className="label">
+										<span className="label-text">{t('labels.to')}</span>
+									</label>
+									<Dropdown
+										label={
+											toUnit
+												? unitCategories[category].units[toUnit].abbrev
+												: t('labels.select')
+										}
+										items={unitItemsForTo}
+										buttonClassName="btn btn-outline w-full"
+									/>
+								</div>
+							</div>
+						</>
+					)}
+				</form>
+				{result && (
+					<div className="alert alert-info mt-4">
+						<span>
+							{t('labels.result')}: {result}
+						</span>
+					</div>
+				)}
+			</div>
+			<div>
 				{category && fromUnit && toUnit && (
-				<UnitDefinitions
-					locale={locale}
-					category={category}
-					fromUnit={fromUnit}
-					toUnit={toUnit}
-				/>
-			)}
+					<UnitDefinitions
+						locale={locale}
+						category={category}
+						fromUnit={fromUnit}
+						toUnit={toUnit}
+					/>
+				)}
 			</div>
-			</div>
+		</div>
 	);
-};
-
-export default Converter;
+}

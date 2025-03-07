@@ -1,10 +1,9 @@
 // components/LanguageSwitcher.tsx
 'use client';
 
+import { LOCALES } from '@/shared';
 import { useRouter, usePathname } from 'next/navigation';
 import { useMemo } from 'react';
-
-const SUPPORTED_LOCALES = ['en', 'de', 'fr', 'es', 'uk', 'zh', 'pt', 'mn'];
 
 const LANGUAGE_NAMES: { [key: string]: string } = {
 	en: 'English',
@@ -14,7 +13,6 @@ const LANGUAGE_NAMES: { [key: string]: string } = {
 	uk: 'Українська',
 	zh: '中文',
 	pt: 'Português',
-	mn: 'Монгол',
 };
 
 const LanguageSwitcher: React.FC = () => {
@@ -26,13 +24,13 @@ const LanguageSwitcher: React.FC = () => {
 	);
 
 	const currentLocale =
-		segments.length > 0 && SUPPORTED_LOCALES.includes(segments[0])
+		segments.length > 0 && LOCALES.includes(segments[0])
 			? segments[0]
 			: 'de';
 
 	const switchLanguage = (newLocale: string) => {
 		let newPath = '';
-		if (segments.length > 0 && SUPPORTED_LOCALES.includes(segments[0])) {
+		if (segments.length > 0 && LOCALES.includes(segments[0])) {
 			newPath = '/' + [newLocale, ...segments.slice(1)].join('/');
 		} else {
 			newPath = '/' + [newLocale, ...segments].join('/');
@@ -62,7 +60,7 @@ const LanguageSwitcher: React.FC = () => {
 				tabIndex={0}
 				className="dropdown-content menu bg-base-300 rounded-box z-[1] p-2 shadow-2xl"
 			>
-				{SUPPORTED_LOCALES.map((locale) => (
+				{LOCALES.map((locale) => (
 					<li key={locale}>
 						<button
 							onClick={() => switchLanguage(locale)}
