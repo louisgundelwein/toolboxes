@@ -1,104 +1,93 @@
 // components/Converter.tsx
 'use client';
 
-import React, { useState, useEffect, useMemo } from 'react';
-import { useRouter } from 'next/navigation';
-import { getUnitCategories } from '../util/unitCategories';
+import React, { useState, useEffect } from 'react';
 import { roundValue } from '../util/rounding';
-import UnitDefinitions, { UnitCategoryKey } from './UnitDefinitions';
+import UnitDefinitions from './UnitDefinitions';
 import Dropdown from '@/app/components/dropdown';
-import { slugifyUnit } from '../util/util';
 import { useTranslations } from 'next-intl';
-import { redirect } from '@/i18n/navigation';
+import type { UnitCategoryEnum } from '@/shared';
+import { getUnitCategoryObject } from '../util/unitCategories';
+import { useRouter, usePathname } from 'next/navigation';
+import { createConversionPath } from '../util/urlFormat';
 
-export default function Converter() {
-	const router = useRouter();
+interface ConverterProps {
+	fromUnit?: string;
+	toUnit?: string;
+	category?: UnitCategoryEnum;
+}
+
+export default function Converter({
+	fromUnit: initialFromUnit,
+	toUnit: initialToUnit,
+	category: initialCategory,
+}: ConverterProps) {
 	const t = useTranslations('UnitConverterPage');
-	const unitCategories = useMemo(() => getUnitCategories(locale), [locale]);
-	const defaultDescription = t('description') || 'Unit Converter';
-	const categoryKeys = useMemo(
-		() => Object.keys(unitCategories),
-		[unitCategories]
+	const router = useRouter();
+	const pathname = usePathname();
+
+	// Initialize state with URL parameters
+	const [category, setCategory] = useState<UnitCategoryEnum | undefined>(
+		initialCategory
 	);
+	const [fromUnit, setFromUnit] = useState<string | undefined>(initialFromUnit);
+	const [toUnit, setToUnit] = useState<string | undefined>(initialToUnit);
+	const [result, setResult] = useState('');
+	const [value, setValue] = useState('');
 
-	// State – initial Werte
-	const [category, setCategory] = useState<UnitCategoryKey | ''>('');
-	const [fromUnit, setFromUnit] = useState<string>('');
-	const [toUnit, setToUnit] = useState<string>('');
-	const [value, setValue] = useState<string>('');
-	const [result, setResult] = useState<string>('');
-
-	// Falls noch keine from/to-Einheit gesetzt ist, Fallback-Titel übergeben
+	// Update state when props change
 	useEffect(() => {
-		if (onConversionChange && (!fromUnit || !toUnit)) {
-			onConversionChange(defaultDescription);
-		}
-	}, [fromUnit, toUnit, defaultDescription, onConversionChange]);
+		if (initialCategory) setCategory(initialCategory);
+		if (initialFromUnit) setFromUnit(initialFromUnit);
+		if (initialToUnit) setToUnit(initialToUnit);
+	}, [initialCategory, initialFromUnit, initialToUnit]);
 
-	// Effekt: Beim Kategorienwechsel (abhängig von [category, unitCategories])
-	useEffect(() => {
-		if (category) {
-			const units = Object.keys(unitCategories[category].units);
-			// Setze Standardwerte, falls noch nicht gesetzt
-			if (!fromUnit || !toUnit) {
-				if (units.length >= 2) {
-					setFromUnit(units[0]);
-					setToUnit(units[1]);
-				} else if (units.length === 1) {
-					setFromUnit(units[0]);
-					setToUnit('');
-				}
-			}
-			setValue('');
-			setResult('');
-		} else {
-			setFromUnit('');
-			setToUnit('');
-			setResult('');
-		}
-	}, [category, unitCategories]);
+	// Get unit categories for the current locale
+	const unitCategories = getUnitCategoryObject(t);
+	const categoryKeys = Object.keys(unitCategories) as UnitCategoryEnum[];
 
-	// Effekt: Aktualisiere URL und Conversion-Titel, wenn Kategorie, fromUnit und toUnit gesetzt sind
+	// Effect: Update URL when both units are selected
 	useEffect(() => {
 		if (category && fromUnit && toUnit) {
-			const filler = t('to');
-			// Hier werden die Unit-Namen slugifiziert:
-			const slug = `${slugifyUnit(fromUnit)}-${filler}-${slugifyUnit(toUnit)}`;
-			redirect(`/unit-converter/${category}/${slug}`);
-			if (onConversionChange) {
-				const toWord = t('to');
-				const title = `${
-					fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)
-				} ${toWord} ${toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}`;
-				onConversionChange(title);
+			const newPath = `/tools/unit-converter/${createConversionPath(
+				category,
+				fromUnit,
+				toUnit
+			)}`;
+			if (pathname !== newPath) {
+				router.push(newPath, { scroll: false });
 			}
 		}
-	}, [category, fromUnit, toUnit, locale, router, onConversionChange]);
+	}, [category, fromUnit, toUnit, router, pathname]);
 
-	// Effekt: Berechne das Conversion-Ergebnis, sobald alle Eingaben vorhanden sind
+	// Effect: Calculate conversion result when all inputs are present
 	useEffect(() => {
 		if (!category) {
 			setResult('');
 			return;
 		}
-		const cat = unitCategories[category];
+
 		if (
 			value === '' ||
 			!fromUnit ||
 			!toUnit ||
 			fromUnit === toUnit ||
-			!(fromUnit in cat.units) ||
-			!(toUnit in cat.units)
+			!(fromUnit in unitCategories[category].units) ||
+			!(toUnit in unitCategories[category].units)
 		) {
 			setResult('');
 			return;
 		}
+
 		const numValue = parseFloat(value);
 		if (isNaN(numValue)) {
 			setResult(t('labels.invalidNumber'));
 			return;
 		}
+
 		let converted: number;
+		const cat = unitCategories[category];
+
 		if (cat.convert) {
 			converted = cat.convert(numValue, fromUnit, toUnit);
 		} else {
@@ -106,18 +95,19 @@ export default function Converter() {
 			const toFactor = cat.units[toUnit].factor;
 			converted = numValue * (fromFactor / toFactor);
 		}
+
 		const precision = cat.precision ?? 2;
 		const rounded = roundValue(converted, precision).toString();
 		setResult(rounded);
-	}, [value, fromUnit, toUnit, category, unitCategories, labels]);
+	}, [value, fromUnit, toUnit, category, unitCategories, t]);
 
-	// Dropdown-Items für Kategorien (mit extra Property "value")
+	// Dropdown items for categories
 	const categoryItems = categoryKeys.map((key) => ({
 		label: unitCategories[key].name,
 		value: key,
 	}));
 
-	// Dropdown-Items für "From" und "To"
+	// Dropdown items for "From" and "To"
 	const unitItemsForFrom = category
 		? Object.keys(unitCategories[category].units)
 				.filter((unit) => unit !== toUnit)
@@ -136,25 +126,17 @@ export default function Converter() {
 				}))
 		: [];
 
-	// Erzeuge einen Conversion-Titel, der "FromUnit to ToUnit" anzeigt, wenn beide gesetzt sind
-	const conversionTitle =
-		fromUnit && toUnit
-			? `${fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)} ${t('to')} ${
-					toUnit.charAt(0).toUpperCase() + toUnit.slice(1)
-			  }`
-			: '';
-
 	return (
-		<div className="flex flex-col w-full items-center ">
+		<div className="flex flex-col w-full items-center">
 			<div className="card w-full max-w-lg bg-base-100 shadow-xl p-6">
-				{/* Ganz oben: H2 mit Conversion-Titel, falls vorhanden */}
-				{conversionTitle && (
+				{/* Title with conversion type */}
+				{fromUnit && toUnit && (
 					<h2 className="text-2xl font-semibold text-secondary text-center w-full mb-4">
-						{conversionTitle}
+						{getConversionTitleWithUpperCase(fromUnit, toUnit, t)}
 					</h2>
 				)}
 				<form onSubmit={(e) => e.preventDefault()} className="space-y-4">
-					{/* Kategorie-Dropdown */}
+					{/* Category dropdown */}
 					<div className="form-control">
 						<label className="label">
 							<span className="label-text">{t('labels.category')}</span>
@@ -166,13 +148,9 @@ export default function Converter() {
 							items={categoryItems}
 							buttonClassName="btn btn-outline w-full"
 							onSelect={(item) => {
-								const newCategory = item.value as UnitCategoryKey;
+								const newCategory = item.value as UnitCategoryEnum;
 								if (newCategory && newCategory !== category) {
-									// Neue Kategorie setzen und vorhandene Units zurücksetzen,
-									// damit der Kategorienwechsel-Effekt die Standardwerte setzt.
-									setCategory(newCategory);
-									setFromUnit('');
-									setToUnit('');
+									router.push(`/tools/unit-converter/${newCategory}`);
 								}
 							}}
 						/>
@@ -236,7 +214,6 @@ export default function Converter() {
 			<div>
 				{category && fromUnit && toUnit && (
 					<UnitDefinitions
-						locale={locale}
 						category={category}
 						fromUnit={fromUnit}
 						toUnit={toUnit}
@@ -245,4 +222,22 @@ export default function Converter() {
 			</div>
 		</div>
 	);
+}
+
+/**
+ * Generates a conversion title with the given units.
+ *
+ * @param fromUnit The unit being converted from.
+ * @param toUnit The unit being converted to.
+ * @param t The translation function.
+ * @returns A string representing the conversion title.
+ */
+function getConversionTitleWithUpperCase(
+	fromUnit: string,
+	toUnit: string,
+	t: ReturnType<typeof useTranslations>
+) {
+	return `${fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)} ${t('to')} ${
+		toUnit.charAt(0).toUpperCase() + toUnit.slice(1)
+	}`;
 }

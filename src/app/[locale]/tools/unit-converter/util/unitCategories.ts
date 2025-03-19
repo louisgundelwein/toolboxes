@@ -1,5 +1,3 @@
-import locales from './locales.json';
-
 export interface Unit {
 	factor: number;
 	abbrev: string;
@@ -12,154 +10,145 @@ export interface UnitCategory {
 	precision?: number;
 }
 
-// Typ für die Schlüssel des Einheitenobjekts – wir gehen davon aus, dass alle Lokalisierungen dieselben Schlüssel haben
-export type UnitCategoryKey =
-	keyof (typeof locales)['en']['unit-converter']['units'];
+// Type for the keys of the units object - we assume all localizations have the same keys
+export type UnitCategoryObjectKey = string;
 
-export const getUnitCategories = (
-	locale: keyof typeof locales
+// Type for the translation function
+type TranslationFunction = (key: string) => string;
+
+export const getUnitCategoryObject = (
+	t: TranslationFunction
 ): { [key: string]: UnitCategory } => ({
 	length: {
-		name: locales[locale]['unit-converter'].length,
+		name: t('length'),
 		units: {
 			meter: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.length.meter.abbr,
+				abbrev: t('units.length.meter.abbr'),
 			},
 			kilometer: {
 				factor: 1000,
-				abbrev: locales[locale]['unit-converter'].units.length.kilometer.abbr,
+				abbrev: t('units.length.kilometer.abbr'),
 			},
 			centimeter: {
 				factor: 0.01,
-				abbrev: locales[locale]['unit-converter'].units.length.centimeter.abbr,
+				abbrev: t('units.length.centimeter.abbr'),
 			},
 			millimeter: {
 				factor: 0.001,
-				abbrev: locales[locale]['unit-converter'].units.length.millimeter.abbr,
+				abbrev: t('units.length.millimeter.abbr'),
 			},
 			mile: {
 				factor: 1609.34,
-				abbrev: locales[locale]['unit-converter'].units.length.mile.abbr,
+				abbrev: t('units.length.mile.abbr'),
 			},
 			yard: {
 				factor: 0.9144,
-				abbrev: locales[locale]['unit-converter'].units.length.yard.abbr,
+				abbrev: t('units.length.yard.abbr'),
 			},
 			foot: {
 				factor: 0.3048,
-				abbrev: locales[locale]['unit-converter'].units.length.foot.abbr,
+				abbrev: t('units.length.foot.abbr'),
 			},
 			inch: {
 				factor: 0.0254,
-				abbrev: locales[locale]['unit-converter'].units.length.inch.abbr,
+				abbrev: t('units.length.inch.abbr'),
 			},
 		},
 		precision: 4,
 	},
 	weight: {
-		name: locales[locale]['unit-converter'].weight,
+		name: t('weight'),
 		units: {
 			kilogram: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.weight.kilogram.abbr,
+				abbrev: t('units.weight.kilogram.abbr'),
 			},
 			gram: {
 				factor: 0.001,
-				abbrev: locales[locale]['unit-converter'].units.weight.gram.abbr,
+				abbrev: t('units.weight.gram.abbr'),
 			},
 			milligram: {
 				factor: 0.000001,
-				abbrev: locales[locale]['unit-converter'].units.weight.milligram.abbr,
+				abbrev: t('units.weight.milligram.abbr'),
 			},
 			pound: {
 				factor: 0.453592,
-				abbrev: locales[locale]['unit-converter'].units.weight.pound.abbr,
+				abbrev: t('units.weight.pound.abbr'),
 			},
 			ounce: {
 				factor: 0.0283495,
-				abbrev: locales[locale]['unit-converter'].units.weight.ounce.abbr,
+				abbrev: t('units.weight.ounce.abbr'),
 			},
 		},
 		precision: 3,
 	},
 	area: {
-		name: locales[locale]['unit-converter'].area,
+		name: t('area'),
 		units: {
 			'square meter': {
 				factor: 1,
-				abbrev:
-					locales[locale]['unit-converter'].units.area['square meter'].abbr,
+				abbrev: t('units.area.square meter.abbr'),
 			},
 			'square kilometer': {
 				factor: 1000000,
-				abbrev:
-					locales[locale]['unit-converter'].units.area['square kilometer'].abbr,
+				abbrev: t('units.area.square kilometer.abbr'),
 			},
 			'square centimeter': {
 				factor: 0.0001,
-				abbrev:
-					locales[locale]['unit-converter'].units.area['square centimeter']
-						.abbr,
+				abbrev: t('units.area.square centimeter.abbr'),
 			},
 			'square foot': {
 				factor: 0.092903,
-				abbrev:
-					locales[locale]['unit-converter'].units.area['square foot'].abbr,
+				abbrev: t('units.area.square foot.abbr'),
 			},
 			acre: {
 				factor: 4046.86,
-				abbrev: locales[locale]['unit-converter'].units.area.acre.abbr,
+				abbrev: t('units.area.acre.abbr'),
 			},
 		},
 		precision: 2,
 	},
 	volume: {
-		name: locales[locale]['unit-converter'].volume,
+		name: t('volume'),
 		units: {
 			'cubic meter': {
 				factor: 1,
-				abbrev:
-					locales[locale]['unit-converter'].units.volume['cubic meter'].abbr,
+				abbrev: t('units.volume.cubic meter.abbr'),
 			},
 			liter: {
 				factor: 0.001,
-				abbrev: locales[locale]['unit-converter'].units.volume.liter.abbr,
+				abbrev: t('units.volume.liter.abbr'),
 			},
 			milliliter: {
 				factor: 0.000001,
-				abbrev: locales[locale]['unit-converter'].units.volume.milliliter.abbr,
+				abbrev: t('units.volume.milliliter.abbr'),
 			},
 			'cubic centimeter': {
 				factor: 0.000001,
-				abbrev:
-					locales[locale]['unit-converter'].units.volume['cubic centimeter']
-						.abbr,
+				abbrev: t('units.volume.cubic centimeter.abbr'),
 			},
 			'gallon (US)': {
 				factor: 0.00378541,
-				abbrev:
-					locales[locale]['unit-converter'].units.volume['gallon (US)'].abbr,
+				abbrev: t('units.volume.gallon (US).abbr'),
 			},
 		},
 		precision: 4,
 	},
 	temperature: {
-		name: locales[locale]['unit-converter'].temperature,
+		name: t('temperature'),
 		units: {
 			celsius: {
 				factor: 1,
-				abbrev:
-					locales[locale]['unit-converter'].units.temperature.celsius.abbr,
+				abbrev: t('units.temperature.celsius.abbr'),
 			},
 			fahrenheit: {
 				factor: 1,
-				abbrev:
-					locales[locale]['unit-converter'].units.temperature.fahrenheit.abbr,
+				abbrev: t('units.temperature.fahrenheit.abbr'),
 			},
 			kelvin: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.temperature.kelvin.abbr,
+				abbrev: t('units.temperature.kelvin.abbr'),
 			},
 		},
 		convert: (value: number, from: string, to: string) => {
@@ -187,326 +176,303 @@ export const getUnitCategories = (
 		precision: 2,
 	},
 	speed: {
-		name: locales[locale]['unit-converter'].speed,
+		name: t('speed'),
 		units: {
 			'm/s': {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.speed['m/s'].abbr,
+				abbrev: t('units.speed.m/s.abbr'),
 			},
 			'km/h': {
 				factor: 0.277778,
-				abbrev: locales[locale]['unit-converter'].units.speed['km/h'].abbr,
+				abbrev: t('units.speed.km/h.abbr'),
 			},
 			mph: {
 				factor: 0.44704,
-				abbrev: locales[locale]['unit-converter'].units.speed.mph.abbr,
+				abbrev: t('units.speed.mph.abbr'),
 			},
 		},
 		precision: 3,
 	},
 	time: {
-		name: locales[locale]['unit-converter'].time,
+		name: t('time'),
 		units: {
 			second: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.time.second.abbr,
+				abbrev: t('units.time.second.abbr'),
 			},
 			minute: {
 				factor: 60,
-				abbrev: locales[locale]['unit-converter'].units.time.minute.abbr,
+				abbrev: t('units.time.minute.abbr'),
 			},
 			hour: {
 				factor: 3600,
-				abbrev: locales[locale]['unit-converter'].units.time.hour.abbr,
+				abbrev: t('units.time.hour.abbr'),
 			},
 			day: {
 				factor: 86400,
-				abbrev: locales[locale]['unit-converter'].units.time.day.abbr,
+				abbrev: t('units.time.day.abbr'),
 			},
 		},
 		precision: 0,
 	},
 	pressure: {
-		name: locales[locale]['unit-converter'].pressure,
+		name: t('pressure'),
 		units: {
 			pascal: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.pressure.pascal.abbr,
+				abbrev: t('units.pressure.pascal.abbr'),
 			},
 			kilopascal: {
 				factor: 1000,
-				abbrev:
-					locales[locale]['unit-converter'].units.pressure.kilopascal.abbr,
+				abbrev: t('units.pressure.kilopascal.abbr'),
 			},
 			bar: {
 				factor: 100000,
-				abbrev: locales[locale]['unit-converter'].units.pressure.bar.abbr,
+				abbrev: t('units.pressure.bar.abbr'),
 			},
 			psi: {
 				factor: 6894.76,
-				abbrev: locales[locale]['unit-converter'].units.pressure.psi.abbr,
+				abbrev: t('units.pressure.psi.abbr'),
 			},
 		},
 		precision: 2,
 	},
 	energy: {
-		name: locales[locale]['unit-converter'].energy,
+		name: t('energy'),
 		units: {
 			joule: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.energy.joule.abbr,
+				abbrev: t('units.energy.joule.abbr'),
 			},
 			kilojoule: {
 				factor: 1000,
-				abbrev: locales[locale]['unit-converter'].units.energy.kilojoule.abbr,
+				abbrev: t('units.energy.kilojoule.abbr'),
 			},
 			calorie: {
 				factor: 4.184,
-				abbrev: locales[locale]['unit-converter'].units.energy.calorie.abbr,
+				abbrev: t('units.energy.calorie.abbr'),
 			},
 			kilocalorie: {
 				factor: 4184,
-				abbrev: locales[locale]['unit-converter'].units.energy.kilocalorie.abbr,
+				abbrev: t('units.energy.kilocalorie.abbr'),
 			},
 			'kilowatt-hour': {
 				factor: 3600000,
-				abbrev:
-					locales[locale]['unit-converter'].units.energy['kilowatt-hour'].abbr,
+				abbrev: t('units.energy.kilowatt-hour.abbr'),
 			},
 		},
 		precision: 2,
 	},
 	power: {
-		name: locales[locale]['unit-converter'].power,
+		name: t('power'),
 		units: {
 			watt: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.power.watt.abbr,
+				abbrev: t('units.power.watt.abbr'),
 			},
 			kilowatt: {
 				factor: 1000,
-				abbrev: locales[locale]['unit-converter'].units.power.kilowatt.abbr,
+				abbrev: t('units.power.kilowatt.abbr'),
 			},
 			horsepower: {
 				factor: 745.7,
-				abbrev: locales[locale]['unit-converter'].units.power.horsepower.abbr,
+				abbrev: t('units.power.horsepower.abbr'),
 			},
 		},
 		precision: 2,
 	},
 	dataStorage: {
-		name: locales[locale]['unit-converter'].dataStorage,
+		name: t('dataStorage'),
 		units: {
 			byte: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.dataStorage.byte.abbr,
+				abbrev: t('units.dataStorage.byte.abbr'),
 			},
 			kilobyte: {
 				factor: 1024,
-				abbrev:
-					locales[locale]['unit-converter'].units.dataStorage.kilobyte.abbr,
+				abbrev: t('units.dataStorage.kilobyte.abbr'),
 			},
 			megabyte: {
 				factor: 1048576,
-				abbrev:
-					locales[locale]['unit-converter'].units.dataStorage.megabyte.abbr,
+				abbrev: t('units.dataStorage.megabyte.abbr'),
 			},
 			gigabyte: {
 				factor: 1073741824,
-				abbrev:
-					locales[locale]['unit-converter'].units.dataStorage.gigabyte.abbr,
+				abbrev: t('units.dataStorage.gigabyte.abbr'),
 			},
 		},
 		precision: 0,
 	},
 	angle: {
-		name: locales[locale]['unit-converter'].angle,
+		name: t('angle'),
 		units: {
 			radian: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.angle.radian.abbr,
+				abbrev: t('units.angle.radian.abbr'),
 			},
 			degree: {
 				factor: Math.PI / 180,
-				abbrev: locales[locale]['unit-converter'].units.angle.degree.abbr,
+				abbrev: t('units.angle.degree.abbr'),
 			},
 			grad: {
 				factor: Math.PI / 200,
-				abbrev: locales[locale]['unit-converter'].units.angle.grad.abbr,
+				abbrev: t('units.angle.grad.abbr'),
 			},
 		},
 		precision: 4,
 	},
 	frequency: {
-		name: locales[locale]['unit-converter'].frequency,
+		name: t('frequency'),
 		units: {
 			hertz: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.frequency.hertz.abbr,
+				abbrev: t('units.frequency.hertz.abbr'),
 			},
 			kilohertz: {
 				factor: 1000,
-				abbrev:
-					locales[locale]['unit-converter'].units.frequency.kilohertz.abbr,
+				abbrev: t('units.frequency.kilohertz.abbr'),
 			},
 			megahertz: {
 				factor: 1e6,
-				abbrev:
-					locales[locale]['unit-converter'].units.frequency.megahertz.abbr,
+				abbrev: t('units.frequency.megahertz.abbr'),
 			},
 			gigahertz: {
 				factor: 1e9,
-				abbrev:
-					locales[locale]['unit-converter'].units.frequency.gigahertz.abbr,
+				abbrev: t('units.frequency.gigahertz.abbr'),
 			},
 		},
 		precision: 2,
 	},
 	force: {
-		name: locales[locale]['unit-converter'].force,
+		name: t('force'),
 		units: {
 			newton: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.force.newton.abbr,
+				abbrev: t('units.force.newton.abbr'),
 			},
 			kilonewton: {
 				factor: 1000,
-				abbrev: locales[locale]['unit-converter'].units.force.kilonewton.abbr,
+				abbrev: t('units.force.kilonewton.abbr'),
 			},
 			'pound-force': {
 				factor: 4.44822,
-				abbrev:
-					locales[locale]['unit-converter'].units.force['pound-force'].abbr,
+				abbrev: t('units.force.pound-force.abbr'),
 			},
 		},
 		precision: 2,
 	},
 	density: {
-		name: locales[locale]['unit-converter'].density,
+		name: t('density'),
 		units: {
 			'kg/m³': {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.density['kg/m³'].abbr,
+				abbrev: t('units.density.kg/m³.abbr'),
 			},
 			'g/cm³': {
 				factor: 1000,
-				abbrev: locales[locale]['unit-converter'].units.density['g/cm³'].abbr,
+				abbrev: t('units.density.g/cm³.abbr'),
 			},
 			'lb/ft³': {
 				factor: 16.0185,
-				abbrev: locales[locale]['unit-converter'].units.density['lb/ft³'].abbr,
+				abbrev: t('units.density.lb/ft³.abbr'),
 			},
 		},
 		precision: 3,
 	},
 	volumeFlow: {
-		name: locales[locale]['unit-converter'].volumeFlow,
+		name: t('volumeFlow'),
 		units: {
 			'm³/s': {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.volumeFlow['m³/s'].abbr,
+				abbrev: t('units.volumeFlow.m³/s.abbr'),
 			},
 			'liter/s': {
 				factor: 0.001,
-				abbrev:
-					locales[locale]['unit-converter'].units.volumeFlow['liter/s'].abbr,
+				abbrev: t('units.volumeFlow.liter/s.abbr'),
 			},
 			'gallon/min': {
 				factor: 0.00378541 / 60,
-				abbrev:
-					locales[locale]['unit-converter'].units.volumeFlow['gallon/min'].abbr,
+				abbrev: t('units.volumeFlow.gallon/min.abbr'),
 			},
 		},
 		precision: 4,
 	},
 	acceleration: {
-		name: locales[locale]['unit-converter'].acceleration,
+		name: t('acceleration'),
 		units: {
 			'm/s²': {
 				factor: 1,
-				abbrev:
-					locales[locale]['unit-converter'].units.acceleration['m/s²'].abbr,
+				abbrev: t('units.acceleration.m/s².abbr'),
 			},
 			'ft/s²': {
 				factor: 0.3048,
-				abbrev:
-					locales[locale]['unit-converter'].units.acceleration['ft/s²'].abbr,
+				abbrev: t('units.acceleration.ft/s².abbr'),
 			},
 			'km/h/s': {
 				factor: 0.277778,
-				abbrev:
-					locales[locale]['unit-converter'].units.acceleration['km/h/s'].abbr,
+				abbrev: t('units.acceleration.km/h/s.abbr'),
 			},
 		},
 		precision: 3,
 	},
 	areaDensity: {
-		name: locales[locale]['unit-converter'].areaDensity,
+		name: t('areaDensity'),
 		units: {
 			'kg/m²': {
 				factor: 1,
-				abbrev:
-					locales[locale]['unit-converter'].units.areaDensity['kg/m²'].abbr,
+				abbrev: t('units.areaDensity.kg/m².abbr'),
 			},
 			'g/cm²': {
 				factor: 10,
-				abbrev:
-					locales[locale]['unit-converter'].units.areaDensity['g/cm²'].abbr,
+				abbrev: t('units.areaDensity.g/cm².abbr'),
 			},
 		},
 		precision: 2,
 	},
 	illuminance: {
-		name: locales[locale]['unit-converter'].illuminance,
+		name: t('illuminance'),
 		units: {
 			lux: {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.illuminance.lux.abbr,
+				abbrev: t('units.illuminance.lux.abbr'),
 			},
 			'foot-candle': {
 				factor: 10.764,
-				abbrev:
-					locales[locale]['unit-converter'].units.illuminance['foot-candle']
-						.abbr,
+				abbrev: t('units.illuminance.foot-candle.abbr'),
 			},
 		},
 		precision: 2,
 	},
 	dataRate: {
-		name: locales[locale]['unit-converter'].dataRate,
+		name: t('dataRate'),
 		units: {
 			'bit/s': {
 				factor: 1,
-				abbrev: locales[locale]['unit-converter'].units.dataRate['bit/s'].abbr,
+				abbrev: t('units.dataRate.bit/s.abbr'),
 			},
 			'kilobit/s': {
 				factor: 1000,
-				abbrev:
-					locales[locale]['unit-converter'].units.dataRate['kilobit/s'].abbr,
+				abbrev: t('units.dataRate.kilobit/s.abbr'),
 			},
 			'megabit/s': {
 				factor: 1e6,
-				abbrev:
-					locales[locale]['unit-converter'].units.dataRate['megabit/s'].abbr,
+				abbrev: t('units.dataRate.megabit/s.abbr'),
 			},
 			'gigabit/s': {
 				factor: 1e9,
-				abbrev:
-					locales[locale]['unit-converter'].units.dataRate['gigabit/s'].abbr,
+				abbrev: t('units.dataRate.gigabit/s.abbr'),
 			},
 			'byte/s': {
 				factor: 8,
-				abbrev: locales[locale]['unit-converter'].units.dataRate['byte/s'].abbr,
+				abbrev: t('units.dataRate.byte/s.abbr'),
 			},
 			'kilobyte/s': {
 				factor: 8000,
-				abbrev:
-					locales[locale]['unit-converter'].units.dataRate['kilobyte/s'].abbr,
+				abbrev: t('units.dataRate.kilobyte/s.abbr'),
 			},
 			'megabyte/s': {
 				factor: 8e6,
-				abbrev:
-					locales[locale]['unit-converter'].units.dataRate['megabyte/s'].abbr,
+				abbrev: t('units.dataRate.megabyte/s.abbr'),
 			},
 		},
 		precision: 0,

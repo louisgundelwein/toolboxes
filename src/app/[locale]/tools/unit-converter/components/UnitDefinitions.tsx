@@ -2,29 +2,12 @@
 import React from 'react';
 import locales from '../util/locales.json';
 import { useTranslations } from 'next-intl';
-import { UNITS } from '@/shared';
 
-// Typ für die Detailinformationen einer Einheit
-interface UnitDetail {
-	abbr: string;
-	definition: string;
-	wiki: string;
-}
-
-// Wir leiten den Typ der Kategorien anhand der Struktur in "en" ab
+// We derive the type of categories from the structure in "en"
 export type UnitCategoryKey =
 	keyof (typeof locales)['en']['unit-converter']['units'];
 
-// Typ für das gesamte Einheitenobjekt: In jeder Kategorie können beliebige Einheiten (string-Schlüssel) vorhanden sein.
-type Units = {
-	[key in UnitCategoryKey]: {
-		[unit: string]: UnitDetail;
-	};
-};
-
 export interface UnitDefinitionsProps {
-	locale: keyof typeof locales;
-	// category muss einer der erlaubten Schlüssel sein
 	category: UnitCategoryKey;
 	fromUnit: string;
 	toUnit: string;
@@ -36,15 +19,11 @@ const UnitDefinitions: React.FC<UnitDefinitionsProps> = ({
 	toUnit,
 }) => {
 	const t = useTranslations('UnitConverterPage');
-	// Casten des units-Objekts in den Typ "Units", sodass wir beliebig indexieren können.
-	const units = UNITS;
-	const unitData = units[category];
-	if (!unitData) return null;
-	const fromData = unitData[fromUnit];
-	const toData = unitData[toUnit];
+	const fromData = t(`units.${category}.${fromUnit}.definition`);
+	const toData = t(`units.${category}.${toUnit}.definition`);
 
-	const definition = locales[locale].definitions.for;
-	const forMore = locales[locale].definitions.more;
+	const definition = t('definitions.for');
+	const forMore = t('definitions.more');
 
 	return (
 		<div className="flex flex-col mt-4 gap-2">
@@ -54,9 +33,9 @@ const UnitDefinitions: React.FC<UnitDefinitionsProps> = ({
 						{`${definition} `}
 						{fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)}
 					</h4>
-					<p>{fromData.definition}</p>
+					<p>{fromData}</p>
 					<a
-						href={fromData.wiki}
+						href={t(`units.${category}.${fromUnit}.wiki`)}
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-info"
@@ -71,9 +50,9 @@ const UnitDefinitions: React.FC<UnitDefinitionsProps> = ({
 						{`${definition} `}
 						{toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}
 					</h4>
-					<p>{toData.definition}</p>
+					<p>{toData}</p>
 					<a
-						href={toData.wiki}
+						href={t(`units.${category}.${toUnit}.wiki`)}
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-info"
