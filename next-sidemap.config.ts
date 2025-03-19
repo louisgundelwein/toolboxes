@@ -1,8 +1,7 @@
-import { getUnitCategories } from '@/app/[locale]/tools/unit-converter/util/unitCategories';
+import { getUnitCategoryObject } from '@/app/[locale]/tools/unit-converter/util/unitCategories';
 import locales from '@/app/[locale]/tools/unit-converter/util/locales.json';
 import type { IConfig } from 'next-sitemap';
 import { LOCALES } from '@/shared';
-
 
 // Mapping für das Verbindungswort je Sprache
 const conversionConnector: Record<string, string> = {
@@ -35,17 +34,19 @@ const config: IConfig = {
 	additionalPaths: async () => {
 		const paths: { loc: string; lastmod: string }[] = [];
 		LOCALES.forEach((lang) => {
-			// Hole die Kategorien für die jeweilige Sprache
-			const categories = getUnitCategories(lang as keyof typeof locales);
+			// Create a mock translation function for the sitemap
+			const mockT = (key: string) => key;
+			// Get the categories for the current language
+			const categories = getUnitCategoryObject(mockT);
 			Object.keys(categories).forEach((categoryKey) => {
 				const category = categories[categoryKey];
 				const unitKeys = Object.keys(category.units);
-				// Erstelle für jedes Paar (from, to) einen Eintrag, wenn sie unterschiedlich sind
+				// Create entries for each unit pair
 				unitKeys.forEach((from) => {
 					unitKeys.forEach((to) => {
 						if (from !== to) {
 							const connector = conversionConnector[lang];
-							const urlPath = `/${lang}/unit-converter/${categoryKey}/${from}-${connector}-${to}`;
+							const urlPath = `/${lang}/tools/unit-converter/${categoryKey}/${from}-${connector}-${to}`;
 							paths.push({
 								loc: urlPath,
 								lastmod: new Date().toISOString(),

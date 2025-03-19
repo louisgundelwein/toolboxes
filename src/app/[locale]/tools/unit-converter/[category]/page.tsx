@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import Converter from '../components/Converter';
@@ -5,19 +7,20 @@ import type { UnitCategoryEnum } from '@/shared';
 import { getUnitCategoryObject } from '../util/unitCategories';
 
 interface PageProps {
-	params: {
+	params: Promise<{
 		locale: string;
 		category: string;
-	};
+	}>;
 }
 
 export default function CategoryPage({ params }: PageProps) {
 	const t = useTranslations('UnitConverterPage');
+	const resolvedParams = React.use(params);
 	const unitCategories = getUnitCategoryObject(t);
 	const categoryKeys = Object.keys(unitCategories) as UnitCategoryEnum[];
 
 	// Validate category
-	const category = params.category as UnitCategoryEnum;
+	const category = resolvedParams.category as UnitCategoryEnum;
 	if (!categoryKeys.includes(category)) {
 		return (
 			<div className="flex flex-col items-center justify-center min-h-[50vh]">
