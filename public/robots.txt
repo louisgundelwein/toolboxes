@@ -1,15 +1,10 @@
+# *
 User-agent: *
 Allow: /
-Allow: /en/qr-code-generator
-Allow: /de/qr-code-generator
-Allow: /fr/qr-code-generator
-Allow: /es/qr-code-generator
-Allow: /uk/qr-code-generator
-Allow: /zh/qr-code-generator
-Allow: /pt/qr-code-generator
-Allow: /mn/qr-code-generator
 
-Disallow: /forgot-password
-Disallow: /api/*
+# Host
+Host: https://toolboxes.app
 
+# Sitemaps
 Sitemap: https://toolboxes.app/sitemap.xml
+Sitemap: https://toolboxes.app/server-sitemap.xml

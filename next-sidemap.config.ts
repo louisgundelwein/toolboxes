@@ -33,15 +33,33 @@ const config: IConfig = {
 	// Dynamische Einträge für die Unit-Converter-Seiten
 	additionalPaths: async () => {
 		const paths: { loc: string; lastmod: string }[] = [];
+
+		// Create a mock translation function for the sitemap
+		const mockT = (key: string) => key;
+
+		// Get all categories
+		const categories = getUnitCategoryObject(mockT);
+
+		// Generate URLs for each language
 		LOCALES.forEach((lang) => {
-			// Create a mock translation function for the sitemap
-			const mockT = (key: string) => key;
-			// Get the categories for the current language
-			const categories = getUnitCategoryObject(mockT);
+			// Add the main unit converter page
+			paths.push({
+				loc: `/${lang}/tools/unit-converter`,
+				lastmod: new Date().toISOString(),
+			});
+
+			// Generate URLs for each category
 			Object.keys(categories).forEach((categoryKey) => {
 				const category = categories[categoryKey];
 				const unitKeys = Object.keys(category.units);
-				// Create entries for each unit pair
+
+				// Add category page
+				paths.push({
+					loc: `/${lang}/tools/unit-converter/${categoryKey}`,
+					lastmod: new Date().toISOString(),
+				});
+
+				// Generate URLs for each unit pair
 				unitKeys.forEach((from) => {
 					unitKeys.forEach((to) => {
 						if (from !== to) {
@@ -56,6 +74,7 @@ const config: IConfig = {
 				});
 			});
 		});
+
 		return paths;
 	},
 };
