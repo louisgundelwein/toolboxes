@@ -31,461 +31,761 @@
 			"more": "更多信息请见维基百科"
 		},
 		"description": "一个全面的单位换算器",
-		"length": "长度",
-		"weight": "重量",
-		"area": "面积",
-		"volume": "体积",
-		"temperature": "温度",
-		"speed": "速度",
-		"time": "时间",
-		"pressure": "压力",
-		"energy": "能量",
-		"power": "功率",
-		"dataStorage": "数据存储",
-		"angle": "角度",
-		"frequency": "频率",
-		"force": "力",
-		"density": "密度",
-		"volumeFlow": "流量",
-		"acceleration": "加速度",
-		"areaDensity": "面密度",
-		"illuminance": "照度",
-		"dataRate": "数据传输速率",
-		"to": "到",
 		"units": {
 			"length": {
+				"name": "长度",
 				"meter": {
+					"name": "米",
 					"abbr": "m",
 					"definition": "米是国际单位制中长度的基本单位，用作测量距离的标准。它有着历史定义，并在全球范围内得到认可。",
 					"wiki": "https://zh.wikipedia.org/wiki/米"
 				},
 				"kilometer": {
+					"name": "千米",
 					"abbr": "km",
 					"definition": "千米等于1000米，常用于表示实际中的距离，是日常生活中常见的单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/千米"
 				},
 				"centimeter": {
+					"name": "厘米",
 					"abbr": "cm",
 					"definition": "厘米是一米的百分之一，常用于测量较小的长度，在许多日常场景中都有应用。",
 					"wiki": "https://zh.wikipedia.org/wiki/厘米"
 				},
 				"millimeter": {
+					"name": "毫米",
 					"abbr": "mm",
 					"definition": "毫米是一米的千分之一，用于精确测量微小的长度，特别在技术领域中非常重要。",
 					"wiki": "https://zh.wikipedia.org/wiki/毫米"
 				},
 				"mile": {
+					"name": "英里",
 					"abbr": "mi",
 					"definition": "英里是一种长度单位，主要在英语国家使用，大约等于1.609千米，具有历史意义。",
 					"wiki": "https://zh.wikipedia.org/wiki/英里"
 				},
 				"yard": {
+					"name": "码",
 					"abbr": "yd",
 					"definition": "码是主要在美国和英国使用的长度单位，等于0.9144米，常用于纺织和体育领域。",
 					"wiki": "https://zh.wikipedia.org/wiki/码"
 				},
 				"foot": {
+					"name": "英尺",
 					"abbr": "ft",
 					"definition": "英尺是一种传统的长度单位，在美国及部分国家中使用，等于0.3048米，主要应用于建筑领域。",
 					"wiki": "https://zh.wikipedia.org/wiki/英尺"
 				},
 				"inch": {
+					"name": "英寸",
 					"abbr": "in",
 					"definition": "英寸是主要在英语国家使用的长度单位，等于2.54厘米，广泛应用于技术和日常生活中。",
 					"wiki": "https://zh.wikipedia.org/wiki/英寸"
 				}
 			},
 			"weight": {
+				"name": "重量",
 				"kilogram": {
+					"name": "千克",
 					"abbr": "kg",
 					"definition": "千克是国际单位制中质量的基本单位，在科学和商业中作为标准单位使用，全球通用。",
 					"wiki": "https://zh.wikipedia.org/wiki/千克"
 				},
 				"gram": {
+					"name": "克",
 					"abbr": "g",
 					"definition": "克是一千分之一千克，常用于测量较轻的质量，在烹饪和商业中很常见。",
 					"wiki": "https://zh.wikipedia.org/wiki/克"
 				},
 				"milligram": {
+					"name": "毫克",
 					"abbr": "mg",
 					"definition": "毫克是一克的千分之一，用于测量非常小的质量，特别在医学上用于精确剂量。",
 					"wiki": "https://zh.wikipedia.org/wiki/毫克"
 				},
 				"pound": {
+					"name": "磅",
 					"abbr": "lb",
 					"definition": "磅是一种传统的质量单位，主要在英语国家使用，约等于0.4536千克，广泛应用于商业和日常生活。",
 					"wiki": "https://zh.wikipedia.org/wiki/磅"
 				},
 				"ounce": {
+					"name": "盎司",
 					"abbr": "oz",
 					"definition": "盎司是较小的质量单位，主要在英语国家中使用，约等于28.35克，常用于食品工业。",
 					"wiki": "https://zh.wikipedia.org/wiki/盎司"
 				}
 			},
 			"area": {
-				"square meter": {
+				"name": "面积",
+				"square-meter": {
+					"name": "平方米",
 					"abbr": "m²",
 					"definition": "平方米是国际单位制中用于测量面积的单位，用于建筑和农业等领域，是一种标准化、广泛使用的单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/平方米"
 				},
-				"square kilometer": {
+				"square-kilometer": {
+					"name": "平方千米",
 					"abbr": "km²",
 					"definition": "平方千米等于一百万平方米，主要用于表示大面积区域，如土地面积。",
 					"wiki": "https://zh.wikipedia.org/wiki/平方千米"
 				},
-				"square centimeter": {
+				"square-centimeter": {
+					"name": "平方厘米",
 					"abbr": "cm²",
 					"definition": "平方厘米是一种较小的面积单位，常用于材料科学和日常生活中，表示边长为1厘米的正方形的面积。",
 					"wiki": "https://zh.wikipedia.org/wiki/平方厘米"
 				},
-				"square foot": {
+				"square-foot": {
+					"name": "平方英尺",
 					"abbr": "ft²",
 					"definition": "平方英尺是主要在美国和英国使用的面积单位，大约等于0.0929平方米，常用于房地产领域。",
 					"wiki": "https://zh.wikipedia.org/wiki/平方英尺"
 				},
 				"acre": {
+					"name": "英亩",
 					"abbr": "ac",
 					"definition": "英亩是一种传统的面积单位，主要在美国和英国使用，大约等于4047平方米，常用于农业和房地产评估。",
 					"wiki": "https://zh.wikipedia.org/wiki/英亩"
 				}
 			},
 			"volume": {
+				"name": "体积",
 				"cubic-meter": {
+					"name": "立方米",
 					"abbr": "m³",
 					"definition": "立方米是国际单位制中的体积单位，用于测量容积，在建筑、存储和工程等领域具有重要意义。",
 					"wiki": "https://zh.wikipedia.org/wiki/立方米"
 				},
 				"liter": {
+					"name": "升",
 					"abbr": "l",
 					"definition": "升是一种常用于测量液体体积的单位，等于一立方分米，在日常生活中被广泛使用。",
 					"wiki": "https://zh.wikipedia.org/wiki/升"
 				},
 				"milliliter": {
+					"name": "毫升",
 					"abbr": "ml",
 					"definition": "毫升是一升的千分之一，用于测量较小液体量，常见于医学和烹饪中。",
 					"wiki": "https://zh.wikipedia.org/wiki/毫升"
 				},
 				"cubic-centimeter": {
+					"name": "立方厘米",
 					"abbr": "cm³",
 					"definition": "立方厘米与毫升等价，经常用于工程和医学中测量小体积，是一种精确且广泛使用的单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/立方厘米"
 				},
 				"gallon": {
+					"name": "加仑",
 					"abbr": "gal",
 					"definition": "美制加仑是美国用于测量液体体积的单位，约等于3.785升，具有历史和实用意义。",
 					"wiki": "https://zh.wikipedia.org/wiki/加仑"
 				}
 			},
 			"temperature": {
+				"name": "温度",
 				"celsius": {
+					"name": "摄氏度",
 					"abbr": "°C",
 					"definition": "摄氏温标中，0 °C表示水的冰点，广泛用于全球大多数国家，易于理解。",
 					"wiki": "https://zh.wikipedia.org/wiki/摄氏温标"
 				},
 				"fahrenheit": {
+					"name": "华氏度",
 					"abbr": "°F",
 					"definition": "华氏温标主要在美国使用，在此温标中，水的冰点为32 °F，与摄氏温标不同。",
 					"wiki": "https://zh.wikipedia.org/wiki/华氏温标"
 				},
 				"kelvin": {
+					"name": "开尔文",
 					"abbr": "K",
 					"definition": "开尔文温标是用于温度测量的SI单位，从绝对零度开始，主要用于科学和工程领域。",
 					"wiki": "https://zh.wikipedia.org/wiki/开尔文"
 				}
 			},
 			"speed": {
-				"m/s": {
+				"name": "速度",
+				"meters-per-second": {
+					"name": "米每秒",
 					"abbr": "m/s",
 					"definition": "以米/秒为单位的速度表示每秒所行进的米数，在物理和工程中广泛使用。",
 					"wiki": "https://zh.wikipedia.org/wiki/速度"
 				},
-				"km/h": {
+				"kilometers-per-hour": {
+					"name": "千米每小时",
 					"abbr": "km/h",
 					"definition": "以千米/小时表示的速度说明每小时行进的千米数，常用于交通和气象领域。",
 					"wiki": "https://zh.wikipedia.org/wiki/速度"
 				},
-				"mph": {
+				"miles-per-hour": {
+					"name": "英里每小时",
 					"abbr": "mph",
 					"definition": "以英里/小时为单位的速度主要在美国和英国使用，测量每小时行进的英里数。",
 					"wiki": "https://zh.wikipedia.org/wiki/英里"
+				},
+				"knot": {
+					"name": "节",
+					"abbr": "kn",
+					"definition": "节是航海和航空领域使用的速度单位，等于每小时一海里，约1.852千米每小时。",
+					"wiki": "https://zh.wikipedia.org/wiki/节_(单位)"
 				}
 			},
 			"time": {
+				"name": "时间",
 				"second": {
+					"name": "秒",
 					"abbr": "s",
 					"definition": "秒是国际单位制中的基本时间单位，用于测量时间间隔，在全球标准化。",
 					"wiki": "https://zh.wikipedia.org/wiki/秒"
 				},
 				"minute": {
+					"name": "分钟",
 					"abbr": "min",
 					"definition": "一分钟由60秒组成，用于测量较短的时间段，是日常生活中常见的单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/分钟"
 				},
 				"hour": {
+					"name": "小时",
 					"abbr": "h",
 					"definition": "一小时包含60分钟，是全球通用的时间单位，也是许多时间计划的基础。",
 					"wiki": "https://zh.wikipedia.org/wiki/小时"
 				},
 				"day": {
+					"name": "天",
 					"abbr": "d",
 					"definition": "一天代表地球自转一次，共24小时，是日常生活中的基本时间单位，几乎所有文化都使用。",
 					"wiki": "https://zh.wikipedia.org/wiki/天"
+				},
+				"week": {
+					"name": "周",
+					"abbr": "周",
+					"definition": "一周等于七天，用于安排日程，是商业和个人规划中常用的时间单位。",
+					"wiki": "https://zh.wikipedia.org/wiki/星期"
+				},
+				"month": {
+					"name": "月",
+					"abbr": "月",
+					"definition": "月是基于月球周期的时间单位，用于长期规划，是日历和财务计算中的常用单位。",
+					"wiki": "https://zh.wikipedia.org/wiki/月"
+				},
+				"year": {
+					"name": "年",
+					"abbr": "年",
+					"definition": "年是基于地球绕太阳运行的时间单位，用于长期规划，是日历和历史记录中的基本单位。",
+					"wiki": "https://zh.wikipedia.org/wiki/年"
 				}
 			},
 			"pressure": {
+				"name": "压力",
 				"pascal": {
+					"name": "帕斯卡",
 					"abbr": "Pa",
 					"definition": "帕斯卡是SI中测量压力的单位，表示每单位面积上的力，常用于物理和工程中描述压力。",
 					"wiki": "https://zh.wikipedia.org/wiki/帕斯卡"
 				},
 				"kilopascal": {
+					"name": "千帕",
 					"abbr": "kPa",
 					"definition": "千帕等于1000帕斯卡，常用于工程和气象中表示较大的压力值。",
 					"wiki": "https://zh.wikipedia.org/wiki/帕斯卡"
 				},
 				"bar": {
+					"name": "巴",
 					"abbr": "bar",
 					"definition": "巴是常用于工程和天气预报中的压力单位，1巴等于100,000帕斯卡，易于理解。",
 					"wiki": "https://zh.wikipedia.org/wiki/巴_(单位)"
 				},
 				"psi": {
+					"name": "磅每平方英寸",
 					"abbr": "psi",
 					"definition": "PSI代表每平方英寸的磅力，是主要在美国使用的压力单位，测量单位面积上的力，常用于汽车工业。",
 					"wiki": "https://zh.wikipedia.org/wiki/磅力"
+				},
+				"atmosphere": {
+					"name": "标准大气压",
+					"abbr": "atm",
+					"definition": "标准大气压是基于海平面平均大气压的压力单位，用于气象和工程领域。",
+					"wiki": "https://zh.wikipedia.org/wiki/标准大气压"
+				},
+				"torr": {
+					"name": "托",
+					"abbr": "Torr",
+					"definition": "托是以托里拆利命名的压力单位，主要用于真空技术，约等于1/760个标准大气压。",
+					"wiki": "https://zh.wikipedia.org/wiki/托_(单位)"
 				}
 			},
 			"energy": {
+				"name": "能量",
 				"joule": {
+					"name": "焦耳",
 					"abbr": "J",
 					"definition": "焦耳是SI中的能量单位，用于测量做功或热量，在物理、工程和化学中都有应用。",
 					"wiki": "https://zh.wikipedia.org/wiki/焦耳"
 				},
 				"kilojoule": {
+					"name": "千焦",
 					"abbr": "kJ",
-					"definition": "千焦等于1000焦耳，经常在营养学和工程中用于处理较大能量值。",
+					"definition": "千焦等于1000焦耳，常用于营养和工程领域。",
 					"wiki": "https://zh.wikipedia.org/wiki/焦耳"
 				},
 				"calorie": {
+					"name": "卡路里",
 					"abbr": "cal",
-					"definition": "卡路里是一种能量单位，常用于营养学中，表示将水温升高所需的能量。",
+					"definition": "卡路里是常用于营养学的能量单位，测量升高水温所需的能量。",
 					"wiki": "https://zh.wikipedia.org/wiki/卡路里"
 				},
 				"kilocalorie": {
+					"name": "千卡",
 					"abbr": "kcal",
-					"definition": "千卡等于1000卡路里，通常用于标示食物的能量含量。",
-					"wiki": "https://zh.wikipedia.org/wiki/千卡"
+					"definition": "千卡等于1000卡路里，通常用于表示食品的能量含量。",
+					"wiki": "https://zh.wikipedia.org/wiki/卡路里"
 				},
 				"kilowatt-hour": {
+					"name": "千瓦时",
 					"abbr": "kWh",
-					"definition": "千瓦时是主要用于电费结算的能量单位，表示以1千瓦功率在一小时内消耗的能量。",
+					"definition": "千瓦时等于1000瓦时，常用于电力计费。",
 					"wiki": "https://zh.wikipedia.org/wiki/千瓦时"
+				},
+				"watt-hour": {
+					"name": "瓦时",
+					"abbr": "Wh",
+					"definition": "瓦时表示一瓦功率在一小时内消耗的能量。",
+					"wiki": "https://zh.wikipedia.org/wiki/瓦时"
+				},
+				"electronvolt": {
+					"name": "电子伏",
+					"abbr": "eV",
+					"definition": "电子伏是原子和核物理中使用的能量单位，等于电子在一伏电压差下获得的动能。",
+					"wiki": "https://zh.wikipedia.org/wiki/电子伏特"
+				},
+				"hartree": {
+					"name": "哈特里",
+					"abbr": "Eh",
+					"definition": "哈特里是量子化学和原子物理中使用的能量单位。",
+					"wiki": "https://zh.wikipedia.org/wiki/哈特里"
 				}
 			},
 			"power": {
+				"name": "功率",
 				"watt": {
+					"name": "瓦特",
 					"abbr": "W",
 					"definition": "瓦特是SI中的功率单位，表示单位时间内转换的能量，应用于电工和物理学。",
 					"wiki": "https://zh.wikipedia.org/wiki/瓦"
 				},
 				"kilowatt": {
+					"name": "千瓦",
 					"abbr": "kW",
 					"definition": "千瓦等于1000瓦，常用于表示设备或发动机的功率，在能源和工程领域中广泛使用。",
 					"wiki": "https://zh.wikipedia.org/wiki/千瓦"
 				},
 				"horsepower": {
+					"name": "马力",
 					"abbr": "hp",
 					"definition": "马力是历史上用来描述机器功率的单位，表示完成特定工作的所需功率，常用于汽车工业。",
 					"wiki": "https://zh.wikipedia.org/wiki/马力"
 				}
 			},
-			"dataStorage": {
+			"data-storage": {
+				"name": "数据存储",
 				"byte": {
+					"name": "字节",
 					"abbr": "B",
 					"definition": "字节是数字信息的基本单位，通常由8位组成，是计算机数据存储的基础。",
 					"wiki": "https://zh.wikipedia.org/wiki/字节"
 				},
 				"kilobyte": {
-					"abbr": "KB",
+					"name": "千字节",
+					"abbr": "kB",
 					"definition": "千字节等于1024字节，用于衡量小文件的大小，是计算机中常用的单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/千字节"
 				},
 				"megabyte": {
+					"name": "兆字节",
 					"abbr": "MB",
 					"definition": "兆字节等于1024千字节，常用于描述文件大小或存储容量，在数字世界中十分常见。",
 					"wiki": "https://zh.wikipedia.org/wiki/兆字节"
 				},
 				"gigabyte": {
+					"name": "吉字节",
 					"abbr": "GB",
 					"definition": "吉字节等于1024兆字节，用于衡量硬盘等设备的存储容量，是信息技术中常用的单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/吉字节"
+				},
+				"terabyte": {
+					"name": "太字节",
+					"abbr": "TB",
+					"definition": "太字节等于1024吉字节，用于测量非常大的数据存储容量。",
+					"wiki": "https://zh.wikipedia.org/wiki/太字节"
+				},
+				"petabyte": {
+					"name": "拍字节",
+					"abbr": "PB",
+					"definition": "拍字节等于1024太字节，用于测量极大的数据存储容量。",
+					"wiki": "https://zh.wikipedia.org/wiki/拍字节"
+				},
+				"exabyte": {
+					"name": "艾字节",
+					"abbr": "EB",
+					"definition": "艾字节等于1024拍字节，用于测量海量数据存储容量。",
+					"wiki": "https://zh.wikipedia.org/wiki/艾字节"
+				},
+				"zettabyte": {
+					"name": "泽字节",
+					"abbr": "ZB",
+					"definition": "泽字节等于1024艾字节，用于测量巨量数据存储容量。",
+					"wiki": "https://zh.wikipedia.org/wiki/泽字节"
+				},
+				"yottabyte": {
+					"name": "尧字节",
+					"abbr": "YB",
+					"definition": "尧字节等于1024泽字节，用于测量最大的数据存储容量。",
+					"wiki": "https://zh.wikipedia.org/wiki/尧字节"
 				}
 			},
 			"angle": {
+				"name": "角度",
 				"radian": {
+					"name": "弧度",
 					"abbr": "rad",
 					"definition": "弧度是用于测量角度的SI单位，表示圆弧长度与圆半径的比值，是数学和物理中的基本概念。",
 					"wiki": "https://zh.wikipedia.org/wiki/弧度"
 				},
 				"degree": {
+					"name": "度",
 					"abbr": "°",
 					"definition": "度是常用的角度单位，一个完整的圆等于360度，广泛应用于几何和日常生活中。",
 					"wiki": "https://zh.wikipedia.org/wiki/度_(角度)"
 				},
 				"grad": {
-					"abbr": "gon",
+					"name": "百分度",
+					"abbr": "grad",
 					"definition": "百分度是一种角度测量单位，其中直角等于100百分度，适用于某些技术领域，并提供十进制表示法。",
+					"wiki": "https://zh.wikipedia.org/wiki/百分度"
+				},
+				"gradian": {
+					"name": "百分度",
+					"abbr": "grad",
+					"definition": "百分度是角度单位，其中一个完整圆周为400百分度。",
+					"wiki": "https://zh.wikipedia.org/wiki/百分度"
+				},
+				"minute": {
+					"name": "角分",
+					"abbr": "'",
+					"definition": "角分是角度单位，等于1/60度。",
+					"wiki": "https://zh.wikipedia.org/wiki/角分"
+				},
+				"second": {
+					"name": "角秒",
+					"abbr": "\"",
+					"definition": "角秒是角度单位，等于1/60角分。",
+					"wiki": "https://zh.wikipedia.org/wiki/角秒"
+				},
+				"milliradian": {
+					"name": "毫弧度",
+					"abbr": "mrad",
+					"definition": "毫弧度等于1/1000弧度。",
+					"wiki": "https://zh.wikipedia.org/wiki/弧度"
+				},
+				"milligradian": {
+					"name": "毫百分度",
+					"abbr": "mgrad",
+					"definition": "毫百分度等于1/1000百分度。",
 					"wiki": "https://zh.wikipedia.org/wiki/百分度"
 				}
 			},
 			"frequency": {
+				"name": "频率",
 				"hertz": {
+					"name": "赫兹",
 					"abbr": "Hz",
 					"definition": "赫兹是频率的SI单位，表示每秒发生的振动次数，在物理和工程中被广泛应用。",
 					"wiki": "https://zh.wikipedia.org/wiki/赫兹"
 				},
 				"kilohertz": {
+					"name": "千赫兹",
 					"abbr": "kHz",
 					"definition": "千赫兹等于1000赫兹，常用于描述音频频率和通信技术，在电子学中较为普遍。",
 					"wiki": "https://zh.wikipedia.org/wiki/赫兹"
 				},
 				"megahertz": {
+					"name": "兆赫兹",
 					"abbr": "MHz",
 					"definition": "兆赫兹等于1,000,000赫兹，经常用于无线电技术和频率测量，是通信和电子领域的重要单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/赫兹"
 				},
 				"gigahertz": {
+					"name": "吉赫兹",
 					"abbr": "GHz",
 					"definition": "吉赫兹等于1,000,000,000赫兹，主要用于描述处理器和无线电频率，是现代技术中不可或缺的单位。",
+					"wiki": "https://zh.wikipedia.org/wiki/赫兹"
+				},
+				"terahertz": {
+					"name": "太赫兹",
+					"abbr": "THz",
+					"definition": "太赫兹等于1012赫兹。",
+					"wiki": "https://zh.wikipedia.org/wiki/赫兹"
+				},
+				"petahertz": {
+					"name": "拍赫兹",
+					"abbr": "PHz",
+					"definition": "拍赫兹等于1015赫兹。",
+					"wiki": "https://zh.wikipedia.org/wiki/赫兹"
+				},
+				"exahertz": {
+					"name": "艾赫兹",
+					"abbr": "EHz",
+					"definition": "艾赫兹等于1018赫兹。",
+					"wiki": "https://zh.wikipedia.org/wiki/赫兹"
+				},
+				"zettahertz": {
+					"name": "泽赫兹",
+					"abbr": "ZHz",
+					"definition": "泽赫兹等于1021赫兹。",
+					"wiki": "https://zh.wikipedia.org/wiki/赫兹"
+				},
+				"yottahertz": {
+					"name": "尧赫兹",
+					"abbr": "YHz",
+					"definition": "尧赫兹等于1024赫兹。",
 					"wiki": "https://zh.wikipedia.org/wiki/赫兹"
 				}
 			},
 			"force": {
+				"name": "力",
 				"newton": {
+					"name": "牛顿",
 					"abbr": "N",
 					"definition": "牛顿是SI中力的单位，定义为使1千克物体以1 m/s²加速所需的力，是物理学中的基本单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/牛顿_(单位)"
 				},
 				"kilonewton": {
+					"name": "千牛顿",
 					"abbr": "kN",
 					"definition": "千牛顿等于1000牛顿，常用于工程和建筑中测量较大的力，便于表示高数值的力。",
 					"wiki": "https://zh.wikipedia.org/wiki/牛顿_(单位)"
 				},
 				"pound-force": {
+					"name": "磅力",
 					"abbr": "lbf",
 					"definition": "磅力是主要在英语国家使用的力的单位，表示一磅重所产生的力，常用于工程领域。",
 					"wiki": "https://zh.wikipedia.org/wiki/磅力"
+				},
+				"meganewton": {
+					"name": "兆牛顿",
+					"abbr": "MN",
+					"definition": "兆牛顿等于一百万牛顿。",
+					"wiki": "https://zh.wikipedia.org/wiki/牛顿_(单位)"
+				},
+				"giganewton": {
+					"name": "吉牛顿",
+					"abbr": "GN",
+					"definition": "吉牛顿等于十亿牛顿。",
+					"wiki": "https://zh.wikipedia.org/wiki/牛顿_(单位)"
+				},
+				"dyne": {
+					"name": "达因",
+					"abbr": "dyn",
+					"definition": "达因是CGS系统中的力单位，等于10-5牛顿。",
+					"wiki": "https://zh.wikipedia.org/wiki/达因"
 				}
 			},
 			"density": {
-				"kg-per-m3": {
+				"name": "密度",
+				"kilogram-per-cubic-meter": {
+					"name": "千克每立方米",
 					"abbr": "kg/m³",
 					"definition": "以千克/立方米表示的密度是SI单位，描述单位体积内的质量，用于表征材料的特性。",
 					"wiki": "https://zh.wikipedia.org/wiki/密度"
 				},
-				"g-per-cm3": {
+				"gram-per-cubic-centimeter": {
+					"name": "克每立方厘米",
 					"abbr": "g/cm³ ",
 					"definition": "以克/立方厘米表示的密度常用于材料科学中测量单位体积内的质量，便于比较不同材料的密度。",
 					"wiki": "https://zh.wikipedia.org/wiki/密度"
 				},
-				"lb-per-ft3": {
+				"pound-per-cubic-foot": {
+					"name": "磅每立方英尺",
 					"abbr": "lb/ft³",
 					"definition": "以磅/立方英尺表示的密度是英语国家常用的单位，用于测量单位体积内的质量，常见于建筑和材料工程。",
 					"wiki": "https://zh.wikipedia.org/wiki/密度"
+				},
+				"kilogram-per-cubic-kilometer": {
+					"name": "千克每立方千米",
+					"abbr": "kg/km³",
+					"definition": "密度单位，测量每立方千米的质量（千克）。",
+					"wiki": "https://zh.wikipedia.org/wiki/密度"
 				}
 			},
-			"volumeFlow": {
-				"m³/s": {
+			"volume-flow": {
+				"name": "流量",
+				"cubic-meters-per-second": {
+					"name": "立方米每秒",
 					"abbr": "m³/s",
 					"definition": "以立方米/秒表示的流量，测量单位截面内每秒通过的流体体积，是流体力学中重要的单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/流量"
 				},
-				"liter/s": {
+				"liters-per-second": {
+					"name": "升每秒",
 					"abbr": "l/s",
 					"definition": "以升/秒表示的流量，表示每秒流动的液体体积，常用于工艺工程中。",
 					"wiki": "https://zh.wikipedia.org/wiki/流量"
 				},
-				"gallon/min": {
+				"gallons-per-minute": {
+					"name": "加仑每分钟",
 					"abbr": "gal/min",
 					"definition": "以加仑/分钟表示的流量，测量每分钟流过的液体体积，主要在美国及技术应用中使用。",
 					"wiki": "https://zh.wikipedia.org/wiki/加仑"
+				},
+				"cubic-kilometer-per-second": {
+					"name": "立方千米每秒",
+					"abbr": "km³/s",
+					"definition": "体积流量单位，测量每秒流过的立方千米数。",
+					"wiki": "https://zh.wikipedia.org/wiki/体积流量"
 				}
 			},
 			"acceleration": {
-				"m/s²": {
+				"name": "加速度",
+				"meters-per-second-squared": {
+					"name": "米每二次方秒",
 					"abbr": "m/s²",
 					"definition": "以米/秒²表示的加速度，描述速度变化的快慢，是SI中用于测量加速度的基本单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/加速度"
 				},
-				"ft/s²": {
+				"feet-per-second-squared": {
+					"name": "英尺每二次方秒",
 					"abbr": "ft/s²",
 					"definition": "以英尺/秒²表示的加速度，是英语国家中常用的加速度单位，描述速度变化。",
 					"wiki": "https://zh.wikipedia.org/wiki/加速度"
 				},
-				"km/h/s": {
+				"kilometers-per-hour-per-second": {
+					"name": "千米每小时每秒",
 					"abbr": "km/h/s",
 					"definition": "以千米/小时/秒表示的加速度，描述速度（以千米/小时为单位）的变化率，常用于汽车领域。",
 					"wiki": "https://zh.wikipedia.org/wiki/加速度"
+				},
+				"kilometer-per-second-squared": {
+					"name": "千米每平方秒",
+					"abbr": "km/s²",
+					"definition": "加速度单位，测量每平方秒的速度变化（千米）。",
+					"wiki": "https://zh.wikipedia.org/wiki/加速度"
 				}
 			},
-			"areaDensity": {
-				"kg/m²": {
+			"area-density": {
+				"name": "面密度",
+				"kilogram-per-square-meter": {
+					"name": "千克每平方米",
 					"abbr": "kg/m²",
 					"definition": "以千克/平方米表示的面密度，描述单位面积上的质量，主要用于建筑和材料科学。",
 					"wiki": "https://zh.wikipedia.org/wiki/面密度"
 				},
-				"g/cm²": {
+				"gram-per-square-centimeter": {
+					"name": "克每平方厘米",
 					"abbr": "g/cm²",
 					"definition": "以克/平方厘米表示的面密度，测量单位面积内的质量，用于工程中的精确计算。",
+					"wiki": "https://zh.wikipedia.org/wiki/面密度"
+				},
+				"kilogram-per-square-kilometer": {
+					"name": "千克每平方千米",
+					"abbr": "kg/km²",
+					"definition": "面密度单位，测量每平方千米的质量（千克）。",
 					"wiki": "https://zh.wikipedia.org/wiki/面密度"
 				}
 			},
 			"illuminance": {
+				"name": "照度",
 				"lux": {
+					"name": "勒克斯",
 					"abbr": "lx",
 					"definition": "勒克斯是SI中照度的单位，表示每平方米的光通量，在照明技术和建筑设计中十分重要。",
 					"wiki": "https://zh.wikipedia.org/wiki/勒克斯"
 				},
 				"foot-candle": {
+					"name": "英尺烛光",
 					"abbr": "fc",
 					"definition": "英尺烛光是主要在英语国家使用的照度单位，表示每平方英尺接收到的光量，常用于照明设计。",
 					"wiki": "https://zh.wikipedia.org/wiki/英尺烛光"
+				},
+				"lumen-per-square-meter": {
+					"name": "流明每平方米",
+					"abbr": "lm/m²",
+					"definition": "照度单位，测量每平方米的光通量。",
+					"wiki": "https://zh.wikipedia.org/wiki/照度"
 				}
 			},
-			"dataRate": {
-				"bit/s": {
-					"abbr": "bit/s",
+			"data-rate": {
+				"name": "数据传输速率",
+				"bits-per-second": {
+					"name": "比特每秒",
+					"abbr": "bps",
 					"definition": "比特/秒是数据传输速率的单位，表示每秒传输的比特数，是信息技术中的核心单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/比特率"
 				},
-				"kilobit/s": {
-					"abbr": "kbit/s",
+				"kilobits-per-second": {
+					"name": "千比特每秒",
+					"abbr": "kbps",
 					"definition": "千比特/秒等于1000比特/秒，常用于网络通信中，帮助确定互联网速度。",
 					"wiki": "https://zh.wikipedia.org/wiki/比特率"
 				},
-				"megabit/s": {
-					"abbr": "Mbit/s",
+				"megabits-per-second": {
+					"name": "兆比特每秒",
+					"abbr": "Mbps",
 					"definition": "兆比特/秒等于1,000,000比特/秒，常用于描述互联网和数据传输速度，在电信中较为常见。",
 					"wiki": "https://zh.wikipedia.org/wiki/比特率"
 				},
-				"gigabit/s": {
-					"abbr": "Gbit/s",
+				"gigabits-per-second": {
+					"name": "吉比特每秒",
+					"abbr": "Gbps",
 					"definition": "吉比特/秒等于1,000,000,000比特/秒，主要用于高速网络，是现代数据通信系统不可或缺的单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/比特率"
 				},
-				"byte/s": {
-					"abbr": "B/s",
+				"bytes-per-second": {
+					"name": "字节每秒",
+					"abbr": "Bps",
 					"definition": "字节/秒用于测量数据传输速率，以字节为单位，是计算机技术中常用的指标。",
 					"wiki": "https://zh.wikipedia.org/wiki/数据吞吐量"
 				},
-				"kilobyte/s": {
-					"abbr": "KB/s",
+				"kilobytes-per-second": {
+					"name": "千字节每秒",
+					"abbr": "kBps",
 					"definition": "千字节/秒等于1024字节/秒，常用于测量下载和上传速度，是计算机中常见的单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/数据吞吐量"
 				},
-				"megabyte/s": {
-					"abbr": "MB/s",
+				"megabytes-per-second": {
+					"name": "兆字节每秒",
+					"abbr": "MBps",
 					"definition": "兆字节/秒等于1024千字节/秒，用于表示计算机和网络中的数据传输速率，是数字传输中常见的单位。",
 					"wiki": "https://zh.wikipedia.org/wiki/数据吞吐量"
+				},
+				"terabit-per-second": {
+					"name": "太比特每秒",
+					"abbr": "Tb/s",
+					"definition": "太比特每秒等于1012比特每秒。",
+					"wiki": "https://zh.wikipedia.org/wiki/比特率"
+				},
+				"petabit-per-second": {
+					"name": "拍比特每秒",
+					"abbr": "Pb/s",
+					"definition": "拍比特每秒等于1015比特每秒。",
+					"wiki": "https://zh.wikipedia.org/wiki/比特率"
+				},
+				"exabit-per-second": {
+					"name": "艾比特每秒",
+					"abbr": "Eb/s",
+					"definition": "艾比特每秒等于1018比特每秒。",
+					"wiki": "https://zh.wikipedia.org/wiki/比特率"
+				},
+				"zettabit-per-second": {
+					"name": "泽比特每秒",
+					"abbr": "Zb/s",
+					"definition": "泽比特每秒等于1021比特每秒。",
+					"wiki": "https://zh.wikipedia.org/wiki/比特率"
+				},
+				"yottabit-per-second": {
+					"name": "尧比特每秒",
+					"abbr": "Yb/s",
+					"definition": "尧比特每秒等于1024比特每秒。",
+					"wiki": "https://zh.wikipedia.org/wiki/比特率"
 				}
 			}
 		},
@@ -494,10 +794,10 @@
 			"value": "数值",
 			"from": "从",
 			"to": "到",
-			"calculate": "转换",
+			"calculate": "计算",
 			"result": "结果",
 			"select": "选择",
-			"invalidNumber": "请输入一个有效数字。",
+			"invalidNumber": "请输入有效数字。",
 			"differentUnits": "请选择不同的单位。"
 		}
 	}

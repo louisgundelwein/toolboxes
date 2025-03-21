@@ -3,8 +3,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import Converter from '../components/Converter';
-import type { UnitCategoryEnum } from '@/shared';
-import { getUnitCategoryObject } from '../util/unitCategories';
+import { getUnitCategoryObject, UnitCategoryKey } from '../util/unitCategories';
 
 interface PageProps {
 	params: Promise<{
@@ -16,12 +15,11 @@ interface PageProps {
 export default function CategoryPage({ params }: PageProps) {
 	const t = useTranslations('UnitConverterPage');
 	const resolvedParams = React.use(params);
-	const unitCategories = getUnitCategoryObject(t);
-	const categoryKeys = Object.keys(unitCategories) as UnitCategoryEnum[];
+	const categoryKey = resolvedParams.category as UnitCategoryKey;
 
-	// Validate category
-	const category = resolvedParams.category as UnitCategoryEnum;
-	if (!categoryKeys.includes(category)) {
+	const unitCategory = getUnitCategoryObject(categoryKey, t);
+
+	if (!unitCategory) {
 		return (
 			<div className="flex flex-col items-center justify-center min-h-[50vh]">
 				<h1 className="text-2xl font-bold text-error mb-4">
@@ -37,9 +35,9 @@ export default function CategoryPage({ params }: PageProps) {
 	return (
 		<div className="container mx-auto px-4 py-8">
 			<h1 className="text-3xl font-bold text-center mb-8">
-				{unitCategories[category].name}
+				{unitCategory.name}
 			</h1>
-			<Converter category={category} />
+			<Converter category={categoryKey} />
 		</div>
 	);
 }

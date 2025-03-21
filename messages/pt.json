@@ -208,6 +208,12 @@
 					"abbr": "mph",
 					"definition": "Milhas por hora são uma unidade de velocidade utilizada principalmente nos EUA e no Reino Unido. Medem quantas milhas são percorridas em uma hora.",
 					"wiki": "https://de.wikipedia.org/wiki/Meile"
+				},
+				"knot": {
+					"name": "Nó",
+					"abbr": "kn",
+					"definition": "Um nó é uma unidade de velocidade utilizada em contextos marítimos e aeronáuticos. Equivale a uma milha náutica por hora, aproximadamente 1,852 quilômetros por hora.",
+					"wiki": "https://pt.wikipedia.org/wiki/Nó_(unidade)"
 				}
 			},
 			"time": {
@@ -230,6 +236,24 @@
 					"abbr": "d",
 					"definition": "Um dia corresponde à rotação da Terra e compreende 24 horas. É a unidade fundamental do tempo no cotidiano e utilizada em quase todas as culturas.",
 					"wiki": "https://de.wikipedia.org/wiki/Tag"
+				},
+				"week": {
+					"name": "Semana",
+					"abbr": "sem",
+					"definition": "Uma semana é uma unidade de tempo igual a sete dias. É utilizada para organizar horários e é uma unidade comum em negócios e planejamento pessoal.",
+					"wiki": "https://pt.wikipedia.org/wiki/Semana"
+				},
+				"month": {
+					"name": "Mês",
+					"abbr": "mês",
+					"definition": "Um mês é uma unidade de tempo baseada no ciclo lunar. É utilizado para planejamento a longo prazo e é uma unidade comum em calendários e cálculos financeiros.",
+					"wiki": "https://pt.wikipedia.org/wiki/Mês"
+				},
+				"year": {
+					"name": "Ano",
+					"abbr": "ano",
+					"definition": "Um ano é uma unidade de tempo baseada na órbita da Terra ao redor do Sol. É utilizado para planejamento a longo prazo e é uma unidade fundamental em calendários e registros históricos.",
+					"wiki": "https://pt.wikipedia.org/wiki/Ano"
 				}
 			},
 			"pressure": {
@@ -252,6 +276,18 @@
 					"abbr": "psi",
 					"definition": "PSI significa libras por polegada quadrada e é uma unidade de pressão comumente usada nos EUA. Mede a pressão como força por unidade de área e é frequentemente utilizada no setor automotivo.",
 					"wiki": "https://de.wikipedia.org/wiki/Pfund_pro_Quadratzoll"
+				},
+				"atmosphere": {
+					"name": "Atmosfera",
+					"abbr": "atm",
+					"definition": "A atmosfera é uma unidade de pressão baseada na pressão atmosférica média ao nível do mar. É utilizada em meteorologia e tecnologia.",
+					"wiki": "https://pt.wikipedia.org/wiki/Atmosfera_(unidade)"
+				},
+				"torr": {
+					"name": "Torr",
+					"abbr": "Torr",
+					"definition": "O Torr é uma unidade de pressão nomeada em homenagem a Evangelista Torricelli. É principalmente utilizada em tecnologia de vácuo e equivale aproximadamente a 1/760 de uma atmosfera.",
+					"wiki": "https://pt.wikipedia.org/wiki/Torr"
 				}
 			},
 			"energy": {
@@ -261,24 +297,40 @@
 					"wiki": "https://de.wikipedia.org/wiki/Joule"
 				},
 				"kilojoule": {
+					"name": "Quilojoule",
 					"abbr": "kJ",
-					"definition": "Um quilojoule equivale a 1000 joules e é frequentemente usado em nutrição e engenharia.",
-					"wiki": "https://de.wikipedia.org/wiki/Joule"
+					"definition": "Um quilojoule equivale a 1000 joules e é frequentemente utilizado em nutrição e engenharia.",
+					"wiki": "https://pt.wikipedia.org/wiki/Joule"
 				},
 				"calorie": {
+					"name": "Caloria",
 					"abbr": "cal",
-					"definition": "A caloria é uma unidade de energia frequentemente usada em nutrição. Mede a quantidade de energia necessária para elevar a temperatura da água.",
-					"wiki": "https://de.wikipedia.org/wiki/Kalorie"
+					"definition": "A caloria é uma unidade de energia frequentemente utilizada em nutrição. Mede a quantidade de energia necessária para elevar a temperatura da água.",
+					"wiki": "https://pt.wikipedia.org/wiki/Caloria"
 				},
 				"kilocalorie": {
+					"name": "Quilocaloria",
 					"abbr": "kcal",
-					"definition": "A quilocaloria equivale a 1000 calorias e é comumente usada para indicar o valor energético dos alimentos. É amplamente utilizada na ciência da nutrição.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
+					"definition": "A quilocaloria equivale a 1000 calorias e é comumente utilizada para indicar o conteúdo energético dos alimentos.",
+					"wiki": "https://pt.wikipedia.org/wiki/Quilocaloria"
 				},
 				"kilowatt-hour": {
+					"name": "Quilowatt-hora",
 					"abbr": "kWh",
-					"definition": "O quilowatt-hora é uma unidade de energia usada principalmente para faturamento de eletricidade. Mede o consumo de energia durante uma hora a uma potência de um quilowatt.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilowattstunde"
+					"definition": "O quilowatt-hora é uma unidade de energia equivalente a 1000 watts-hora, comumente utilizada em faturamento elétrico.",
+					"wiki": "https://pt.wikipedia.org/wiki/Quilowatt-hora"
+				},
+				"electronvolt": {
+					"name": "Elétron-volt",
+					"abbr": "eV",
+					"definition": "O elétron-volt é uma unidade de energia utilizada em física atômica e nuclear, igual à energia cinética adquirida por um elétron acelerado por uma diferença de potencial de um volt.",
+					"wiki": "https://pt.wikipedia.org/wiki/Elétron-volt"
+				},
+				"hartree": {
+					"name": "Hartree",
+					"abbr": "Eh",
+					"definition": "O Hartree é uma unidade de energia utilizada em química quântica e física atômica.",
+					"wiki": "https://pt.wikipedia.org/wiki/Hartree"
 				}
 			},
 			"power": {
@@ -318,6 +370,36 @@
 					"abbr": "GB",
 					"definition": "Um gigabyte equivale a 1024 megabytes e é usado para medir a capacidade de armazenamento de discos rígidos e outros dispositivos. É uma unidade comum em tecnologia da informação.",
 					"wiki": "https://de.wikipedia.org/wiki/Gigabyte"
+				},
+				"terabyte": {
+					"name": "Terabyte",
+					"abbr": "TB",
+					"definition": "Um terabyte equivale a 1024 gigabytes e é utilizado para medir capacidades de armazenamento muito grandes.",
+					"wiki": "https://pt.wikipedia.org/wiki/Terabyte"
+				},
+				"petabyte": {
+					"name": "Petabyte",
+					"abbr": "PB",
+					"definition": "Um petabyte equivale a 1024 terabytes e é utilizado para medir capacidades de armazenamento extremamente grandes.",
+					"wiki": "https://pt.wikipedia.org/wiki/Petabyte"
+				},
+				"exabyte": {
+					"name": "Exabyte",
+					"abbr": "EB",
+					"definition": "Um exabyte equivale a 1024 petabytes e é utilizado para medir capacidades de armazenamento massivas.",
+					"wiki": "https://pt.wikipedia.org/wiki/Exabyte"
+				},
+				"zettabyte": {
+					"name": "Zettabyte",
+					"abbr": "ZB",
+					"definition": "Um zettabyte equivale a 1024 exabytes e é utilizado para medir capacidades de armazenamento enormes.",
+					"wiki": "https://pt.wikipedia.org/wiki/Zettabyte"
+				},
+				"yottabyte": {
+					"name": "Yottabyte",
+					"abbr": "YB",
+					"definition": "Um yottabyte equivale a 1024 zettabytes e é utilizado para medir as maiores capacidades de armazenamento.",
+					"wiki": "https://pt.wikipedia.org/wiki/Yottabyte"
 				}
 			},
 			"angle": {
@@ -335,6 +417,36 @@
 					"abbr": "gon",
 					"definition": "O grad é uma unidade alternativa para medir ângulos, na qual um ângulo reto equivale a 100 gons. É utilizado em alguns campos técnicos e fornece uma representação decimal.",
 					"wiki": "https://de.wikipedia.org/wiki/Gon"
+				},
+				"gradian": {
+					"name": "Grado",
+					"abbr": "grad",
+					"definition": "O grado é uma unidade de medida de ângulo onde um círculo completo tem 400 grados.",
+					"wiki": "https://pt.wikipedia.org/wiki/Grado_(ângulo)"
+				},
+				"minute": {
+					"name": "Minuto de arco",
+					"abbr": "'",
+					"definition": "O minuto de arco é uma unidade de medida angular igual a 1/60 de grau.",
+					"wiki": "https://pt.wikipedia.org/wiki/Minuto_de_arco"
+				},
+				"second": {
+					"name": "Segundo de arco",
+					"abbr": "\"",
+					"definition": "O segundo de arco é uma unidade de medida angular igual a 1/60 de minuto de arco.",
+					"wiki": "https://pt.wikipedia.org/wiki/Segundo_de_arco"
+				},
+				"milliradian": {
+					"name": "Milirradiano",
+					"abbr": "mrad",
+					"definition": "O milirradiano é uma unidade de medida angular igual a 1/1000 de radiano.",
+					"wiki": "https://pt.wikipedia.org/wiki/Radiano"
+				},
+				"milligradian": {
+					"name": "Miligrado",
+					"abbr": "mgrad",
+					"definition": "O miligrado é uma unidade de medida angular igual a 1/1000 de grado.",
+					"wiki": "https://pt.wikipedia.org/wiki/Grado_(ângulo)"
 				}
 			},
 			"frequency": {
@@ -357,6 +469,36 @@
 					"abbr": "GHz",
 					"definition": "Um gigahertz equivale a 1.000.000.000 hertz e é usado principalmente para descrever frequências de processadores e sinais de rádio. Esta unidade é indispensável na tecnologia moderna.",
 					"wiki": "https://de.wikipedia.org/wiki/Hertz"
+				},
+				"terahertz": {
+					"name": "Terahertz",
+					"abbr": "THz",
+					"definition": "Um terahertz equivale a 1012 hertz.",
+					"wiki": "https://pt.wikipedia.org/wiki/Hertz"
+				},
+				"petahertz": {
+					"name": "Petahertz",
+					"abbr": "PHz",
+					"definition": "Um petahertz equivale a 1015 hertz.",
+					"wiki": "https://pt.wikipedia.org/wiki/Hertz"
+				},
+				"exahertz": {
+					"name": "Exahertz",
+					"abbr": "EHz",
+					"definition": "Um exahertz equivale a 1018 hertz.",
+					"wiki": "https://pt.wikipedia.org/wiki/Hertz"
+				},
+				"zettahertz": {
+					"name": "Zettahertz",
+					"abbr": "ZHz",
+					"definition": "Um zettahertz equivale a 1021 hertz.",
+					"wiki": "https://pt.wikipedia.org/wiki/Hertz"
+				},
+				"yottahertz": {
+					"name": "Yottahertz",
+					"abbr": "YHz",
+					"definition": "Um yottahertz equivale a 1024 hertz.",
+					"wiki": "https://pt.wikipedia.org/wiki/Hertz"
 				}
 			},
 			"force": {
@@ -374,6 +516,24 @@
 					"abbr": "lbf",
 					"definition": "A força em libras é uma unidade de força utilizada principalmente em países anglófonos que indica a força resultante do peso de uma libra. Esta unidade é frequentemente usada em engenharia.",
 					"wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
+				},
+				"meganewton": {
+					"name": "Meganewton",
+					"abbr": "MN",
+					"definition": "Um meganewton equivale a um milhão de newtons.",
+					"wiki": "https://pt.wikipedia.org/wiki/Newton_(unidade)"
+				},
+				"giganewton": {
+					"name": "Giganewton",
+					"abbr": "GN",
+					"definition": "Um giganewton equivale a um bilhão de newtons.",
+					"wiki": "https://pt.wikipedia.org/wiki/Newton_(unidade)"
+				},
+				"dyne": {
+					"name": "Dina",
+					"abbr": "dyn",
+					"definition": "A dina é uma unidade de força no sistema CGS, igual a 10-5 newtons.",
+					"wiki": "https://pt.wikipedia.org/wiki/Dina"
 				}
 			},
 			"density": {
@@ -391,6 +551,12 @@
 					"abbr": "lb/ft³",
 					"definition": "A densidade em libras por pé cúbico é uma unidade comumente usada em países anglófonos. Mede a massa por unidade de volume e é frequentemente utilizada em construção e engenharia de materiais.",
 					"wiki": "https://de.wikipedia.org/wiki/Dichte"
+				},
+				"kilogram-per-cubic-kilometer": {
+					"name": "Quilograma por quilômetro cúbico",
+					"abbr": "kg/km³",
+					"definition": "Unidade de densidade que mede a massa em quilogramas por quilômetro cúbico.",
+					"wiki": "https://pt.wikipedia.org/wiki/Densidade"
 				}
 			},
 			"volumeFlow": {
@@ -408,6 +574,12 @@
 					"abbr": "gal/min",
 					"definition": "O fluxo em galões por minuto mede a quantidade de um fluido que passa por minuto. Esta unidade é comum nos EUA e utilizada em aplicações técnicas.",
 					"wiki": "https://de.wikipedia.org/wiki/Gallone"
+				},
+				"cubic-kilometer-per-second": {
+					"name": "Quilômetro cúbico por segundo",
+					"abbr": "km³/s",
+					"definition": "Unidade de vazão volumétrica que mede quilômetros cúbicos por segundo.",
+					"wiki": "https://pt.wikipedia.org/wiki/Vazão"
 				}
 			},
 			"acceleration": {
@@ -425,6 +597,12 @@
 					"abbr": "km/h/s",
 					"definition": "A aceleração em quilômetros por hora por segundo mede quão rapidamente a velocidade em km/h muda. Esta unidade é frequentemente usada no setor automobilístico.",
 					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+				},
+				"kilometer-per-second-squared": {
+					"name": "Quilômetro por segundo quadrado",
+					"abbr": "km/s²",
+					"definition": "Unidade de aceleração que mede a mudança de velocidade em quilômetros por segundo ao quadrado.",
+					"wiki": "https://pt.wikipedia.org/wiki/Aceleração"
 				}
 			},
 			"areaDensity": {
@@ -437,6 +615,12 @@
 					"abbr": "g/cm²",
 					"definition": "A densidade superficial em gramas por centímetro quadrado mede a massa por unidade de área e é utilizada em engenharia para cálculos precisos em áreas pequenas.",
 					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+				},
+				"kilogram-per-square-kilometer": {
+					"name": "Quilograma por quilômetro quadrado",
+					"abbr": "kg/km²",
+					"definition": "Unidade de densidade superficial que mede a massa por unidade de área em quilômetros quadrados.",
+					"wiki": "https://pt.wikipedia.org/wiki/Densidade_superficial"
 				}
 			},
 			"illuminance": {
@@ -449,6 +633,12 @@
 					"abbr": "fc",
 					"definition": "O foot-candle é uma unidade de iluminância usada principalmente em países anglófonos que indica quanta luz incide sobre um pé quadrado. É frequentemente utilizado em projetos de iluminação.",
 					"wiki": "https://de.wikipedia.org/wiki/Foot-candle"
+				},
+				"lumen-per-square-meter": {
+					"name": "Lúmen por metro quadrado",
+					"abbr": "lm/m²",
+					"definition": "Unidade de iluminância que mede o fluxo luminoso por metro quadrado.",
+					"wiki": "https://pt.wikipedia.org/wiki/Iluminância"
 				}
 			},
 			"dataRate": {
@@ -486,6 +676,36 @@
 					"abbr": "MB/s",
 					"definition": "Megabytes por segundo equivalem a 1024 kilobytes por segundo e são usados para indicar taxas de transferência de dados em computadores e redes. Esta unidade é comum em transferências digitais.",
 					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+				},
+				"terabit-per-second": {
+					"name": "Terabit por segundo",
+					"abbr": "Tb/s",
+					"definition": "Um terabit por segundo equivale a 1012 bits por segundo.",
+					"wiki": "https://pt.wikipedia.org/wiki/Taxa_de_bits"
+				},
+				"petabit-per-second": {
+					"name": "Petabit por segundo",
+					"abbr": "Pb/s",
+					"definition": "Um petabit por segundo equivale a 1015 bits por segundo.",
+					"wiki": "https://pt.wikipedia.org/wiki/Taxa_de_bits"
+				},
+				"exabit-per-second": {
+					"name": "Exabit por segundo",
+					"abbr": "Eb/s",
+					"definition": "Um exabit por segundo equivale a 1018 bits por segundo.",
+					"wiki": "https://pt.wikipedia.org/wiki/Taxa_de_bits"
+				},
+				"zettabit-per-second": {
+					"name": "Zettabit por segundo",
+					"abbr": "Zb/s",
+					"definition": "Um zettabit por segundo equivale a 1021 bits por segundo.",
+					"wiki": "https://pt.wikipedia.org/wiki/Taxa_de_bits"
+				},
+				"yottabit-per-second": {
+					"name": "Yottabit por segundo",
+					"abbr": "Yb/s",
+					"definition": "Um yottabit por segundo equivale a 1024 bits por segundo.",
+					"wiki": "https://pt.wikipedia.org/wiki/Taxa_de_bits"
 				}
 			}
 		},

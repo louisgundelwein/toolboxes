@@ -1,12 +1,7 @@
 // components/UnitDefinitions.tsx
 import React from 'react';
-import locales from '../util/locales.json';
 import { useTranslations } from 'next-intl';
-
-// We derive the type of categories from the structure in "en"
-export type UnitCategoryKey =
-	keyof (typeof locales)['en']['unit-converter']['units'];
-
+import { UnitCategoryKey } from '../util/unitCategories';
 export interface UnitDefinitionsProps {
 	category: UnitCategoryKey;
 	fromUnit: string;
