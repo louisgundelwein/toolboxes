@@ -1,5 +1,5 @@
 {
-  "HomePage":{
+	"HomePage": {
 		"heroTitle": "Boîte à outils en ligne ultime pour des flux de travail numériques modernes",
 		"heroSubtitle": "Offrant des solutions digitales innovantes aux développeurs, designers et créatifs",
 		"heroDescription": "Découvrez une suite complète d’outils en ligne conçus pour optimiser votre travail. Des convertisseurs d’unités avancés aux convertisseurs de formats de fichiers efficaces, notre plateforme booste votre productivité et votre créativité.",
@@ -25,480 +25,480 @@
 		"description": "Toolboxes.app est la ressource en ligne incontournable offrant une collection puissante d’outils pour transformer votre manière de travailler.",
 		"seeMoreButton": "Voir Plus"
 	},
-  "UnitConverterPage": {
-    "definitions": {
-      "for": "Définition de",
-      "more": "Plus sur Wikipedia"
-    },
-    "description": "Un convertisseur d'unités complet",
-    "length": "Longueur",
-    "weight": "Poids",
-    "area": "Surface",
-    "volume": "Volume",
-    "temperature": "Température",
-    "speed": "Vitesse",
-    "time": "Temps",
-    "pressure": "Pression",
-    "energy": "Énergie",
-    "power": "Puissance",
-    "dataStorage": "Stockage de données",
-    "angle": "Angle",
-    "frequency": "Fréquence",
-    "force": "Force",
-    "density": "Densité",
-    "volumeFlow": "Débit volumique",
-    "acceleration": "Accélération",
-    "areaDensity": "Densité surfacique",
-    "illuminance": "Éclairement",
-    "dataRate": "Débit de données",
-    "to": "à",
-    "units": {
-      "length": {
-        "meter": {
-          "abbr": "m",
-          "definition": "Le mètre est l'unité de base du SI pour la longueur et sert de mesure standard pour les distances. Il est défini historiquement et reconnu dans le monde entier.",
-          "wiki": "https://de.wikipedia.org/wiki/Meter"
-        },
-        "kilometer": {
-          "abbr": "km",
-          "definition": "Un kilomètre équivaut à 1000 mètres et est couramment utilisé pour indiquer les distances. C'est une unité commune dans la vie quotidienne.",
-          "wiki": "https://de.wikipedia.org/wiki/Kilometer"
-        },
-        "centimeter": {
-          "abbr": "cm",
-          "definition": "Un centimètre est le centième d'un mètre et est souvent utilisé pour mesurer de petites longueurs. Cette unité est utilisée dans de nombreuses applications quotidiennes.",
-          "wiki": "https://de.wikipedia.org/wiki/Zentimeter"
-        },
-        "millimeter": {
-          "abbr": "mm",
-          "definition": "Un millimètre est le millième d'un mètre et est utilisé pour la mesure précise de petites longueurs. Cette unité est particulièrement importante dans les domaines techniques.",
-          "wiki": "https://de.wikipedia.org/wiki/Millimeter"
-        },
-        "mile": {
-          "abbr": "mi",
-          "definition": "Une mile est une unité de longueur principalement utilisée dans le monde anglophone. Elle équivaut à environ 1,609 kilomètres et possède une importance historique.",
-          "wiki": "https://de.wikipedia.org/wiki/Meile"
-        },
-        "yard": {
-          "abbr": "yd",
-          "definition": "Un yard est une unité de longueur utilisée notamment aux États-Unis et au Royaume-Uni. Il équivaut à 0,9144 mètres et est utilisé notamment dans l'industrie textile et sportive.",
-          "wiki": "https://de.wikipedia.org/wiki/Yard"
-        },
-        "foot": {
-          "abbr": "ft",
-          "definition": "Un pied est une unité de longueur traditionnelle utilisée aux États-Unis et dans certains autres pays. Il équivaut à 0,3048 mètres et est principalement utilisé dans la construction.",
-          "wiki": "https://de.wikipedia.org/wiki/Fuß"
-        },
-        "inch": {
-          "abbr": "in",
-          "definition": "Un pouce est une unité de longueur utilisée principalement dans le monde anglophone. Il équivaut à 2,54 centimètres et est utilisé en technologie ainsi que dans la vie courante.",
-          "wiki": "https://de.wikipedia.org/wiki/Inch"
-        }
-      },
-      "weight": {
-        "kilogram": {
-          "abbr": "kg",
-          "definition": "Le kilogramme est l'unité de base du SI pour la masse et sert de mesure standard en science et dans le commerce. Il est reconnu dans le monde entier.",
-          "wiki": "https://de.wikipedia.org/wiki/Kilogramm"
-        },
-        "gram": {
-          "abbr": "g",
-          "definition": "Un gramme est le millième d'un kilogramme et est fréquemment utilisé pour des masses légères. Cette unité est courante en cuisine et dans le commerce.",
-          "wiki": "https://de.wikipedia.org/wiki/Gramm"
-        },
-        "milligram": {
-          "abbr": "mg",
-          "definition": "Un milligramme équivaut au millième d'un gramme et est utilisé pour mesurer des masses très faibles, notamment en médecine. Il est souvent utilisé pour des dosages précis.",
-          "wiki": "https://de.wikipedia.org/wiki/Milligramm"
-        },
-        "pound": {
-          "abbr": "lb",
-          "definition": "La livre est une unité de masse traditionnelle utilisée principalement dans le monde anglophone. Elle équivaut à environ 0,4536 kilogrammes et est utilisée dans le commerce et au quotidien.",
-          "wiki": "https://de.wikipedia.org/wiki/Pfund"
-        },
-        "ounce": {
-          "abbr": "oz",
-          "definition": "L'once est une unité de masse plus petite connue principalement dans le monde anglophone. Elle équivaut à environ 28,35 grammes et est souvent utilisée dans l'industrie alimentaire.",
-          "wiki": "https://de.wikipedia.org/wiki/Unze"
-        }
-      },
-      "area": {
-        "square meter": {
-          "abbr": "m²",
-          "definition": "Le mètre carré est l'unité de surface du Système International et est utilisé pour mesurer les surfaces en architecture et en agriculture. C'est une unité standardisée et largement utilisée.",
-          "wiki": "https://de.wikipedia.org/wiki/Quadratmeter"
-        },
-        "square kilometer": {
-          "abbr": "km²",
-          "definition": "Un kilomètre carré correspond à une surface d'un million de mètres carrés. Cette unité est principalement utilisée pour représenter de grandes surfaces, comme des étendues de terrain.",
-          "wiki": "https://de.wikipedia.org/wiki/Quadratkilometer"
-        },
-        "square centimeter": {
-          "abbr": "cm²",
-          "definition": "Un centimètre carré est une petite unité de surface souvent utilisée en science des matériaux et dans la vie quotidienne. Il mesure la surface d'un carré de 1 cm de côté.",
-          "wiki": "https://de.wikipedia.org/wiki/Quadratzentimeter"
-        },
-        "square foot": {
-          "abbr": "ft²",
-          "definition": "Un pied carré est une unité de surface utilisée principalement aux États-Unis et au Royaume-Uni, équivalente à environ 0,0929 m². Cette unité est souvent utilisée dans l'immobilier.",
-          "wiki": "https://de.wikipedia.org/wiki/Quadratfuß"
-        },
-        "acre": {
-          "abbr": "ac",
-          "definition": "Un acre est une unité de surface traditionnelle utilisée principalement aux États-Unis et au Royaume-Uni. Il équivaut à environ 4047 mètres carrés et est utilisé en agriculture et pour l'évaluation immobilière.",
-          "wiki": "https://de.wikipedia.org/wiki/Acre"
-        }
-      },
-      "volume": {
-        "cubic meter": {
-          "abbr": "m³",
-          "definition": "Le mètre cube est l'unité de volume du Système International et est utilisé pour mesurer l'espace. Cette unité est importante dans la construction, le stockage et l'ingénierie.",
-          "wiki": "https://de.wikipedia.org/wiki/Kubikmeter"
-        },
-        "liter": {
-          "abbr": "l",
-          "definition": "Le litre est une unité de volume utilisée couramment pour mesurer les liquides. Il correspond à un décimètre cube et est largement utilisé au quotidien.",
-          "wiki": "https://de.wikipedia.org/wiki/Liter"
-        },
-        "milliliter": {
-          "abbr": "ml",
-          "definition": "Un millilitre est le millième d'un litre et sert à mesurer de petites quantités de liquide. Cette unité est principalement utilisée en médecine et en cuisine.",
-          "wiki": "https://de.wikipedia.org/wiki/Milliliter"
-        },
-        "cubic centimeter": {
-          "abbr": "cm³",
-          "definition": "Un centimètre cube équivaut à un millilitre et est souvent utilisé en technologie et en médecine pour mesurer de petits volumes. C'est une unité précise et largement utilisée.",
-          "wiki": "https://de.wikipedia.org/wiki/Kubikzentimeter"
-        },
-        "gallon (US)": {
-          "abbr": "gal",
-          "definition": "Un gallon (US) est une unité de volume utilisée aux États-Unis pour mesurer les liquides. Il équivaut à environ 3,785 litres et possède une importance historique et pratique.",
-          "wiki": "https://de.wikipedia.org/wiki/Gallone"
-        }
-      },
-      "temperature": {
-        "celsius": {
-          "abbr": "°C",
-          "definition": "L'échelle Celsius est une unité de température où 0 °C représente le point de congélation de l'eau. Elle est utilisée dans la plupart des pays et est facile à comprendre.",
-          "wiki": "https://de.wikipedia.org/wiki/Celsius"
-        },
-        "fahrenheit": {
-          "abbr": "°F",
-          "definition": "L'échelle Fahrenheit est une unité de température principalement utilisée aux États-Unis. Sur cette échelle, le point de congélation de l'eau est à 32 °F, ce qui la distingue de Celsius.",
-          "wiki": "https://de.wikipedia.org/wiki/Fahrenheit"
-        },
-        "kelvin": {
-          "abbr": "K",
-          "definition": "L'échelle Kelvin est l'unité SI pour la mesure de la température et commence au zéro absolu. Elle est principalement utilisée en science et en ingénierie.",
-          "wiki": "https://de.wikipedia.org/wiki/Kelvin"
-        }
-      },
-      "speed": {
-        "m/s": {
-          "abbr": "m/s",
-          "definition": "La vitesse en mètres par seconde est une unité SI qui indique combien de mètres sont parcourus en une seconde. Elle est largement utilisée en physique et en ingénierie.",
-          "wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
-        },
-        "km/h": {
-          "abbr": "km/h",
-          "definition": "Les kilomètres par heure indiquent combien de kilomètres sont parcourus en une heure. Cette unité est souvent utilisée dans la circulation et la météorologie.",
-          "wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
-        },
-        "mph": {
-          "abbr": "mph",
-          "definition": "Les miles par heure sont une unité de vitesse utilisée principalement aux États-Unis et au Royaume-Uni. Elles mesurent le nombre de miles parcourus en une heure.",
-          "wiki": "https://de.wikipedia.org/wiki/Meile"
-        }
-      },
-      "time": {
-        "second": {
-          "abbr": "s",
-          "definition": "La seconde est l'unité de base du temps dans le Système International. Elle sert à mesurer des intervalles de temps et est standardisée dans le monde entier.",
-          "wiki": "https://de.wikipedia.org/wiki/Sekunde"
-        },
-        "minute": {
-          "abbr": "min",
-          "definition": "Une minute se compose de 60 secondes et est utilisée pour mesurer des périodes de temps courtes. C'est une unité très courante au quotidien.",
-          "wiki": "https://de.wikipedia.org/wiki/Minute"
-        },
-        "hour": {
-          "abbr": "h",
-          "definition": "Une heure comprend 60 minutes et est une unité de temps courante pour la vie quotidienne. Elle est utilisée dans le monde entier et constitue la base de nombreux emplois du temps.",
-          "wiki": "https://de.wikipedia.org/wiki/Stunde"
-        },
-        "day": {
-          "abbr": "d",
-          "definition": "Un jour correspond à la rotation de la Terre et comprend 24 heures. C'est l'unité fondamentale du temps dans la vie quotidienne et utilisée dans presque toutes les cultures.",
-          "wiki": "https://de.wikipedia.org/wiki/Tag"
-        }
-      },
-      "pressure": {
-        "pascal": {
-          "abbr": "Pa",
-          "definition": "Le pascal est l'unité SI de pression et mesure la force par unité de surface. Il est utilisé en physique et en ingénierie pour décrire les conditions de pression.",
-          "wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
-        },
-        "kilopascal": {
-          "abbr": "kPa",
-          "definition": "Un kilopascal équivaut à 1000 pascals et est souvent utilisé pour représenter des pressions en ingénierie et en météorologie.",
-          "wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
-        },
-        "bar": {
-          "abbr": "bar",
-          "definition": "Le bar est une unité de pression utilisée principalement en ingénierie et dans les bulletins météo. Un bar équivaut à 100 000 pascals et est facile à comprendre.",
-          "wiki": "https://de.wikipedia.org/wiki/Bar_(Einheit)"
-        },
-        "psi": {
-          "abbr": "psi",
-          "definition": "PSI signifie livres par pouce carré et est une unité de pression couramment utilisée aux États-Unis. Elle mesure la pression en tant que force par unité de surface et est souvent utilisée dans le secteur automobile.",
-          "wiki": "https://de.wikipedia.org/wiki/Pfund_pro_Quadratzoll"
-        }
-      },
-      "energy": {
-        "joule": {
-          "abbr": "J",
-          "definition": "Le joule est l'unité SI d'énergie et mesure la quantité de travail ou de chaleur. Il est utilisé en physique, en ingénierie et en chimie.",
-          "wiki": "https://de.wikipedia.org/wiki/Joule"
-        },
-        "kilojoule": {
-          "abbr": "kJ",
-          "definition": "Un kilojoule équivaut à 1000 joules et est souvent utilisé en nutrition et en ingénierie.",
-          "wiki": "https://de.wikipedia.org/wiki/Joule"
-        },
-        "calorie": {
-          "abbr": "cal",
-          "definition": "La calorie est une unité d'énergie souvent utilisée en nutrition. Elle mesure la quantité d'énergie nécessaire pour augmenter la température de l'eau.",
-          "wiki": "https://de.wikipedia.org/wiki/Kalorie"
-        },
-        "kilocalorie": {
-          "abbr": "kcal",
-          "definition": "La kilocalorie équivaut à 1000 calories et est couramment utilisée pour indiquer la valeur énergétique des aliments. Elle est largement utilisée en nutrition.",
-          "wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
-        },
-        "kilowatt-hour": {
-          "abbr": "kWh",
-          "definition": "Le kilowattheure est une unité d'énergie utilisée principalement pour la facturation de l'électricité. Il mesure la consommation d'énergie sur une heure à une puissance d'un kilowatt.",
-          "wiki": "https://de.wikipedia.org/wiki/Kilowattstunde"
-        }
-      },
-      "power": {
-        "watt": {
-          "abbr": "W",
-          "definition": "Le watt est l'unité SI de puissance et mesure la quantité d'énergie transférée par unité de temps. Il est utilisé en génie électrique et en physique.",
-          "wiki": "https://de.wikipedia.org/wiki/Watt"
-        },
-        "kilowatt": {
-          "abbr": "kW",
-          "definition": "Un kilowatt équivaut à 1000 watts et est souvent utilisé pour indiquer la puissance des appareils et moteurs. Cette unité est largement utilisée dans le secteur de l'énergie et en ingénierie.",
-          "wiki": "https://de.wikipedia.org/wiki/Kilowatt"
-        },
-        "horsepower": {
-          "abbr": "hp",
-          "definition": "La cheval-vapeur est une unité de puissance historiquement utilisée pour décrire la puissance des machines. Elle indique la quantité de puissance nécessaire pour effectuer un travail donné et est souvent utilisée dans l'industrie automobile.",
-          "wiki": "https://de.wikipedia.org/wiki/Pferdestärke"
-        }
-      },
-      "dataStorage": {
-        "byte": {
-          "abbr": "B",
-          "definition": "Un octet est l'unité de base de l'information numérique, constituée généralement de 8 bits. Il constitue la base du stockage des données dans les ordinateurs.",
-          "wiki": "https://de.wikipedia.org/wiki/Byte"
-        },
-        "kilobyte": {
-          "abbr": "KB",
-          "definition": "Un kilooctet équivaut à 1024 octets et est utilisé pour mesurer la taille des petits fichiers. Cette unité est courante en informatique.",
-          "wiki": "https://de.wikipedia.org/wiki/Kilobyte"
-        },
-        "megabyte": {
-          "abbr": "MB",
-          "definition": "Un mégaoctet équivaut à 1024 kilooctets et est souvent utilisé pour décrire la taille des fichiers ou la capacité de stockage. C'est une unité commune dans le monde numérique.",
-          "wiki": "https://de.wikipedia.org/wiki/Megabyte"
-        },
-        "gigabyte": {
-          "abbr": "GB",
-          "definition": "Un gigaoctet équivaut à 1024 mégaoctets et est utilisé pour mesurer la capacité de stockage des disques durs et autres dispositifs. C'est une unité courante en informatique.",
-          "wiki": "https://de.wikipedia.org/wiki/Gigabyte"
-        }
-      },
-      "angle": {
-        "radian": {
-          "abbr": "rad",
-          "definition": "Le radian est l'unité SI pour mesurer les angles et décrit l'angle en fonction de la longueur d'arc par rapport au rayon d'un cercle. Il est fondamental en mathématiques et en physique.",
-          "wiki": "https://de.wikipedia.org/wiki/Radiant"
-        },
-        "degree": {
-          "abbr": "°",
-          "definition": "Le degré est une unité courante pour mesurer les angles, un cercle complet comptant 360 degrés. Il est fréquemment utilisé en géométrie et dans la vie quotidienne.",
-          "wiki": "https://de.wikipedia.org/wiki/Grad"
-        },
-        "grad": {
-          "abbr": "gon",
-          "definition": "Le grad est une unité alternative pour mesurer les angles, où un angle droit équivaut à 100 gons. Il est utilisé dans certains domaines techniques et offre une représentation décimale.",
-          "wiki": "https://de.wikipedia.org/wiki/Gon"
-        }
-      },
-      "frequency": {
-        "hertz": {
-          "abbr": "Hz",
-          "definition": "L'herz est l'unité SI de fréquence et indique le nombre d'oscillations par seconde. Il est largement utilisé en physique et en ingénierie.",
-          "wiki": "https://de.wikipedia.org/wiki/Hertz"
-        },
-        "kilohertz": {
-          "abbr": "kHz",
-          "definition": "Un kilohertz équivaut à 1000 hertz et est fréquemment utilisé pour décrire les fréquences audio et dans les technologies de communication. C'est une unité courante en électronique.",
-          "wiki": "https://de.wikipedia.org/wiki/Hertz"
-        },
-        "megahertz": {
-          "abbr": "MHz",
-          "definition": "Un mégahertz équivaut à 1 000 000 hertz et est souvent utilisé en radiotélécommunication et pour les mesures de fréquence. Il est important en communication et en électronique.",
-          "wiki": "https://de.wikipedia.org/wiki/Hertz"
-        },
-        "gigahertz": {
-          "abbr": "GHz",
-          "definition": "Un gigahertz équivaut à 1 000 000 000 hertz et est principalement utilisé pour décrire les fréquences des processeurs et des signaux radio. Cette unité est indispensable dans la technologie moderne.",
-          "wiki": "https://de.wikipedia.org/wiki/Hertz"
-        }
-      },
-      "force": {
-        "newton": {
-          "abbr": "N",
-          "definition": "Le newton est l'unité SI de force et est défini comme la force nécessaire pour accélérer une masse de 1 kilogramme à 1 m/s². Cette unité est fondamentale en physique.",
-          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-        },
-        "kilonewton": {
-          "abbr": "kN",
-          "definition": "Un kilonewton équivaut à 1000 newtons et est fréquemment utilisé en ingénierie et en construction pour mesurer des forces importantes. Il permet une représentation plus pratique de fortes valeurs de force.",
-          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-        },
-        "pound-force": {
-          "abbr": "lbf",
-          "definition": "La force en livres est une unité de force utilisée principalement dans le monde anglophone, indiquant la force résultant du poids d'une livre. Elle est souvent utilisée en ingénierie.",
-          "wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
-        }
-      },
-      "density": {
-        "kg/m³": {
-          "abbr": "kg/m³",
-          "definition": "La densité en kilogrammes par mètre cube est une unité SI qui indique la masse par unité de volume. Elle sert à caractériser les propriétés des matériaux.",
-          "wiki": "https://de.wikipedia.org/wiki/Dichte"
-        },
-        "g/cm³": {
-          "abbr": "g/cm³",
-          "definition": "La densité en grammes par centimètre cube est souvent utilisée en science des matériaux pour déterminer la masse dans un volume donné. Cette unité permet de comparer les densités des matériaux.",
-          "wiki": "https://de.wikipedia.org/wiki/Dichte"
-        },
-        "lb/ft³": {
-          "abbr": "lb/ft³",
-          "definition": "La densité en livres par pied cube est une unité utilisée dans le monde anglophone. Elle mesure la masse par unité de volume et est fréquemment utilisée en construction et en ingénierie des matériaux.",
-          "wiki": "https://de.wikipedia.org/wiki/Dichte"
-        }
-      },
-      "volumeFlow": {
-        "m³/s": {
-          "abbr": "m³/s",
-          "definition": "Le débit volumique en mètres cubes par seconde mesure la quantité d'un fluide traversant une section par seconde. Cette unité est importante en mécanique des fluides.",
-          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-        },
-        "liter/s": {
-          "abbr": "l/s",
-          "definition": "Le débit en litres par seconde indique combien de litres d'un fluide s'écoulent par seconde. Il est fréquemment utilisé en ingénierie des procédés.",
-          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-        },
-        "gallon/min": {
-          "abbr": "gal/min",
-          "definition": "Le débit en gallons par minute mesure la quantité d'un fluide qui s'écoule par minute. Cette unité est courante aux États-Unis et utilisée dans des applications techniques.",
-          "wiki": "https://de.wikipedia.org/wiki/Gallone"
-        }
-      },
-      "acceleration": {
-        "m/s²": {
-          "abbr": "m/s²",
-          "definition": "L'accélération en mètres par seconde carrée indique la rapidité du changement de vitesse. C'est l'unité SI de l'accélération et essentielle en physique.",
-          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-        },
-        "ft/s²": {
-          "abbr": "ft/s²",
-          "definition": "L'accélération en pieds par seconde carrée est une unité alternative utilisée principalement dans le monde anglophone. Elle indique le taux de variation de la vitesse dans ces unités.",
-          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-        },
-        "km/h/s": {
-          "abbr": "km/h/s",
-          "definition": "L'accélération en kilomètres par heure par seconde mesure la rapidité avec laquelle la vitesse exprimée en km/h change. Cette unité est fréquemment utilisée dans le secteur automobile.",
-          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-        }
-      },
-      "areaDensity": {
-        "kg/m²": {
-          "abbr": "kg/m²",
-          "definition": "La densité surfacique en kilogrammes par mètre carré indique la masse répartie sur une surface donnée. Elle est utilisée principalement en construction et en science des matériaux.",
-          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-        },
-        "g/cm²": {
-          "abbr": "g/cm²",
-          "definition": "La densité surfacique en grammes par centimètre carré mesure la masse par unité de surface et est utilisée en ingénierie pour des calculs précis sur de petites surfaces.",
-          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-        }
-      },
-      "illuminance": {
-        "lux": {
-          "abbr": "lx",
-          "definition": "Le lux est l'unité SI d'éclairement et mesure la quantité de lumière par mètre carré sur une surface. Il est important en technologie de l'éclairage et en architecture.",
-          "wiki": "https://de.wikipedia.org/wiki/Lux"
-        },
-        "foot-candle": {
-          "abbr": "fc",
-          "definition": "Le foot-candle est une unité d'éclairement utilisée principalement dans le monde anglophone, indiquant la quantité de lumière par pied carré. Cette unité est souvent utilisée dans la conception de l'éclairage.",
-          "wiki": "https://de.wikipedia.org/wiki/Foot-candle"
-        }
-      },
-      "dataRate": {
-        "bit/s": {
-          "abbr": "bit/s",
-          "definition": "Les bits par seconde sont l'unité du débit de données et indiquent combien de bits sont transmis en une seconde. Cette unité est centrale dans les technologies de l'information.",
-          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
-        },
-        "kilobit/s": {
-          "abbr": "kbit/s",
-          "definition": "Les kilobits par seconde équivalent à 1000 bits par seconde et sont souvent utilisés dans les communications réseau pour déterminer la vitesse d'internet.",
-          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
-        },
-        "megabit/s": {
-          "abbr": "Mbit/s",
-          "definition": "Les mégabits par seconde équivalent à 1 000 000 de bits par seconde et sont souvent utilisés pour indiquer les vitesses de transfert de données. Ils sont courants en télécommunications.",
-          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
-        },
-        "gigabit/s": {
-          "abbr": "Gbit/s",
-          "definition": "Les gigabits par seconde équivalent à 1 000 000 000 de bits par seconde et sont principalement utilisés dans les réseaux à très haute vitesse. Cette unité est indispensable pour les systèmes modernes de communication de données.",
-          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
-        },
-        "byte/s": {
-          "abbr": "B/s",
-          "definition": "Les octets par seconde mesurent le débit de données en octets et servent à déterminer la vitesse de transmission. Cette unité est pertinente en informatique.",
-          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-        },
-        "kilobyte/s": {
-          "abbr": "KB/s",
-          "definition": "Les kilooctets par seconde équivalent à 1024 octets par seconde et sont souvent utilisés pour mesurer les vitesses de téléchargement et d'upload. C'est une unité courante en informatique.",
-          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-        },
-        "megabyte/s": {
-          "abbr": "MB/s",
-          "definition": "Les mégaoctets par seconde équivalent à 1024 kilooctets par seconde et sont utilisés pour indiquer les débits de données dans les ordinateurs et réseaux. Cette unité est courante dans les transferts numériques.",
-          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-        }
-      }
-    },
-    "labels": {
-      "category": "Catégorie",
-      "value": "Valeur",
-      "from": "De",
-      "to": "à",
-      "calculate": "Convertir",
-      "result": "Résultat",
-      "select": "Sélectionner",
-      "invalidNumber": "Veuillez entrer un nombre valide.",
-      "differentUnits": "Veuillez choisir des unités différentes."
-    }
-  }
+	"UnitConverterPage": {
+		"definitions": {
+			"for": "Définition de",
+			"more": "Plus sur Wikipedia"
+		},
+		"description": "Un convertisseur d'unités complet",
+		"length": "Longueur",
+		"weight": "Poids",
+		"area": "Surface",
+		"volume": "Volume",
+		"temperature": "Température",
+		"speed": "Vitesse",
+		"time": "Temps",
+		"pressure": "Pression",
+		"energy": "Énergie",
+		"power": "Puissance",
+		"dataStorage": "Stockage de données",
+		"angle": "Angle",
+		"frequency": "Fréquence",
+		"force": "Force",
+		"density": "Densité",
+		"volumeFlow": "Débit volumique",
+		"acceleration": "Accélération",
+		"areaDensity": "Densité surfacique",
+		"illuminance": "Éclairement",
+		"dataRate": "Débit de données",
+		"to": "à",
+		"units": {
+			"length": {
+				"meter": {
+					"abbr": "m",
+					"definition": "Le mètre est l'unité de base du SI pour la longueur et sert de mesure standard pour les distances. Il est défini historiquement et reconnu dans le monde entier.",
+					"wiki": "https://de.wikipedia.org/wiki/Meter"
+				},
+				"kilometer": {
+					"abbr": "km",
+					"definition": "Un kilomètre équivaut à 1000 mètres et est couramment utilisé pour indiquer les distances. C'est une unité commune dans la vie quotidienne.",
+					"wiki": "https://de.wikipedia.org/wiki/Kilometer"
+				},
+				"centimeter": {
+					"abbr": "cm",
+					"definition": "Un centimètre est le centième d'un mètre et est souvent utilisé pour mesurer de petites longueurs. Cette unité est utilisée dans de nombreuses applications quotidiennes.",
+					"wiki": "https://de.wikipedia.org/wiki/Zentimeter"
+				},
+				"millimeter": {
+					"abbr": "mm",
+					"definition": "Un millimètre est le millième d'un mètre et est utilisé pour la mesure précise de petites longueurs. Cette unité est particulièrement importante dans les domaines techniques.",
+					"wiki": "https://de.wikipedia.org/wiki/Millimeter"
+				},
+				"mile": {
+					"abbr": "mi",
+					"definition": "Une mile est une unité de longueur principalement utilisée dans le monde anglophone. Elle équivaut à environ 1,609 kilomètres et possède une importance historique.",
+					"wiki": "https://de.wikipedia.org/wiki/Meile"
+				},
+				"yard": {
+					"abbr": "yd",
+					"definition": "Un yard est une unité de longueur utilisée notamment aux États-Unis et au Royaume-Uni. Il équivaut à 0,9144 mètres et est utilisé notamment dans l'industrie textile et sportive.",
+					"wiki": "https://de.wikipedia.org/wiki/Yard"
+				},
+				"foot": {
+					"abbr": "ft",
+					"definition": "Un pied est une unité de longueur traditionnelle utilisée aux États-Unis et dans certains autres pays. Il équivaut à 0,3048 mètres et est principalement utilisé dans la construction.",
+					"wiki": "https://de.wikipedia.org/wiki/Fuß"
+				},
+				"inch": {
+					"abbr": "in",
+					"definition": "Un pouce est une unité de longueur utilisée principalement dans le monde anglophone. Il équivaut à 2,54 centimètres et est utilisé en technologie ainsi que dans la vie courante.",
+					"wiki": "https://de.wikipedia.org/wiki/Inch"
+				}
+			},
+			"weight": {
+				"kilogram": {
+					"abbr": "kg",
+					"definition": "Le kilogramme est l'unité de base du SI pour la masse et sert de mesure standard en science et dans le commerce. Il est reconnu dans le monde entier.",
+					"wiki": "https://de.wikipedia.org/wiki/Kilogramm"
+				},
+				"gram": {
+					"abbr": "g",
+					"definition": "Un gramme est le millième d'un kilogramme et est fréquemment utilisé pour des masses légères. Cette unité est courante en cuisine et dans le commerce.",
+					"wiki": "https://de.wikipedia.org/wiki/Gramm"
+				},
+				"milligram": {
+					"abbr": "mg",
+					"definition": "Un milligramme équivaut au millième d'un gramme et est utilisé pour mesurer des masses très faibles, notamment en médecine. Il est souvent utilisé pour des dosages précis.",
+					"wiki": "https://de.wikipedia.org/wiki/Milligramm"
+				},
+				"pound": {
+					"abbr": "lb",
+					"definition": "La livre est une unité de masse traditionnelle utilisée principalement dans le monde anglophone. Elle équivaut à environ 0,4536 kilogrammes et est utilisée dans le commerce et au quotidien.",
+					"wiki": "https://de.wikipedia.org/wiki/Pfund"
+				},
+				"ounce": {
+					"abbr": "oz",
+					"definition": "L'once est une unité de masse plus petite connue principalement dans le monde anglophone. Elle équivaut à environ 28,35 grammes et est souvent utilisée dans l'industrie alimentaire.",
+					"wiki": "https://de.wikipedia.org/wiki/Unze"
+				}
+			},
+			"area": {
+				"square meter": {
+					"abbr": "m²",
+					"definition": "Le mètre carré est l'unité de surface du Système International et est utilisé pour mesurer les surfaces en architecture et en agriculture. C'est une unité standardisée et largement utilisée.",
+					"wiki": "https://de.wikipedia.org/wiki/Quadratmeter"
+				},
+				"square kilometer": {
+					"abbr": "km²",
+					"definition": "Un kilomètre carré correspond à une surface d'un million de mètres carrés. Cette unité est principalement utilisée pour représenter de grandes surfaces, comme des étendues de terrain.",
+					"wiki": "https://de.wikipedia.org/wiki/Quadratkilometer"
+				},
+				"square centimeter": {
+					"abbr": "cm²",
+					"definition": "Un centimètre carré est une petite unité de surface souvent utilisée en science des matériaux et dans la vie quotidienne. Il mesure la surface d'un carré de 1 cm de côté.",
+					"wiki": "https://de.wikipedia.org/wiki/Quadratzentimeter"
+				},
+				"square foot": {
+					"abbr": "ft²",
+					"definition": "Un pied carré est une unité de surface utilisée principalement aux États-Unis et au Royaume-Uni, équivalente à environ 0,0929 m². Cette unité est souvent utilisée dans l'immobilier.",
+					"wiki": "https://de.wikipedia.org/wiki/Quadratfuß"
+				},
+				"acre": {
+					"abbr": "ac",
+					"definition": "Un acre est une unité de surface traditionnelle utilisée principalement aux États-Unis et au Royaume-Uni. Il équivaut à environ 4047 mètres carrés et est utilisé en agriculture et pour l'évaluation immobilière.",
+					"wiki": "https://de.wikipedia.org/wiki/Acre"
+				}
+			},
+			"volume": {
+				"cubic-meter": {
+					"abbr": "m³",
+					"definition": "Le mètre cube est l'unité de volume du Système International et est utilisé pour mesurer l'espace. Cette unité est importante dans la construction, le stockage et l'ingénierie.",
+					"wiki": "https://de.wikipedia.org/wiki/Kubikmeter"
+				},
+				"liter": {
+					"abbr": "l",
+					"definition": "Le litre est une unité de volume utilisée couramment pour mesurer les liquides. Il correspond à un décimètre cube et est largement utilisé au quotidien.",
+					"wiki": "https://de.wikipedia.org/wiki/Liter"
+				},
+				"milliliter": {
+					"abbr": "ml",
+					"definition": "Un millilitre est le millième d'un litre et sert à mesurer de petites quantités de liquide. Cette unité est principalement utilisée en médecine et en cuisine.",
+					"wiki": "https://de.wikipedia.org/wiki/Milliliter"
+				},
+				"cubic-centimeter": {
+					"abbr": "cm³",
+					"definition": "Un centimètre cube équivaut à un millilitre et est souvent utilisé en technologie et en médecine pour mesurer de petits volumes. C'est une unité précise et largement utilisée.",
+					"wiki": "https://de.wikipedia.org/wiki/Kubikzentimeter"
+				},
+				"gallon": {
+					"abbr": "gal",
+					"definition": "Un gallon est une unité de volume utilisée aux États-Unis pour mesurer les liquides. Il équivaut à environ 3,785 litres et possède une importance historique et pratique.",
+					"wiki": "https://de.wikipedia.org/wiki/Gallone"
+				}
+			},
+			"temperature": {
+				"celsius": {
+					"abbr": "°C",
+					"definition": "L'échelle Celsius est une unité de température où 0 °C représente le point de congélation de l'eau. Elle est utilisée dans la plupart des pays et est facile à comprendre.",
+					"wiki": "https://de.wikipedia.org/wiki/Celsius"
+				},
+				"fahrenheit": {
+					"abbr": "°F",
+					"definition": "L'échelle Fahrenheit est une unité de température principalement utilisée aux États-Unis. Sur cette échelle, le point de congélation de l'eau est à 32 °F, ce qui la distingue de Celsius.",
+					"wiki": "https://de.wikipedia.org/wiki/Fahrenheit"
+				},
+				"kelvin": {
+					"abbr": "K",
+					"definition": "L'échelle Kelvin est l'unité SI pour la mesure de la température et commence au zéro absolu. Elle est principalement utilisée en science et en ingénierie.",
+					"wiki": "https://de.wikipedia.org/wiki/Kelvin"
+				}
+			},
+			"speed": {
+				"m/s": {
+					"abbr": "m/s",
+					"definition": "La vitesse en mètres par seconde est une unité SI qui indique combien de mètres sont parcourus en une seconde. Elle est largement utilisée en physique et en ingénierie.",
+					"wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
+				},
+				"km/h": {
+					"abbr": "km/h",
+					"definition": "Les kilomètres par heure indiquent combien de kilomètres sont parcourus en une heure. Cette unité est souvent utilisée dans la circulation et la météorologie.",
+					"wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
+				},
+				"mph": {
+					"abbr": "mph",
+					"definition": "Les miles par heure sont une unité de vitesse utilisée principalement aux États-Unis et au Royaume-Uni. Elles mesurent le nombre de miles parcourus en une heure.",
+					"wiki": "https://de.wikipedia.org/wiki/Meile"
+				}
+			},
+			"time": {
+				"second": {
+					"abbr": "s",
+					"definition": "La seconde est l'unité de base du temps dans le Système International. Elle sert à mesurer des intervalles de temps et est standardisée dans le monde entier.",
+					"wiki": "https://de.wikipedia.org/wiki/Sekunde"
+				},
+				"minute": {
+					"abbr": "min",
+					"definition": "Une minute se compose de 60 secondes et est utilisée pour mesurer des périodes de temps courtes. C'est une unité très courante au quotidien.",
+					"wiki": "https://de.wikipedia.org/wiki/Minute"
+				},
+				"hour": {
+					"abbr": "h",
+					"definition": "Une heure comprend 60 minutes et est une unité de temps courante pour la vie quotidienne. Elle est utilisée dans le monde entier et constitue la base de nombreux emplois du temps.",
+					"wiki": "https://de.wikipedia.org/wiki/Stunde"
+				},
+				"day": {
+					"abbr": "d",
+					"definition": "Un jour correspond à la rotation de la Terre et comprend 24 heures. C'est l'unité fondamentale du temps dans la vie quotidienne et utilisée dans presque toutes les cultures.",
+					"wiki": "https://de.wikipedia.org/wiki/Tag"
+				}
+			},
+			"pressure": {
+				"pascal": {
+					"abbr": "Pa",
+					"definition": "Le pascal est l'unité SI de pression et mesure la force par unité de surface. Il est utilisé en physique et en ingénierie pour décrire les conditions de pression.",
+					"wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
+				},
+				"kilopascal": {
+					"abbr": "kPa",
+					"definition": "Un kilopascal équivaut à 1000 pascals et est souvent utilisé pour représenter des pressions en ingénierie et en météorologie.",
+					"wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
+				},
+				"bar": {
+					"abbr": "bar",
+					"definition": "Le bar est une unité de pression utilisée principalement en ingénierie et dans les bulletins météo. Un bar équivaut à 100 000 pascals et est facile à comprendre.",
+					"wiki": "https://de.wikipedia.org/wiki/Bar_(Einheit)"
+				},
+				"psi": {
+					"abbr": "psi",
+					"definition": "PSI signifie livres par pouce carré et est une unité de pression couramment utilisée aux États-Unis. Elle mesure la pression en tant que force par unité de surface et est souvent utilisée dans le secteur automobile.",
+					"wiki": "https://de.wikipedia.org/wiki/Pfund_pro_Quadratzoll"
+				}
+			},
+			"energy": {
+				"joule": {
+					"abbr": "J",
+					"definition": "Le joule est l'unité SI d'énergie et mesure la quantité de travail ou de chaleur. Il est utilisé en physique, en ingénierie et en chimie.",
+					"wiki": "https://de.wikipedia.org/wiki/Joule"
+				},
+				"kilojoule": {
+					"abbr": "kJ",
+					"definition": "Un kilojoule équivaut à 1000 joules et est souvent utilisé en nutrition et en ingénierie.",
+					"wiki": "https://de.wikipedia.org/wiki/Joule"
+				},
+				"calorie": {
+					"abbr": "cal",
+					"definition": "La calorie est une unité d'énergie souvent utilisée en nutrition. Elle mesure la quantité d'énergie nécessaire pour augmenter la température de l'eau.",
+					"wiki": "https://de.wikipedia.org/wiki/Kalorie"
+				},
+				"kilocalorie": {
+					"abbr": "kcal",
+					"definition": "La kilocalorie équivaut à 1000 calories et est couramment utilisée pour indiquer la valeur énergétique des aliments. Elle est largement utilisée en nutrition.",
+					"wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
+				},
+				"kilowatt-hour": {
+					"abbr": "kWh",
+					"definition": "Le kilowattheure est une unité d'énergie utilisée principalement pour la facturation de l'électricité. Il mesure la consommation d'énergie sur une heure à une puissance d'un kilowatt.",
+					"wiki": "https://de.wikipedia.org/wiki/Kilowattstunde"
+				}
+			},
+			"power": {
+				"watt": {
+					"abbr": "W",
+					"definition": "Le watt est l'unité SI de puissance et mesure la quantité d'énergie transférée par unité de temps. Il est utilisé en génie électrique et en physique.",
+					"wiki": "https://de.wikipedia.org/wiki/Watt"
+				},
+				"kilowatt": {
+					"abbr": "kW",
+					"definition": "Un kilowatt équivaut à 1000 watts et est souvent utilisé pour indiquer la puissance des appareils et moteurs. Cette unité est largement utilisée dans le secteur de l'énergie et en ingénierie.",
+					"wiki": "https://de.wikipedia.org/wiki/Kilowatt"
+				},
+				"horsepower": {
+					"abbr": "hp",
+					"definition": "La cheval-vapeur est une unité de puissance historiquement utilisée pour décrire la puissance des machines. Elle indique la quantité de puissance nécessaire pour effectuer un travail donné et est souvent utilisée dans l'industrie automobile.",
+					"wiki": "https://de.wikipedia.org/wiki/Pferdestärke"
+				}
+			},
+			"dataStorage": {
+				"byte": {
+					"abbr": "B",
+					"definition": "Un octet est l'unité de base de l'information numérique, constituée généralement de 8 bits. Il constitue la base du stockage des données dans les ordinateurs.",
+					"wiki": "https://de.wikipedia.org/wiki/Byte"
+				},
+				"kilobyte": {
+					"abbr": "KB",
+					"definition": "Un kilooctet équivaut à 1024 octets et est utilisé pour mesurer la taille des petits fichiers. Cette unité est courante en informatique.",
+					"wiki": "https://de.wikipedia.org/wiki/Kilobyte"
+				},
+				"megabyte": {
+					"abbr": "MB",
+					"definition": "Un mégaoctet équivaut à 1024 kilooctets et est souvent utilisé pour décrire la taille des fichiers ou la capacité de stockage. C'est une unité commune dans le monde numérique.",
+					"wiki": "https://de.wikipedia.org/wiki/Megabyte"
+				},
+				"gigabyte": {
+					"abbr": "GB",
+					"definition": "Un gigaoctet équivaut à 1024 mégaoctets et est utilisé pour mesurer la capacité de stockage des disques durs et autres dispositifs. C'est une unité courante en informatique.",
+					"wiki": "https://de.wikipedia.org/wiki/Gigabyte"
+				}
+			},
+			"angle": {
+				"radian": {
+					"abbr": "rad",
+					"definition": "Le radian est l'unité SI pour mesurer les angles et décrit l'angle en fonction de la longueur d'arc par rapport au rayon d'un cercle. Il est fondamental en mathématiques et en physique.",
+					"wiki": "https://de.wikipedia.org/wiki/Radiant"
+				},
+				"degree": {
+					"abbr": "°",
+					"definition": "Le degré est une unité courante pour mesurer les angles, un cercle complet comptant 360 degrés. Il est fréquemment utilisé en géométrie et dans la vie quotidienne.",
+					"wiki": "https://de.wikipedia.org/wiki/Grad"
+				},
+				"grad": {
+					"abbr": "gon",
+					"definition": "Le grad est une unité alternative pour mesurer les angles, où un angle droit équivaut à 100 gons. Il est utilisé dans certains domaines techniques et offre une représentation décimale.",
+					"wiki": "https://de.wikipedia.org/wiki/Gon"
+				}
+			},
+			"frequency": {
+				"hertz": {
+					"abbr": "Hz",
+					"definition": "L'herz est l'unité SI de fréquence et indique le nombre d'oscillations par seconde. Il est largement utilisé en physique et en ingénierie.",
+					"wiki": "https://de.wikipedia.org/wiki/Hertz"
+				},
+				"kilohertz": {
+					"abbr": "kHz",
+					"definition": "Un kilohertz équivaut à 1000 hertz et est fréquemment utilisé pour décrire les fréquences audio et dans les technologies de communication. C'est une unité courante en électronique.",
+					"wiki": "https://de.wikipedia.org/wiki/Hertz"
+				},
+				"megahertz": {
+					"abbr": "MHz",
+					"definition": "Un mégahertz équivaut à 1 000 000 hertz et est souvent utilisé en radiotélécommunication et pour les mesures de fréquence. Il est important en communication et en électronique.",
+					"wiki": "https://de.wikipedia.org/wiki/Hertz"
+				},
+				"gigahertz": {
+					"abbr": "GHz",
+					"definition": "Un gigahertz équivaut à 1 000 000 000 hertz et est principalement utilisé pour décrire les fréquences des processeurs et des signaux radio. Cette unité est indispensable dans la technologie moderne.",
+					"wiki": "https://de.wikipedia.org/wiki/Hertz"
+				}
+			},
+			"force": {
+				"newton": {
+					"abbr": "N",
+					"definition": "Le newton est l'unité SI de force et est défini comme la force nécessaire pour accélérer une masse de 1 kilogramme à 1 m/s². Cette unité est fondamentale en physique.",
+					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+				},
+				"kilonewton": {
+					"abbr": "kN",
+					"definition": "Un kilonewton équivaut à 1000 newtons et est fréquemment utilisé en ingénierie et en construction pour mesurer des forces importantes. Il permet une représentation plus pratique de fortes valeurs de force.",
+					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+				},
+				"pound-force": {
+					"abbr": "lbf",
+					"definition": "La force en livres est une unité de force utilisée principalement dans le monde anglophone, indiquant la force résultant du poids d'une livre. Elle est souvent utilisée en ingénierie.",
+					"wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
+				}
+			},
+			"density": {
+				"kg-per-m3": {
+					"abbr": "kg/m³",
+					"definition": "La densité en kilogrammes par mètre cube est une unité SI qui indique la masse par unité de volume. Elle sert à caractériser les propriétés des matériaux.",
+					"wiki": "https://de.wikipedia.org/wiki/Dichte"
+				},
+				"g-per-cm3": {
+					"abbr": "g/cm³ ",
+					"definition": "La densité en grammes par centimètre cube est souvent utilisée en science des matériaux pour déterminer la masse dans un volume donné. Cette unité permet de comparer les densités des matériaux.",
+					"wiki": "https://de.wikipedia.org/wiki/Dichte"
+				},
+				"lb-per-ft3": {
+					"abbr": "lb/ft³",
+					"definition": "La densité en livres par pied cube est une unité utilisée dans le monde anglophone. Elle mesure la masse par unité de volume et est fréquemment utilisée en construction et en ingénierie des matériaux.",
+					"wiki": "https://de.wikipedia.org/wiki/Dichte"
+				}
+			},
+			"volumeFlow": {
+				"m³/s": {
+					"abbr": "m³/s",
+					"definition": "Le débit volumique en mètres cubes par seconde mesure la quantité d'un fluide traversant une section par seconde. Cette unité est importante en mécanique des fluides.",
+					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+				},
+				"liter/s": {
+					"abbr": "l/s",
+					"definition": "Le débit en litres par seconde indique combien de litres d'un fluide s'écoulent par seconde. Il est fréquemment utilisé en ingénierie des procédés.",
+					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+				},
+				"gallon/min": {
+					"abbr": "gal/min",
+					"definition": "Le débit en gallons par minute mesure la quantité d'un fluide qui s'écoule par minute. Cette unité est courante aux États-Unis et utilisée dans des applications techniques.",
+					"wiki": "https://de.wikipedia.org/wiki/Gallone"
+				}
+			},
+			"acceleration": {
+				"m/s²": {
+					"abbr": "m/s²",
+					"definition": "L'accélération en mètres par seconde carrée indique la rapidité du changement de vitesse. C'est l'unité SI de l'accélération et essentielle en physique.",
+					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+				},
+				"ft/s²": {
+					"abbr": "ft/s²",
+					"definition": "L'accélération en pieds par seconde carrée est une unité alternative utilisée principalement dans le monde anglophone. Elle indique le taux de variation de la vitesse dans ces unités.",
+					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+				},
+				"km/h/s": {
+					"abbr": "km/h/s",
+					"definition": "L'accélération en kilomètres par heure par seconde mesure la rapidité avec laquelle la vitesse exprimée en km/h change. Cette unité est fréquemment utilisée dans le secteur automobile.",
+					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+				}
+			},
+			"areaDensity": {
+				"kg/m²": {
+					"abbr": "kg/m²",
+					"definition": "La densité surfacique en kilogrammes par mètre carré indique la masse répartie sur une surface donnée. Elle est utilisée principalement en construction et en science des matériaux.",
+					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+				},
+				"g/cm²": {
+					"abbr": "g/cm²",
+					"definition": "La densité surfacique en grammes par centimètre carré mesure la masse par unité de surface et est utilisée en ingénierie pour des calculs précis sur de petites surfaces.",
+					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+				}
+			},
+			"illuminance": {
+				"lux": {
+					"abbr": "lx",
+					"definition": "Le lux est l'unité SI d'éclairement et mesure la quantité de lumière par mètre carré sur une surface. Il est important en technologie de l'éclairage et en architecture.",
+					"wiki": "https://de.wikipedia.org/wiki/Lux"
+				},
+				"foot-candle": {
+					"abbr": "fc",
+					"definition": "Le foot-candle est une unité d'éclairement utilisée principalement dans le monde anglophone, indiquant la quantité de lumière par pied carré. Cette unité est souvent utilisée dans la conception de l'éclairage.",
+					"wiki": "https://de.wikipedia.org/wiki/Foot-candle"
+				}
+			},
+			"dataRate": {
+				"bit/s": {
+					"abbr": "bit/s",
+					"definition": "Les bits par seconde sont l'unité du débit de données et indiquent combien de bits sont transmis en une seconde. Cette unité est centrale dans les technologies de l'information.",
+					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
+				},
+				"kilobit/s": {
+					"abbr": "kbit/s",
+					"definition": "Les kilobits par seconde équivalent à 1000 bits par seconde et sont souvent utilisés dans les communications réseau pour déterminer la vitesse d'internet.",
+					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
+				},
+				"megabit/s": {
+					"abbr": "Mbit/s",
+					"definition": "Les mégabits par seconde équivalent à 1 000 000 de bits par seconde et sont souvent utilisés pour indiquer les vitesses de transfert de données. Ils sont courants en télécommunications.",
+					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
+				},
+				"gigabit/s": {
+					"abbr": "Gbit/s",
+					"definition": "Les gigabits par seconde équivalent à 1 000 000 000 de bits par seconde et sont principalement utilisés dans les réseaux à très haute vitesse. Cette unité est indispensable pour les systèmes modernes de communication de données.",
+					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
+				},
+				"byte/s": {
+					"abbr": "B/s",
+					"definition": "Les octets par seconde mesurent le débit de données en octets et servent à déterminer la vitesse de transmission. Cette unité est pertinente en informatique.",
+					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+				},
+				"kilobyte/s": {
+					"abbr": "KB/s",
+					"definition": "Les kilooctets par seconde équivalent à 1024 octets par seconde et sont souvent utilisés pour mesurer les vitesses de téléchargement et d'upload. C'est une unité courante en informatique.",
+					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+				},
+				"megabyte/s": {
+					"abbr": "MB/s",
+					"definition": "Les mégaoctets par seconde équivalent à 1024 kilooctets par seconde et sont utilisés pour indiquer les débits de données dans les ordinateurs et réseaux. Cette unité est courante dans les transferts numériques.",
+					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+				}
+			}
+		},
+		"labels": {
+			"category": "Catégorie",
+			"value": "Valeur",
+			"from": "De",
+			"to": "à",
+			"calculate": "Convertir",
+			"result": "Résultat",
+			"select": "Sélectionner",
+			"invalidNumber": "Veuillez entrer un nombre valide.",
+			"differentUnits": "Veuillez choisir des unités différentes."
+		}
+	}
 }

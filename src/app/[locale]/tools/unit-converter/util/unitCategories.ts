@@ -86,19 +86,19 @@ export const getUnitCategoryObject = (
 	area: {
 		name: t('area'),
 		units: {
-			'square meter': {
+			'square-meter': {
 				factor: 1,
 				abbrev: t('units.area.square meter.abbr'),
 			},
-			'square kilometer': {
+			'square-kilometer': {
 				factor: 1000000,
 				abbrev: t('units.area.square kilometer.abbr'),
 			},
-			'square centimeter': {
+			'square-centimeter': {
 				factor: 0.0001,
 				abbrev: t('units.area.square centimeter.abbr'),
 			},
-			'square foot': {
+			'square-foot': {
 				factor: 0.092903,
 				abbrev: t('units.area.square foot.abbr'),
 			},
@@ -112,9 +112,9 @@ export const getUnitCategoryObject = (
 	volume: {
 		name: t('volume'),
 		units: {
-			'cubic meter': {
+			'cubic-meter': {
 				factor: 1,
-				abbrev: t('units.volume.cubic meter.abbr'),
+				abbrev: t('units.volume.cubic-meter.abbr'),
 			},
 			liter: {
 				factor: 0.001,
@@ -124,13 +124,13 @@ export const getUnitCategoryObject = (
 				factor: 0.000001,
 				abbrev: t('units.volume.milliliter.abbr'),
 			},
-			'cubic centimeter': {
+			'cubic-centimeter': {
 				factor: 0.000001,
-				abbrev: t('units.volume.cubic centimeter.abbr'),
+				abbrev: t('units.volume.cubic-centimeter.abbr'),
 			},
-			'gallon (US)': {
+			'gallon-us': {
 				factor: 0.00378541,
-				abbrev: t('units.volume.gallon (US).abbr'),
+				abbrev: t('units.volume.gallon.abbr'),
 			},
 		},
 		precision: 4,
@@ -364,17 +364,17 @@ export const getUnitCategoryObject = (
 	density: {
 		name: t('density'),
 		units: {
-			'kg/m³': {
+			'kg-per-m3': {
 				factor: 1,
-				abbrev: t('units.density.kg/m³.abbr'),
+				abbrev: t('units.density.kg-per-m3.abbr'),
 			},
-			'g/cm³': {
+			'g-per-cm3': {
 				factor: 1000,
-				abbrev: t('units.density.g/cm³.abbr'),
+				abbrev: t('units.density.g-per-cm3.abbr'),
 			},
-			'lb/ft³': {
+			'lb-per-ft3': {
 				factor: 16.0185,
-				abbrev: t('units.density.lb/ft³.abbr'),
+				abbrev: t('units.density.lb-per-ft3.abbr'),
 			},
 		},
 		precision: 3,
@@ -382,15 +382,15 @@ export const getUnitCategoryObject = (
 	volumeFlow: {
 		name: t('volumeFlow'),
 		units: {
-			'm³/s': {
+			'm3-per-s': {
 				factor: 1,
 				abbrev: t('units.volumeFlow.m³/s.abbr'),
 			},
-			'liter/s': {
+			'liter-per-s': {
 				factor: 0.001,
 				abbrev: t('units.volumeFlow.liter/s.abbr'),
 			},
-			'gallon/min': {
+			'gallon-per-min': {
 				factor: 0.00378541 / 60,
 				abbrev: t('units.volumeFlow.gallon/min.abbr'),
 			},
@@ -418,11 +418,11 @@ export const getUnitCategoryObject = (
 	areaDensity: {
 		name: t('areaDensity'),
 		units: {
-			'kg/m²': {
+			'kg-per-m2': {
 				factor: 1,
 				abbrev: t('units.areaDensity.kg/m².abbr'),
 			},
-			'g/cm²': {
+			'g-per-cm2': {
 				factor: 10,
 				abbrev: t('units.areaDensity.g/cm².abbr'),
 			},
@@ -446,31 +446,31 @@ export const getUnitCategoryObject = (
 	dataRate: {
 		name: t('dataRate'),
 		units: {
-			'bit/s': {
+			'bit-per-s': {
 				factor: 1,
 				abbrev: t('units.dataRate.bit/s.abbr'),
 			},
-			'kilobit/s': {
+			'kilobit-per-s': {
 				factor: 1000,
 				abbrev: t('units.dataRate.kilobit/s.abbr'),
 			},
-			'megabit/s': {
+			'megabit-per-s': {
 				factor: 1e6,
 				abbrev: t('units.dataRate.megabit/s.abbr'),
 			},
-			'gigabit/s': {
+			'gigabit-per-s': {
 				factor: 1e9,
 				abbrev: t('units.dataRate.gigabit/s.abbr'),
 			},
-			'byte/s': {
+			'byte-per-s': {
 				factor: 8,
 				abbrev: t('units.dataRate.byte/s.abbr'),
 			},
-			'kilobyte/s': {
+			'kilobyte-per-s': {
 				factor: 8000,
 				abbrev: t('units.dataRate.kilobyte/s.abbr'),
 			},
-			'megabyte/s': {
+			'megabyte-per-s': {
 				factor: 8e6,
 				abbrev: t('units.dataRate.megabyte/s.abbr'),
 			},

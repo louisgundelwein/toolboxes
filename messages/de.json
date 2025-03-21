@@ -1,5 +1,5 @@
 {
-  "HomePage": {
+	"HomePage": {
 		"heroTitle": "Ultimative Online-Toolbox für moderne digitale Aufgaben",
 		"heroSubtitle": "Entfesseln Sie das Potenzial von Entwicklern, Designern und Kreativen mit innovativen Lösungen",
 		"heroDescription": "Entdecken Sie eine umfassende Sammlung von Online-Tools, die Ihren Arbeitsalltag optimieren. Von fortschrittlichen Einheiten-Konvertern bis hin zu effizienten Datei-Konvertern – unsere Plattform steigert Ihre Produktivität und Kreativität.",
@@ -25,7 +25,7 @@
 		"description": "Toolboxes.app ist die führende Online-Ressource, die eine leistungsstarke Sammlung von Tools zur Revolutionierung Ihres Arbeitsalltags bietet.",
 		"seeMoreButton": "Mehr erfahren"
 	},
-	"UnitConverterPage":{
+	"UnitConverterPage": {
 		"definitions": {
 			"for": "Definition für",
 			"more": "Mehr auf Wikipedia"
@@ -150,7 +150,7 @@
 				}
 			},
 			"volume": {
-				"cubic meter": {
+				"cubic-meter": {
 					"abbr": "m³",
 					"definition": "Der Kubikmeter ist die Volumeneinheit des internationalen Einheitensystems und wird zur Messung des Rauminhalts verwendet. Diese Maßeinheit ist in Bereichen wie Bau, Lagerung und Technik von großer Bedeutung.",
 					"wiki": "https://de.wikipedia.org/wiki/Kubikmeter"
@@ -165,12 +165,12 @@
 					"definition": "Ein Milliliter ist ein Tausendstel eines Liters und dient der Messung kleinerer Flüssigkeitsmengen. Diese Einheit wird vor allem in der Medizin und beim Kochen verwendet.",
 					"wiki": "https://de.wikipedia.org/wiki/Milliliter"
 				},
-				"cubic centimeter": {
+				"cubic-centimeter": {
 					"abbr": "cm³",
 					"definition": "Ein Kubikzentimeter ist gleichbedeutend mit einem Milliliter und wird oft in der Technik sowie Medizin verwendet, um kleine Volumina zu messen. Diese Einheit ist präzise und weit verbreitet.",
 					"wiki": "https://de.wikipedia.org/wiki/Kubikzentimeter"
 				},
-				"gallon (US)": {
+				"gallon": {
 					"abbr": "gal",
 					"definition": "Eine Gallone (US) ist eine Volumeneinheit, die in den USA zur Messung von Flüssigkeiten verwendet wird. Sie entspricht etwa 3,785 Litern und hat sowohl historische als auch praktische Bedeutung.",
 					"wiki": "https://de.wikipedia.org/wiki/Gallone"
@@ -377,17 +377,17 @@
 				}
 			},
 			"density": {
-				"kg/m³": {
+				"kg-per-m3": {
 					"abbr": "kg/m³",
 					"definition": "Die Dichte in Kilogramm pro Kubikmeter ist eine SI-Einheit, die die Masse pro Volumeneinheit angibt. Sie wird verwendet, um die Eigenschaften von Materialien zu charakterisieren.",
 					"wiki": "https://de.wikipedia.org/wiki/Dichte"
 				},
-				"g/cm³": {
-					"abbr": "g/cm³",
+				"g-per-cm3": {
+					"abbr": "g/cm³ ",
 					"definition": "Die Dichte in Gramm pro Kubikzentimeter wird oft in der Materialwissenschaft genutzt, um die Masse in einem bestimmten Volumen zu bestimmen. Diese Einheit ermöglicht den Vergleich von Materialdichten.",
 					"wiki": "https://de.wikipedia.org/wiki/Dichte"
 				},
-				"lb/ft³": {
+				"lb-per-ft3": {
 					"abbr": "lb/ft³",
 					"definition": "Die Dichte in Pfund pro Kubikfuß ist eine im angelsächsischen Raum gebräuchliche Maßeinheit. Sie misst die Masse pro Volumeneinheit und wird häufig in der Bau- und Werkstofftechnik verwendet.",
 					"wiki": "https://de.wikipedia.org/wiki/Dichte"
