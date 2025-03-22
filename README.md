@@ -46,9 +46,9 @@ pnpm add next-sitemap
 ```javascript
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-	siteUrl: 'https://toolboxes.app',
-	generateRobotsTxt: true,
-	// Your configuration here
+  siteUrl: "https://toolboxes.app",
+  generateRobotsTxt: true,
+  // Your configuration here
 };
 ```
 
@@ -56,9 +56,9 @@ module.exports = {
 
 ```json
 {
-	"scripts": {
-		"postbuild": "next-sitemap"
-	}
+  "scripts": {
+    "postbuild": "next-sitemap"
+  }
 }
 ```
 
@@ -66,14 +66,14 @@ module.exports = {
 
 ```javascript
 additionalPaths: async () => {
-	const paths = [];
-	// Define your tool's URLs here
-	// Example for unit converter:
-	paths.push({
-		loc: '/en/tools/unit-converter',
-		lastmod: new Date().toISOString(),
-	});
-	return paths;
+  const paths = [];
+  // Define your tool's URLs here
+  // Example for unit converter:
+  paths.push({
+    loc: "/en/tools/unit-converter",
+    lastmod: new Date().toISOString(),
+  });
+  return paths;
 };
 ```
 

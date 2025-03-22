@@ -1,1471 +1,1471 @@
 {
-	"HomePage": {
-		"heroTitle": "Ultimative Online-Toolbox für moderne digitale Aufgaben",
-		"heroSubtitle": "Entfesseln Sie das Potenzial von Entwicklern, Designern und Kreativen mit innovativen Lösungen",
-		"heroDescription": "Entdecken Sie eine umfassende Sammlung von Online-Tools, die Ihren Arbeitsalltag optimieren. Von fortschrittlichen Einheiten-Konvertern bis hin zu effizienten Datei-Konvertern – unsere Plattform steigert Ihre Produktivität und Kreativität.",
-		"usageInstructions": "Verwenden Sie das Burger-Menü oben rechts, um Ihre Werkzeuge auszuwählen, das Thema zu ändern oder die Sprache zwischen Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Ukrainisch und Chinesisch zu wechseln.",
-		"ctaButton": "Entdecken Sie unsere Tools",
-		"toolsOverviewTitle": "Unser vielfältiges Toolangebot im Überblick",
-		"toolsOverviewSubtitle": "Durchstöbern Sie unsere leistungsstarken und innovativen Tools, die komplexe Aufgaben vereinfachen und Ihren digitalen Workflow revolutionieren.",
-		"toolCard1Title": "Einheiten-Konverter",
-		"toolCard1Description": "Konvertieren Sie Längen, Gewichte, Temperaturen und mehr mit höchster Präzision.",
-		"toolCard2Title": "Datei-Konverter",
-		"toolCard2Description": "Wandeln Sie Dateien im Handumdrehen in verschiedene Formate um – schnell und zuverlässig.",
-		"toolCard3Title": "Passwort-Generator",
-		"toolCard3Description": "Erzeugen Sie sichere und zufällige Passwörter mit wenigen Klicks und anpassbaren Optionen.",
-		"toolCard4Title": "QR-Code-Generator",
-		"toolCard4Description": "Erstellen Sie in Sekundenschnelle QR-Codes für URLs, Texte und mehr mit unserem benutzerfreundlichen Tool.",
-		"toolCard5Title": "Trinkgeld-Generator",
-		"toolCard5Description": "Berechnen Sie schnell das passende Trinkgeld für Ihre Rechnung mit unserem intuitiven Generator.",
-		"toolCard6Title": "JSON-Formatter und Validator",
-		"toolCard6Description": "Formatieren und validieren Sie Ihre JSON-Daten mühelos, um die korrekte Syntax und Struktur sicherzustellen.",
-		"additionalTitle": "Innovative Lösungen zur Transformation Ihres digitalen Arbeitens",
-		"additionalDescription": "Unsere Plattform wird ständig erweitert und bietet Ihnen die neuesten Tools und Funktionen, um Ihre Effizienz zu maximieren. Erleben Sie unvergleichliche Vielseitigkeit und Leistung.",
-		"learnMoreButton": "Mehr über uns erfahren",
-		"description": "Toolboxes.app ist die führende Online-Ressource, die eine leistungsstarke Sammlung von Tools zur Revolutionierung Ihres Arbeitsalltags bietet.",
-		"seeMoreButton": "Mehr erfahren"
-	},
-	"UnitConverterPage": {
-		"definitions": {
-			"for": "Definition für",
-			"more": "Mehr auf Wikipedia"
-		},
-		"description": "Ein umfangreicher Einheitenumwandler",
-		"to": "zu",
-		"units": {
-			"length": {
-				"name": "Länge",
-				"meter": {
-					"name": "Meter",
-					"abbr": "m",
-					"definition": "Der Meter ist die SI-Basiseinheit der Länge und dient als Standardmaß für Entfernungen. Er ist historisch definiert und weltweit anerkannt.",
-					"wiki": "https://de.wikipedia.org/wiki/Meter"
-				},
-				"kilometer": {
-					"name": "Kilometer",
-					"abbr": "km",
-					"definition": "Ein Kilometer entspricht 1000 Metern und wird häufig zur Angabe von Entfernungen in der Praxis verwendet. Er ist eine gebräuchliche Maßeinheit im Alltag.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilometer"
-				},
-				"centimeter": {
-					"name": "Zentimeter",
-					"abbr": "cm",
-					"definition": "Ein Zentimeter entspricht einem Hundertstel eines Meters und wird oft zur Messung kleiner Längen verwendet. Diese Einheit findet in vielen Alltagsanwendungen Verwendung.",
-					"wiki": "https://de.wikipedia.org/wiki/Zentimeter"
-				},
-				"millimeter": {
-					"name": "Millimeter",
-					"abbr": "mm",
-					"definition": "Ein Millimeter ist ein Tausendstel eines Meters und dient zur präzisen Messung kleiner Längen. Besonders in technischen Bereichen ist diese Einheit von Bedeutung.",
-					"wiki": "https://de.wikipedia.org/wiki/Millimeter"
-				},
-				"mile": {
-					"name": "Meile",
-					"abbr": "mi",
-					"definition": "Eine Meile ist eine Längeneinheit, die vor allem im angelsächsischen Raum Verwendung findet. Sie entspricht ungefähr 1,609 Kilometern und besitzt historische Bedeutung.",
-					"wiki": "https://de.wikipedia.org/wiki/Meile"
-				},
-				"yard": {
-					"name": "Yard",
-					"abbr": "yd",
-					"definition": "Ein Yard ist eine Längeneinheit, die vor allem in den USA und Großbritannien gebräuchlich ist. Er entspricht 0,9144 Metern und wird unter anderem in der Textil- und Sportbranche genutzt.",
-					"wiki": "https://de.wikipedia.org/wiki/Yard"
-				},
-				"foot": {
-					"name": "Fuß",
-					"abbr": "ft",
-					"definition": "Ein Fuß ist eine traditionelle Längeneinheit, die in den USA und einigen anderen Ländern verwendet wird. Er entspricht 0,3048 Metern und findet vor allem im Bauwesen Anwendung.",
-					"wiki": "https://de.wikipedia.org/wiki/Fuß"
-				},
-				"inch": {
-					"name": "Zoll",
-					"abbr": "in",
-					"definition": "Ein Inch ist eine Längeneinheit, die vor allem im angelsächsischen Raum genutzt wird. Er entspricht 2,54 Zentimetern und wird in Technik sowie im Alltag eingesetzt.",
-					"wiki": "https://de.wikipedia.org/wiki/Inch"
-				}
-			},
-			"weight": {
-				"name": "Gewicht",
-				"kilogram": {
-					"name": "Kilogramm",
-					"abbr": "kg",
-					"definition": "Das Kilogramm ist die SI-Basiseinheit für Masse und dient als Standardmaß in Wissenschaft und Handel. Es ist weltweit als Maßeinheit anerkannt.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilogramm"
-				},
-				"gram": {
-					"name": "Gramm",
-					"abbr": "g",
-					"definition": "Ein Gramm ist ein Tausendstel eines Kilogramms und wird häufig für leichtere Massen verwendet. Diese Einheit ist vor allem in der Küche und im Handel verbreitet.",
-					"wiki": "https://de.wikipedia.org/wiki/Gramm"
-				},
-				"milligram": {
-					"name": "Milligramm",
-					"abbr": "mg",
-					"definition": "Ein Milligramm entspricht einem Tausendstel eines Gramms und dient der Messung sehr kleiner Massen, insbesondere in der Medizin. Es wird oft für präzise Dosierungsangaben genutzt.",
-					"wiki": "https://de.wikipedia.org/wiki/Milligramm"
-				},
-				"pound": {
-					"name": "Pfund",
-					"abbr": "lb",
-					"definition": "Das Pfund ist eine traditionelle Masseinheit, die vor allem im angelsächsischen Raum verwendet wird. Es entspricht ungefähr 0,4536 Kilogramm und findet im Handel sowie Alltag Anwendung.",
-					"wiki": "https://de.wikipedia.org/wiki/Pfund"
-				},
-				"ounce": {
-					"name": "Unze",
-					"abbr": "oz",
-					"definition": "Eine Unze ist eine kleinere Maßeinheit der Masse, die vor allem im angelsächsischen Raum bekannt ist. Sie entspricht etwa 28,35 Gramm und wird häufig in der Lebensmittelindustrie genutzt.",
-					"wiki": "https://de.wikipedia.org/wiki/Unze"
-				}
-			},
-			"area": {
-				"name": "Fläche",
-				"square-meter": {
-					"name": "Quadratmeter",
-					"abbr": "m²",
-					"definition": "Der Quadratmeter ist die Flächeneinheit des internationalen Einheitensystems und wird zur Messung von Flächen in Architektur und Landwirtschaft genutzt. Er ist eine standardisierte und weit verbreitete Maßeinheit.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratmeter"
-				},
-				"square-kilometer": {
-					"name": "Quadratkilometer",
-					"abbr": "km²",
-					"definition": "Ein Quadratkilometer entspricht einer Fläche von einer Million Quadratmetern. Diese Einheit wird vor allem zur Darstellung großer Flächen, wie beispielsweise Landgebieten, verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratkilometer"
-				},
-				"square-centimeter": {
-					"name": "Quadratzentimeter",
-					"abbr": "cm²",
-					"definition": "Ein Quadratzentimeter ist eine kleine Flächeneinheit, die oft in der Materialwissenschaft und im Alltag genutzt wird. Er misst die Fläche eines Quadrats mit 1 cm Seitenlänge.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratzentimeter"
-				},
-				"square-millimeter": {
-					"name": "Quadratmillimeter",
-					"abbr": "mm²",
-					"definition": "Ein Quadratmillimeter ist eine sehr kleine Flächeneinheit, die oft in der Technik und Materialwissenschaft verwendet wird. Er misst die Fläche eines Quadrats mit 1 mm Seitenlänge.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratmillimeter"
-				},
-				"square-mile": {
-					"name": "Quadratmeile",
-					"abbr": "mi²",
-					"definition": "Eine Quadratmeile ist eine Flächeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Sie entspricht der Fläche eines Quadrats mit einer Meile Seitenlänge.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratmeile"
-				},
-				"square-yard": {
-					"name": "Quadratyard",
-					"abbr": "yd²",
-					"definition": "Ein Quadratyard ist eine Flächeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Quadrats mit einem Yard Seitenlänge.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratyard"
-				},
-				"square-foot": {
-					"name": "Quadratfuß",
-					"abbr": "ft²",
-					"definition": "Ein Quadratfuß ist eine Flächeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Quadrats mit einem Fuß Seitenlänge.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratfuß"
-				},
-				"square-inch": {
-					"name": "Quadratzoll",
-					"abbr": "in²",
-					"definition": "Ein Quadratzoll ist eine Flächeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Quadrats mit einem Zoll Seitenlänge.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratzoll"
-				},
-				"acre": {
-					"name": "Acre",
-					"abbr": "ac",
-					"definition": "Ein Acre ist eine traditionelle Flächeneinheit, die vor allem in den USA und Großbritannien genutzt wird. Er entspricht etwa 4047 Quadratmetern und findet Anwendung in der Landwirtschaft und Immobilienbewertung.",
-					"wiki": "https://de.wikipedia.org/wiki/Acre"
-				}
-			},
-			"volume": {
-				"name": "Volumen",
-				"cubic-meter": {
-					"name": "Kubikmeter",
-					"abbr": "m³",
-					"definition": "Der Kubikmeter ist die Volumeneinheit des internationalen Einheitensystems und wird zur Messung des Rauminhalts verwendet. Diese Maßeinheit ist in Bereichen wie Bau, Lagerung und Technik von großer Bedeutung.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikmeter"
-				},
-				"cubic-kilometer": {
-					"name": "Kubikkilometer",
-					"abbr": "km³",
-					"definition": "Ein Kubikkilometer ist eine sehr große Volumeneinheit, die oft zur Messung von Ozeanen oder großen Wassermengen verwendet wird. Er entspricht einer Milliarde Kubikmeter.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikkilometer"
-				},
-				"cubic-centimeter": {
-					"name": "Kubikzentimeter",
-					"abbr": "cm³",
-					"definition": "Ein Kubikzentimeter ist eine Volumeneinheit, die oft in der Medizin und Technik verwendet wird. Er entspricht einem Milliliter und ist eine gängige Einheit für kleine Volumina.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikzentimeter"
-				},
-				"cubic-millimeter": {
-					"name": "Kubikmillimeter",
-					"abbr": "mm³",
-					"definition": "Ein Kubikmillimeter ist eine sehr kleine Volumeneinheit, die in der Technik und Medizin verwendet wird. Er entspricht einem Mikroliter und wird für präzise Volumenmessungen genutzt.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikmillimeter"
-				},
-				"cubic-mile": {
-					"name": "Kubikmeile",
-					"abbr": "mi³",
-					"definition": "Eine Kubikmeile ist eine große Volumeneinheit, die vor allem in den USA verwendet wird. Sie entspricht der Fläche eines Würfels mit einer Meile Seitenlänge.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikmeile"
-				},
-				"cubic-yard": {
-					"name": "Kubikyard",
-					"abbr": "yd³",
-					"definition": "Ein Kubikyard ist eine Volumeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Würfels mit einem Yard Seitenlänge.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikyard"
-				},
-				"cubic-foot": {
-					"name": "Kubikfuß",
-					"abbr": "ft³",
-					"definition": "Ein Kubikfuß ist eine Volumeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Würfels mit einem Fuß Seitenlänge.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikfuß"
-				},
-				"cubic-inch": {
-					"name": "Kubikzoll",
-					"abbr": "in³",
-					"definition": "Ein Kubikzoll ist eine Volumeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Würfels mit einem Zoll Seitenlänge.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikzoll"
-				}
-			},
-			"temperature": {
-				"name": "Temperatur",
-				"celsius": {
-					"name": "Celsius",
-					"abbr": "°C",
-					"definition": "Die Celsius-Skala ist eine Temperatureinheit, bei der 0 °C den Gefrierpunkt von Wasser darstellt. Sie wird weltweit in den meisten Ländern verwendet und ist leicht verständlich.",
-					"wiki": "https://de.wikipedia.org/wiki/Celsius"
-				},
-				"fahrenheit": {
-					"name": "Fahrenheit",
-					"abbr": "°F",
-					"definition": "Die Fahrenheit-Skala ist eine Temperatureinheit, die vor allem in den USA gebräuchlich ist. Bei dieser Skala liegt der Gefrierpunkt von Wasser bei 32 °F, was sie von Celsius unterscheidet.",
-					"wiki": "https://de.wikipedia.org/wiki/Fahrenheit"
-				},
-				"kelvin": {
-					"name": "Kelvin",
-					"abbr": "K",
-					"definition": "Die Kelvin-Skala ist die SI-Einheit für Temperaturmessungen und beginnt beim absoluten Nullpunkt. Sie wird vor allem in der Wissenschaft und Technik genutzt.",
-					"wiki": "https://de.wikipedia.org/wiki/Kelvin"
-				}
-			},
-			"speed": {
-				"name": "Geschwindigkeit",
-				"meters-per-second": {
-					"name": "Meter pro Sekunde",
-					"abbr": "m/s",
-					"definition": "Die Geschwindigkeit in Metern pro Sekunde ist eine SI-Einheit, die angibt, wie viele Meter in einer Sekunde zurückgelegt werden. Sie ist in der Physik und Technik weit verbreitet.",
-					"wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
-				},
-				"kilometers-per-hour": {
-					"name": "Kilometer pro Stunde",
-					"abbr": "km/h",
-					"definition": "Kilometer pro Stunde gibt an, wie viele Kilometer in einer Stunde zurückgelegt werden. Diese Einheit wird häufig im Straßenverkehr und in der Meteorologie verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
-				},
-				"miles-per-hour": {
-					"name": "Meilen pro Stunde",
-					"abbr": "mph",
-					"definition": "Meilen pro Stunde ist eine Geschwindigkeitseinheit, die vor allem in den USA und Großbritannien verwendet wird. Sie misst, wie viele Meilen in einer Stunde zurückgelegt werden.",
-					"wiki": "https://de.wikipedia.org/wiki/Meile"
-				},
-				"knot": {
-					"name": "Knoten",
-					"abbr": "kn",
-					"definition": "Ein Knoten ist eine Geschwindigkeitseinheit, die in der Schifffahrt und Luftfahrt verwendet wird. Er entspricht einer Seemeile pro Stunde, etwa 1,852 Kilometer pro Stunde.",
-					"wiki": "https://de.wikipedia.org/wiki/Knoten_(Geschwindigkeit)"
-				}
-			},
-			"time": {
-				"name": "Zeit",
-				"second": {
-					"name": "Sekunde",
-					"abbr": "s",
-					"definition": "Die Sekunde ist die Basiseinheit der Zeit im internationalen Einheitensystem. Sie wird zur Messung von Zeitintervallen verwendet und ist weltweit standardisiert.",
-					"wiki": "https://de.wikipedia.org/wiki/Sekunde"
-				},
-				"minute": {
-					"name": "Minute",
-					"abbr": "min",
-					"definition": "Eine Minute besteht aus 60 Sekunden und wird zur Messung kürzerer Zeiträume verwendet. Diese Einheit ist im täglichen Leben sehr gebräuchlich.",
-					"wiki": "https://de.wikipedia.org/wiki/Minute"
-				},
-				"hour": {
-					"name": "Stunde",
-					"abbr": "h",
-					"definition": "Eine Stunde umfasst 60 Minuten und ist eine gängige Zeiteinheit für den Alltag. Sie wird weltweit genutzt und bildet die Basis vieler Zeitplanungen.",
-					"wiki": "https://de.wikipedia.org/wiki/Stunde"
-				},
-				"day": {
-					"name": "Tag",
-					"abbr": "d",
-					"definition": "Ein Tag entspricht der Erdrotation und umfasst 24 Stunden. Er ist die grundlegende Zeiteinheit im täglichen Leben und wird in fast allen Kulturen verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Tag"
-				},
-				"week": {
-					"name": "Woche",
-					"abbr": "w",
-					"definition": "Eine Woche ist eine Zeiteinheit von sieben Tagen. Sie wird zur Organisation von Zeitplänen verwendet und ist eine gängige Einheit in Wirtschaft und persönlicher Planung.",
-					"wiki": "https://de.wikipedia.org/wiki/Woche"
-				},
-				"month": {
-					"name": "Monat",
-					"abbr": "M",
-					"definition": "Ein Monat ist eine Zeiteinheit, die auf dem Mondzyklus basiert. Er wird für längerfristige Planung verwendet und ist eine gängige Einheit in Kalendern und Finanzberechnungen.",
-					"wiki": "https://de.wikipedia.org/wiki/Monat"
-				},
-				"year": {
-					"name": "Jahr",
-					"abbr": "a",
-					"definition": "Ein Jahr ist eine Zeiteinheit, die auf dem Umlauf der Erde um die Sonne basiert. Es wird für langfristige Planung verwendet und ist eine grundlegende Einheit in Kalendern und historischen Aufzeichnungen.",
-					"wiki": "https://de.wikipedia.org/wiki/Jahr"
-				}
-			},
-			"pressure": {
-				"name": "Druck",
-				"pascal": {
-					"name": "Pascal",
-					"abbr": "Pa",
-					"definition": "Das Pascal ist die SI-Einheit für Druck und misst die Kraft pro Flächeneinheit. Es wird in der Physik und Technik verwendet, um Druckverhältnisse zu beschreiben.",
-					"wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
-				},
-				"kilopascal": {
-					"name": "Kilopascal",
-					"abbr": "kPa",
-					"definition": "Ein Kilopascal entspricht 1000 Pascal und wird häufig zur Darstellung von Drücken in Technik und Meteorologie genutzt. Es erweitert die Darstellung des Pascals auf größere Werte.",
-					"wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
-				},
-				"bar": {
-					"name": "Bar",
-					"abbr": "bar",
-					"definition": "Der Bar ist eine Druckeinheit, die vor allem in der Technik und im Wetterbericht verwendet wird. Ein Bar entspricht 100.000 Pascal und ist leicht verständlich.",
-					"wiki": "https://de.wikipedia.org/wiki/Bar_(Einheit)"
-				},
-				"atmosphere": {
-					"name": "Atmosphäre",
-					"abbr": "atm",
-					"definition": "Die Atmosphäre ist eine Druckeinheit, die auf dem durchschnittlichen Luftdruck auf Meereshöhe basiert. Sie wird in der Meteorologie und Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Atmosphäre_(Einheit)"
-				},
-				"torr": {
-					"name": "Torr",
-					"abbr": "Torr",
-					"definition": "Das Torr ist eine Druckeinheit, die nach Evangelista Torricelli benannt ist. Es wird vor allem in der Vakuumtechnik verwendet und entspricht etwa 1/760 Atmosphäre.",
-					"wiki": "https://de.wikipedia.org/wiki/Torr"
-				}
-			},
-			"energy": {
-				"name": "Energie",
-				"joule": {
-					"name": "Joule",
-					"abbr": "J",
-					"definition": "Das Joule ist die SI-Einheit für Energie und misst die Menge an Arbeit oder Wärme. Es wird in Physik, Technik und Chemie verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Joule"
-				},
-				"kilojoule": {
-					"name": "Kilojoule",
-					"abbr": "kJ",
-					"definition": "Ein Kilojoule entspricht 1000 Joule und wird häufig in der Ernährungswissenschaft und Technik verwendet. Diese Einheit erleichtert den Umgang mit größeren Energiemengen.",
-					"wiki": "https://de.wikipedia.org/wiki/Joule"
-				},
-				"calorie": {
-					"name": "Kalorie",
-					"abbr": "cal",
-					"definition": "Die Kalorie ist eine Energieeinheit, die oft in der Ernährungswissenschaft genutzt wird. Sie misst die Energiemenge, die benötigt wird, um die Temperatur von Wasser zu erhöhen.",
-					"wiki": "https://de.wikipedia.org/wiki/Kalorie"
-				},
-				"kilocalorie": {
-					"name": "Kilokalorie",
-					"abbr": "kcal",
-					"definition": "Die Kilokalorie entspricht 1000 Kalorien und wird häufig zur Angabe des Energiegehalts von Lebensmitteln verwendet. Sie ist in der Ernährungswissenschaft weit verbreitet.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
-				},
-				"watt-hour": {
-					"name": "Wattstunde",
-					"abbr": "Wh",
-					"definition": "Die Wattstunde ist eine Energieeinheit, die die Energie angibt, die bei einer Leistung von einem Watt in einer Stunde umgesetzt wird. Sie wird in der Elektrotechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Wattstunde"
-				},
-				"kilowatt-hour": {
-					"name": "Kilowattstunde",
-					"abbr": "kWh",
-					"definition": "Die Kilowattstunde ist eine Energieeinheit, die vor allem zur Abrechnung von elektrischem Strom genutzt wird. Sie misst den Energieverbrauch über eine Stunde bei einer Leistung von einem Kilowatt.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilowattstunde"
-				},
-				"electronvolt": {
-					"name": "Elektronenvolt",
-					"abbr": "eV",
-					"definition": "Das Elektronenvolt ist eine Energieeinheit, die in der Atom- und Teilchenphysik verwendet wird. Es entspricht der Energie, die ein Elektron beim Durchlaufen einer Spannung von einem Volt gewinnt.",
-					"wiki": "https://de.wikipedia.org/wiki/Elektronenvolt"
-				},
-				"hartree": {
-					"name": "Hartree",
-					"abbr": "Eh",
-					"definition": "Die Hartree ist eine Energieeinheit, die in der theoretischen Chemie und Physik verwendet wird. Sie ist nach Douglas Hartree benannt und wird für atomare Berechnungen genutzt.",
-					"wiki": "https://de.wikipedia.org/wiki/Hartree"
-				},
-				"kilogram-force-meter": {
-					"name": "Kilogramm-Kraft-Meter",
-					"abbr": "kgf·m",
-					"definition": "Das Kilogramm-Kraft-Meter ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Kilogramm-Kraft über einen Meter wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilogramm-Kraft"
-				},
-				"kilopond-meter": {
-					"name": "Kilopond-Meter",
-					"abbr": "kp·m",
-					"definition": "Das Kilopond-Meter ist eine Energieeinheit, die der Arbeit entspricht, die verrichtet wird, wenn eine Kraft von einem Kilopond über einen Meter wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilopond"
-				},
-				"gram-force-meter": {
-					"name": "Gramm-Kraft-Meter",
-					"abbr": "gf·m",
-					"definition": "Das Gramm-Kraft-Meter ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Gramm-Kraft über einen Meter wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Gramm-Kraft"
-				},
-				"pound-force-foot": {
-					"name": "Pfund-Kraft-Fuß",
-					"abbr": "lbf·ft",
-					"definition": "Das Pfund-Kraft-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Pfund-Kraft über einen Fuß wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
-				},
-				"pound-force-inch": {
-					"name": "Pfund-Kraft-Zoll",
-					"abbr": "lbf·in",
-					"definition": "Das Pfund-Kraft-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Pfund-Kraft über einen Zoll wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
-				},
-				"ounce-force-foot": {
-					"name": "Unzen-Kraft-Fuß",
-					"abbr": "ozf·ft",
-					"definition": "Das Unzen-Kraft-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einer Unzen-Kraft über einen Fuß wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft"
-				},
-				"ounce-force-inch": {
-					"name": "Unzen-Kraft-Zoll",
-					"abbr": "ozf·in",
-					"definition": "Das Unzen-Kraft-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einer Unzen-Kraft über einen Zoll wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft"
-				},
-				"ton-force-foot": {
-					"name": "Tonnen-Kraft-Fuß",
-					"abbr": "tonf·ft",
-					"definition": "Das Tonnen-Kraft-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einer Tonnen-Kraft über einen Fuß wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft"
-				},
-				"ton-force-inch": {
-					"name": "Tonnen-Kraft-Zoll",
-					"abbr": "tonf·in",
-					"definition": "Das Tonnen-Kraft-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einer Tonnen-Kraft über einen Zoll wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft"
-				},
-				"poundal-foot": {
-					"name": "Poundal-Fuß",
-					"abbr": "pdl·ft",
-					"definition": "Das Poundal-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Poundal über einen Fuß wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Poundal"
-				},
-				"poundal-inch": {
-					"name": "Poundal-Zoll",
-					"abbr": "pdl·in",
-					"definition": "Das Poundal-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Poundal über einen Zoll wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Poundal"
-				},
-				"ounceal-foot": {
-					"name": "Ounceal-Fuß",
-					"abbr": "ozal·ft",
-					"definition": "Das Ounceal-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Ounceal über einen Fuß wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Ounceal"
-				},
-				"ounceal-inch": {
-					"name": "Ounceal-Zoll",
-					"abbr": "ozal·in",
-					"definition": "Das Ounceal-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Ounceal über einen Zoll wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Ounceal"
-				},
-				"tonal-foot": {
-					"name": "Tonal-Fuß",
-					"abbr": "tonal·ft",
-					"definition": "Das Tonal-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Tonal über einen Fuß wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonal"
-				},
-				"tonal-inch": {
-					"name": "Tonal-Zoll",
-					"abbr": "tonal·in",
-					"definition": "Das Tonal-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Tonal über einen Zoll wirkt.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonal"
-				}
-			},
-			"power": {
-				"name": "Leistung",
-				"watt": {
-					"name": "Watt",
-					"abbr": "W",
-					"definition": "Das Watt ist die SI-Einheit der Leistung und misst die Energiemenge, die pro Zeiteinheit umgesetzt wird. Es wird in der Elektrotechnik und Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Watt"
-				},
-				"kilowatt": {
-					"name": "Kilowatt",
-					"abbr": "kW",
-					"definition": "Ein Kilowatt entspricht 1000 Watt und wird häufig zur Angabe der Leistung von Geräten und Motoren genutzt. Diese Einheit ist in der Energiewirtschaft und Technik weit verbreitet.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilowatt"
-				},
-				"horsepower": {
-					"name": "Pferdestärke",
-					"abbr": "hp",
-					"definition": "Die Pferdestärke ist eine Maßeinheit der Leistung, die historisch zur Beschreibung von Maschinenkraft verwendet wurde. Sie drückt aus, wie viel Leistung erforderlich ist, um eine bestimmte Arbeit zu verrichten, und wird oft in der Automobilindustrie genutzt.",
-					"wiki": "https://de.wikipedia.org/wiki/Pferdestärke"
-				},
-				"british-thermal-unit-per-hour": {
-					"name": "Britische Wärmeeinheit pro Stunde",
-					"abbr": "BTU/h",
-					"definition": "Die Britische Wärmeeinheit pro Stunde ist eine Leistungseinheit, die vor allem in den USA verwendet wird. Sie wird häufig in der Heizungs- und Klimatechnik genutzt.",
-					"wiki": "https://de.wikipedia.org/wiki/British_Thermal_Unit"
-				},
-				"calorie-per-second": {
-					"name": "Kalorie pro Sekunde",
-					"abbr": "cal/s",
-					"definition": "Kalorie pro Sekunde ist eine Leistungseinheit, die die Energiemenge angibt, die pro Sekunde umgesetzt wird. Sie wird in der Thermodynamik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Kalorie"
-				},
-				"kilocalorie-per-second": {
-					"name": "Kilokalorie pro Sekunde",
-					"abbr": "kcal/s",
-					"definition": "Kilokalorie pro Sekunde ist eine Leistungseinheit, die 1000 Kalorien pro Sekunde entspricht. Sie wird in der Thermodynamik und Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
-				},
-				"watt-per-square-meter": {
-					"name": "Watt pro Quadratmeter",
-					"abbr": "W/m²",
-					"definition": "Watt pro Quadratmeter ist eine Leistungsdichteeinheit, die die Leistung pro Flächeneinheit angibt. Sie wird in der Wärmeübertragung und Solartechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Leistungsdichte"
-				},
-				"kilowatt-per-square-meter": {
-					"name": "Kilowatt pro Quadratmeter",
-					"abbr": "kW/m²",
-					"definition": "Kilowatt pro Quadratmeter ist eine Leistungsdichteeinheit, die 1000 Watt pro Quadratmeter entspricht. Sie wird in der Energietechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Leistungsdichte"
-				},
-				"horsepower-per-square-meter": {
-					"name": "Pferdestärke pro Quadratmeter",
-					"abbr": "hp/m²",
-					"definition": "Pferdestärke pro Quadratmeter ist eine Leistungsdichteeinheit, die die Leistung pro Flächeneinheit in Pferdestärken angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Leistungsdichte"
-				},
-				"british-thermal-unit-per-hour-per-square-foot": {
-					"name": "Britische Wärmeeinheit pro Stunde pro Quadratfuß",
-					"abbr": "BTU/h·ft²",
-					"definition": "Britische Wärmeeinheit pro Stunde pro Quadratfuß ist eine Leistungsdichteeinheit, die vor allem in den USA verwendet wird. Sie wird in der Heizungs- und Klimatechnik genutzt.",
-					"wiki": "https://de.wikipedia.org/wiki/British_Thermal_Unit"
-				},
-				"calorie-per-second-per-square-meter": {
-					"name": "Kalorie pro Sekunde pro Quadratmeter",
-					"abbr": "cal/s·m²",
-					"definition": "Kalorie pro Sekunde pro Quadratmeter ist eine Leistungsdichteeinheit, die die Energiemenge pro Zeit und Fläche angibt. Sie wird in der Thermodynamik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Kalorie"
-				},
-				"kilocalorie-per-second-per-square-meter": {
-					"name": "Kilokalorie pro Sekunde pro Quadratmeter",
-					"abbr": "kcal/s·m²",
-					"definition": "Kilokalorie pro Sekunde pro Quadratmeter ist eine Leistungsdichteeinheit, die 1000 Kalorien pro Sekunde pro Quadratmeter entspricht. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
-				},
-				"watt-per-square-meter-kelvin": {
-					"name": "Watt pro Quadratmeter Kelvin",
-					"abbr": "W/m²·K",
-					"definition": "Watt pro Quadratmeter Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die den Wärmeübergang pro Fläche und Temperaturdifferenz angibt. Sie wird in der Wärmeübertragung verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				},
-				"kilowatt-per-square-meter-kelvin": {
-					"name": "Kilowatt pro Quadratmeter Kelvin",
-					"abbr": "kW/m²·K",
-					"definition": "Kilowatt pro Quadratmeter Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die 1000 Watt pro Quadratmeter Kelvin entspricht. Sie wird in der Energietechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				},
-				"horsepower-per-square-meter-kelvin": {
-					"name": "Pferdestärke pro Quadratmeter Kelvin",
-					"abbr": "hp/m²·K",
-					"definition": "Pferdestärke pro Quadratmeter Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die den Wärmeübergang in Pferdestärken pro Fläche und Temperaturdifferenz angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				},
-				"british-thermal-unit-per-hour-per-square-foot-kelvin": {
-					"name": "Britische Wärmeeinheit pro Stunde pro Quadratfuß Kelvin",
-					"abbr": "BTU/h·ft²·K",
-					"definition": "Britische Wärmeeinheit pro Stunde pro Quadratfuß Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die vor allem in den USA verwendet wird. Sie wird in der Heizungs- und Klimatechnik genutzt.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				},
-				"calorie-per-second-per-square-meter-kelvin": {
-					"name": "Kalorie pro Sekunde pro Quadratmeter Kelvin",
-					"abbr": "cal/s·m²·K",
-					"definition": "Kalorie pro Sekunde pro Quadratmeter Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die den Wärmeübergang in Kalorien pro Zeit, Fläche und Temperaturdifferenz angibt. Sie wird in der Thermodynamik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				},
-				"kilocalorie-per-second-per-square-meter-kelvin": {
-					"name": "Kilokalorie pro Sekunde pro Quadratmeter Kelvin",
-					"abbr": "kcal/s·m²·K",
-					"definition": "Kilokalorie pro Sekunde pro Quadratmeter Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die 1000 Kalorien pro Sekunde pro Quadratmeter Kelvin entspricht. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				}
-			},
-			"data-storage": {
-				"name": "Datenspeicher",
-				"byte": {
-					"name": "Byte",
-					"abbr": "B",
-					"definition": "Ein Byte ist die grundlegende Maßeinheit für digitale Information und besteht typischerweise aus 8 Bits. Es bildet die Basis der Datenspeicherung in Computern.",
-					"wiki": "https://de.wikipedia.org/wiki/Byte"
-				},
-				"kilobyte": {
-					"name": "Kilobyte",
-					"abbr": "KB",
-					"definition": "Ein Kilobyte entspricht 1024 Bytes und wird verwendet, um die Größe kleiner Dateien zu messen. Diese Einheit ist in der Informatik weit verbreitet.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilobyte"
-				},
-				"megabyte": {
-					"name": "Megabyte",
-					"abbr": "MB",
-					"definition": "Ein Megabyte entspricht 1024 Kilobytes und wird oft zur Beschreibung der Dateigröße oder Speicherkapazität genutzt. Diese Einheit ist in der digitalen Welt gängig.",
-					"wiki": "https://de.wikipedia.org/wiki/Megabyte"
-				},
-				"gigabyte": {
-					"name": "Gigabyte",
-					"abbr": "GB",
-					"definition": "Ein Gigabyte entspricht 1024 Megabytes und wird zur Messung der Speicherkapazität von Festplatten und anderen Geräten verwendet. Diese Einheit ist in der Informationstechnologie üblich.",
-					"wiki": "https://de.wikipedia.org/wiki/Gigabyte"
-				},
-				"terabyte": {
-					"name": "Terabyte",
-					"abbr": "TB",
-					"definition": "Ein Terabyte entspricht 1024 Gigabyte und wird zur Messung sehr großer Speicherkapazitäten verwendet. Diese Einheit ist in Rechenzentren und großen Speichersystemen üblich.",
-					"wiki": "https://de.wikipedia.org/wiki/Terabyte"
-				},
-				"petabyte": {
-					"name": "Petabyte",
-					"abbr": "PB",
-					"definition": "Ein Petabyte entspricht 1024 Terabyte und wird zur Messung extrem großer Speicherkapazitäten verwendet. Diese Einheit ist in Big Data und Cloud-Speichersystemen üblich.",
-					"wiki": "https://de.wikipedia.org/wiki/Petabyte"
-				},
-				"exabyte": {
-					"name": "Exabyte",
-					"abbr": "EB",
-					"definition": "Ein Exabyte entspricht 1024 Petabyte und wird zur Messung riesiger Speicherkapazitäten verwendet. Diese Einheit ist in globalen Datenspeicherberechnungen üblich.",
-					"wiki": "https://de.wikipedia.org/wiki/Exabyte"
-				},
-				"zettabyte": {
-					"name": "Zettabyte",
-					"abbr": "ZB",
-					"definition": "Ein Zettabyte entspricht 1024 Exabyte und wird zur Messung enormer Speicherkapazitäten verwendet. Diese Einheit wird in globalen Datenvolumenberechnungen verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Zettabyte"
-				},
-				"yottabyte": {
-					"name": "Yottabyte",
-					"abbr": "YB",
-					"definition": "Ein Yottabyte entspricht 1024 Zettabyte und wird zur Messung der größten Speicherkapazitäten verwendet. Diese Einheit wird in theoretischen Datenvolumenberechnungen verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Yottabyte"
-				}
-			},
-			"angle": {
-				"name": "Winkel",
-				"radian": {
-					"name": "Radiant",
-					"abbr": "rad",
-					"definition": "Der Radiant ist die SI-Einheit für Winkelmessungen und beschreibt den Winkel als Bogenlänge im Verhältnis zum Radius eines Kreises. Er ist in Mathematik und Physik von zentraler Bedeutung.",
-					"wiki": "https://de.wikipedia.org/wiki/Radiant"
-				},
-				"degree": {
-					"name": "Grad",
-					"abbr": "°",
-					"definition": "Der Grad ist eine gebräuchliche Maßeinheit für Winkel, bei der ein voller Kreis 360 Grad umfasst. Er wird in der Geometrie und im Alltag häufig verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Grad"
-				},
-				"gradian": {
-					"name": "Gon",
-					"abbr": "gon",
-					"definition": "Das Gon ist eine alternative Einheit zur Messung von Winkeln, bei der ein rechter Winkel 100 gon entspricht. Es wird in bestimmten technischen Bereichen genutzt und bietet eine dezimalbasierte Darstellung.",
-					"wiki": "https://de.wikipedia.org/wiki/Gon"
-				},
-				"minute": {
-					"name": "Winkelminute",
-					"abbr": "'",
-					"definition": "Die Winkelminute ist eine Untereinheit des Grades und entspricht einem Sechzigstel eines Grades. Sie wird in der Astronomie und Geodäsie verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Winkelminute"
-				},
-				"second": {
-					"name": "Winkelsekunde",
-					"abbr": "\"",
-					"definition": "Die Winkelsekunde ist eine Untereinheit der Winkelminute und entspricht einem Sechzigstel einer Winkelminute. Sie wird für sehr präzise Winkelmessungen verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Winkelsekunde"
-				},
-				"milliradian": {
-					"name": "Milliradiant",
-					"abbr": "mrad",
-					"definition": "Der Milliradiant ist eine Winkeleinheit, die einem Tausendstel eines Radianten entspricht. Er wird für präzise Winkelmessungen verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Radiant"
-				},
-				"milligradian": {
-					"name": "Milligon",
-					"abbr": "mgon",
-					"definition": "Das Milligon ist eine Winkeleinheit, die einem Tausendstel eines Gons entspricht. Es wird für sehr präzise Winkelmessungen verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Gon"
-				},
-				"milliarc-second": {
-					"name": "Millibogensekunde",
-					"abbr": "mas",
-					"definition": "Die Millibogensekunde ist eine Winkeleinheit, die einem Tausendstel einer Bogensekunde entspricht. Sie wird in der Astronomie für sehr präzise Winkelmessungen verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Bogensekunde"
-				},
-				"microarc-second": {
-					"name": "Mikrobogensekunde",
-					"abbr": "μas",
-					"definition": "Die Mikrobogensekunde ist eine Winkeleinheit, die einem Millionstel einer Bogensekunde entspricht. Sie wird in der Astronomie für extrem präzise Winkelmessungen verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Bogensekunde"
-				},
-				"microarc-minute": {
-					"name": "Mikrobogenminute",
-					"abbr": "μam",
-					"definition": "Die Mikrobogenminute ist eine Winkeleinheit, die einem Millionstel einer Bogenminute entspricht. Sie wird in der Astronomie für extrem präzise Winkelmessungen verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Bogenminute"
-				}
-			},
-			"frequency": {
-				"name": "Frequenz",
-				"hertz": {
-					"name": "Hertz",
-					"abbr": "Hz",
-					"definition": "Das Hertz ist die SI-Einheit für Frequenz und gibt an, wie viele Schwingungen pro Sekunde auftreten. Es ist in der Physik und Technik weit verbreitet.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"kilohertz": {
-					"name": "Kilohertz",
-					"abbr": "kHz",
-					"definition": "Ein Kilohertz entspricht 1000 Hertz und wird häufig zur Beschreibung von Audiofrequenzen und in der Kommunikationstechnik verwendet. Diese Einheit ist in der Elektronik gebräuchlich.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"megahertz": {
-					"name": "Megahertz",
-					"abbr": "MHz",
-					"definition": "Ein Megahertz entspricht 1.000.000 Hertz und wird oft in der Funktechnik und bei Frequenzmessungen eingesetzt. Er ist in der Kommunikation und Elektronik von großer Bedeutung.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"gigahertz": {
-					"name": "Gigahertz",
-					"abbr": "GHz",
-					"definition": "Ein Gigahertz entspricht 1.000.000.000 Hertz und wird vor allem in der Beschreibung von Prozessor- und Funkfrequenzen verwendet. Diese Einheit ist unverzichtbar in moderner Technologie.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"terahertz": {
-					"name": "Terahertz",
-					"abbr": "THz",
-					"definition": "Ein Terahertz entspricht 1.000.000.000.000 Hertz und wird in der Forschung und Entwicklung verwendet. Diese Einheit ist wichtig für die Untersuchung von Materialien und die Kommunikationstechnik.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"petahertz": {
-					"name": "Petahertz",
-					"abbr": "PHz",
-					"definition": "Ein Petahertz entspricht 1.000.000.000.000.000 Hertz und wird in der Forschung und Entwicklung verwendet. Diese Einheit ist wichtig für die Untersuchung von Materialien und die Kommunikationstechnik.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"exahertz": {
-					"name": "Exahertz",
-					"abbr": "EHz",
-					"definition": "Ein Exahertz entspricht 1.000.000.000.000.000.000 Hertz und wird in der Forschung und Entwicklung verwendet. Diese Einheit ist wichtig für die Untersuchung von Materialien und die Kommunikationstechnik.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"zettahertz": {
-					"name": "Zettahertz",
-					"abbr": "ZHz",
-					"definition": "Ein Zettahertz entspricht 1.000.000.000.000.000.000.000 Hertz und wird in der Forschung und Entwicklung verwendet. Diese Einheit ist wichtig für die Untersuchung von Materialien und die Kommunikationstechnik.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"yottahertz": {
-					"name": "Yottahertz",
-					"abbr": "YHz",
-					"definition": "Ein Yottahertz entspricht 1.000.000.000.000.000.000.000.000 Hertz und wird in der Forschung und Entwicklung verwendet. Diese Einheit ist wichtig für die Untersuchung von Materialien und die Kommunikationstechnik.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				}
-			},
-			"force": {
-				"name": "Kraft",
-				"newton": {
-					"name": "Newton",
-					"abbr": "N",
-					"definition": "Der Newton ist die SI-Einheit für Kraft und definiert die Kraft, die benötigt wird, um eine 1-Kilogramm-Masse mit einer Beschleunigung von 1 m/s² zu bewegen. Diese Einheit ist grundlegend in der Physik.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"kilonewton": {
-					"name": "Kilonewton",
-					"abbr": "kN",
-					"definition": "Ein Kilonewton entspricht 1000 Newton und wird häufig in der Technik und im Bauwesen zur Messung größerer Kräfte verwendet. Es ermöglicht eine handlichere Darstellung hoher Kraftwerte.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"meganewton": {
-					"name": "Meganewton",
-					"abbr": "MN",
-					"definition": "Ein Meganewton entspricht 1.000.000 Newton und wird für sehr große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"pound-force": {
-					"name": "Pfund-Kraft",
-					"abbr": "lbf",
-					"definition": "Pound-force ist eine Kraftmaßeinheit, die vor allem im angelsächsischen Raum genutzt wird und die Kraft angibt, die durch das Gewicht einer Pfundmasse entsteht. Diese Einheit wird oft im Ingenieurwesen verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
-				},
-				"giganewton": {
-					"name": "Giganewton",
-					"abbr": "GN",
-					"definition": "Ein Giganewton entspricht 1.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"teranewton": {
-					"name": "Teranewton",
-					"abbr": "TN",
-					"definition": "Ein Teranewton entspricht 1.000.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"petanewton": {
-					"name": "Petanewton",
-					"abbr": "PN",
-					"definition": "Ein Petanewton entspricht 1.000.000.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"exanewton": {
-					"name": "Exanewton",
-					"abbr": "EN",
-					"definition": "Ein Exanewton entspricht 1.000.000.000.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"zettanewton": {
-					"name": "Zettanewton",
-					"abbr": "ZN",
-					"definition": "Ein Zettanewton entspricht 1.000.000.000.000.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"yottanewton": {
-					"name": "Yottanewton",
-					"abbr": "YN",
-					"definition": "Ein Yottanewton entspricht 1.000.000.000.000.000.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"dyne": {
-					"name": "Dyne",
-					"abbr": "dyn",
-					"definition": "Die Dyne ist eine Kraftmaßeinheit im CGS-System und entspricht 10⁻⁵ Newton. Sie wird in der Physik und Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dyne"
-				},
-				"kilogram-force": {
-					"name": "Kilogramm-Kraft",
-					"abbr": "kgf",
-					"definition": "Die Kilogramm-Kraft ist eine Kraftmaßeinheit, die der Gewichtskraft einer Masse von einem Kilogramm entspricht. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilogramm-Kraft"
-				},
-				"kilopond": {
-					"name": "Kilopond",
-					"abbr": "kp",
-					"definition": "Das Kilopond ist eine Kraftmaßeinheit, die der Kilogramm-Kraft entspricht. Es wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilopond"
-				},
-				"gram-force": {
-					"name": "Gramm-Kraft",
-					"abbr": "gf",
-					"definition": "Die Gramm-Kraft ist eine Kraftmaßeinheit, die der Gewichtskraft einer Masse von einem Gramm entspricht. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Gramm-Kraft"
-				},
-				"ounce-force": {
-					"name": "Unzen-Kraft",
-					"abbr": "ozf",
-					"definition": "Die Unzen-Kraft ist eine Kraftmaßeinheit, die der Gewichtskraft einer Masse von einer Unze entspricht. Sie wird vor allem im angelsächsischen Raum verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft"
-				},
-				"ton-force": {
-					"name": "Tonnen-Kraft",
-					"abbr": "tonf",
-					"definition": "Die Tonnen-Kraft ist eine Kraftmaßeinheit, die der Gewichtskraft einer Masse von einer Tonne entspricht. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft"
-				},
-				"poundal": {
-					"name": "Poundal",
-					"abbr": "pdl",
-					"definition": "Das Poundal ist eine Kraftmaßeinheit im imperialen System und entspricht etwa 0,138255 Newton. Es wird vor allem im angelsächsischen Raum verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Poundal"
-				},
-				"ounceal": {
-					"name": "Ounceal",
-					"abbr": "ozal",
-					"definition": "Das Ounceal ist eine Kraftmaßeinheit im imperialen System und entspricht etwa 0,00864093 Newton. Es wird vor allem im angelsächsischen Raum verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Ounceal"
-				},
-				"tonal": {
-					"name": "Tonal",
-					"abbr": "tonal",
-					"definition": "Das Tonal ist eine Kraftmaßeinheit im imperialen System und entspricht etwa 138,255 Newton. Es wird vor allem im angelsächsischen Raum verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonal"
-				}
-			},
-			"density": {
-				"name": "Dichte",
-				"kilogram-per-cubic-meter": {
-					"name": "Kilogramm pro Kubikmeter",
-					"abbr": "kg/m³",
-					"definition": "Die Dichte in Kilogramm pro Kubikmeter ist eine SI-Einheit, die die Masse pro Volumeneinheit angibt. Sie wird verwendet, um die Eigenschaften von Materialien zu charakterisieren.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-centimeter": {
-					"name": "Gramm pro Kubikzentimeter",
-					"abbr": "g/cm³",
-					"definition": "Die Dichte in Gramm pro Kubikzentimeter wird oft in der Materialwissenschaft genutzt, um die Masse in einem bestimmten Volumen zu bestimmen. Diese Einheit ermöglicht den Vergleich von Materialdichten.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"pound-per-cubic-foot": {
-					"name": "Pfund pro Kubikfuß",
-					"abbr": "lb/ft³",
-					"definition": "Die Dichte in Pfund pro Kubikfuß ist eine im angelsächsischen Raum gebräuchliche Maßeinheit. Sie misst die Masse pro Volumeneinheit und wird häufig in der Bau- und Werkstofftechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-kilometer": {
-					"name": "Kilogramm pro Kubikkilometer",
-					"abbr": "kg/km³",
-					"definition": "Kilogramm pro Kubikkilometer ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-kilometer": {
-					"name": "Gramm pro Kubikkilometer",
-					"abbr": "g/km³",
-					"definition": "Gramm pro Kubikkilometer ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-millimeter": {
-					"name": "Kilogramm pro Kubikmillimeter",
-					"abbr": "kg/mm³",
-					"definition": "Kilogramm pro Kubikmillimeter ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr kleinen Räumen angibt. Sie wird in der Materialwissenschaft verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-millimeter": {
-					"name": "Gramm pro Kubikmillimeter",
-					"abbr": "g/mm³",
-					"definition": "Gramm pro Kubikmillimeter ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr kleinen Räumen angibt. Sie wird in der Materialwissenschaft verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-mile": {
-					"name": "Kilogramm pro Kubikmeile",
-					"abbr": "kg/mi³",
-					"definition": "Kilogramm pro Kubikmeile ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-mile": {
-					"name": "Gramm pro Kubikmeile",
-					"abbr": "g/mi³",
-					"definition": "Gramm pro Kubikmeile ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-yard": {
-					"name": "Kilogramm pro Kubikyard",
-					"abbr": "kg/yd³",
-					"definition": "Kilogramm pro Kubikyard ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-yard": {
-					"name": "Gramm pro Kubikyard",
-					"abbr": "g/yd³",
-					"definition": "Gramm pro Kubikyard ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-foot": {
-					"name": "Kilogramm pro Kubikfuß",
-					"abbr": "kg/ft³",
-					"definition": "Kilogramm pro Kubikfuß ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-foot": {
-					"name": "Gramm pro Kubikfuß",
-					"abbr": "g/ft³",
-					"definition": "Gramm pro Kubikfuß ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-inch": {
-					"name": "Kilogramm pro Kubikzoll",
-					"abbr": "kg/in³",
-					"definition": "Kilogramm pro Kubikzoll ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-inch": {
-					"name": "Gramm pro Kubikzoll",
-					"abbr": "g/in³",
-					"definition": "Gramm pro Kubikzoll ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				}
-			},
-			"volume-flow": {
-				"name": "Volumenstrom",
-				"cubic-meters-per-second": {
-					"name": "Kubikmeter pro Sekunde",
-					"abbr": "m³/s",
-					"definition": "Der Volumenstrom in Kubikmetern pro Sekunde misst die Menge eines Fluids, das pro Sekunde durch einen Querschnitt strömt. Diese Einheit ist in der Strömungsmechanik von großer Bedeutung.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"liters-per-second": {
-					"name": "Liter pro Sekunde",
-					"abbr": "l/s",
-					"definition": "Der Volumenstrom in Litern pro Sekunde gibt an, wie viele Liter eines Fluids pro Sekunde fließen. Diese Einheit wird häufig in der Verfahrenstechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"gallons-per-minute": {
-					"name": "Gallonen pro Minute",
-					"abbr": "gal/min",
-					"definition": "Der Volumenstrom in Gallonen pro Minute misst die Menge eines Fluids, die pro Minute fließt. Diese Einheit ist vor allem in den USA verbreitet und wird in technischen Anwendungen genutzt.",
-					"wiki": "https://de.wikipedia.org/wiki/Gallone"
-				},
-				"cubic-kilometer-per-second": {
-					"name": "Kubikkilometer pro Sekunde",
-					"abbr": "km³/s",
-					"definition": "Kubikkilometer pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-millimeter-per-second": {
-					"name": "Kubikmillimeter pro Sekunde",
-					"abbr": "mm³/s",
-					"definition": "Kubikmillimeter pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr kleinen Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-mile-per-second": {
-					"name": "Kubikmeile pro Sekunde",
-					"abbr": "mi³/s",
-					"definition": "Kubikmeile pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-yard-per-second": {
-					"name": "Kubikyard pro Sekunde",
-					"abbr": "yd³/s",
-					"definition": "Kubikyard pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-foot-per-second": {
-					"name": "Kubikfuß pro Sekunde",
-					"abbr": "ft³/s",
-					"definition": "Kubikfuß pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-inch-per-second": {
-					"name": "Kubikzoll pro Sekunde",
-					"abbr": "in³/s",
-					"definition": "Kubikzoll pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-meter-per-hour": {
-					"name": "Kubikmeter pro Stunde",
-					"abbr": "m³/h",
-					"definition": "Kubikmeter pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-kilometer-per-hour": {
-					"name": "Kubikkilometer pro Stunde",
-					"abbr": "km³/h",
-					"definition": "Kubikkilometer pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-centimeter-per-hour": {
-					"name": "Kubikzentimeter pro Stunde",
-					"abbr": "cm³/h",
-					"definition": "Kubikzentimeter pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-millimeter-per-hour": {
-					"name": "Kubikmillimeter pro Stunde",
-					"abbr": "mm³/h",
-					"definition": "Kubikmillimeter pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr kleinen Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-mile-per-hour": {
-					"name": "Kubikmeile pro Stunde",
-					"abbr": "mi³/h",
-					"definition": "Kubikmeile pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-yard-per-hour": {
-					"name": "Kubikyard pro Stunde",
-					"abbr": "yd³/h",
-					"definition": "Kubikyard pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-foot-per-hour": {
-					"name": "Kubikfuß pro Stunde",
-					"abbr": "ft³/h",
-					"definition": "Kubikfuß pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-inch-per-hour": {
-					"name": "Kubikzoll pro Stunde",
-					"abbr": "in³/h",
-					"definition": "Kubikzoll pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				}
-			},
-			"acceleration": {
-				"name": "Beschleunigung",
-				"meters-per-second-squared": {
-					"name": "Meter pro Quadratsekunde",
-					"abbr": "m/s²",
-					"definition": "Die Beschleunigung in Metern pro Quadratsekunde gibt an, wie schnell sich die Geschwindigkeit ändert. Sie ist die SI-Einheit für Beschleunigung und zentral in der Physik.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"feet-per-second-squared": {
-					"name": "Fuß pro Quadratsekunde",
-					"abbr": "ft/s²",
-					"definition": "Die Beschleunigung in Fuß pro Quadratsekunde ist eine alternative Maßeinheit, die vor allem im angelsächsischen Raum verwendet wird. Sie gibt die Geschwindigkeitsänderung in diesen Einheiten an.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"kilometers-per-hour-per-second": {
-					"name": "Kilometer pro Stunde pro Sekunde",
-					"abbr": "km/h/s",
-					"definition": "Die Beschleunigung in Kilometern pro Stunde pro Sekunde misst, wie schnell sich die Geschwindigkeit in km/h ändert. Diese Einheit wird häufig im Automobilbereich verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"kilometer-per-second-squared": {
-					"name": "Kilometer pro Quadratsekunde",
-					"abbr": "km/s²",
-					"definition": "Kilometer pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"centimeter-per-second-squared": {
-					"name": "Zentimeter pro Quadratsekunde",
-					"abbr": "cm/s²",
-					"definition": "Zentimeter pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"millimeter-per-second-squared": {
-					"name": "Millimeter pro Quadratsekunde",
-					"abbr": "mm/s²",
-					"definition": "Millimeter pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"mile-per-second-squared": {
-					"name": "Meile pro Quadratsekunde",
-					"abbr": "mi/s²",
-					"definition": "Meile pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"yard-per-second-squared": {
-					"name": "Yard pro Quadratsekunde",
-					"abbr": "yd/s²",
-					"definition": "Yard pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"inch-per-second-squared": {
-					"name": "Zoll pro Quadratsekunde",
-					"abbr": "in/s²",
-					"definition": "Zoll pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"meter-per-hour-squared": {
-					"name": "Meter pro Quadratstunde",
-					"abbr": "m/h²",
-					"definition": "Meter pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"kilometer-per-hour-squared": {
-					"name": "Kilometer pro Quadratstunde",
-					"abbr": "km/h²",
-					"definition": "Kilometer pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"centimeter-per-hour-squared": {
-					"name": "Zentimeter pro Quadratstunde",
-					"abbr": "cm/h²",
-					"definition": "Zentimeter pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"millimeter-per-hour-squared": {
-					"name": "Millimeter pro Quadratstunde",
-					"abbr": "mm/h²",
-					"definition": "Millimeter pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"mile-per-hour-squared": {
-					"name": "Meile pro Quadratstunde",
-					"abbr": "mi/h²",
-					"definition": "Meile pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"yard-per-hour-squared": {
-					"name": "Yard pro Quadratstunde",
-					"abbr": "yd/h²",
-					"definition": "Yard pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"foot-per-hour-squared": {
-					"name": "Fuß pro Quadratstunde",
-					"abbr": "ft/h²",
-					"definition": "Fuß pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"inch-per-hour-squared": {
-					"name": "Zoll pro Quadratstunde",
-					"abbr": "in/h²",
-					"definition": "Zoll pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				}
-			},
-			"area-density": {
-				"name": "Flächenmasse",
-				"kilogram-per-square-meter": {
-					"name": "Kilogramm pro Quadratmeter",
-					"abbr": "kg/m²",
-					"definition": "Die Flächenmasse in Kilogramm pro Quadratmeter gibt an, wie viel Masse auf einer bestimmten Fläche verteilt ist. Sie wird vor allem in der Bau- und Materialwissenschaft verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-centimeter": {
-					"name": "Gramm pro Quadratzentimeter",
-					"abbr": "g/cm²",
-					"definition": "Die Flächenmasse in Gramm pro Quadratzentimeter misst die Masse pro Flächeneinheit und wird im Ingenieurwesen genutzt. Diese Einheit ermöglicht präzise Berechnungen bei kleinen Flächen.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-kilometer": {
-					"name": "Kilogramm pro Quadratkilometer",
-					"abbr": "kg/km²",
-					"definition": "Kilogramm pro Quadratkilometer ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-kilometer": {
-					"name": "Gramm pro Quadratkilometer",
-					"abbr": "g/km²",
-					"definition": "Gramm pro Quadratkilometer ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-millimeter": {
-					"name": "Kilogramm pro Quadratmillimeter",
-					"abbr": "kg/mm²",
-					"definition": "Kilogramm pro Quadratmillimeter ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr kleinen Räumen angibt. Sie wird in der Materialwissenschaft verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-millimeter": {
-					"name": "Gramm pro Quadratmillimeter",
-					"abbr": "g/mm²",
-					"definition": "Gramm pro Quadratmillimeter ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr kleinen Räumen angibt. Sie wird in der Materialwissenschaft verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-mile": {
-					"name": "Kilogramm pro Quadratmeile",
-					"abbr": "kg/mi²",
-					"definition": "Kilogramm pro Quadratmeile ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-mile": {
-					"name": "Gramm pro Quadratmeile",
-					"abbr": "g/mi²",
-					"definition": "Gramm pro Quadratmeile ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-yard": {
-					"name": "Kilogramm pro Quadratyard",
-					"abbr": "kg/yd²",
-					"definition": "Kilogramm pro Quadratyard ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-yard": {
-					"name": "Gramm pro Quadratyard",
-					"abbr": "g/yd²",
-					"definition": "Gramm pro Quadratyard ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-foot": {
-					"name": "Kilogramm pro Quadratfuß",
-					"abbr": "kg/ft²",
-					"definition": "Kilogramm pro Quadratfuß ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-foot": {
-					"name": "Gramm pro Quadratfuß",
-					"abbr": "g/ft²",
-					"definition": "Gramm pro Quadratfuß ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-inch": {
-					"name": "Kilogramm pro Quadratzoll",
-					"abbr": "kg/in²",
-					"definition": "Kilogramm pro Quadratzoll ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-inch": {
-					"name": "Gramm pro Quadratzoll",
-					"abbr": "g/in²",
-					"definition": "Gramm pro Quadratzoll ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				}
-			},
-			"illuminance": {
-				"name": "Beleuchtungsstärke",
-				"lux": {
-					"name": "Lux",
-					"abbr": "lx",
-					"definition": "Der Lux ist die SI-Einheit für die Beleuchtungsstärke und misst, wie viel Licht pro Quadratmeter auf eine Fläche fällt. Er ist in der Lichttechnik und Architektur von Bedeutung.",
-					"wiki": "https://de.wikipedia.org/wiki/Lux"
-				},
-				"foot-candle": {
-					"name": "Foot-Candle",
-					"abbr": "fc",
-					"definition": "Ein Foot-Candle ist eine Beleuchtungsstärke-Einheit, die vor allem im angelsächsischen Raum verwendet wird und angibt, wie viel Licht auf einen Quadratfuß fällt. Diese Einheit wird häufig in der Lichtplanung eingesetzt.",
-					"wiki": "https://de.wikipedia.org/wiki/Foot-candle"
-				},
-				"lumen-per-square-meter": {
-					"name": "Lumen pro Quadratmeter",
-					"abbr": "lm/m²",
-					"definition": "Lumen pro Quadratmeter ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
-				},
-				"lumen-per-square-centimeter": {
-					"name": "Lumen pro Quadratzentimeter",
-					"abbr": "lm/cm²",
-					"definition": "Lumen pro Quadratzentimeter ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
-				},
-				"lumen-per-square-millimeter": {
-					"name": "Lumen pro Quadratmillimeter",
-					"abbr": "lm/mm²",
-					"definition": "Lumen pro Quadratmillimeter ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
-				},
-				"lumen-per-square-foot": {
-					"name": "Lumen pro Quadratfuß",
-					"abbr": "lm/ft²",
-					"definition": "Lumen pro Quadratfuß ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
-				},
-				"lumen-per-square-inch": {
-					"name": "Lumen pro Quadratzoll",
-					"abbr": "lm/in²",
-					"definition": "Lumen pro Quadratzoll ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
-				},
-				"lumen-per-square-yard": {
-					"name": "Lumen pro Quadratyard",
-					"abbr": "lm/yd²",
-					"definition": "Lumen pro Quadratyard ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
-				},
-				"lumen-per-square-kilometer": {
-					"name": "Lumen pro Quadratkilometer",
-					"abbr": "lm/km²",
-					"definition": "Lumen pro Quadratkilometer ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
-				},
-				"lumen-per-square-mile": {
-					"name": "Lumen pro Quadratmeile",
-					"abbr": "lm/mi²",
-					"definition": "Lumen pro Quadratmeile ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
-				}
-			},
-			"data-rate": {
-				"name": "Datenübertragungsrate",
-				"bits-per-second": {
-					"name": "Bit pro Sekunde",
-					"abbr": "bit/s",
-					"definition": "Bit pro Sekunde ist die Maßeinheit für die Datenübertragungsrate und gibt an, wie viele Bits in einer Sekunde übertragen werden. Diese Einheit ist zentral in der Informationstechnologie.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"kilobits-per-second": {
-					"name": "Kilobit pro Sekunde",
-					"abbr": "kbit/s",
-					"definition": "Kilobit pro Sekunde entspricht 1000 Bits pro Sekunde und wird häufig in der Netzwerkkommunikation verwendet. Diese Einheit hilft bei der Bestimmung von Internetgeschwindigkeiten.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"megabits-per-second": {
-					"name": "Megabit pro Sekunde",
-					"abbr": "Mbit/s",
-					"definition": "Megabit pro Sekunde entspricht 1.000.000 Bits pro Sekunde und wird oft zur Angabe von Internet- und Datenübertragungsgeschwindigkeiten genutzt. Sie ist in der Telekommunikation gebräuchlich.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"gigabits-per-second": {
-					"name": "Gigabit pro Sekunde",
-					"abbr": "Gbit/s",
-					"definition": "Gigabit pro Sekunde entspricht 1.000.000.000 Bits pro Sekunde und wird vor allem in Hochgeschwindigkeitsnetzwerken verwendet. Diese Einheit ist für moderne Datenkommunikationssysteme unverzichtbar.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"bytes-per-second": {
-					"name": "Byte pro Sekunde",
-					"abbr": "B/s",
-					"definition": "Byte pro Sekunde misst die Datenübertragungsrate in Bytes und wird zur Bestimmung der Geschwindigkeit von Datenübertragungen verwendet. Diese Einheit ist in der Computertechnik relevant.",
-					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-				},
-				"kilobytes-per-second": {
-					"name": "Kilobyte pro Sekunde",
-					"abbr": "KB/s",
-					"definition": "Kilobyte pro Sekunde entspricht 1024 Byte pro Sekunde und wird häufig zur Messung von Download- und Upload-Geschwindigkeiten genutzt. Diese Einheit ist in der Informatik weit verbreitet.",
-					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-				},
-				"megabytes-per-second": {
-					"name": "Megabyte pro Sekunde",
-					"abbr": "MB/s",
-					"definition": "Megabyte pro Sekunde entspricht 1024 Kilobyte pro Sekunde und wird zur Angabe von Datentransferraten in Computern und Netzwerken verwendet. Diese Einheit ist in der digitalen Datenübertragung gängig.",
-					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-				},
-				"terabit-per-second": {
-					"name": "Terabit pro Sekunde",
-					"abbr": "Tbit/s",
-					"definition": "Terabit pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000 Bits pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"petabit-per-second": {
-					"name": "Petabit pro Sekunde",
-					"abbr": "Pbit/s",
-					"definition": "Petabit pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000 Bits pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"exabit-per-second": {
-					"name": "Exabit pro Sekunde",
-					"abbr": "Ebit/s",
-					"definition": "Exabit pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000 Bits pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"zettabit-per-second": {
-					"name": "Zettabit pro Sekunde",
-					"abbr": "Zbit/s",
-					"definition": "Zettabit pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000.000 Bits pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"yottabit-per-second": {
-					"name": "Yottabit pro Sekunde",
-					"abbr": "Ybit/s",
-					"definition": "Yottabit pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000.000.000 Bits pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"terabyte-per-second": {
-					"name": "Terabyte pro Sekunde",
-					"abbr": "TB/s",
-					"definition": "Terabyte pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000 Bytes pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-				},
-				"petabyte-per-second": {
-					"name": "Petabyte pro Sekunde",
-					"abbr": "PB/s",
-					"definition": "Petabyte pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000 Bytes pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-				},
-				"exabyte-per-second": {
-					"name": "Exabyte pro Sekunde",
-					"abbr": "EB/s",
-					"definition": "Exabyte pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000 Bytes pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-				},
-				"zettabyte-per-second": {
-					"name": "Zettabyte pro Sekunde",
-					"abbr": "ZB/s",
-					"definition": "Zettabyte pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000.000 Bytes pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-				},
-				"yottabyte-per-second": {
-					"name": "Yottabyte pro Sekunde",
-					"abbr": "YB/s",
-					"definition": "Yottabyte pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000.000.000 Bytes pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
-					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-				}
-			}
-		},
-		"labels": {
-			"category": "Kategorie",
-			"value": "Wert",
-			"from": "Von",
-			"to": "zu",
-			"calculate": "Umrechnen",
-			"result": "Ergebnis",
-			"select": "Auswählen",
-			"invalidNumber": "Bitte eine gültige Zahl eingeben.",
-			"differentUnits": "Bitte wählen Sie unterschiedliche Einheiten."
-		}
-	}
+  "HomePage": {
+    "heroTitle": "Ultimative Online-Toolbox für moderne digitale Aufgaben",
+    "heroSubtitle": "Entfesseln Sie das Potenzial von Entwicklern, Designern und Kreativen mit innovativen Lösungen",
+    "heroDescription": "Entdecken Sie eine umfassende Sammlung von Online-Tools, die Ihren Arbeitsalltag optimieren. Von fortschrittlichen Einheiten-Konvertern bis hin zu effizienten Datei-Konvertern – unsere Plattform steigert Ihre Produktivität und Kreativität.",
+    "usageInstructions": "Verwenden Sie das Burger-Menü oben rechts, um Ihre Werkzeuge auszuwählen, das Thema zu ändern oder die Sprache zwischen Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Ukrainisch und Chinesisch zu wechseln.",
+    "ctaButton": "Entdecken Sie unsere Tools",
+    "toolsOverviewTitle": "Unser vielfältiges Toolangebot im Überblick",
+    "toolsOverviewSubtitle": "Durchstöbern Sie unsere leistungsstarken und innovativen Tools, die komplexe Aufgaben vereinfachen und Ihren digitalen Workflow revolutionieren.",
+    "toolCard1Title": "Einheiten-Konverter",
+    "toolCard1Description": "Konvertieren Sie Längen, Gewichte, Temperaturen und mehr mit höchster Präzision.",
+    "toolCard2Title": "Datei-Konverter",
+    "toolCard2Description": "Wandeln Sie Dateien im Handumdrehen in verschiedene Formate um – schnell und zuverlässig.",
+    "toolCard3Title": "Passwort-Generator",
+    "toolCard3Description": "Erzeugen Sie sichere und zufällige Passwörter mit wenigen Klicks und anpassbaren Optionen.",
+    "toolCard4Title": "QR-Code-Generator",
+    "toolCard4Description": "Erstellen Sie in Sekundenschnelle QR-Codes für URLs, Texte und mehr mit unserem benutzerfreundlichen Tool.",
+    "toolCard5Title": "Trinkgeld-Generator",
+    "toolCard5Description": "Berechnen Sie schnell das passende Trinkgeld für Ihre Rechnung mit unserem intuitiven Generator.",
+    "toolCard6Title": "JSON-Formatter und Validator",
+    "toolCard6Description": "Formatieren und validieren Sie Ihre JSON-Daten mühelos, um die korrekte Syntax und Struktur sicherzustellen.",
+    "additionalTitle": "Innovative Lösungen zur Transformation Ihres digitalen Arbeitens",
+    "additionalDescription": "Unsere Plattform wird ständig erweitert und bietet Ihnen die neuesten Tools und Funktionen, um Ihre Effizienz zu maximieren. Erleben Sie unvergleichliche Vielseitigkeit und Leistung.",
+    "learnMoreButton": "Mehr über uns erfahren",
+    "description": "Toolboxes.app ist die führende Online-Ressource, die eine leistungsstarke Sammlung von Tools zur Revolutionierung Ihres Arbeitsalltags bietet.",
+    "seeMoreButton": "Mehr erfahren"
+  },
+  "UnitConverterPage": {
+    "definitions": {
+      "for": "Definition für",
+      "more": "Mehr auf Wikipedia"
+    },
+    "description": "Ein umfangreicher Einheitenumwandler",
+    "to": "zu",
+    "units": {
+      "length": {
+        "name": "Länge",
+        "meter": {
+          "name": "Meter",
+          "abbr": "m",
+          "definition": "Der Meter ist die SI-Basiseinheit der Länge und dient als Standardmaß für Entfernungen. Er ist historisch definiert und weltweit anerkannt.",
+          "wiki": "https://de.wikipedia.org/wiki/Meter"
+        },
+        "kilometer": {
+          "name": "Kilometer",
+          "abbr": "km",
+          "definition": "Ein Kilometer entspricht 1000 Metern und wird häufig zur Angabe von Entfernungen in der Praxis verwendet. Er ist eine gebräuchliche Maßeinheit im Alltag.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilometer"
+        },
+        "centimeter": {
+          "name": "Zentimeter",
+          "abbr": "cm",
+          "definition": "Ein Zentimeter entspricht einem Hundertstel eines Meters und wird oft zur Messung kleiner Längen verwendet. Diese Einheit findet in vielen Alltagsanwendungen Verwendung.",
+          "wiki": "https://de.wikipedia.org/wiki/Zentimeter"
+        },
+        "millimeter": {
+          "name": "Millimeter",
+          "abbr": "mm",
+          "definition": "Ein Millimeter ist ein Tausendstel eines Meters und dient zur präzisen Messung kleiner Längen. Besonders in technischen Bereichen ist diese Einheit von Bedeutung.",
+          "wiki": "https://de.wikipedia.org/wiki/Millimeter"
+        },
+        "mile": {
+          "name": "Meile",
+          "abbr": "mi",
+          "definition": "Eine Meile ist eine Längeneinheit, die vor allem im angelsächsischen Raum Verwendung findet. Sie entspricht ungefähr 1,609 Kilometern und besitzt historische Bedeutung.",
+          "wiki": "https://de.wikipedia.org/wiki/Meile"
+        },
+        "yard": {
+          "name": "Yard",
+          "abbr": "yd",
+          "definition": "Ein Yard ist eine Längeneinheit, die vor allem in den USA und Großbritannien gebräuchlich ist. Er entspricht 0,9144 Metern und wird unter anderem in der Textil- und Sportbranche genutzt.",
+          "wiki": "https://de.wikipedia.org/wiki/Yard"
+        },
+        "foot": {
+          "name": "Fuß",
+          "abbr": "ft",
+          "definition": "Ein Fuß ist eine traditionelle Längeneinheit, die in den USA und einigen anderen Ländern verwendet wird. Er entspricht 0,3048 Metern und findet vor allem im Bauwesen Anwendung.",
+          "wiki": "https://de.wikipedia.org/wiki/Fuß"
+        },
+        "inch": {
+          "name": "Zoll",
+          "abbr": "in",
+          "definition": "Ein Inch ist eine Längeneinheit, die vor allem im angelsächsischen Raum genutzt wird. Er entspricht 2,54 Zentimetern und wird in Technik sowie im Alltag eingesetzt.",
+          "wiki": "https://de.wikipedia.org/wiki/Inch"
+        }
+      },
+      "weight": {
+        "name": "Gewicht",
+        "kilogram": {
+          "name": "Kilogramm",
+          "abbr": "kg",
+          "definition": "Das Kilogramm ist die SI-Basiseinheit für Masse und dient als Standardmaß in Wissenschaft und Handel. Es ist weltweit als Maßeinheit anerkannt.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilogramm"
+        },
+        "gram": {
+          "name": "Gramm",
+          "abbr": "g",
+          "definition": "Ein Gramm ist ein Tausendstel eines Kilogramms und wird häufig für leichtere Massen verwendet. Diese Einheit ist vor allem in der Küche und im Handel verbreitet.",
+          "wiki": "https://de.wikipedia.org/wiki/Gramm"
+        },
+        "milligram": {
+          "name": "Milligramm",
+          "abbr": "mg",
+          "definition": "Ein Milligramm entspricht einem Tausendstel eines Gramms und dient der Messung sehr kleiner Massen, insbesondere in der Medizin. Es wird oft für präzise Dosierungsangaben genutzt.",
+          "wiki": "https://de.wikipedia.org/wiki/Milligramm"
+        },
+        "pound": {
+          "name": "Pfund",
+          "abbr": "lb",
+          "definition": "Das Pfund ist eine traditionelle Masseinheit, die vor allem im angelsächsischen Raum verwendet wird. Es entspricht ungefähr 0,4536 Kilogramm und findet im Handel sowie Alltag Anwendung.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund"
+        },
+        "ounce": {
+          "name": "Unze",
+          "abbr": "oz",
+          "definition": "Eine Unze ist eine kleinere Maßeinheit der Masse, die vor allem im angelsächsischen Raum bekannt ist. Sie entspricht etwa 28,35 Gramm und wird häufig in der Lebensmittelindustrie genutzt.",
+          "wiki": "https://de.wikipedia.org/wiki/Unze"
+        }
+      },
+      "area": {
+        "name": "Fläche",
+        "square-meter": {
+          "name": "Quadratmeter",
+          "abbr": "m²",
+          "definition": "Der Quadratmeter ist die Flächeneinheit des internationalen Einheitensystems und wird zur Messung von Flächen in Architektur und Landwirtschaft genutzt. Er ist eine standardisierte und weit verbreitete Maßeinheit.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratmeter"
+        },
+        "square-kilometer": {
+          "name": "Quadratkilometer",
+          "abbr": "km²",
+          "definition": "Ein Quadratkilometer entspricht einer Fläche von einer Million Quadratmetern. Diese Einheit wird vor allem zur Darstellung großer Flächen, wie beispielsweise Landgebieten, verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratkilometer"
+        },
+        "square-centimeter": {
+          "name": "Quadratzentimeter",
+          "abbr": "cm²",
+          "definition": "Ein Quadratzentimeter ist eine kleine Flächeneinheit, die oft in der Materialwissenschaft und im Alltag genutzt wird. Er misst die Fläche eines Quadrats mit 1 cm Seitenlänge.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratzentimeter"
+        },
+        "square-millimeter": {
+          "name": "Quadratmillimeter",
+          "abbr": "mm²",
+          "definition": "Ein Quadratmillimeter ist eine sehr kleine Flächeneinheit, die oft in der Technik und Materialwissenschaft verwendet wird. Er misst die Fläche eines Quadrats mit 1 mm Seitenlänge.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratmillimeter"
+        },
+        "square-mile": {
+          "name": "Quadratmeile",
+          "abbr": "mi²",
+          "definition": "Eine Quadratmeile ist eine Flächeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Sie entspricht der Fläche eines Quadrats mit einer Meile Seitenlänge.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratmeile"
+        },
+        "square-yard": {
+          "name": "Quadratyard",
+          "abbr": "yd²",
+          "definition": "Ein Quadratyard ist eine Flächeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Quadrats mit einem Yard Seitenlänge.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratyard"
+        },
+        "square-foot": {
+          "name": "Quadratfuß",
+          "abbr": "ft²",
+          "definition": "Ein Quadratfuß ist eine Flächeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Quadrats mit einem Fuß Seitenlänge.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratfuß"
+        },
+        "square-inch": {
+          "name": "Quadratzoll",
+          "abbr": "in²",
+          "definition": "Ein Quadratzoll ist eine Flächeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Quadrats mit einem Zoll Seitenlänge.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratzoll"
+        },
+        "acre": {
+          "name": "Acre",
+          "abbr": "ac",
+          "definition": "Ein Acre ist eine traditionelle Flächeneinheit, die vor allem in den USA und Großbritannien genutzt wird. Er entspricht etwa 4047 Quadratmetern und findet Anwendung in der Landwirtschaft und Immobilienbewertung.",
+          "wiki": "https://de.wikipedia.org/wiki/Acre"
+        }
+      },
+      "volume": {
+        "name": "Volumen",
+        "cubic-meter": {
+          "name": "Kubikmeter",
+          "abbr": "m³",
+          "definition": "Der Kubikmeter ist die Volumeneinheit des internationalen Einheitensystems und wird zur Messung des Rauminhalts verwendet. Diese Maßeinheit ist in Bereichen wie Bau, Lagerung und Technik von großer Bedeutung.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikmeter"
+        },
+        "cubic-kilometer": {
+          "name": "Kubikkilometer",
+          "abbr": "km³",
+          "definition": "Ein Kubikkilometer ist eine sehr große Volumeneinheit, die oft zur Messung von Ozeanen oder großen Wassermengen verwendet wird. Er entspricht einer Milliarde Kubikmeter.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikkilometer"
+        },
+        "cubic-centimeter": {
+          "name": "Kubikzentimeter",
+          "abbr": "cm³",
+          "definition": "Ein Kubikzentimeter ist eine Volumeneinheit, die oft in der Medizin und Technik verwendet wird. Er entspricht einem Milliliter und ist eine gängige Einheit für kleine Volumina.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikzentimeter"
+        },
+        "cubic-millimeter": {
+          "name": "Kubikmillimeter",
+          "abbr": "mm³",
+          "definition": "Ein Kubikmillimeter ist eine sehr kleine Volumeneinheit, die in der Technik und Medizin verwendet wird. Er entspricht einem Mikroliter und wird für präzise Volumenmessungen genutzt.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikmillimeter"
+        },
+        "cubic-mile": {
+          "name": "Kubikmeile",
+          "abbr": "mi³",
+          "definition": "Eine Kubikmeile ist eine große Volumeneinheit, die vor allem in den USA verwendet wird. Sie entspricht der Fläche eines Würfels mit einer Meile Seitenlänge.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikmeile"
+        },
+        "cubic-yard": {
+          "name": "Kubikyard",
+          "abbr": "yd³",
+          "definition": "Ein Kubikyard ist eine Volumeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Würfels mit einem Yard Seitenlänge.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikyard"
+        },
+        "cubic-foot": {
+          "name": "Kubikfuß",
+          "abbr": "ft³",
+          "definition": "Ein Kubikfuß ist eine Volumeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Würfels mit einem Fuß Seitenlänge.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikfuß"
+        },
+        "cubic-inch": {
+          "name": "Kubikzoll",
+          "abbr": "in³",
+          "definition": "Ein Kubikzoll ist eine Volumeneinheit, die vor allem in den USA und Großbritannien verwendet wird. Er entspricht der Fläche eines Würfels mit einem Zoll Seitenlänge.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikzoll"
+        }
+      },
+      "temperature": {
+        "name": "Temperatur",
+        "celsius": {
+          "name": "Celsius",
+          "abbr": "°C",
+          "definition": "Die Celsius-Skala ist eine Temperatureinheit, bei der 0 °C den Gefrierpunkt von Wasser darstellt. Sie wird weltweit in den meisten Ländern verwendet und ist leicht verständlich.",
+          "wiki": "https://de.wikipedia.org/wiki/Celsius"
+        },
+        "fahrenheit": {
+          "name": "Fahrenheit",
+          "abbr": "°F",
+          "definition": "Die Fahrenheit-Skala ist eine Temperatureinheit, die vor allem in den USA gebräuchlich ist. Bei dieser Skala liegt der Gefrierpunkt von Wasser bei 32 °F, was sie von Celsius unterscheidet.",
+          "wiki": "https://de.wikipedia.org/wiki/Fahrenheit"
+        },
+        "kelvin": {
+          "name": "Kelvin",
+          "abbr": "K",
+          "definition": "Die Kelvin-Skala ist die SI-Einheit für Temperaturmessungen und beginnt beim absoluten Nullpunkt. Sie wird vor allem in der Wissenschaft und Technik genutzt.",
+          "wiki": "https://de.wikipedia.org/wiki/Kelvin"
+        }
+      },
+      "speed": {
+        "name": "Geschwindigkeit",
+        "meters-per-second": {
+          "name": "Meter pro Sekunde",
+          "abbr": "m/s",
+          "definition": "Die Geschwindigkeit in Metern pro Sekunde ist eine SI-Einheit, die angibt, wie viele Meter in einer Sekunde zurückgelegt werden. Sie ist in der Physik und Technik weit verbreitet.",
+          "wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
+        },
+        "kilometers-per-hour": {
+          "name": "Kilometer pro Stunde",
+          "abbr": "km/h",
+          "definition": "Kilometer pro Stunde gibt an, wie viele Kilometer in einer Stunde zurückgelegt werden. Diese Einheit wird häufig im Straßenverkehr und in der Meteorologie verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
+        },
+        "miles-per-hour": {
+          "name": "Meilen pro Stunde",
+          "abbr": "mph",
+          "definition": "Meilen pro Stunde ist eine Geschwindigkeitseinheit, die vor allem in den USA und Großbritannien verwendet wird. Sie misst, wie viele Meilen in einer Stunde zurückgelegt werden.",
+          "wiki": "https://de.wikipedia.org/wiki/Meile"
+        },
+        "knot": {
+          "name": "Knoten",
+          "abbr": "kn",
+          "definition": "Ein Knoten ist eine Geschwindigkeitseinheit, die in der Schifffahrt und Luftfahrt verwendet wird. Er entspricht einer Seemeile pro Stunde, etwa 1,852 Kilometer pro Stunde.",
+          "wiki": "https://de.wikipedia.org/wiki/Knoten_(Geschwindigkeit)"
+        }
+      },
+      "time": {
+        "name": "Zeit",
+        "second": {
+          "name": "Sekunde",
+          "abbr": "s",
+          "definition": "Die Sekunde ist die Basiseinheit der Zeit im internationalen Einheitensystem. Sie wird zur Messung von Zeitintervallen verwendet und ist weltweit standardisiert.",
+          "wiki": "https://de.wikipedia.org/wiki/Sekunde"
+        },
+        "minute": {
+          "name": "Minute",
+          "abbr": "min",
+          "definition": "Eine Minute besteht aus 60 Sekunden und wird zur Messung kürzerer Zeiträume verwendet. Diese Einheit ist im täglichen Leben sehr gebräuchlich.",
+          "wiki": "https://de.wikipedia.org/wiki/Minute"
+        },
+        "hour": {
+          "name": "Stunde",
+          "abbr": "h",
+          "definition": "Eine Stunde umfasst 60 Minuten und ist eine gängige Zeiteinheit für den Alltag. Sie wird weltweit genutzt und bildet die Basis vieler Zeitplanungen.",
+          "wiki": "https://de.wikipedia.org/wiki/Stunde"
+        },
+        "day": {
+          "name": "Tag",
+          "abbr": "d",
+          "definition": "Ein Tag entspricht der Erdrotation und umfasst 24 Stunden. Er ist die grundlegende Zeiteinheit im täglichen Leben und wird in fast allen Kulturen verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Tag"
+        },
+        "week": {
+          "name": "Woche",
+          "abbr": "w",
+          "definition": "Eine Woche ist eine Zeiteinheit von sieben Tagen. Sie wird zur Organisation von Zeitplänen verwendet und ist eine gängige Einheit in Wirtschaft und persönlicher Planung.",
+          "wiki": "https://de.wikipedia.org/wiki/Woche"
+        },
+        "month": {
+          "name": "Monat",
+          "abbr": "M",
+          "definition": "Ein Monat ist eine Zeiteinheit, die auf dem Mondzyklus basiert. Er wird für längerfristige Planung verwendet und ist eine gängige Einheit in Kalendern und Finanzberechnungen.",
+          "wiki": "https://de.wikipedia.org/wiki/Monat"
+        },
+        "year": {
+          "name": "Jahr",
+          "abbr": "a",
+          "definition": "Ein Jahr ist eine Zeiteinheit, die auf dem Umlauf der Erde um die Sonne basiert. Es wird für langfristige Planung verwendet und ist eine grundlegende Einheit in Kalendern und historischen Aufzeichnungen.",
+          "wiki": "https://de.wikipedia.org/wiki/Jahr"
+        }
+      },
+      "pressure": {
+        "name": "Druck",
+        "pascal": {
+          "name": "Pascal",
+          "abbr": "Pa",
+          "definition": "Das Pascal ist die SI-Einheit für Druck und misst die Kraft pro Flächeneinheit. Es wird in der Physik und Technik verwendet, um Druckverhältnisse zu beschreiben.",
+          "wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
+        },
+        "kilopascal": {
+          "name": "Kilopascal",
+          "abbr": "kPa",
+          "definition": "Ein Kilopascal entspricht 1000 Pascal und wird häufig zur Darstellung von Drücken in Technik und Meteorologie genutzt. Es erweitert die Darstellung des Pascals auf größere Werte.",
+          "wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
+        },
+        "bar": {
+          "name": "Bar",
+          "abbr": "bar",
+          "definition": "Der Bar ist eine Druckeinheit, die vor allem in der Technik und im Wetterbericht verwendet wird. Ein Bar entspricht 100.000 Pascal und ist leicht verständlich.",
+          "wiki": "https://de.wikipedia.org/wiki/Bar_(Einheit)"
+        },
+        "atmosphere": {
+          "name": "Atmosphäre",
+          "abbr": "atm",
+          "definition": "Die Atmosphäre ist eine Druckeinheit, die auf dem durchschnittlichen Luftdruck auf Meereshöhe basiert. Sie wird in der Meteorologie und Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Atmosphäre_(Einheit)"
+        },
+        "torr": {
+          "name": "Torr",
+          "abbr": "Torr",
+          "definition": "Das Torr ist eine Druckeinheit, die nach Evangelista Torricelli benannt ist. Es wird vor allem in der Vakuumtechnik verwendet und entspricht etwa 1/760 Atmosphäre.",
+          "wiki": "https://de.wikipedia.org/wiki/Torr"
+        }
+      },
+      "energy": {
+        "name": "Energie",
+        "joule": {
+          "name": "Joule",
+          "abbr": "J",
+          "definition": "Das Joule ist die SI-Einheit für Energie und misst die Menge an Arbeit oder Wärme. Es wird in Physik, Technik und Chemie verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Joule"
+        },
+        "kilojoule": {
+          "name": "Kilojoule",
+          "abbr": "kJ",
+          "definition": "Ein Kilojoule entspricht 1000 Joule und wird häufig in der Ernährungswissenschaft und Technik verwendet. Diese Einheit erleichtert den Umgang mit größeren Energiemengen.",
+          "wiki": "https://de.wikipedia.org/wiki/Joule"
+        },
+        "calorie": {
+          "name": "Kalorie",
+          "abbr": "cal",
+          "definition": "Die Kalorie ist eine Energieeinheit, die oft in der Ernährungswissenschaft genutzt wird. Sie misst die Energiemenge, die benötigt wird, um die Temperatur von Wasser zu erhöhen.",
+          "wiki": "https://de.wikipedia.org/wiki/Kalorie"
+        },
+        "kilocalorie": {
+          "name": "Kilokalorie",
+          "abbr": "kcal",
+          "definition": "Die Kilokalorie entspricht 1000 Kalorien und wird häufig zur Angabe des Energiegehalts von Lebensmitteln verwendet. Sie ist in der Ernährungswissenschaft weit verbreitet.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
+        },
+        "watt-hour": {
+          "name": "Wattstunde",
+          "abbr": "Wh",
+          "definition": "Die Wattstunde ist eine Energieeinheit, die die Energie angibt, die bei einer Leistung von einem Watt in einer Stunde umgesetzt wird. Sie wird in der Elektrotechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Wattstunde"
+        },
+        "kilowatt-hour": {
+          "name": "Kilowattstunde",
+          "abbr": "kWh",
+          "definition": "Die Kilowattstunde ist eine Energieeinheit, die vor allem zur Abrechnung von elektrischem Strom genutzt wird. Sie misst den Energieverbrauch über eine Stunde bei einer Leistung von einem Kilowatt.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilowattstunde"
+        },
+        "electronvolt": {
+          "name": "Elektronenvolt",
+          "abbr": "eV",
+          "definition": "Das Elektronenvolt ist eine Energieeinheit, die in der Atom- und Teilchenphysik verwendet wird. Es entspricht der Energie, die ein Elektron beim Durchlaufen einer Spannung von einem Volt gewinnt.",
+          "wiki": "https://de.wikipedia.org/wiki/Elektronenvolt"
+        },
+        "hartree": {
+          "name": "Hartree",
+          "abbr": "Eh",
+          "definition": "Die Hartree ist eine Energieeinheit, die in der theoretischen Chemie und Physik verwendet wird. Sie ist nach Douglas Hartree benannt und wird für atomare Berechnungen genutzt.",
+          "wiki": "https://de.wikipedia.org/wiki/Hartree"
+        },
+        "kilogram-force-meter": {
+          "name": "Kilogramm-Kraft-Meter",
+          "abbr": "kgf·m",
+          "definition": "Das Kilogramm-Kraft-Meter ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Kilogramm-Kraft über einen Meter wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilogramm-Kraft"
+        },
+        "kilopond-meter": {
+          "name": "Kilopond-Meter",
+          "abbr": "kp·m",
+          "definition": "Das Kilopond-Meter ist eine Energieeinheit, die der Arbeit entspricht, die verrichtet wird, wenn eine Kraft von einem Kilopond über einen Meter wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilopond"
+        },
+        "gram-force-meter": {
+          "name": "Gramm-Kraft-Meter",
+          "abbr": "gf·m",
+          "definition": "Das Gramm-Kraft-Meter ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Gramm-Kraft über einen Meter wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Gramm-Kraft"
+        },
+        "pound-force-foot": {
+          "name": "Pfund-Kraft-Fuß",
+          "abbr": "lbf·ft",
+          "definition": "Das Pfund-Kraft-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Pfund-Kraft über einen Fuß wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
+        },
+        "pound-force-inch": {
+          "name": "Pfund-Kraft-Zoll",
+          "abbr": "lbf·in",
+          "definition": "Das Pfund-Kraft-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Pfund-Kraft über einen Zoll wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
+        },
+        "ounce-force-foot": {
+          "name": "Unzen-Kraft-Fuß",
+          "abbr": "ozf·ft",
+          "definition": "Das Unzen-Kraft-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einer Unzen-Kraft über einen Fuß wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft"
+        },
+        "ounce-force-inch": {
+          "name": "Unzen-Kraft-Zoll",
+          "abbr": "ozf·in",
+          "definition": "Das Unzen-Kraft-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einer Unzen-Kraft über einen Zoll wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft"
+        },
+        "ton-force-foot": {
+          "name": "Tonnen-Kraft-Fuß",
+          "abbr": "tonf·ft",
+          "definition": "Das Tonnen-Kraft-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einer Tonnen-Kraft über einen Fuß wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft"
+        },
+        "ton-force-inch": {
+          "name": "Tonnen-Kraft-Zoll",
+          "abbr": "tonf·in",
+          "definition": "Das Tonnen-Kraft-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einer Tonnen-Kraft über einen Zoll wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft"
+        },
+        "poundal-foot": {
+          "name": "Poundal-Fuß",
+          "abbr": "pdl·ft",
+          "definition": "Das Poundal-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Poundal über einen Fuß wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Poundal"
+        },
+        "poundal-inch": {
+          "name": "Poundal-Zoll",
+          "abbr": "pdl·in",
+          "definition": "Das Poundal-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Poundal über einen Zoll wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Poundal"
+        },
+        "ounceal-foot": {
+          "name": "Ounceal-Fuß",
+          "abbr": "ozal·ft",
+          "definition": "Das Ounceal-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Ounceal über einen Fuß wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Ounceal"
+        },
+        "ounceal-inch": {
+          "name": "Ounceal-Zoll",
+          "abbr": "ozal·in",
+          "definition": "Das Ounceal-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Ounceal über einen Zoll wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Ounceal"
+        },
+        "tonal-foot": {
+          "name": "Tonal-Fuß",
+          "abbr": "tonal·ft",
+          "definition": "Das Tonal-Fuß ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Tonal über einen Fuß wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonal"
+        },
+        "tonal-inch": {
+          "name": "Tonal-Zoll",
+          "abbr": "tonal·in",
+          "definition": "Das Tonal-Zoll ist eine Energieeinheit, die die Arbeit angibt, die verrichtet wird, wenn eine Kraft von einem Tonal über einen Zoll wirkt.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonal"
+        }
+      },
+      "power": {
+        "name": "Leistung",
+        "watt": {
+          "name": "Watt",
+          "abbr": "W",
+          "definition": "Das Watt ist die SI-Einheit der Leistung und misst die Energiemenge, die pro Zeiteinheit umgesetzt wird. Es wird in der Elektrotechnik und Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Watt"
+        },
+        "kilowatt": {
+          "name": "Kilowatt",
+          "abbr": "kW",
+          "definition": "Ein Kilowatt entspricht 1000 Watt und wird häufig zur Angabe der Leistung von Geräten und Motoren genutzt. Diese Einheit ist in der Energiewirtschaft und Technik weit verbreitet.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilowatt"
+        },
+        "horsepower": {
+          "name": "Pferdestärke",
+          "abbr": "hp",
+          "definition": "Die Pferdestärke ist eine Maßeinheit der Leistung, die historisch zur Beschreibung von Maschinenkraft verwendet wurde. Sie drückt aus, wie viel Leistung erforderlich ist, um eine bestimmte Arbeit zu verrichten, und wird oft in der Automobilindustrie genutzt.",
+          "wiki": "https://de.wikipedia.org/wiki/Pferdestärke"
+        },
+        "british-thermal-unit-per-hour": {
+          "name": "Britische Wärmeeinheit pro Stunde",
+          "abbr": "BTU/h",
+          "definition": "Die Britische Wärmeeinheit pro Stunde ist eine Leistungseinheit, die vor allem in den USA verwendet wird. Sie wird häufig in der Heizungs- und Klimatechnik genutzt.",
+          "wiki": "https://de.wikipedia.org/wiki/British_Thermal_Unit"
+        },
+        "calorie-per-second": {
+          "name": "Kalorie pro Sekunde",
+          "abbr": "cal/s",
+          "definition": "Kalorie pro Sekunde ist eine Leistungseinheit, die die Energiemenge angibt, die pro Sekunde umgesetzt wird. Sie wird in der Thermodynamik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Kalorie"
+        },
+        "kilocalorie-per-second": {
+          "name": "Kilokalorie pro Sekunde",
+          "abbr": "kcal/s",
+          "definition": "Kilokalorie pro Sekunde ist eine Leistungseinheit, die 1000 Kalorien pro Sekunde entspricht. Sie wird in der Thermodynamik und Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
+        },
+        "watt-per-square-meter": {
+          "name": "Watt pro Quadratmeter",
+          "abbr": "W/m²",
+          "definition": "Watt pro Quadratmeter ist eine Leistungsdichteeinheit, die die Leistung pro Flächeneinheit angibt. Sie wird in der Wärmeübertragung und Solartechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Leistungsdichte"
+        },
+        "kilowatt-per-square-meter": {
+          "name": "Kilowatt pro Quadratmeter",
+          "abbr": "kW/m²",
+          "definition": "Kilowatt pro Quadratmeter ist eine Leistungsdichteeinheit, die 1000 Watt pro Quadratmeter entspricht. Sie wird in der Energietechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Leistungsdichte"
+        },
+        "horsepower-per-square-meter": {
+          "name": "Pferdestärke pro Quadratmeter",
+          "abbr": "hp/m²",
+          "definition": "Pferdestärke pro Quadratmeter ist eine Leistungsdichteeinheit, die die Leistung pro Flächeneinheit in Pferdestärken angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Leistungsdichte"
+        },
+        "british-thermal-unit-per-hour-per-square-foot": {
+          "name": "Britische Wärmeeinheit pro Stunde pro Quadratfuß",
+          "abbr": "BTU/h·ft²",
+          "definition": "Britische Wärmeeinheit pro Stunde pro Quadratfuß ist eine Leistungsdichteeinheit, die vor allem in den USA verwendet wird. Sie wird in der Heizungs- und Klimatechnik genutzt.",
+          "wiki": "https://de.wikipedia.org/wiki/British_Thermal_Unit"
+        },
+        "calorie-per-second-per-square-meter": {
+          "name": "Kalorie pro Sekunde pro Quadratmeter",
+          "abbr": "cal/s·m²",
+          "definition": "Kalorie pro Sekunde pro Quadratmeter ist eine Leistungsdichteeinheit, die die Energiemenge pro Zeit und Fläche angibt. Sie wird in der Thermodynamik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Kalorie"
+        },
+        "kilocalorie-per-second-per-square-meter": {
+          "name": "Kilokalorie pro Sekunde pro Quadratmeter",
+          "abbr": "kcal/s·m²",
+          "definition": "Kilokalorie pro Sekunde pro Quadratmeter ist eine Leistungsdichteeinheit, die 1000 Kalorien pro Sekunde pro Quadratmeter entspricht. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
+        },
+        "watt-per-square-meter-kelvin": {
+          "name": "Watt pro Quadratmeter Kelvin",
+          "abbr": "W/m²·K",
+          "definition": "Watt pro Quadratmeter Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die den Wärmeübergang pro Fläche und Temperaturdifferenz angibt. Sie wird in der Wärmeübertragung verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        },
+        "kilowatt-per-square-meter-kelvin": {
+          "name": "Kilowatt pro Quadratmeter Kelvin",
+          "abbr": "kW/m²·K",
+          "definition": "Kilowatt pro Quadratmeter Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die 1000 Watt pro Quadratmeter Kelvin entspricht. Sie wird in der Energietechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        },
+        "horsepower-per-square-meter-kelvin": {
+          "name": "Pferdestärke pro Quadratmeter Kelvin",
+          "abbr": "hp/m²·K",
+          "definition": "Pferdestärke pro Quadratmeter Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die den Wärmeübergang in Pferdestärken pro Fläche und Temperaturdifferenz angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        },
+        "british-thermal-unit-per-hour-per-square-foot-kelvin": {
+          "name": "Britische Wärmeeinheit pro Stunde pro Quadratfuß Kelvin",
+          "abbr": "BTU/h·ft²·K",
+          "definition": "Britische Wärmeeinheit pro Stunde pro Quadratfuß Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die vor allem in den USA verwendet wird. Sie wird in der Heizungs- und Klimatechnik genutzt.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        },
+        "calorie-per-second-per-square-meter-kelvin": {
+          "name": "Kalorie pro Sekunde pro Quadratmeter Kelvin",
+          "abbr": "cal/s·m²·K",
+          "definition": "Kalorie pro Sekunde pro Quadratmeter Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die den Wärmeübergang in Kalorien pro Zeit, Fläche und Temperaturdifferenz angibt. Sie wird in der Thermodynamik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        },
+        "kilocalorie-per-second-per-square-meter-kelvin": {
+          "name": "Kilokalorie pro Sekunde pro Quadratmeter Kelvin",
+          "abbr": "kcal/s·m²·K",
+          "definition": "Kilokalorie pro Sekunde pro Quadratmeter Kelvin ist eine Wärmeübergangskoeffizient-Einheit, die 1000 Kalorien pro Sekunde pro Quadratmeter Kelvin entspricht. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        }
+      },
+      "data-storage": {
+        "name": "Datenspeicher",
+        "byte": {
+          "name": "Byte",
+          "abbr": "B",
+          "definition": "Ein Byte ist die grundlegende Maßeinheit für digitale Information und besteht typischerweise aus 8 Bits. Es bildet die Basis der Datenspeicherung in Computern.",
+          "wiki": "https://de.wikipedia.org/wiki/Byte"
+        },
+        "kilobyte": {
+          "name": "Kilobyte",
+          "abbr": "KB",
+          "definition": "Ein Kilobyte entspricht 1024 Bytes und wird verwendet, um die Größe kleiner Dateien zu messen. Diese Einheit ist in der Informatik weit verbreitet.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilobyte"
+        },
+        "megabyte": {
+          "name": "Megabyte",
+          "abbr": "MB",
+          "definition": "Ein Megabyte entspricht 1024 Kilobytes und wird oft zur Beschreibung der Dateigröße oder Speicherkapazität genutzt. Diese Einheit ist in der digitalen Welt gängig.",
+          "wiki": "https://de.wikipedia.org/wiki/Megabyte"
+        },
+        "gigabyte": {
+          "name": "Gigabyte",
+          "abbr": "GB",
+          "definition": "Ein Gigabyte entspricht 1024 Megabytes und wird zur Messung der Speicherkapazität von Festplatten und anderen Geräten verwendet. Diese Einheit ist in der Informationstechnologie üblich.",
+          "wiki": "https://de.wikipedia.org/wiki/Gigabyte"
+        },
+        "terabyte": {
+          "name": "Terabyte",
+          "abbr": "TB",
+          "definition": "Ein Terabyte entspricht 1024 Gigabyte und wird zur Messung sehr großer Speicherkapazitäten verwendet. Diese Einheit ist in Rechenzentren und großen Speichersystemen üblich.",
+          "wiki": "https://de.wikipedia.org/wiki/Terabyte"
+        },
+        "petabyte": {
+          "name": "Petabyte",
+          "abbr": "PB",
+          "definition": "Ein Petabyte entspricht 1024 Terabyte und wird zur Messung extrem großer Speicherkapazitäten verwendet. Diese Einheit ist in Big Data und Cloud-Speichersystemen üblich.",
+          "wiki": "https://de.wikipedia.org/wiki/Petabyte"
+        },
+        "exabyte": {
+          "name": "Exabyte",
+          "abbr": "EB",
+          "definition": "Ein Exabyte entspricht 1024 Petabyte und wird zur Messung riesiger Speicherkapazitäten verwendet. Diese Einheit ist in globalen Datenspeicherberechnungen üblich.",
+          "wiki": "https://de.wikipedia.org/wiki/Exabyte"
+        },
+        "zettabyte": {
+          "name": "Zettabyte",
+          "abbr": "ZB",
+          "definition": "Ein Zettabyte entspricht 1024 Exabyte und wird zur Messung enormer Speicherkapazitäten verwendet. Diese Einheit wird in globalen Datenvolumenberechnungen verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Zettabyte"
+        },
+        "yottabyte": {
+          "name": "Yottabyte",
+          "abbr": "YB",
+          "definition": "Ein Yottabyte entspricht 1024 Zettabyte und wird zur Messung der größten Speicherkapazitäten verwendet. Diese Einheit wird in theoretischen Datenvolumenberechnungen verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Yottabyte"
+        }
+      },
+      "angle": {
+        "name": "Winkel",
+        "radian": {
+          "name": "Radiant",
+          "abbr": "rad",
+          "definition": "Der Radiant ist die SI-Einheit für Winkelmessungen und beschreibt den Winkel als Bogenlänge im Verhältnis zum Radius eines Kreises. Er ist in Mathematik und Physik von zentraler Bedeutung.",
+          "wiki": "https://de.wikipedia.org/wiki/Radiant"
+        },
+        "degree": {
+          "name": "Grad",
+          "abbr": "°",
+          "definition": "Der Grad ist eine gebräuchliche Maßeinheit für Winkel, bei der ein voller Kreis 360 Grad umfasst. Er wird in der Geometrie und im Alltag häufig verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Grad"
+        },
+        "gradian": {
+          "name": "Gon",
+          "abbr": "gon",
+          "definition": "Das Gon ist eine alternative Einheit zur Messung von Winkeln, bei der ein rechter Winkel 100 gon entspricht. Es wird in bestimmten technischen Bereichen genutzt und bietet eine dezimalbasierte Darstellung.",
+          "wiki": "https://de.wikipedia.org/wiki/Gon"
+        },
+        "minute": {
+          "name": "Winkelminute",
+          "abbr": "'",
+          "definition": "Die Winkelminute ist eine Untereinheit des Grades und entspricht einem Sechzigstel eines Grades. Sie wird in der Astronomie und Geodäsie verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Winkelminute"
+        },
+        "second": {
+          "name": "Winkelsekunde",
+          "abbr": "\"",
+          "definition": "Die Winkelsekunde ist eine Untereinheit der Winkelminute und entspricht einem Sechzigstel einer Winkelminute. Sie wird für sehr präzise Winkelmessungen verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Winkelsekunde"
+        },
+        "milliradian": {
+          "name": "Milliradiant",
+          "abbr": "mrad",
+          "definition": "Der Milliradiant ist eine Winkeleinheit, die einem Tausendstel eines Radianten entspricht. Er wird für präzise Winkelmessungen verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Radiant"
+        },
+        "milligradian": {
+          "name": "Milligon",
+          "abbr": "mgon",
+          "definition": "Das Milligon ist eine Winkeleinheit, die einem Tausendstel eines Gons entspricht. Es wird für sehr präzise Winkelmessungen verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Gon"
+        },
+        "milliarc-second": {
+          "name": "Millibogensekunde",
+          "abbr": "mas",
+          "definition": "Die Millibogensekunde ist eine Winkeleinheit, die einem Tausendstel einer Bogensekunde entspricht. Sie wird in der Astronomie für sehr präzise Winkelmessungen verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Bogensekunde"
+        },
+        "microarc-second": {
+          "name": "Mikrobogensekunde",
+          "abbr": "μas",
+          "definition": "Die Mikrobogensekunde ist eine Winkeleinheit, die einem Millionstel einer Bogensekunde entspricht. Sie wird in der Astronomie für extrem präzise Winkelmessungen verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Bogensekunde"
+        },
+        "microarc-minute": {
+          "name": "Mikrobogenminute",
+          "abbr": "μam",
+          "definition": "Die Mikrobogenminute ist eine Winkeleinheit, die einem Millionstel einer Bogenminute entspricht. Sie wird in der Astronomie für extrem präzise Winkelmessungen verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Bogenminute"
+        }
+      },
+      "frequency": {
+        "name": "Frequenz",
+        "hertz": {
+          "name": "Hertz",
+          "abbr": "Hz",
+          "definition": "Das Hertz ist die SI-Einheit für Frequenz und gibt an, wie viele Schwingungen pro Sekunde auftreten. Es ist in der Physik und Technik weit verbreitet.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "kilohertz": {
+          "name": "Kilohertz",
+          "abbr": "kHz",
+          "definition": "Ein Kilohertz entspricht 1000 Hertz und wird häufig zur Beschreibung von Audiofrequenzen und in der Kommunikationstechnik verwendet. Diese Einheit ist in der Elektronik gebräuchlich.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "megahertz": {
+          "name": "Megahertz",
+          "abbr": "MHz",
+          "definition": "Ein Megahertz entspricht 1.000.000 Hertz und wird oft in der Funktechnik und bei Frequenzmessungen eingesetzt. Er ist in der Kommunikation und Elektronik von großer Bedeutung.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "gigahertz": {
+          "name": "Gigahertz",
+          "abbr": "GHz",
+          "definition": "Ein Gigahertz entspricht 1.000.000.000 Hertz und wird vor allem in der Beschreibung von Prozessor- und Funkfrequenzen verwendet. Diese Einheit ist unverzichtbar in moderner Technologie.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "terahertz": {
+          "name": "Terahertz",
+          "abbr": "THz",
+          "definition": "Ein Terahertz entspricht 1.000.000.000.000 Hertz und wird in der Forschung und Entwicklung verwendet. Diese Einheit ist wichtig für die Untersuchung von Materialien und die Kommunikationstechnik.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "petahertz": {
+          "name": "Petahertz",
+          "abbr": "PHz",
+          "definition": "Ein Petahertz entspricht 1.000.000.000.000.000 Hertz und wird in der Forschung und Entwicklung verwendet. Diese Einheit ist wichtig für die Untersuchung von Materialien und die Kommunikationstechnik.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "exahertz": {
+          "name": "Exahertz",
+          "abbr": "EHz",
+          "definition": "Ein Exahertz entspricht 1.000.000.000.000.000.000 Hertz und wird in der Forschung und Entwicklung verwendet. Diese Einheit ist wichtig für die Untersuchung von Materialien und die Kommunikationstechnik.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "zettahertz": {
+          "name": "Zettahertz",
+          "abbr": "ZHz",
+          "definition": "Ein Zettahertz entspricht 1.000.000.000.000.000.000.000 Hertz und wird in der Forschung und Entwicklung verwendet. Diese Einheit ist wichtig für die Untersuchung von Materialien und die Kommunikationstechnik.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "yottahertz": {
+          "name": "Yottahertz",
+          "abbr": "YHz",
+          "definition": "Ein Yottahertz entspricht 1.000.000.000.000.000.000.000.000 Hertz und wird in der Forschung und Entwicklung verwendet. Diese Einheit ist wichtig für die Untersuchung von Materialien und die Kommunikationstechnik.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        }
+      },
+      "force": {
+        "name": "Kraft",
+        "newton": {
+          "name": "Newton",
+          "abbr": "N",
+          "definition": "Der Newton ist die SI-Einheit für Kraft und definiert die Kraft, die benötigt wird, um eine 1-Kilogramm-Masse mit einer Beschleunigung von 1 m/s² zu bewegen. Diese Einheit ist grundlegend in der Physik.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "kilonewton": {
+          "name": "Kilonewton",
+          "abbr": "kN",
+          "definition": "Ein Kilonewton entspricht 1000 Newton und wird häufig in der Technik und im Bauwesen zur Messung größerer Kräfte verwendet. Es ermöglicht eine handlichere Darstellung hoher Kraftwerte.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "meganewton": {
+          "name": "Meganewton",
+          "abbr": "MN",
+          "definition": "Ein Meganewton entspricht 1.000.000 Newton und wird für sehr große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "pound-force": {
+          "name": "Pfund-Kraft",
+          "abbr": "lbf",
+          "definition": "Pound-force ist eine Kraftmaßeinheit, die vor allem im angelsächsischen Raum genutzt wird und die Kraft angibt, die durch das Gewicht einer Pfundmasse entsteht. Diese Einheit wird oft im Ingenieurwesen verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
+        },
+        "giganewton": {
+          "name": "Giganewton",
+          "abbr": "GN",
+          "definition": "Ein Giganewton entspricht 1.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "teranewton": {
+          "name": "Teranewton",
+          "abbr": "TN",
+          "definition": "Ein Teranewton entspricht 1.000.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "petanewton": {
+          "name": "Petanewton",
+          "abbr": "PN",
+          "definition": "Ein Petanewton entspricht 1.000.000.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "exanewton": {
+          "name": "Exanewton",
+          "abbr": "EN",
+          "definition": "Ein Exanewton entspricht 1.000.000.000.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "zettanewton": {
+          "name": "Zettanewton",
+          "abbr": "ZN",
+          "definition": "Ein Zettanewton entspricht 1.000.000.000.000.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "yottanewton": {
+          "name": "Yottanewton",
+          "abbr": "YN",
+          "definition": "Ein Yottanewton entspricht 1.000.000.000.000.000.000.000.000 Newton und wird für extrem große Kräfte verwendet, wie sie beispielsweise in der Raumfahrt oder bei großen Bauwerken auftreten.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "dyne": {
+          "name": "Dyne",
+          "abbr": "dyn",
+          "definition": "Die Dyne ist eine Kraftmaßeinheit im CGS-System und entspricht 10⁻⁵ Newton. Sie wird in der Physik und Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dyne"
+        },
+        "kilogram-force": {
+          "name": "Kilogramm-Kraft",
+          "abbr": "kgf",
+          "definition": "Die Kilogramm-Kraft ist eine Kraftmaßeinheit, die der Gewichtskraft einer Masse von einem Kilogramm entspricht. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilogramm-Kraft"
+        },
+        "kilopond": {
+          "name": "Kilopond",
+          "abbr": "kp",
+          "definition": "Das Kilopond ist eine Kraftmaßeinheit, die der Kilogramm-Kraft entspricht. Es wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilopond"
+        },
+        "gram-force": {
+          "name": "Gramm-Kraft",
+          "abbr": "gf",
+          "definition": "Die Gramm-Kraft ist eine Kraftmaßeinheit, die der Gewichtskraft einer Masse von einem Gramm entspricht. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Gramm-Kraft"
+        },
+        "ounce-force": {
+          "name": "Unzen-Kraft",
+          "abbr": "ozf",
+          "definition": "Die Unzen-Kraft ist eine Kraftmaßeinheit, die der Gewichtskraft einer Masse von einer Unze entspricht. Sie wird vor allem im angelsächsischen Raum verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft"
+        },
+        "ton-force": {
+          "name": "Tonnen-Kraft",
+          "abbr": "tonf",
+          "definition": "Die Tonnen-Kraft ist eine Kraftmaßeinheit, die der Gewichtskraft einer Masse von einer Tonne entspricht. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft"
+        },
+        "poundal": {
+          "name": "Poundal",
+          "abbr": "pdl",
+          "definition": "Das Poundal ist eine Kraftmaßeinheit im imperialen System und entspricht etwa 0,138255 Newton. Es wird vor allem im angelsächsischen Raum verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Poundal"
+        },
+        "ounceal": {
+          "name": "Ounceal",
+          "abbr": "ozal",
+          "definition": "Das Ounceal ist eine Kraftmaßeinheit im imperialen System und entspricht etwa 0,00864093 Newton. Es wird vor allem im angelsächsischen Raum verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Ounceal"
+        },
+        "tonal": {
+          "name": "Tonal",
+          "abbr": "tonal",
+          "definition": "Das Tonal ist eine Kraftmaßeinheit im imperialen System und entspricht etwa 138,255 Newton. Es wird vor allem im angelsächsischen Raum verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonal"
+        }
+      },
+      "density": {
+        "name": "Dichte",
+        "kilogram-per-cubic-meter": {
+          "name": "Kilogramm pro Kubikmeter",
+          "abbr": "kg/m³",
+          "definition": "Die Dichte in Kilogramm pro Kubikmeter ist eine SI-Einheit, die die Masse pro Volumeneinheit angibt. Sie wird verwendet, um die Eigenschaften von Materialien zu charakterisieren.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-centimeter": {
+          "name": "Gramm pro Kubikzentimeter",
+          "abbr": "g/cm³",
+          "definition": "Die Dichte in Gramm pro Kubikzentimeter wird oft in der Materialwissenschaft genutzt, um die Masse in einem bestimmten Volumen zu bestimmen. Diese Einheit ermöglicht den Vergleich von Materialdichten.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "pound-per-cubic-foot": {
+          "name": "Pfund pro Kubikfuß",
+          "abbr": "lb/ft³",
+          "definition": "Die Dichte in Pfund pro Kubikfuß ist eine im angelsächsischen Raum gebräuchliche Maßeinheit. Sie misst die Masse pro Volumeneinheit und wird häufig in der Bau- und Werkstofftechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-kilometer": {
+          "name": "Kilogramm pro Kubikkilometer",
+          "abbr": "kg/km³",
+          "definition": "Kilogramm pro Kubikkilometer ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-kilometer": {
+          "name": "Gramm pro Kubikkilometer",
+          "abbr": "g/km³",
+          "definition": "Gramm pro Kubikkilometer ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-millimeter": {
+          "name": "Kilogramm pro Kubikmillimeter",
+          "abbr": "kg/mm³",
+          "definition": "Kilogramm pro Kubikmillimeter ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr kleinen Räumen angibt. Sie wird in der Materialwissenschaft verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-millimeter": {
+          "name": "Gramm pro Kubikmillimeter",
+          "abbr": "g/mm³",
+          "definition": "Gramm pro Kubikmillimeter ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr kleinen Räumen angibt. Sie wird in der Materialwissenschaft verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-mile": {
+          "name": "Kilogramm pro Kubikmeile",
+          "abbr": "kg/mi³",
+          "definition": "Kilogramm pro Kubikmeile ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-mile": {
+          "name": "Gramm pro Kubikmeile",
+          "abbr": "g/mi³",
+          "definition": "Gramm pro Kubikmeile ist eine Dichteeinheit, die die Masse pro Volumeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-yard": {
+          "name": "Kilogramm pro Kubikyard",
+          "abbr": "kg/yd³",
+          "definition": "Kilogramm pro Kubikyard ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-yard": {
+          "name": "Gramm pro Kubikyard",
+          "abbr": "g/yd³",
+          "definition": "Gramm pro Kubikyard ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-foot": {
+          "name": "Kilogramm pro Kubikfuß",
+          "abbr": "kg/ft³",
+          "definition": "Kilogramm pro Kubikfuß ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-foot": {
+          "name": "Gramm pro Kubikfuß",
+          "abbr": "g/ft³",
+          "definition": "Gramm pro Kubikfuß ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-inch": {
+          "name": "Kilogramm pro Kubikzoll",
+          "abbr": "kg/in³",
+          "definition": "Kilogramm pro Kubikzoll ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-inch": {
+          "name": "Gramm pro Kubikzoll",
+          "abbr": "g/in³",
+          "definition": "Gramm pro Kubikzoll ist eine Dichteeinheit, die die Masse pro Volumeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        }
+      },
+      "volume-flow": {
+        "name": "Volumenstrom",
+        "cubic-meters-per-second": {
+          "name": "Kubikmeter pro Sekunde",
+          "abbr": "m³/s",
+          "definition": "Der Volumenstrom in Kubikmetern pro Sekunde misst die Menge eines Fluids, das pro Sekunde durch einen Querschnitt strömt. Diese Einheit ist in der Strömungsmechanik von großer Bedeutung.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "liters-per-second": {
+          "name": "Liter pro Sekunde",
+          "abbr": "l/s",
+          "definition": "Der Volumenstrom in Litern pro Sekunde gibt an, wie viele Liter eines Fluids pro Sekunde fließen. Diese Einheit wird häufig in der Verfahrenstechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "gallons-per-minute": {
+          "name": "Gallonen pro Minute",
+          "abbr": "gal/min",
+          "definition": "Der Volumenstrom in Gallonen pro Minute misst die Menge eines Fluids, die pro Minute fließt. Diese Einheit ist vor allem in den USA verbreitet und wird in technischen Anwendungen genutzt.",
+          "wiki": "https://de.wikipedia.org/wiki/Gallone"
+        },
+        "cubic-kilometer-per-second": {
+          "name": "Kubikkilometer pro Sekunde",
+          "abbr": "km³/s",
+          "definition": "Kubikkilometer pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-millimeter-per-second": {
+          "name": "Kubikmillimeter pro Sekunde",
+          "abbr": "mm³/s",
+          "definition": "Kubikmillimeter pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr kleinen Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-mile-per-second": {
+          "name": "Kubikmeile pro Sekunde",
+          "abbr": "mi³/s",
+          "definition": "Kubikmeile pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-yard-per-second": {
+          "name": "Kubikyard pro Sekunde",
+          "abbr": "yd³/s",
+          "definition": "Kubikyard pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-foot-per-second": {
+          "name": "Kubikfuß pro Sekunde",
+          "abbr": "ft³/s",
+          "definition": "Kubikfuß pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-inch-per-second": {
+          "name": "Kubikzoll pro Sekunde",
+          "abbr": "in³/s",
+          "definition": "Kubikzoll pro Sekunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-meter-per-hour": {
+          "name": "Kubikmeter pro Stunde",
+          "abbr": "m³/h",
+          "definition": "Kubikmeter pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-kilometer-per-hour": {
+          "name": "Kubikkilometer pro Stunde",
+          "abbr": "km³/h",
+          "definition": "Kubikkilometer pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-centimeter-per-hour": {
+          "name": "Kubikzentimeter pro Stunde",
+          "abbr": "cm³/h",
+          "definition": "Kubikzentimeter pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-millimeter-per-hour": {
+          "name": "Kubikmillimeter pro Stunde",
+          "abbr": "mm³/h",
+          "definition": "Kubikmillimeter pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr kleinen Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-mile-per-hour": {
+          "name": "Kubikmeile pro Stunde",
+          "abbr": "mi³/h",
+          "definition": "Kubikmeile pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-yard-per-hour": {
+          "name": "Kubikyard pro Stunde",
+          "abbr": "yd³/h",
+          "definition": "Kubikyard pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-foot-per-hour": {
+          "name": "Kubikfuß pro Stunde",
+          "abbr": "ft³/h",
+          "definition": "Kubikfuß pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-inch-per-hour": {
+          "name": "Kubikzoll pro Stunde",
+          "abbr": "in³/h",
+          "definition": "Kubikzoll pro Stunde ist eine Volumenstrom-Einheit, die den Volumenstrom in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        }
+      },
+      "acceleration": {
+        "name": "Beschleunigung",
+        "meters-per-second-squared": {
+          "name": "Meter pro Quadratsekunde",
+          "abbr": "m/s²",
+          "definition": "Die Beschleunigung in Metern pro Quadratsekunde gibt an, wie schnell sich die Geschwindigkeit ändert. Sie ist die SI-Einheit für Beschleunigung und zentral in der Physik.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "feet-per-second-squared": {
+          "name": "Fuß pro Quadratsekunde",
+          "abbr": "ft/s²",
+          "definition": "Die Beschleunigung in Fuß pro Quadratsekunde ist eine alternative Maßeinheit, die vor allem im angelsächsischen Raum verwendet wird. Sie gibt die Geschwindigkeitsänderung in diesen Einheiten an.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "kilometers-per-hour-per-second": {
+          "name": "Kilometer pro Stunde pro Sekunde",
+          "abbr": "km/h/s",
+          "definition": "Die Beschleunigung in Kilometern pro Stunde pro Sekunde misst, wie schnell sich die Geschwindigkeit in km/h ändert. Diese Einheit wird häufig im Automobilbereich verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "kilometer-per-second-squared": {
+          "name": "Kilometer pro Quadratsekunde",
+          "abbr": "km/s²",
+          "definition": "Kilometer pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "centimeter-per-second-squared": {
+          "name": "Zentimeter pro Quadratsekunde",
+          "abbr": "cm/s²",
+          "definition": "Zentimeter pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "millimeter-per-second-squared": {
+          "name": "Millimeter pro Quadratsekunde",
+          "abbr": "mm/s²",
+          "definition": "Millimeter pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "mile-per-second-squared": {
+          "name": "Meile pro Quadratsekunde",
+          "abbr": "mi/s²",
+          "definition": "Meile pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "yard-per-second-squared": {
+          "name": "Yard pro Quadratsekunde",
+          "abbr": "yd/s²",
+          "definition": "Yard pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "inch-per-second-squared": {
+          "name": "Zoll pro Quadratsekunde",
+          "abbr": "in/s²",
+          "definition": "Zoll pro Quadratsekunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "meter-per-hour-squared": {
+          "name": "Meter pro Quadratstunde",
+          "abbr": "m/h²",
+          "definition": "Meter pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "kilometer-per-hour-squared": {
+          "name": "Kilometer pro Quadratstunde",
+          "abbr": "km/h²",
+          "definition": "Kilometer pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "centimeter-per-hour-squared": {
+          "name": "Zentimeter pro Quadratstunde",
+          "abbr": "cm/h²",
+          "definition": "Zentimeter pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "millimeter-per-hour-squared": {
+          "name": "Millimeter pro Quadratstunde",
+          "abbr": "mm/h²",
+          "definition": "Millimeter pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "mile-per-hour-squared": {
+          "name": "Meile pro Quadratstunde",
+          "abbr": "mi/h²",
+          "definition": "Meile pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "yard-per-hour-squared": {
+          "name": "Yard pro Quadratstunde",
+          "abbr": "yd/h²",
+          "definition": "Yard pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "foot-per-hour-squared": {
+          "name": "Fuß pro Quadratstunde",
+          "abbr": "ft/h²",
+          "definition": "Fuß pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "inch-per-hour-squared": {
+          "name": "Zoll pro Quadratstunde",
+          "abbr": "in/h²",
+          "definition": "Zoll pro Quadratstunde ist eine Beschleunigungseinheit, die die Geschwindigkeitsänderung pro Zeiteinheit angibt. Sie wird in der Physik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        }
+      },
+      "area-density": {
+        "name": "Flächenmasse",
+        "kilogram-per-square-meter": {
+          "name": "Kilogramm pro Quadratmeter",
+          "abbr": "kg/m²",
+          "definition": "Die Flächenmasse in Kilogramm pro Quadratmeter gibt an, wie viel Masse auf einer bestimmten Fläche verteilt ist. Sie wird vor allem in der Bau- und Materialwissenschaft verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-centimeter": {
+          "name": "Gramm pro Quadratzentimeter",
+          "abbr": "g/cm²",
+          "definition": "Die Flächenmasse in Gramm pro Quadratzentimeter misst die Masse pro Flächeneinheit und wird im Ingenieurwesen genutzt. Diese Einheit ermöglicht präzise Berechnungen bei kleinen Flächen.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-kilometer": {
+          "name": "Kilogramm pro Quadratkilometer",
+          "abbr": "kg/km²",
+          "definition": "Kilogramm pro Quadratkilometer ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-kilometer": {
+          "name": "Gramm pro Quadratkilometer",
+          "abbr": "g/km²",
+          "definition": "Gramm pro Quadratkilometer ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-millimeter": {
+          "name": "Kilogramm pro Quadratmillimeter",
+          "abbr": "kg/mm²",
+          "definition": "Kilogramm pro Quadratmillimeter ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr kleinen Räumen angibt. Sie wird in der Materialwissenschaft verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-millimeter": {
+          "name": "Gramm pro Quadratmillimeter",
+          "abbr": "g/mm²",
+          "definition": "Gramm pro Quadratmillimeter ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr kleinen Räumen angibt. Sie wird in der Materialwissenschaft verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-mile": {
+          "name": "Kilogramm pro Quadratmeile",
+          "abbr": "kg/mi²",
+          "definition": "Kilogramm pro Quadratmeile ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-mile": {
+          "name": "Gramm pro Quadratmeile",
+          "abbr": "g/mi²",
+          "definition": "Gramm pro Quadratmeile ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in sehr großen Räumen angibt. Sie wird in der Geophysik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-yard": {
+          "name": "Kilogramm pro Quadratyard",
+          "abbr": "kg/yd²",
+          "definition": "Kilogramm pro Quadratyard ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-yard": {
+          "name": "Gramm pro Quadratyard",
+          "abbr": "g/yd²",
+          "definition": "Gramm pro Quadratyard ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-foot": {
+          "name": "Kilogramm pro Quadratfuß",
+          "abbr": "kg/ft²",
+          "definition": "Kilogramm pro Quadratfuß ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-foot": {
+          "name": "Gramm pro Quadratfuß",
+          "abbr": "g/ft²",
+          "definition": "Gramm pro Quadratfuß ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-inch": {
+          "name": "Kilogramm pro Quadratzoll",
+          "abbr": "kg/in²",
+          "definition": "Kilogramm pro Quadratzoll ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-inch": {
+          "name": "Gramm pro Quadratzoll",
+          "abbr": "g/in²",
+          "definition": "Gramm pro Quadratzoll ist eine Flächenmasse-Einheit, die die Masse pro Flächeneinheit in Räumen angibt. Sie wird in der Technik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        }
+      },
+      "illuminance": {
+        "name": "Beleuchtungsstärke",
+        "lux": {
+          "name": "Lux",
+          "abbr": "lx",
+          "definition": "Der Lux ist die SI-Einheit für die Beleuchtungsstärke und misst, wie viel Licht pro Quadratmeter auf eine Fläche fällt. Er ist in der Lichttechnik und Architektur von Bedeutung.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        },
+        "foot-candle": {
+          "name": "Foot-Candle",
+          "abbr": "fc",
+          "definition": "Ein Foot-Candle ist eine Beleuchtungsstärke-Einheit, die vor allem im angelsächsischen Raum verwendet wird und angibt, wie viel Licht auf einen Quadratfuß fällt. Diese Einheit wird häufig in der Lichtplanung eingesetzt.",
+          "wiki": "https://de.wikipedia.org/wiki/Foot-candle"
+        },
+        "lumen-per-square-meter": {
+          "name": "Lumen pro Quadratmeter",
+          "abbr": "lm/m²",
+          "definition": "Lumen pro Quadratmeter ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
+        },
+        "lumen-per-square-centimeter": {
+          "name": "Lumen pro Quadratzentimeter",
+          "abbr": "lm/cm²",
+          "definition": "Lumen pro Quadratzentimeter ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
+        },
+        "lumen-per-square-millimeter": {
+          "name": "Lumen pro Quadratmillimeter",
+          "abbr": "lm/mm²",
+          "definition": "Lumen pro Quadratmillimeter ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
+        },
+        "lumen-per-square-foot": {
+          "name": "Lumen pro Quadratfuß",
+          "abbr": "lm/ft²",
+          "definition": "Lumen pro Quadratfuß ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
+        },
+        "lumen-per-square-inch": {
+          "name": "Lumen pro Quadratzoll",
+          "abbr": "lm/in²",
+          "definition": "Lumen pro Quadratzoll ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
+        },
+        "lumen-per-square-yard": {
+          "name": "Lumen pro Quadratyard",
+          "abbr": "lm/yd²",
+          "definition": "Lumen pro Quadratyard ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
+        },
+        "lumen-per-square-kilometer": {
+          "name": "Lumen pro Quadratkilometer",
+          "abbr": "lm/km²",
+          "definition": "Lumen pro Quadratkilometer ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
+        },
+        "lumen-per-square-mile": {
+          "name": "Lumen pro Quadratmeile",
+          "abbr": "lm/mi²",
+          "definition": "Lumen pro Quadratmeile ist eine Beleuchtungsstärke-Einheit, die den Lichtstrom pro Flächeneinheit angibt. Sie wird in der Lichttechnik verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Beleuchtungsstärke"
+        }
+      },
+      "data-rate": {
+        "name": "Datenübertragungsrate",
+        "bits-per-second": {
+          "name": "Bit pro Sekunde",
+          "abbr": "bit/s",
+          "definition": "Bit pro Sekunde ist die Maßeinheit für die Datenübertragungsrate und gibt an, wie viele Bits in einer Sekunde übertragen werden. Diese Einheit ist zentral in der Informationstechnologie.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "kilobits-per-second": {
+          "name": "Kilobit pro Sekunde",
+          "abbr": "kbit/s",
+          "definition": "Kilobit pro Sekunde entspricht 1000 Bits pro Sekunde und wird häufig in der Netzwerkkommunikation verwendet. Diese Einheit hilft bei der Bestimmung von Internetgeschwindigkeiten.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "megabits-per-second": {
+          "name": "Megabit pro Sekunde",
+          "abbr": "Mbit/s",
+          "definition": "Megabit pro Sekunde entspricht 1.000.000 Bits pro Sekunde und wird oft zur Angabe von Internet- und Datenübertragungsgeschwindigkeiten genutzt. Sie ist in der Telekommunikation gebräuchlich.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "gigabits-per-second": {
+          "name": "Gigabit pro Sekunde",
+          "abbr": "Gbit/s",
+          "definition": "Gigabit pro Sekunde entspricht 1.000.000.000 Bits pro Sekunde und wird vor allem in Hochgeschwindigkeitsnetzwerken verwendet. Diese Einheit ist für moderne Datenkommunikationssysteme unverzichtbar.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "bytes-per-second": {
+          "name": "Byte pro Sekunde",
+          "abbr": "B/s",
+          "definition": "Byte pro Sekunde misst die Datenübertragungsrate in Bytes und wird zur Bestimmung der Geschwindigkeit von Datenübertragungen verwendet. Diese Einheit ist in der Computertechnik relevant.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "kilobytes-per-second": {
+          "name": "Kilobyte pro Sekunde",
+          "abbr": "KB/s",
+          "definition": "Kilobyte pro Sekunde entspricht 1024 Byte pro Sekunde und wird häufig zur Messung von Download- und Upload-Geschwindigkeiten genutzt. Diese Einheit ist in der Informatik weit verbreitet.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "megabytes-per-second": {
+          "name": "Megabyte pro Sekunde",
+          "abbr": "MB/s",
+          "definition": "Megabyte pro Sekunde entspricht 1024 Kilobyte pro Sekunde und wird zur Angabe von Datentransferraten in Computern und Netzwerken verwendet. Diese Einheit ist in der digitalen Datenübertragung gängig.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "terabit-per-second": {
+          "name": "Terabit pro Sekunde",
+          "abbr": "Tbit/s",
+          "definition": "Terabit pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000 Bits pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "petabit-per-second": {
+          "name": "Petabit pro Sekunde",
+          "abbr": "Pbit/s",
+          "definition": "Petabit pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000 Bits pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "exabit-per-second": {
+          "name": "Exabit pro Sekunde",
+          "abbr": "Ebit/s",
+          "definition": "Exabit pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000 Bits pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "zettabit-per-second": {
+          "name": "Zettabit pro Sekunde",
+          "abbr": "Zbit/s",
+          "definition": "Zettabit pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000.000 Bits pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "yottabit-per-second": {
+          "name": "Yottabit pro Sekunde",
+          "abbr": "Ybit/s",
+          "definition": "Yottabit pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000.000.000 Bits pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "terabyte-per-second": {
+          "name": "Terabyte pro Sekunde",
+          "abbr": "TB/s",
+          "definition": "Terabyte pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000 Bytes pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "petabyte-per-second": {
+          "name": "Petabyte pro Sekunde",
+          "abbr": "PB/s",
+          "definition": "Petabyte pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000 Bytes pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "exabyte-per-second": {
+          "name": "Exabyte pro Sekunde",
+          "abbr": "EB/s",
+          "definition": "Exabyte pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000 Bytes pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "zettabyte-per-second": {
+          "name": "Zettabyte pro Sekunde",
+          "abbr": "ZB/s",
+          "definition": "Zettabyte pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000.000 Bytes pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "yottabyte-per-second": {
+          "name": "Yottabyte pro Sekunde",
+          "abbr": "YB/s",
+          "definition": "Yottabyte pro Sekunde ist eine Datenübertragungsrate-Einheit, die 1.000.000.000.000.000.000.000.000 Bytes pro Sekunde entspricht. Sie wird in der Telekommunikation verwendet.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        }
+      }
+    },
+    "labels": {
+      "category": "Kategorie",
+      "value": "Wert",
+      "from": "Von",
+      "to": "zu",
+      "calculate": "Umrechnen",
+      "result": "Ergebnis",
+      "select": "Auswählen",
+      "invalidNumber": "Bitte eine gültige Zahl eingeben.",
+      "differentUnits": "Bitte wählen Sie unterschiedliche Einheiten."
+    }
+  }
 }
