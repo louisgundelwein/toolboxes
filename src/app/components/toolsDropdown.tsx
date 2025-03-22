@@ -1,9 +1,9 @@
 // components/ToolsDropdown.tsx
-"use client";
-import React from "react";
-import Link from "next/link";
-import { useParams } from "next/navigation";
-import locales from "../[locale]/util/locales.json";
+'use client';
+import React from 'react';
+import Link from 'next/link';
+import { useParams } from 'next/navigation';
+import locales from '../[locale]/util/locales.json';
 
 type LocaleKeys = keyof typeof locales;
 
@@ -11,8 +11,7 @@ const ToolsDropdown: React.FC = () => {
   const { locale } = useParams() as { locale?: string };
 
   // Standard-Sprache auf 'en' setzen, falls locale nicht gültig ist
-  const validLocale =
-    locale && locales.hasOwnProperty(locale) ? (locale as LocaleKeys) : "en";
+  const validLocale = locale && locales.hasOwnProperty(locale) ? (locale as LocaleKeys) : 'en';
   const texts = locales[validLocale];
 
   // Items mit lokalisierten Labels und Links, die das Locale enthalten (z. B. /de/unit-converter)
@@ -44,13 +43,13 @@ const ToolsDropdown: React.FC = () => {
   ];
 
   return (
-    <div className="dropdown dropdown-bottom dropdown-end">
+    <div className="dropdown dropdown-end dropdown-bottom">
       <div tabIndex={0} role="button" className="btn m-1">
         Tools
         <svg
           width="12px"
           height="12px"
-          className="inline-block h-2 w-2 fill-current opacity-60 ml-1"
+          className="ml-1 inline-block h-2 w-2 fill-current opacity-60"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 2048 2048"
         >
@@ -59,14 +58,12 @@ const ToolsDropdown: React.FC = () => {
       </div>
       <ul
         tabIndex={0}
-        className="dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl"
+        className="dropdown-content z-[1] w-52 rounded-box bg-base-300 p-2 shadow-2xl"
       >
         {items.map((item, index) => (
           <li key={index}>
             <Link href={item.href}>
-              <span className="btn btn-sm btn-block btn-ghost justify-start">
-                {item.label}
-              </span>
+              <span className="btn btn-ghost btn-sm btn-block justify-start">{item.label}</span>
             </Link>
           </li>
         ))}

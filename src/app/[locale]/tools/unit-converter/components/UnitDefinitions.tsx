@@ -1,29 +1,25 @@
 // components/UnitDefinitions.tsx
-import React from "react";
-import { useTranslations } from "next-intl";
-import { UnitCategoryKey } from "../util/unitCategories";
+import React from 'react';
+import { useTranslations } from 'next-intl';
+import { UnitCategoryKey } from '../util/unitCategories';
 export interface UnitDefinitionsProps {
   category: UnitCategoryKey;
   fromUnit: string;
   toUnit: string;
 }
 
-const UnitDefinitions: React.FC<UnitDefinitionsProps> = ({
-  category,
-  fromUnit,
-  toUnit,
-}) => {
-  const t = useTranslations("UnitConverterPage");
+const UnitDefinitions: React.FC<UnitDefinitionsProps> = ({ category, fromUnit, toUnit }) => {
+  const t = useTranslations('UnitConverterPage');
   const fromData = t(`units.${category}.${fromUnit}.definition`);
   const toData = t(`units.${category}.${toUnit}.definition`);
 
-  const definition = t("definitions.for");
-  const forMore = t("definitions.more");
+  const definition = t('definitions.for');
+  const forMore = t('definitions.more');
 
   return (
-    <div className="flex flex-col mt-4 gap-2">
+    <div className="mt-4 flex flex-col gap-2">
       {fromData && (
-        <div className="card w-full max-w-lg bg-base-100 shadow-xl p-6">
+        <div className="card w-full max-w-lg bg-base-100 p-6 shadow-xl">
           <h4>
             {`${definition} `}
             {fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)}
@@ -40,7 +36,7 @@ const UnitDefinitions: React.FC<UnitDefinitionsProps> = ({
         </div>
       )}
       {toData && (
-        <div className="card w-full max-w-lg bg-base-100 shadow-xl p-6">
+        <div className="card w-full max-w-lg bg-base-100 p-6 shadow-xl">
           <h4>
             {`${definition} `}
             {toUnit.charAt(0).toUpperCase() + toUnit.slice(1)}

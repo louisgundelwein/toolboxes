@@ -1,48 +1,40 @@
 // components/LanguageSwitcher.tsx
-"use client";
+'use client';
 
-import { LOCALES } from "@/shared";
-import { useRouter, usePathname } from "next/navigation";
-import { useMemo } from "react";
+import { LOCALES } from '@/shared';
+import { useRouter, usePathname } from 'next/navigation';
+import { useMemo } from 'react';
 
 const LANGUAGE_NAMES: { [key: string]: string } = {
-  en: "English",
-  de: "Deutsch",
-  fr: "Français",
-  es: "Español",
-  uk: "Українська",
-  zh: "中文",
-  pt: "Português",
+  en: 'English',
+  de: 'Deutsch',
+  fr: 'Français',
+  es: 'Español',
+  uk: 'Українська',
+  zh: '中文',
+  pt: 'Português',
 };
 
 const LanguageSwitcher: React.FC = () => {
   const router = useRouter();
   const pathname = usePathname();
-  const segments = useMemo(
-    () => pathname.split("/").filter(Boolean),
-    [pathname],
-  );
+  const segments = useMemo(() => pathname.split('/').filter(Boolean), [pathname]);
 
-  const currentLocale =
-    segments.length > 0 && LOCALES.includes(segments[0]) ? segments[0] : "de";
+  const currentLocale = segments.length > 0 && LOCALES.includes(segments[0]) ? segments[0] : 'de';
 
   const switchLanguage = (newLocale: string) => {
-    let newPath = "";
+    let newPath = '';
     if (segments.length > 0 && LOCALES.includes(segments[0])) {
-      newPath = "/" + [newLocale, ...segments.slice(1)].join("/");
+      newPath = '/' + [newLocale, ...segments.slice(1)].join('/');
     } else {
-      newPath = "/" + [newLocale, ...segments].join("/");
+      newPath = '/' + [newLocale, ...segments].join('/');
     }
     router.push(newPath);
   };
 
   return (
-    <div className="dropdown dropdown-bottom dropdown-start">
-      <div
-        tabIndex={0}
-        role="button"
-        className="btn m-1 flex items-center justify-between"
-      >
+    <div className="dropdown-start dropdown dropdown-bottom">
+      <div tabIndex={0} role="button" className="btn m-1 flex items-center justify-between">
         {LANGUAGE_NAMES[currentLocale] || currentLocale.toUpperCase()}
         <svg
           width="12px"
@@ -56,7 +48,7 @@ const LanguageSwitcher: React.FC = () => {
       </div>
       <ul
         tabIndex={0}
-        className="dropdown-content menu bg-base-300 rounded-box z-[1] p-2 shadow-2xl"
+        className="menu dropdown-content z-[1] rounded-box bg-base-300 p-2 shadow-2xl"
       >
         {LOCALES.map((locale) => (
           <li key={locale}>

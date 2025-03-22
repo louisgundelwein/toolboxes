@@ -6,7 +6,7 @@
  */
 export function formatUnitForUrl(unit: string): string {
   return unit
-    .replace(/\s+/g, "-") // Replace spaces with hyphens
+    .replace(/\s+/g, '-') // Replace spaces with hyphens
     .replace(/[^a-zA-Z0-9-]/g, (match) => {
       // Replace special characters with their encoded version
       return encodeURIComponent(match);
@@ -31,11 +31,7 @@ export function parseUnitFromUrl(urlUnit: string): string {
  * @param toUnit The unit to convert to.
  * @returns The formatted URL path.
  */
-export function createConversionPath(
-  category: string,
-  fromUnit: string,
-  toUnit: string,
-): string {
+export function createConversionPath(category: string, fromUnit: string, toUnit: string): string {
   const formattedFromUnit = formatUnitForUrl(fromUnit);
   const formattedToUnit = formatUnitForUrl(toUnit);
   return `${category}/${formattedFromUnit}-to-${formattedToUnit}`;
@@ -51,7 +47,7 @@ export function parseConversionPath(conversion: string): {
   fromUnit: string;
   toUnit: string;
 } {
-  const [fromUnit, toUnit] = conversion.split("-to-");
+  const [fromUnit, toUnit] = conversion.split('-to-');
   return {
     fromUnit: parseUnitFromUrl(fromUnit),
     toUnit: parseUnitFromUrl(toUnit),

@@ -1,8 +1,8 @@
 export default function Logo({
-  fill = "#000000",
-  height = "800px",
-  width = "800px",
-  viewBox = "0 0 512 512",
+  fill = '#000000',
+  height = '800px',
+  width = '800px',
+  viewBox = '0 0 512 512',
 }: {
   fill?: string;
   height?: string;

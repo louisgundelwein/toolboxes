@@ -46,7 +46,7 @@ pnpm add next-sitemap
 ```javascript
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://toolboxes.app",
+  siteUrl: 'https://toolboxes.app',
   generateRobotsTxt: true,
   // Your configuration here
 };
@@ -70,7 +70,7 @@ additionalPaths: async () => {
   // Define your tool's URLs here
   // Example for unit converter:
   paths.push({
-    loc: "/en/tools/unit-converter",
+    loc: '/en/tools/unit-converter',
     lastmod: new Date().toISOString(),
   });
   return paths;

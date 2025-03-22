@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import React from "react";
+import React from 'react';
 
 type BurgerProps = {
   open: boolean;
@@ -11,24 +11,24 @@ const Burger: React.FC<BurgerProps> = ({ open, setOpen }) => {
   return (
     <button
       onClick={() => setOpen(!open)}
-      className="fixed top-5 right-8 flex flex-col justify-around w-8 h-8 bg-transparent border-0 cursor-pointer p-0 z-[60] focus:outline-none"
+      className="fixed right-8 top-5 z-[60] flex h-8 w-8 cursor-pointer flex-col justify-around border-0 bg-transparent p-0 focus:outline-none"
     >
       <div
-        className={`w-8 h-1 rounded transition-all duration-300 ${
-          open ? "rotate-45 bg-secondary" : "bg-secondary"
+        className={`h-1 w-8 rounded transition-all duration-300 ${
+          open ? 'rotate-45 bg-secondary' : 'bg-secondary'
         }`}
-        style={{ transformOrigin: "1px" }}
+        style={{ transformOrigin: '1px' }}
       ></div>
       <div
-        className={`w-8 h-1 rounded transition-all duration-300 ${
-          open ? "opacity-0 translate-x-5 bg-secondary" : "bg-secondary"
+        className={`h-1 w-8 rounded transition-all duration-300 ${
+          open ? 'translate-x-5 bg-secondary opacity-0' : 'bg-secondary'
         }`}
       ></div>
       <div
-        className={`w-8 h-1 rounded transition-all duration-300 ${
-          open ? "-rotate-45 bg-secondary" : "bg-secondary"
+        className={`h-1 w-8 rounded transition-all duration-300 ${
+          open ? '-rotate-45 bg-secondary' : 'bg-secondary'
         }`}
-        style={{ transformOrigin: "1px" }}
+        style={{ transformOrigin: '1px' }}
       ></div>
     </button>
   );

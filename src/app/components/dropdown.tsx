@@ -1,7 +1,7 @@
 // components/Dropdown.tsx
-"use client";
-import React, { useState } from "react";
-import Link from "next/link";
+'use client';
+import React, { useState } from 'react';
+import Link from 'next/link';
 
 export interface DropdownItem {
   label: string;
@@ -24,9 +24,9 @@ export interface DropdownProps {
 const Dropdown: React.FC<DropdownProps> = ({
   label,
   items,
-  containerClassName = "dropdown dropdown-bottom dropdown-middle",
-  buttonClassName = "btn m-1",
-  menuClassName = "dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl",
+  containerClassName = 'dropdown dropdown-bottom dropdown-middle',
+  buttonClassName = 'btn m-1',
+  menuClassName = 'dropdown-content bg-base-300 rounded-box z-[1] w-52 p-2 shadow-2xl',
   showArrow = true,
   onOpen,
   onSelect,
@@ -51,19 +51,14 @@ const Dropdown: React.FC<DropdownProps> = ({
   };
 
   return (
-    <div className={`${containerClassName} ${open ? "dropdown-open" : ""}`}>
-      <div
-        tabIndex={0}
-        role="button"
-        className={buttonClassName}
-        onClick={toggleDropdown}
-      >
+    <div className={`${containerClassName} ${open ? 'dropdown-open' : ''}`}>
+      <div tabIndex={0} role="button" className={buttonClassName} onClick={toggleDropdown}>
         {label}
         {showArrow && (
           <svg
             width="12px"
             height="12px"
-            className="inline-block h-2 w-2 fill-current opacity-60 ml-1"
+            className="ml-1 inline-block h-2 w-2 fill-current opacity-60"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 2048 2048"
           >
@@ -78,7 +73,7 @@ const Dropdown: React.FC<DropdownProps> = ({
               {item.href ? (
                 <Link href={item.href}>
                   <span
-                    className="btn btn-sm btn-block btn-ghost justify-start"
+                    className="btn btn-ghost btn-sm btn-block justify-start"
                     onClick={() => setOpen(false)}
                   >
                     {item.label}
@@ -87,7 +82,7 @@ const Dropdown: React.FC<DropdownProps> = ({
               ) : (
                 <button
                   onClick={() => handleItemClick(item)}
-                  className="btn btn-sm btn-block btn-ghost justify-start"
+                  className="btn btn-ghost btn-sm btn-block justify-start"
                 >
                   {item.label}
                 </button>
