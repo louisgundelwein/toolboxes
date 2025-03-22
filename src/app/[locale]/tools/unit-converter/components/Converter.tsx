@@ -1,21 +1,21 @@
 // components/Converter.tsx
-"use client";
+'use client';
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 //import { roundValue } from '../util/rounding';
-import UnitDefinitions from "./UnitDefinitions";
-import Dropdown from "@/app/components/dropdown";
-import { useTranslations } from "next-intl";
-import type { UnitCategoryEnum } from "@/shared";
+import UnitDefinitions from './UnitDefinitions';
+import Dropdown from '@/app/components/dropdown';
+import { useTranslations } from 'next-intl';
+import type { UnitCategoryEnum } from '@/shared';
 import {
   getSimpleUnitCategory,
   getUnitCategoryObject,
   getSimpleUnitsFromCategoryKey,
   UnitCategoryKey,
-} from "../util/unitCategories";
-import { useRouter, usePathname } from "next/navigation";
-import { createConversionPath } from "../util/urlFormat";
-import { roundValue } from "../util/rounding";
+} from '../util/unitCategories';
+import { useRouter, usePathname } from 'next/navigation';
+import { createConversionPath } from '../util/urlFormat';
+import { roundValue } from '../util/rounding';
 
 interface ConverterProps {
   fromUnit?: string;
@@ -28,18 +28,16 @@ export default function Converter({
   toUnit: initialToUnit,
   category: initialCategory,
 }: ConverterProps) {
-  const t = useTranslations("UnitConverterPage");
+  const t = useTranslations('UnitConverterPage');
   const router = useRouter();
   const pathname = usePathname();
 
   // Initialize state with URL parameters
-  const [categoryKey, setCategoryKey] = useState<UnitCategoryKey | undefined>(
-    initialCategory,
-  );
+  const [categoryKey, setCategoryKey] = useState<UnitCategoryKey | undefined>(initialCategory);
   const [fromUnit, setFromUnit] = useState<string | undefined>(initialFromUnit);
   const [toUnit, setToUnit] = useState<string | undefined>(initialToUnit);
-  const [result, setResult] = useState("");
-  const [value, setValue] = useState("");
+  const [result, setResult] = useState('');
+  const [value, setValue] = useState('');
 
   // Update state when props change
   useEffect(() => {
@@ -50,9 +48,7 @@ export default function Converter({
 
   // Get unit categories for the current locale
   const unitCategory =
-    categoryKey !== undefined
-      ? getUnitCategoryObject(categoryKey, t)
-      : undefined;
+    categoryKey !== undefined ? getUnitCategoryObject(categoryKey, t) : undefined;
 
   // Effect: Update URL when both units are selected
   useEffect(() => {
@@ -60,7 +56,7 @@ export default function Converter({
       const newPath = `/tools/unit-converter/${createConversionPath(
         categoryKey,
         fromUnit,
-        toUnit,
+        toUnit
       )}`;
       if (pathname !== newPath) {
         router.push(newPath, { scroll: false });
@@ -71,13 +67,13 @@ export default function Converter({
   // Effect: Calculate conversion result when all inputs are present
   useEffect(() => {
     if (!unitCategory) {
-      setResult("");
+      setResult('');
       return;
     }
 
     const numValue = parseFloat(value);
     if (isNaN(numValue)) {
-      setResult(t("labels.invalidNumber"));
+      setResult(t('labels.invalidNumber'));
       return;
     }
 
@@ -101,11 +97,11 @@ export default function Converter({
   }, [value, fromUnit, toUnit, t, unitCategory]);
 
   return (
-    <div className="flex flex-col w-full items-center">
-      <div className="card w-full max-w-lg bg-base-100 shadow-xl p-6">
+    <div className="flex w-full flex-col items-center">
+      <div className="card w-full max-w-lg bg-base-100 p-6 shadow-xl">
         {/* Title with conversion type */}
         {fromUnit && toUnit && (
-          <h2 className="text-2xl font-semibold text-secondary text-center w-full mb-4">
+          <h2 className="mb-4 w-full text-center text-2xl font-semibold text-secondary">
             {getConversionTitleWithUpperCase(fromUnit, toUnit, t)}
           </h2>
         )}
@@ -113,10 +109,10 @@ export default function Converter({
           {/* Category dropdown */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text">{t("labels.category")}</span>
+              <span className="label-text">{t('labels.category')}</span>
             </label>
             <Dropdown
-              label={unitCategory ? unitCategory.name : t("labels.select")}
+              label={unitCategory ? unitCategory.name : t('labels.select')}
               items={getSimpleUnitCategory(t).map((category) => ({
                 label: category.name,
                 value: category.key,
@@ -134,33 +130,25 @@ export default function Converter({
             <>
               <div className="form-control">
                 <label htmlFor="value" className="label">
-                  <span className="label-text">{t("labels.value")}</span>
+                  <span className="label-text">{t('labels.value')}</span>
                 </label>
                 <input
                   id="value"
                   type="text"
                   value={value}
                   onChange={(e) => setValue(e.target.value)}
-                  placeholder={t("labels.value")}
+                  placeholder={t('labels.value')}
                   className="input input-bordered w-full"
                 />
               </div>
               <div className="flex gap-2">
                 <div className="form-control flex-1">
                   <label className="label">
-                    <span className="label-text">{t("labels.from")}</span>
+                    <span className="label-text">{t('labels.from')}</span>
                   </label>
                   <Dropdown
-                    label={
-                      fromUnit
-                        ? unitCategory.units[fromUnit].abbrev
-                        : t("labels.select")
-                    }
-                    items={
-                      categoryKey
-                        ? getSimpleUnitsFromCategoryKey(categoryKey, t)
-                        : []
-                    }
+                    label={fromUnit ? unitCategory.units[fromUnit].abbrev : t('labels.select')}
+                    items={categoryKey ? getSimpleUnitsFromCategoryKey(categoryKey, t) : []}
                     buttonClassName="btn btn-outline w-full"
                     onSelect={(item) => {
                       setFromUnit(item.value);
@@ -169,19 +157,11 @@ export default function Converter({
                 </div>
                 <div className="form-control flex-1">
                   <label className="label">
-                    <span className="label-text">{t("labels.to")}</span>
+                    <span className="label-text">{t('labels.to')}</span>
                   </label>
                   <Dropdown
-                    label={
-                      toUnit
-                        ? unitCategory.units[toUnit].abbrev
-                        : t("labels.select")
-                    }
-                    items={
-                      categoryKey
-                        ? getSimpleUnitsFromCategoryKey(categoryKey, t)
-                        : []
-                    }
+                    label={toUnit ? unitCategory.units[toUnit].abbrev : t('labels.select')}
+                    items={categoryKey ? getSimpleUnitsFromCategoryKey(categoryKey, t) : []}
                     buttonClassName="btn btn-outline w-full"
                     onSelect={(item) => {
                       setToUnit(item.value);
@@ -195,18 +175,14 @@ export default function Converter({
         {result && (
           <div className="alert alert-info mt-4">
             <span>
-              {t("labels.result")}: {result}
+              {t('labels.result')}: {result}
             </span>
           </div>
         )}
       </div>
       <div>
         {categoryKey && fromUnit && toUnit && (
-          <UnitDefinitions
-            category={categoryKey}
-            fromUnit={fromUnit}
-            toUnit={toUnit}
-          />
+          <UnitDefinitions category={categoryKey} fromUnit={fromUnit} toUnit={toUnit} />
         )}
       </div>
     </div>
@@ -224,9 +200,9 @@ export default function Converter({
 function getConversionTitleWithUpperCase(
   fromUnit: string,
   toUnit: string,
-  t: ReturnType<typeof useTranslations>,
+  t: ReturnType<typeof useTranslations>
 ) {
-  return `${fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)} ${t("to")} ${
+  return `${fromUnit.charAt(0).toUpperCase() + fromUnit.slice(1)} ${t('to')} ${
     toUnit.charAt(0).toUpperCase() + toUnit.slice(1)
   }`;
 }

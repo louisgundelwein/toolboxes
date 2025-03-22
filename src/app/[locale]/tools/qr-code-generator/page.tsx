@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import { Metadata } from 'next';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -8,7 +8,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   return {
     title: `QR Code Generator - Toolboxes.app`,
-    description: "Create QR codes quickly and easily for URLs, text, and more.",
+    description: 'Create QR codes quickly and easily for URLs, text, and more.',
     alternates: {
       canonical: `https://toolboxes.app/${locale}/qr-code-generator`,
       languages: {
@@ -27,8 +27,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default function QRCodeGeneratorPage() {
   return (
-    <div className="w-full bg-base-100 flex flex-col items-center py-10">
-      <h1 className="text-4xl font-bold text-accent mb-6">QR Code Generator</h1>
+    <div className="flex w-full flex-col items-center bg-base-100 py-10">
+      <h1 className="mb-6 text-4xl font-bold text-accent">QR Code Generator</h1>
     </div>
   );
 }

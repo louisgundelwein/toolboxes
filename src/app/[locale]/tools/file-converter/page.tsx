@@ -1,7 +1,7 @@
 export default function FileConverterPage() {
   return (
-    <div className="w-full bg-base-100 flex flex-col items-center py-10">
-      <h1 className="text-4xl font-bold text-accent mb-6">File Converter</h1>
+    <div className="flex w-full flex-col items-center bg-base-100 py-10">
+      <h1 className="mb-6 text-4xl font-bold text-accent">File Converter</h1>
     </div>
   );
 }

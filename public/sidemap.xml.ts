@@ -2,9 +2,9 @@
 
 export default function Sitemap() {
   const urls = [
-    "https://www.toolboxes.app/en",
-    "https://www.toolboxes.app/de",
-    "https://www.toolboxes.app/en/unit-converter",
+    'https://www.toolboxes.app/en',
+    'https://www.toolboxes.app/de',
+    'https://www.toolboxes.app/en/unit-converter',
     // Weitere URLs hinzufügen…
   ];
 
@@ -19,12 +19,12 @@ export default function Sitemap() {
       </url>
     `;
       })
-      .join("")}
+      .join('')}
   </urlset>`;
 
   return new Response(sitemap, {
     headers: {
-      "Content-Type": "application/xml",
+      'Content-Type': 'application/xml',
     },
   });
 }

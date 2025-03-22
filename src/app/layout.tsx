@@ -1,27 +1,27 @@
 // app/layout.tsx
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import AdSense from "./components/ads";
-import NavBar from "./components/navbar";
-import Footer from "./components/footer";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import type { Metadata } from 'next';
+import { Geist, Geist_Mono } from 'next/font/google';
+import './globals.css';
+import AdSense from './components/ads';
+import NavBar from './components/navbar';
+import Footer from './components/footer';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-  title: "The Advanced Toolbox for Developers, Designers, and Enthusiasts",
+  title: 'The Advanced Toolbox for Developers, Designers, and Enthusiasts',
   description:
-    "Toolboxes.app offers a comprehensive suite of advanced tools for developers, designers, and creative professionals to boost productivity.",
+    'Toolboxes.app offers a comprehensive suite of advanced tools for developers, designers, and creative professionals to boost productivity.',
 };
 
 type RootLayoutProps = {
@@ -30,7 +30,7 @@ type RootLayoutProps = {
 };
 
 export default function RootLayout({ children, params }: RootLayoutProps) {
-  const locale = params?.locale || "en";
+  const locale = params?.locale || 'en';
 
   return (
     <html lang={locale} className="min-h-screen" data-theme="dim">
@@ -40,10 +40,8 @@ export default function RootLayout({ children, params }: RootLayoutProps) {
         <Analytics />
         <SpeedInsights />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
-      >
-        <div className="flex flex-col min-h-screen">
+      <body className={`${geistSans.variable} ${geistMono.variable} min-h-screen antialiased`}>
+        <div className="flex min-h-screen flex-col">
           <NavBar />
           <main className="flex flex-grow bg-base-100">{children}</main>
           <Footer />
