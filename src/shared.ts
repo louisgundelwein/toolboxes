@@ -11,15 +11,15 @@ export const UNITS_CATEGORIES = [
 	'pressure',
 	'energy',
 	'power',
-	'dataStorage',
+	'data-storage',
 	'angle',
 	'frequency',
 	'force',
 	'density',
-	'volumeFlow',
+	'volume-flow',
 	'acceleration',
-	'areaDensity',
+	'area-density',
 	'illuminance',
-	'dataRate',
+	'data-rate',
 ];
-export type UnitCategoryEnum = 'length' | 'weight' | 'area' | 'volume' | 'temperature' | 'speed' | 'time' | 'pressure' | 'energy' | 'power' | 'dataStorage' | 'angle' | 'frequency' | 'force' | 'density' | 'volumeFlow' | 'acceleration' | 'areaDensity' | 'illuminance' | 'dataRate';
+export type UnitCategoryEnum = 'length' | 'weight' | 'area' | 'volume' | 'temperature' | 'speed' | 'time' | 'pressure' | 'energy' | 'power' | 'data-storage' | 'angle' | 'frequency' | 'force' | 'density' | 'volume-flow' | 'acceleration' | 'area-density' | 'illuminance' | 'data-rate';

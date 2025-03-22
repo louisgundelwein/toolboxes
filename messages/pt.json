@@ -41,16 +41,16 @@
 		"pressure": "Pressão",
 		"energy": "Energia",
 		"power": "Potência",
-		"dataStorage": "Armazenamento de dados",
+		"data-storage": "Armazenamento de dados",
 		"angle": "Ângulo",
 		"frequency": "Frequência",
 		"force": "Força",
 		"density": "Densidade",
-		"volumeFlow": "Vazão",
+		"volume-flow": "Vazão",
 		"acceleration": "Aceleração",
-		"areaDensity": "Densidade de área",
+		"area-density": "Densidade de área",
 		"illuminance": "Iluminância",
-		"dataRate": "Taxa de transferência de dados",
+		"data-rate": "Taxa de transferência de dados",
 		"to": "para",
 		"units": {
 			"length": {
@@ -559,7 +559,7 @@
 					"wiki": "https://pt.wikipedia.org/wiki/Densidade"
 				}
 			},
-			"volumeFlow": {
+			"volume-flow": {
 				"m³/s": {
 					"abbr": "m³/s",
 					"definition": "O fluxo volumétrico em metros cúbicos por segundo mede a quantidade de um fluido que passa por uma seção por segundo. Esta unidade é importante em dinâmica dos fluidos.",
@@ -605,7 +605,7 @@
 					"wiki": "https://pt.wikipedia.org/wiki/Aceleração"
 				}
 			},
-			"areaDensity": {
+			"area-density": {
 				"kg/m²": {
 					"abbr": "kg/m²",
 					"definition": "A densidade superficial em quilogramas por metro quadrado indica quanta massa está distribuída sobre uma determinada área. É usada principalmente em construção e na ciência dos materiais.",
@@ -641,7 +641,7 @@
 					"wiki": "https://pt.wikipedia.org/wiki/Iluminância"
 				}
 			},
-			"dataRate": {
+			"data-rate": {
 				"bit/s": {
 					"abbr": "bit/s",
 					"definition": "Bits por segundo é a unidade de taxa de transferência de dados e indica quantos bits são transmitidos em um segundo. Esta unidade é central na tecnologia da informação.",

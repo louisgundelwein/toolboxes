@@ -26,16 +26,16 @@ export type UnitCategoryKey =
 	| 'pressure'
 	| 'energy'
 	| 'power'
-	| 'dataStorage'
+	| 'data-storage'
 	| 'angle'
 	| 'frequency'
 	| 'force'
 	| 'density'
-	| 'volumeFlow'
+	| 'volume-flow'
 	| 'acceleration'
-	| 'areaDensity'
+	| 'area-density'
 	| 'illuminance'
-	| 'dataRate';
+	| 'data-rate';
 
 export type LengthUnit =
 	| 'meter'
@@ -342,7 +342,7 @@ export function getSimpleUnitCategory(
 			name: t('units.power.name'),
 		},
 		{
-			key: 'dataStorage',
+			key: 'data-storage',
 			name: t('units.data-storage.name'),
 		},
 		{
@@ -362,7 +362,7 @@ export function getSimpleUnitCategory(
 			name: t('units.density.name'),
 		},
 		{
-			key: 'volumeFlow',
+			key: 'volume-flow',
 			name: t('units.volume-flow.name'),
 		},
 		{
@@ -370,7 +370,7 @@ export function getSimpleUnitCategory(
 			name: t('units.acceleration.name'),
 		},
 		{
-			key: 'areaDensity',
+			key: 'area-density',
 			name: t('units.area-density.name'),
 		},
 		{
@@ -378,7 +378,7 @@ export function getSimpleUnitCategory(
 			name: t('units.illuminance.name'),
 		},
 		{
-			key: 'dataRate',
+			key: 'data-rate',
 			name: t('units.data-rate.name'),
 		},
 	];
@@ -811,7 +811,7 @@ export function getUnitCategoryObject(
 					},
 				},
 			};
-		case 'dataStorage':
+		case 'data-storage':
 			return {
 				name: t('units.data-storage.name'),
 				precision: 2,
@@ -958,7 +958,7 @@ export function getUnitCategoryObject(
 					},
 				},
 			};
-		case 'volumeFlow':
+		case 'volume-flow':
 			return {
 				name: t('units.volume-flow.name'),
 				precision: 2,
@@ -1013,7 +1013,7 @@ export function getUnitCategoryObject(
 					},
 				},
 			};
-		case 'areaDensity':
+		case 'area-density':
 			return {
 				name: t('units.area-density.name'),
 				precision: 3,
@@ -1059,7 +1059,7 @@ export function getUnitCategoryObject(
 					},
 				},
 			};
-		case 'dataRate':
+		case 'data-rate':
 			return {
 				name: t('units.data-rate.name'),
 				precision: 2,
@@ -1097,7 +1097,7 @@ export function getUnitCategoryObject(
 	}
 }
 
-export function getUnitsFromCategoryKey(
+export function getSimpleUnitsFromCategoryKey(
 	key: UnitCategoryKey,
 	t: ReturnType<typeof useTranslations>
 ): { value: string; label: string }[] {
@@ -1109,5 +1109,7 @@ export function getUnitsFromCategoryKey(
 		label: `${unit.name} (${unit.abbrev})`,
 	}));
 }
+
+
 
 export default getUnitCategoryObject;

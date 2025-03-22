@@ -26,6 +26,7 @@
 		"seeMoreButton": "Дізнатися більше"
 	},
 	"UnitConverterPage": {
+		"to": "до",
 		"definitions": {
 			"for": "Визначення для",
 			"more": "Детальніше у Wikipedia"

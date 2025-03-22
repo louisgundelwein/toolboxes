@@ -41,16 +41,16 @@
 		"pressure": "Pression",
 		"energy": "Énergie",
 		"power": "Puissance",
-		"dataStorage": "Stockage de données",
+		"data-storage": "Stockage de données",
 		"angle": "Angle",
 		"frequency": "Fréquence",
 		"force": "Force",
 		"density": "Densité",
-		"volumeFlow": "Débit volumique",
+		"volume-flow": "Débit volumique",
 		"acceleration": "Accélération",
-		"areaDensity": "Densité surfacique",
+		"area-density": "Densité surfacique",
 		"illuminance": "Éclairement",
-		"dataRate": "Débit de données",
+		"data-rate": "Débit de données",
 		"to": "à",
 		"units": {
 			"length": {
@@ -443,7 +443,7 @@
 					"wiki": "https://de.wikipedia.org/wiki/Pferdestärke"
 				}
 			},
-			"dataStorage": {
+			"data-storage": {
 				"name": "Stockage de données",
 				"byte": {
 					"name": "Octet",
@@ -674,7 +674,7 @@
 					"wiki": "https://fr.wikipedia.org/wiki/Densité"
 				}
 			},
-			"volumeFlow": {
+			"volume-flow": {
 				"name": "Débit volumique",
 				"cubic-meters-per-second": {
 					"name": "Mètres cubes par seconde",

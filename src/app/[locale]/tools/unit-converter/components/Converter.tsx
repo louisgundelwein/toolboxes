@@ -10,7 +10,7 @@ import type { UnitCategoryEnum } from '@/shared';
 import {
 	getSimpleUnitCategory,
 	getUnitCategoryObject,
-	getUnitsFromCategoryKey,
+	getSimpleUnitsFromCategoryKey,
 	UnitCategoryKey,
 } from '../util/unitCategories';
 import { useRouter, usePathname } from 'next/navigation';
@@ -83,8 +83,8 @@ export default function Converter({
 
 		let converted: number;
 
-		if (fromUnit === toUnit || fromUnit === undefined || toUnit === undefined) { 
-			return
+		if (fromUnit === toUnit || fromUnit === undefined || toUnit === undefined) {
+			return;
 		}
 
 		if (unitCategory?.convert) {
@@ -99,10 +99,6 @@ export default function Converter({
 		const rounded = roundValue(converted, precision).toString();
 		setResult(rounded);
 	}, [value, fromUnit, toUnit, t, unitCategory]);
-
-	
-
-	
 
 	return (
 		<div className="flex flex-col w-full items-center">
@@ -161,7 +157,9 @@ export default function Converter({
 												: t('labels.select')
 										}
 										items={
-											categoryKey ? getUnitsFromCategoryKey(categoryKey, t) : []
+											categoryKey
+												? getSimpleUnitsFromCategoryKey(categoryKey, t)
+												: []
 										}
 										buttonClassName="btn btn-outline w-full"
 										onSelect={(item) => {
@@ -180,7 +178,9 @@ export default function Converter({
 												: t('labels.select')
 										}
 										items={
-											categoryKey ? getUnitsFromCategoryKey(categoryKey, t) : []
+											categoryKey
+												? getSimpleUnitsFromCategoryKey(categoryKey, t)
+												: []
 										}
 										buttonClassName="btn btn-outline w-full"
 										onSelect={(item) => {
