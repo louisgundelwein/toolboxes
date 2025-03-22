@@ -5,12 +5,12 @@
  * @returns The formatted unit name.
  */
 export function formatUnitForUrl(unit: string): string {
-	return unit
-		.replace(/\s+/g, '-') // Replace spaces with hyphens
-		.replace(/[^a-zA-Z0-9-]/g, (match) => {
-			// Replace special characters with their encoded version
-			return encodeURIComponent(match);
-		});
+  return unit
+    .replace(/\s+/g, "-") // Replace spaces with hyphens
+    .replace(/[^a-zA-Z0-9-]/g, (match) => {
+      // Replace special characters with their encoded version
+      return encodeURIComponent(match);
+    });
 }
 
 /**
@@ -20,7 +20,7 @@ export function formatUnitForUrl(unit: string): string {
  * @returns The decoded unit name.
  */
 export function parseUnitFromUrl(urlUnit: string): string {
-	return decodeURIComponent(urlUnit);
+  return decodeURIComponent(urlUnit);
 }
 
 /**
@@ -32,13 +32,13 @@ export function parseUnitFromUrl(urlUnit: string): string {
  * @returns The formatted URL path.
  */
 export function createConversionPath(
-	category: string,
-	fromUnit: string,
-	toUnit: string
+  category: string,
+  fromUnit: string,
+  toUnit: string,
 ): string {
-	const formattedFromUnit = formatUnitForUrl(fromUnit);
-	const formattedToUnit = formatUnitForUrl(toUnit);
-	return `${category}/${formattedFromUnit}-to-${formattedToUnit}`;
+  const formattedFromUnit = formatUnitForUrl(fromUnit);
+  const formattedToUnit = formatUnitForUrl(toUnit);
+  return `${category}/${formattedFromUnit}-to-${formattedToUnit}`;
 }
 
 /**
@@ -48,12 +48,12 @@ export function createConversionPath(
  * @returns The parsed conversion units.
  */
 export function parseConversionPath(conversion: string): {
-	fromUnit: string;
-	toUnit: string;
+  fromUnit: string;
+  toUnit: string;
 } {
-	const [fromUnit, toUnit] = conversion.split('-to-');
-	return {
-		fromUnit: parseUnitFromUrl(fromUnit),
-		toUnit: parseUnitFromUrl(toUnit),
-	};
+  const [fromUnit, toUnit] = conversion.split("-to-");
+  return {
+    fromUnit: parseUnitFromUrl(fromUnit),
+    toUnit: parseUnitFromUrl(toUnit),
+  };
 }

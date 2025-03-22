@@ -1,3 +1,1 @@
-export default function FileConverterPage() { 
-  
-}
+export default function FileConverterPage() {}

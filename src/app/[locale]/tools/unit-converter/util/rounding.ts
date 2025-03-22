@@ -6,6 +6,6 @@
  * @returns Gerundeter Wert als Zahl.
  */
 export function roundValue(value: number, decimals: number = 2): number {
-	const factor = Math.pow(10, decimals);
-	return Math.round(value * factor) / factor;
+  const factor = Math.pow(10, decimals);
+  return Math.round(value * factor) / factor;
 }

@@ -1,1465 +1,1465 @@
 {
-	"HomePage": {
-		"heroTitle": "Advanced Online Toolbox for Modern Digital Workflows",
-		"heroSubtitle": "Empowering developers, designers, and creative professionals with innovative digital solutions",
-		"heroDescription": "Discover a comprehensive suite of online tools designed to streamline your work. From advanced unit converters to efficient file format changers and beyond, our platform boosts productivity and creativity.",
-		"usageInstructions": "Use the burger menu in the top-right corner to choose your tools, change the theme, or switch the language between English, German, French, Spanish, Portuguese, Ukrainian, and Chinese.",
-		"ctaButton": "Explore Our Tools Now",
-		"toolsOverviewTitle": "Explore Our Diverse Range of Tools",
-		"toolsOverviewSubtitle": "Browse our powerful, cutting-edge tools that simplify complex tasks and elevate your digital workflow.",
-		"toolCard1Title": "Unit Converter",
-		"toolCard1Description": "Easily convert measurements like length, weight, temperature, and more with high precision.",
-		"toolCard2Title": "File Converter",
-		"toolCard2Description": "Quickly transform files between various formats with just a few clicks.",
-		"toolCard3Title": "Password Generator",
-		"toolCard3Description": "Generate secure and random passwords with ease and customizable options.",
-		"toolCard4Title": "QR Code Generator",
-		"toolCard4Description": "Create QR codes for URLs, texts, and more in seconds with our easy-to-use tool.",
-		"toolCard5Title": "Tip Generator",
-		"toolCard5Description": "Quickly calculate the perfect tip for your bill with our intuitive tip generator.",
-		"toolCard6Title": "JSON Formatter & Validator",
-		"toolCard6Description": "Format and validate your JSON data effortlessly to ensure proper syntax and structure.",
-		"additionalTitle": "Innovative Solutions to Transform Your Digital Experience",
-		"additionalDescription": "Our ever-evolving platform provides the latest tools and features designed to maximize your efficiency. Experience unmatched versatility and performance.",
-		"learnMoreButton": "Learn More About Us",
-		"description": "Toolboxes.app is the premier online resource offering a powerful collection of tools to revolutionize your digital workflow.",
-		"seeMoreButton": "See More"
-	},
-	"UnitConverterPage": {
-		"definitions": {
-			"for": "Definition for",
-			"more": "More on Wikipedia"
-		},
-		"description": "A comprehensive unit converter",
-		"to": "to",
-		"units": {
-			"length": {
-				"name": "Length",
-				"meter": {
-					"name": "Meter",
-					"abbr": "m",
-					"definition": "The meter is the SI base unit of length and serves as the standard measure for distances. It is historically defined and recognized worldwide.",
-					"wiki": "https://de.wikipedia.org/wiki/Meter"
-				},
-				"kilometer": {
-					"name": "Kilometer",
-					"abbr": "km",
-					"definition": "A kilometer equals 1000 meters and is commonly used to indicate distances in practice. It is a common unit in everyday life.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilometer"
-				},
-				"centimeter": {
-					"name": "Centimeter",
-					"abbr": "cm",
-					"definition": "A centimeter is one hundredth of a meter and is often used to measure small lengths. This unit is used in many everyday applications.",
-					"wiki": "https://de.wikipedia.org/wiki/Zentimeter"
-				},
-				"millimeter": {
-					"name": "Millimeter",
-					"abbr": "mm",
-					"definition": "A millimeter is one thousandth of a meter and is used for precise measurement of small lengths. This unit is important especially in technical fields.",
-					"wiki": "https://de.wikipedia.org/wiki/Millimeter"
-				},
-				"mile": {
-					"name": "Mile",
-					"abbr": "mi",
-					"definition": "A mile is a unit of length primarily used in the Anglophone world. It is approximately equal to 1.609 kilometers and has historical significance.",
-					"wiki": "https://de.wikipedia.org/wiki/Meile"
-				},
-				"yard": {
-					"name": "Yard",
-					"abbr": "yd",
-					"definition": "A yard is a unit of length commonly used in the USA and the UK. It is equivalent to 0.9144 meters and is used, among others, in the textile and sports industries.",
-					"wiki": "https://de.wikipedia.org/wiki/Yard"
-				},
-				"foot": {
-					"name": "Foot",
-					"abbr": "ft",
-					"definition": "A foot is a traditional unit of length used in the USA and some other countries. It is equivalent to 0.3048 meters and is mainly used in construction.",
-					"wiki": "https://de.wikipedia.org/wiki/Fuß"
-				},
-				"inch": {
-					"name": "Inch",
-					"abbr": "in",
-					"definition": "An inch is a unit of length used primarily in the Anglophone world. It is equivalent to 2.54 centimeters and is used in technology as well as everyday life.",
-					"wiki": "https://de.wikipedia.org/wiki/Inch"
-				}
-			},
-			"weight": {
-				"name": "Weight",
-				"kilogram": {
-					"name": "Kilogram",
-					"abbr": "kg",
-					"definition": "The kilogram is the SI base unit for mass and serves as the standard measure in science and commerce. It is recognized as a unit of measurement worldwide.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilogramm"
-				},
-				"gram": {
-					"name": "Gram",
-					"abbr": "g",
-					"definition": "A gram is one thousandth of a kilogram and is frequently used for lighter masses. This unit is especially common in the kitchen and in commerce.",
-					"wiki": "https://de.wikipedia.org/wiki/Gramm"
-				},
-				"milligram": {
-					"name": "Milligram",
-					"abbr": "mg",
-					"definition": "A milligram is one thousandth of a gram and is used to measure very small masses, especially in medicine. It is often used for precise dosage measurements.",
-					"wiki": "https://de.wikipedia.org/wiki/Milligramm"
-				},
-				"pound": {
-					"name": "Pound",
-					"abbr": "lb",
-					"definition": "The pound is a traditional unit of mass used primarily in the Anglophone world. It is approximately equal to 0.4536 kilograms and is used in commerce and everyday life.",
-					"wiki": "https://de.wikipedia.org/wiki/Pfund"
-				},
-				"ounce": {
-					"name": "Ounce",
-					"abbr": "oz",
-					"definition": "An ounce is a smaller unit of mass known primarily in the Anglophone world. It is approximately 28.35 grams and is often used in the food industry.",
-					"wiki": "https://de.wikipedia.org/wiki/Unze"
-				}
-			},
-			"area": {
-				"name": "Area",
-				"square-meter": {
-					"name": "Square Meter",
-					"abbr": "m²",
-					"definition": "The square meter is the unit of area in the International System of Units and is used for measuring areas in architecture and agriculture. It is a standardized and widely used unit.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratmeter"
-				},
-				"square-kilometer": {
-					"name": "Square Kilometer",
-					"abbr": "km²",
-					"definition": "A square kilometer corresponds to an area of one million square meters. This unit is primarily used to represent large areas, such as land regions.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratkilometer"
-				},
-				"square-centimeter": {
-					"name": "Square Centimeter",
-					"abbr": "cm²",
-					"definition": "A square centimeter is a small unit of area, often used in materials science and everyday life. It measures the area of a square with a side length of 1 cm.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratzentimeter"
-				},
-				"square-foot": {
-					"name": "Square Foot",
-					"abbr": "ft²",
-					"definition": "A square foot is an area unit used primarily in the USA and the UK, approximately equal to 0.0929 square meters. This unit is often used in real estate.",
-					"wiki": "https://de.wikipedia.org/wiki/Quadratfuß"
-				},
-				"acre": {
-					"name": "Acre",
-					"abbr": "ac",
-					"definition": "An acre is a traditional unit of area used primarily in the USA and the UK. It is approximately equal to 4047 square meters and is used in agriculture and real estate appraisal.",
-					"wiki": "https://de.wikipedia.org/wiki/Acre"
-				}
-			},
-			"volume": {
-				"name": "Volume",
-				"cubic-meter": {
-					"name": "Cubic Meter",
-					"abbr": "m³",
-					"definition": "The cubic-meter is the unit of volume in the International System of Units and is used to measure space. This unit is important in fields such as construction, storage, and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikmeter"
-				},
-				"cubic-kilometer": {
-					"name": "Cubic Kilometer",
-					"abbr": "km³",
-					"definition": "A cubic kilometer is a unit of volume equal to one billion cubic meters. It is used to measure large volumes, such as the volume of oceans or reservoirs.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikkilometer"
-				},
-				"cubic-centimeter": {
-					"name": "Cubic Centimeter",
-					"abbr": "cm³",
-					"definition": "A cubic centimeter is a unit of volume equal to one millionth of a cubic meter. It is commonly used in medicine and engineering for small volume measurements.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikzentimeter"
-				},
-				"cubic-millimeter": {
-					"name": "Cubic Millimeter",
-					"abbr": "mm³",
-					"definition": "A cubic millimeter is a unit of volume equal to one billionth of a cubic meter. It is used for very small volume measurements in scientific and medical applications.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikmillimeter"
-				},
-				"cubic-mile": {
-					"name": "Cubic Mile",
-					"abbr": "mi³",
-					"definition": "A cubic mile is a unit of volume used primarily in the United States. It is approximately equal to 4.168 cubic kilometers and is used for large-scale volume measurements.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikmeile"
-				},
-				"cubic-yard": {
-					"name": "Cubic Yard",
-					"abbr": "yd³",
-					"definition": "A cubic yard is a unit of volume used in the United States and the United Kingdom. It is approximately equal to 0.7646 cubic meters and is commonly used in construction.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikyard"
-				},
-				"cubic-foot": {
-					"name": "Cubic Foot",
-					"abbr": "ft³",
-					"definition": "A cubic foot is a unit of volume used in the United States and the United Kingdom. It is approximately equal to 0.0283 cubic meters and is used in various industries.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikfuß"
-				},
-				"cubic-inch": {
-					"name": "Cubic Inch",
-					"abbr": "in³",
-					"definition": "A cubic inch is a unit of volume used in the United States and the United Kingdom. It is approximately equal to 0.0000164 cubic meters and is used in engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Kubikzoll"
-				},
-				"liter": {
-					"name": "Liter",
-					"abbr": "L",
-					"definition": "The liter is a unit of volume equal to one cubic decimeter. It is commonly used to measure liquid volumes and is recognized worldwide.",
-					"wiki": "https://de.wikipedia.org/wiki/Liter"
-				},
-				"milliliter": {
-					"name": "Milliliter",
-					"abbr": "mL",
-					"definition": "A milliliter is a unit of volume equal to one thousandth of a liter. It is used for small liquid measurements in medicine and cooking.",
-					"wiki": "https://de.wikipedia.org/wiki/Milliliter"
-				},
-				"gallon": {
-					"name": "Gallon",
-					"abbr": "gal",
-					"definition": "A gallon is a unit of volume used in the United States and the United Kingdom. It is approximately equal to 3.785 liters and is used for liquid measurements.",
-					"wiki": "https://de.wikipedia.org/wiki/Gallone"
-				}
-			},
-			"temperature": {
-				"name": "Temperature",
-				"celsius": {
-					"name": "Celsius",
-					"abbr": "°C",
-					"definition": "The Celsius scale is a temperature unit where 0 °C represents the freezing point of water. It is used worldwide in most countries and is easy to understand.",
-					"wiki": "https://de.wikipedia.org/wiki/Celsius"
-				},
-				"fahrenheit": {
-					"name": "Fahrenheit",
-					"abbr": "°F",
-					"definition": "The Fahrenheit scale is a temperature unit primarily used in the USA. On this scale, the freezing point of water is at 32 °F, distinguishing it from Celsius.",
-					"wiki": "https://de.wikipedia.org/wiki/Fahrenheit"
-				},
-				"kelvin": {
-					"name": "Kelvin",
-					"abbr": "K",
-					"definition": "The Kelvin scale is the SI unit for temperature measurements and starts at absolute zero. It is mainly used in science and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Kelvin"
-				}
-			},
-			"speed": {
-				"name": "Speed",
-				"meters-per-second": {
-					"name": "Meters per Second",
-					"abbr": "m/s",
-					"definition": "Speed in meters per second is an SI unit that indicates how many meters are traveled in one second. It is widely used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
-				},
-				"kilometers-per-hour": {
-					"name": "Kilometers per Hour",
-					"abbr": "km/h",
-					"definition": "Kilometers per hour indicate how many kilometers are traveled in one hour. This unit is often used in road traffic and meteorology.",
-					"wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
-				},
-				"miles-per-hour": {
-					"name": "Miles per Hour",
-					"abbr": "mph",
-					"definition": "Miles per hour is a speed unit primarily used in the USA and the UK. It measures how many miles are traveled in one hour.",
-					"wiki": "https://de.wikipedia.org/wiki/Meile"
-				},
-				"knot": {
-					"name": "Knot",
-					"abbr": "kn",
-					"definition": "A knot is a unit of speed used in maritime and aviation contexts. It is equal to one nautical mile per hour, approximately 1.852 kilometers per hour.",
-					"wiki": "https://de.wikipedia.org/wiki/Knoten_(Geschwindigkeit)"
-				}
-			},
-			"time": {
-				"name": "Time",
-				"second": {
-					"name": "Second",
-					"abbr": "s",
-					"definition": "The second is the base unit of time in the International System of Units. It is used to measure time intervals and is standardized worldwide.",
-					"wiki": "https://de.wikipedia.org/wiki/Sekunde"
-				},
-				"minute": {
-					"name": "Minute",
-					"abbr": "min",
-					"definition": "A minute consists of 60 seconds and is used to measure shorter time periods. This unit is very common in everyday life.",
-					"wiki": "https://de.wikipedia.org/wiki/Minute"
-				},
-				"hour": {
-					"name": "Hour",
-					"abbr": "h",
-					"definition": "An hour consists of 60 minutes and is a common unit of time for daily use. It is used worldwide and forms the basis of many schedules.",
-					"wiki": "https://de.wikipedia.org/wiki/Stunde"
-				},
-				"day": {
-					"name": "Day",
-					"abbr": "d",
-					"definition": "A day corresponds to the Earth's rotation and comprises 24 hours. It is the fundamental unit of time in daily life and is used in almost all cultures.",
-					"wiki": "https://de.wikipedia.org/wiki/Tag"
-				},
-				"week": {
-					"name": "Week",
-					"abbr": "wk",
-					"definition": "A week is a unit of time equal to seven days. It is used for organizing schedules and is a common unit in business and personal planning.",
-					"wiki": "https://de.wikipedia.org/wiki/Woche"
-				},
-				"month": {
-					"name": "Month",
-					"abbr": "mo",
-					"definition": "A month is a unit of time based on the lunar cycle. It is used for longer-term planning and is a common unit in calendars and financial calculations.",
-					"wiki": "https://de.wikipedia.org/wiki/Monat"
-				},
-				"year": {
-					"name": "Year",
-					"abbr": "yr",
-					"definition": "A year is a unit of time based on the Earth's orbit around the Sun. It is used for long-term planning and is a fundamental unit in calendars and historical records.",
-					"wiki": "https://de.wikipedia.org/wiki/Jahr"
-				}
-			},
-			"pressure": {
-				"name": "Pressure",
-				"pascal": {
-					"name": "Pascal",
-					"abbr": "Pa",
-					"definition": "The pascal is the SI unit for pressure and measures the force per unit area. It is used in physics and engineering to describe pressure conditions.",
-					"wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
-				},
-				"kilopascal": {
-					"name": "Kilopascal",
-					"abbr": "kPa",
-					"definition": "A kilopascal equals 1000 pascals and is often used to represent pressures in engineering and meteorology. It extends the representation of the pascal to higher values.",
-					"wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
-				},
-				"bar": {
-					"name": "Bar",
-					"abbr": "bar",
-					"definition": "The bar is a unit of pressure used primarily in engineering and weather reports. One bar equals 100,000 pascals and is easy to understand.",
-					"wiki": "https://de.wikipedia.org/wiki/Bar_(Einheit)"
-				},
-				"atmosphere": {
-					"name": "Atmosphere",
-					"abbr": "atm",
-					"definition": "The atmosphere is a unit of pressure based on the average atmospheric pressure at sea level. It is approximately equal to 101,325 pascals and is used in meteorology.",
-					"wiki": "https://de.wikipedia.org/wiki/Atmosphäre_(Einheit)"
-				},
-				"torr": {
-					"name": "Torr",
-					"abbr": "Torr",
-					"definition": "The torr is a unit of pressure named after Evangelista Torricelli. It is approximately equal to 133.322 pascals and is used in vacuum measurements.",
-					"wiki": "https://de.wikipedia.org/wiki/Torr"
-				},
-				"psi": {
-					"name": "Pounds per Square Inch",
-					"abbr": "psi",
-					"definition": "PSI stands for pounds per square inch and is a pressure unit commonly used in the USA. It measures pressure as force per unit area and is often used in the automotive sector.",
-					"wiki": "https://de.wikipedia.org/wiki/Pfund_pro_Quadratzoll"
-				}
-			},
-			"energy": {
-				"name": "Energy",
-				"joule": {
-					"name": "Joule",
-					"abbr": "J",
-					"definition": "The joule is the SI unit for energy and measures the amount of work or heat. It is used in physics, engineering, and chemistry.",
-					"wiki": "https://de.wikipedia.org/wiki/Joule"
-				},
-				"kilojoule": {
-					"name": "Kilojoule",
-					"abbr": "kJ",
-					"definition": "A kilojoule equals 1000 joules and is often used in nutrition and engineering. This unit facilitates dealing with larger amounts of energy.",
-					"wiki": "https://de.wikipedia.org/wiki/Joule"
-				},
-				"calorie": {
-					"name": "Calorie",
-					"abbr": "cal",
-					"definition": "The calorie is a unit of energy often used in nutrition. It measures the amount of energy needed to raise the temperature of water.",
-					"wiki": "https://de.wikipedia.org/wiki/Kalorie"
-				},
-				"kilocalorie": {
-					"name": "Kilocalorie",
-					"abbr": "kcal",
-					"definition": "The kilocalorie corresponds to 1000 calories and is commonly used to indicate the energy content of foods. It is widely used in nutrition science.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
-				},
-				"kilowatt-hour": {
-					"name": "Kilowatt Hour",
-					"abbr": "kWh",
-					"definition": "The kilowatt-hour is a unit of energy primarily used for billing electric power. It measures energy consumption over one hour at a power of one kilowatt.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilowattstunde"
-				},
-				"electronvolt": {
-					"name": "Electronvolt",
-					"abbr": "eV",
-					"definition": "The electronvolt is a unit of energy used in particle physics. It is the amount of energy gained by an electron when it moves through an electric potential difference of one volt.",
-					"wiki": "https://de.wikipedia.org/wiki/Elektronenvolt"
-				},
-				"hartree": {
-					"name": "Hartree",
-					"abbr": "Eh",
-					"definition": "The hartree is a unit of energy used in atomic physics and quantum chemistry. It is approximately equal to 27.2114 electronvolts.",
-					"wiki": "https://de.wikipedia.org/wiki/Hartree"
-				},
-				"kilogram-force-meter": {
-					"name": "Kilogram Force Meter",
-					"abbr": "kgf·m",
-					"definition": "The kilogram-force meter is a unit of energy representing the work done by a force of one kilogram-force acting through a distance of one meter.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilogramm-Kraft-Meter"
-				},
-				"kilopond-meter": {
-					"name": "Kilopond Meter",
-					"abbr": "kpm",
-					"definition": "The kilopond meter is a unit of energy equal to the work done by a force of one kilopond acting through a distance of one meter.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilopond-Meter"
-				},
-				"gram-force-meter": {
-					"name": "Gram Force Meter",
-					"abbr": "gf·m",
-					"definition": "The gram-force meter is a unit of energy representing the work done by a force of one gram-force acting through a distance of one meter.",
-					"wiki": "https://de.wikipedia.org/wiki/Gramm-Kraft-Meter"
-				},
-				"pound-force-foot": {
-					"name": "Pound Force Foot",
-					"abbr": "lbf·ft",
-					"definition": "The pound-force foot is a unit of energy representing the work done by a force of one pound-force acting through a distance of one foot.",
-					"wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft-Fuß"
-				},
-				"pound-force-inch": {
-					"name": "Pound Force Inch",
-					"abbr": "lbf·in",
-					"definition": "The pound-force inch is a unit of energy representing the work done by a force of one pound-force acting through a distance of one inch.",
-					"wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft-Zoll"
-				},
-				"ounce-force-foot": {
-					"name": "Ounce Force Foot",
-					"abbr": "ozf·ft",
-					"definition": "The ounce-force foot is a unit of energy representing the work done by a force of one ounce-force acting through a distance of one foot.",
-					"wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft-Fuß"
-				},
-				"ounce-force-inch": {
-					"name": "Ounce Force Inch",
-					"abbr": "ozf·in",
-					"definition": "The ounce-force inch is a unit of energy representing the work done by a force of one ounce-force acting through a distance of one inch.",
-					"wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft-Zoll"
-				},
-				"ton-force-foot": {
-					"name": "Ton Force Foot",
-					"abbr": "tonf·ft",
-					"definition": "The ton-force foot is a unit of energy representing the work done by a force of one ton-force acting through a distance of one foot.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft-Fuß"
-				},
-				"ton-force-inch": {
-					"name": "Ton Force Inch",
-					"abbr": "tonf·in",
-					"definition": "The ton-force inch is a unit of energy representing the work done by a force of one ton-force acting through a distance of one inch.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft-Zoll"
-				},
-				"poundal-foot": {
-					"name": "Poundal Foot",
-					"abbr": "pdl·ft",
-					"definition": "The poundal foot is a unit of energy representing the work done by a force of one poundal acting through a distance of one foot.",
-					"wiki": "https://de.wikipedia.org/wiki/Poundal-Fuß"
-				},
-				"poundal-inch": {
-					"name": "Poundal Inch",
-					"abbr": "pdl·in",
-					"definition": "The poundal inch is a unit of energy representing the work done by a force of one poundal acting through a distance of one inch.",
-					"wiki": "https://de.wikipedia.org/wiki/Poundal-Zoll"
-				},
-				"ounceal-foot": {
-					"name": "Ounceal Foot",
-					"abbr": "ozal·ft",
-					"definition": "The ounceal foot is a unit of energy representing the work done by a force of one ounceal acting through a distance of one foot.",
-					"wiki": "https://de.wikipedia.org/wiki/Ounceal-Fuß"
-				},
-				"ounceal-inch": {
-					"name": "Ounceal Inch",
-					"abbr": "ozal·in",
-					"definition": "The ounceal inch is a unit of energy representing the work done by a force of one ounceal acting through a distance of one inch.",
-					"wiki": "https://de.wikipedia.org/wiki/Ounceal-Zoll"
-				},
-				"tonal-foot": {
-					"name": "Tonal Foot",
-					"abbr": "tonal·ft",
-					"definition": "The tonal foot is a unit of energy representing the work done by a force of one tonal acting through a distance of one foot.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonal-Fuß"
-				},
-				"tonal-inch": {
-					"name": "Tonal Inch",
-					"abbr": "tonal·in",
-					"definition": "The tonal inch is a unit of energy representing the work done by a force of one tonal acting through a distance of one inch.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonal-Zoll"
-				}
-			},
-			"power": {
-				"name": "Power",
-				"watt": {
-					"name": "Watt",
-					"abbr": "W",
-					"definition": "The watt is the SI unit of power and measures the amount of energy transferred per unit time. It is used in electrical engineering and physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Watt"
-				},
-				"kilowatt": {
-					"name": "Kilowatt",
-					"abbr": "kW",
-					"definition": "A kilowatt equals 1000 watts and is often used to indicate the power of devices and engines. This unit is widely used in the energy industry and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilowatt"
-				},
-				"horsepower": {
-					"name": "Horsepower",
-					"abbr": "hp",
-					"definition": "Horsepower is a unit of power historically used to describe the power of machines. It indicates how much power is required to perform a certain amount of work and is often used in the automotive industry.",
-					"wiki": "https://de.wikipedia.org/wiki/Pferdestärke"
-				},
-				"british-thermal-unit-per-hour": {
-					"name": "British Thermal Unit per Hour",
-					"abbr": "BTU/h",
-					"definition": "The British thermal unit per hour is a unit of power used primarily in the United States. It measures the rate of energy transfer and is common in heating and cooling systems.",
-					"wiki": "https://de.wikipedia.org/wiki/British_Thermal_Unit"
-				},
-				"calorie-per-second": {
-					"name": "Calorie per Second",
-					"abbr": "cal/s",
-					"definition": "Calories per second is a unit of power measuring the rate of energy transfer. It is used in thermal engineering and nutrition science.",
-					"wiki": "https://de.wikipedia.org/wiki/Kalorie"
-				},
-				"kilocalorie-per-second": {
-					"name": "Kilocalorie per Second",
-					"abbr": "kcal/s",
-					"definition": "Kilocalories per second is a unit of power measuring the rate of energy transfer. It is used in thermal engineering and large-scale energy calculations.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
-				},
-				"watt-per-square-meter": {
-					"name": "Watt per Square Meter",
-					"abbr": "W/m²",
-					"definition": "Watts per square meter is a unit of power density measuring the rate of energy transfer per unit area. It is used in solar radiation and heat transfer calculations.",
-					"wiki": "https://de.wikipedia.org/wiki/Watt_pro_Quadratmeter"
-				},
-				"kilowatt-per-square-meter": {
-					"name": "Kilowatt per Square Meter",
-					"abbr": "kW/m²",
-					"definition": "Kilowatts per square meter is a unit of power density measuring the rate of energy transfer per unit area. It is used in large-scale energy calculations.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilowatt_pro_Quadratmeter"
-				},
-				"horsepower-per-square-meter": {
-					"name": "Horsepower per Square Meter",
-					"abbr": "hp/m²",
-					"definition": "Horsepower per square meter is a unit of power density measuring the rate of energy transfer per unit area. It is used in engineering applications.",
-					"wiki": "https://de.wikipedia.org/wiki/Pferdestärke_pro_Quadratmeter"
-				},
-				"british-thermal-unit-per-hour-per-square-foot": {
-					"name": "British Thermal Unit per Hour per Square Foot",
-					"abbr": "BTU/h·ft²",
-					"definition": "British thermal units per hour per square foot is a unit of power density used in the United States. It measures the rate of energy transfer per unit area.",
-					"wiki": "https://de.wikipedia.org/wiki/British_Thermal_Unit"
-				},
-				"calorie-per-second-per-square-meter": {
-					"name": "Calorie per Second per Square Meter",
-					"abbr": "cal/s·m²",
-					"definition": "Calories per second per square meter is a unit of power density measuring the rate of energy transfer per unit area. It is used in thermal engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Kalorie"
-				},
-				"kilocalorie-per-second-per-square-meter": {
-					"name": "Kilocalorie per Second per Square Meter",
-					"abbr": "kcal/s·m²",
-					"definition": "Kilocalories per second per square meter is a unit of power density measuring the rate of energy transfer per unit area. It is used in large-scale thermal engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
-				},
-				"watt-per-square-meter-kelvin": {
-					"name": "Watt per Square Meter Kelvin",
-					"abbr": "W/m²·K",
-					"definition": "Watts per square meter kelvin is a unit of heat transfer coefficient. It measures the rate of heat transfer per unit area per unit temperature difference.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				},
-				"kilowatt-per-square-meter-kelvin": {
-					"name": "Kilowatt per Square Meter Kelvin",
-					"abbr": "kW/m²·K",
-					"definition": "Kilowatts per square meter kelvin is a unit of heat transfer coefficient. It measures the rate of heat transfer per unit area per unit temperature difference.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				},
-				"horsepower-per-square-meter-kelvin": {
-					"name": "Horsepower per Square Meter Kelvin",
-					"abbr": "hp/m²·K",
-					"definition": "Horsepower per square meter kelvin is a unit of heat transfer coefficient. It measures the rate of heat transfer per unit area per unit temperature difference.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				},
-				"british-thermal-unit-per-hour-per-square-foot-kelvin": {
-					"name": "British Thermal Unit per Hour per Square Foot Kelvin",
-					"abbr": "BTU/h·ft²·°F",
-					"definition": "British thermal units per hour per square foot kelvin is a unit of heat transfer coefficient used in the United States. It measures the rate of heat transfer per unit area per unit temperature difference.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				},
-				"calorie-per-second-per-square-meter-kelvin": {
-					"name": "Calorie per Second per Square Meter Kelvin",
-					"abbr": "cal/s·m²·K",
-					"definition": "Calories per second per square meter kelvin is a unit of heat transfer coefficient. It measures the rate of heat transfer per unit area per unit temperature difference.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				},
-				"kilocalorie-per-second-per-square-meter-kelvin": {
-					"name": "Kilocalorie per Second per Square Meter Kelvin",
-					"abbr": "kcal/s·m²·K",
-					"definition": "Kilocalories per second per square meter kelvin is a unit of heat transfer coefficient. It measures the rate of heat transfer per unit area per unit temperature difference.",
-					"wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
-				}
-			},
-			"data-storage": {
-				"name": "Data Storage",
-				"byte": {
-					"name": "Byte",
-					"abbr": "B",
-					"definition": "A byte is the basic unit of digital information, typically consisting of 8 bits. It forms the basis of data storage in computers.",
-					"wiki": "https://de.wikipedia.org/wiki/Byte"
-				},
-				"kilobyte": {
-					"name": "Kilobyte",
-					"abbr": "KB",
-					"definition": "A kilobyte equals 1024 bytes and is used to measure the size of small files. This unit is common in computer science.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilobyte"
-				},
-				"megabyte": {
-					"name": "Megabyte",
-					"abbr": "MB",
-					"definition": "A megabyte equals 1024 kilobytes and is often used to describe file size or storage capacity. This unit is common in the digital world.",
-					"wiki": "https://de.wikipedia.org/wiki/Megabyte"
-				},
-				"gigabyte": {
-					"name": "Gigabyte",
-					"abbr": "GB",
-					"definition": "A gigabyte equals 1024 megabytes and is used to measure the storage capacity of hard drives and other devices. This unit is common in information technology.",
-					"wiki": "https://de.wikipedia.org/wiki/Gigabyte"
-				},
-				"terabyte": {
-					"name": "Terabyte",
-					"abbr": "TB",
-					"definition": "A terabyte equals 1024 gigabytes and is used to measure large storage capacities. This unit is common in data centers and large-scale storage systems.",
-					"wiki": "https://de.wikipedia.org/wiki/Terabyte"
-				},
-				"petabyte": {
-					"name": "Petabyte",
-					"abbr": "PB",
-					"definition": "A petabyte equals 1024 terabytes and is used to measure very large storage capacities. This unit is common in big data and cloud storage systems.",
-					"wiki": "https://de.wikipedia.org/wiki/Petabyte"
-				},
-				"exabyte": {
-					"name": "Exabyte",
-					"abbr": "EB",
-					"definition": "An exabyte equals 1024 petabytes and is used to measure extremely large storage capacities. This unit is common in global data storage calculations.",
-					"wiki": "https://de.wikipedia.org/wiki/Exabyte"
-				},
-				"zettabyte": {
-					"name": "Zettabyte",
-					"abbr": "ZB",
-					"definition": "A zettabyte equals 1024 exabytes and is used to measure massive storage capacities. This unit is used in global data volume calculations.",
-					"wiki": "https://de.wikipedia.org/wiki/Zettabyte"
-				},
-				"yottabyte": {
-					"name": "Yottabyte",
-					"abbr": "YB",
-					"definition": "A yottabyte equals 1024 zettabytes and is used to measure the largest storage capacities. This unit is used in theoretical data volume calculations.",
-					"wiki": "https://de.wikipedia.org/wiki/Yottabyte"
-				}
-			},
-			"angle": {
-				"name": "Angle",
-				"degree": {
-					"name": "Degree",
-					"abbr": "°",
-					"definition": "The degree is a common unit for angles, with a full circle consisting of 360 degrees. It is frequently used in geometry and everyday life.",
-					"wiki": "https://de.wikipedia.org/wiki/Grad"
-				},
-				"radian": {
-					"name": "Radian",
-					"abbr": "rad",
-					"definition": "The radian is the SI unit for measuring angles and describes the angle as the arc length relative to the radius of a circle. It is fundamental in mathematics and physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Radiant"
-				},
-				"gradian": {
-					"name": "Gradian",
-					"abbr": "gon",
-					"definition": "The gradian is an alternative unit for measuring angles, where a right angle is equal to 100 gradians. It is used in certain technical fields and provides a decimal-based representation.",
-					"wiki": "https://de.wikipedia.org/wiki/Gon"
-				},
-				"minute": {
-					"name": "Minute of Arc",
-					"abbr": "'",
-					"definition": "A minute of arc is one sixtieth of a degree. It is used for precise angle measurements in astronomy and navigation.",
-					"wiki": "https://de.wikipedia.org/wiki/Winkelminute"
-				},
-				"second": {
-					"name": "Second of Arc",
-					"abbr": "\"",
-					"definition": "A second of arc is one sixtieth of a minute of arc. It is used for very precise angle measurements in astronomy and geodesy.",
-					"wiki": "https://de.wikipedia.org/wiki/Winkelsekunde"
-				},
-				"milliradian": {
-					"name": "Milliradian",
-					"abbr": "mrad",
-					"definition": "A milliradian is one thousandth of a radian. It is used in military and engineering applications for precise angle measurements.",
-					"wiki": "https://de.wikipedia.org/wiki/Milliradian"
-				},
-				"milligradian": {
-					"name": "Milligradian",
-					"abbr": "mgon",
-					"definition": "A milligradian is one thousandth of a gradian. It is used in surveying and engineering for precise angle measurements.",
-					"wiki": "https://de.wikipedia.org/wiki/Milligon"
-				},
-				"milliarc-second": {
-					"name": "Milliarc Second",
-					"abbr": "mas",
-					"definition": "A milliarc second is one thousandth of an arc second. It is used in astronomy for very precise angle measurements.",
-					"wiki": "https://de.wikipedia.org/wiki/Milliarcsecond"
-				},
-				"microarc-second": {
-					"name": "Microarc Second",
-					"abbr": "μas",
-					"definition": "A microarc second is one millionth of an arc second. It is used in astronomy for extremely precise angle measurements.",
-					"wiki": "https://de.wikipedia.org/wiki/Mikroarcsecond"
-				},
-				"microarc-minute": {
-					"name": "Microarc Minute",
-					"abbr": "μam",
-					"definition": "A microarc minute is one millionth of an arc minute. It is used in astronomy for very precise angle measurements.",
-					"wiki": "https://de.wikipedia.org/wiki/Mikroarcminute"
-				}
-			},
-			"frequency": {
-				"name": "Frequency",
-				"hertz": {
-					"name": "Hertz",
-					"abbr": "Hz",
-					"definition": "The hertz is the SI unit for frequency and indicates how many oscillations occur per second. It is widely used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"kilohertz": {
-					"name": "Kilohertz",
-					"abbr": "kHz",
-					"definition": "A kilohertz equals 1000 hertz and is frequently used to describe audio frequencies and in communication technology. This unit is common in electronics.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"megahertz": {
-					"name": "Megahertz",
-					"abbr": "MHz",
-					"definition": "A megahertz equals 1,000,000 hertz and is often used in radio technology and frequency measurements. It is significant in communication and electronics.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"gigahertz": {
-					"name": "Gigahertz",
-					"abbr": "GHz",
-					"definition": "A gigahertz equals 1,000,000,000 hertz and is primarily used in describing processor and radio frequencies. This unit is indispensable in modern technology.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"terahertz": {
-					"name": "Terahertz",
-					"abbr": "THz",
-					"definition": "A terahertz equals 1,000,000,000,000 hertz and is used in advanced scientific research and technology. This unit is significant in spectroscopy and imaging.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"petahertz": {
-					"name": "Petahertz",
-					"abbr": "PHz",
-					"definition": "A petahertz equals 1,000,000,000,000,000 hertz and is used in cutting-edge scientific research. This unit is significant in quantum physics and advanced spectroscopy.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"exahertz": {
-					"name": "Exahertz",
-					"abbr": "EHz",
-					"definition": "An exahertz equals 1,000,000,000,000,000,000 hertz and is used in theoretical physics and advanced scientific research. This unit is significant in quantum mechanics.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"zettahertz": {
-					"name": "Zettahertz",
-					"abbr": "ZHz",
-					"definition": "A zettahertz equals 1,000,000,000,000,000,000,000 hertz and is used in theoretical physics. This unit is significant in advanced scientific research.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				},
-				"yottahertz": {
-					"name": "Yottahertz",
-					"abbr": "YHz",
-					"definition": "A yottahertz equals 1,000,000,000,000,000,000,000,000 hertz and is used in theoretical physics. This unit is significant in advanced scientific research.",
-					"wiki": "https://de.wikipedia.org/wiki/Hertz"
-				}
-			},
-			"force": {
-				"name": "Force",
-				"newton": {
-					"name": "Newton",
-					"abbr": "N",
-					"definition": "The newton is the SI unit for force and is defined as the force needed to accelerate a 1-kilogram mass at 1 m/s². This unit is fundamental in physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"kilonewton": {
-					"name": "Kilonewton",
-					"abbr": "kN",
-					"definition": "A kilonewton equals 1000 newtons and is frequently used in engineering and construction to measure larger forces. It provides a more convenient representation of high force values.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"meganewton": {
-					"name": "Meganewton",
-					"abbr": "MN",
-					"definition": "A meganewton equals 1,000,000 newtons and is used to measure very large forces. This unit is common in structural engineering and aerospace.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"giganewton": {
-					"name": "Giganewton",
-					"abbr": "GN",
-					"definition": "A giganewton equals 1,000,000,000 newtons and is used to measure extremely large forces. This unit is used in theoretical physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"teranewton": {
-					"name": "Teranewton",
-					"abbr": "TN",
-					"definition": "A teranewton equals 1,000,000,000,000 newtons and is used to measure massive forces. This unit is used in theoretical physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"petanewton": {
-					"name": "Petanewton",
-					"abbr": "PN",
-					"definition": "A petanewton equals 1,000,000,000,000,000 newtons and is used to measure extremely large forces. This unit is used in theoretical physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"exanewton": {
-					"name": "Exanewton",
-					"abbr": "EN",
-					"definition": "An exanewton equals 1,000,000,000,000,000,000 newtons and is used to measure massive forces. This unit is used in theoretical physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"zettahertz": {
-					"name": "Zettanewton",
-					"abbr": "ZN",
-					"definition": "A zettanewton equals 1,000,000,000,000,000,000,000 newtons and is used to measure extremely large forces. This unit is used in theoretical physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"yottahertz": {
-					"name": "Yottanewton",
-					"abbr": "YN",
-					"definition": "A yottanewton equals 1,000,000,000,000,000,000,000,000 newtons and is used to measure massive forces. This unit is used in theoretical physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
-				},
-				"dyne": {
-					"name": "Dyne",
-					"abbr": "dyn",
-					"definition": "The dyne is a unit of force in the centimeter-gram-second system. It is equal to 10⁻⁵ newtons and is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Dyne"
-				},
-				"kilogram-force": {
-					"name": "Kilogram Force",
-					"abbr": "kgf",
-					"definition": "The kilogram-force is a unit of force equal to the force exerted by one kilogram of mass in standard gravity. It is used in engineering and physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilogramm-Kraft"
-				},
-				"kilopond": {
-					"name": "Kilopond",
-					"abbr": "kp",
-					"definition": "The kilopond is a unit of force equal to the force exerted by one kilogram of mass in standard gravity. It is used in engineering and physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Kilopond"
-				},
-				"gram-force": {
-					"name": "Gram Force",
-					"abbr": "gf",
-					"definition": "The gram-force is a unit of force equal to the force exerted by one gram of mass in standard gravity. It is used in engineering and physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Gramm-Kraft"
-				},
-				"pound-force": {
-					"name": "Pound Force",
-					"abbr": "lbf",
-					"definition": "Pound-force is a unit of force used primarily in the Anglophone world that indicates the force resulting from the weight of one pound. This unit is often used in engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
-				},
-				"ounce-force": {
-					"name": "Ounce Force",
-					"abbr": "ozf",
-					"definition": "The ounce-force is a unit of force equal to the force exerted by one ounce of mass in standard gravity. It is used in engineering and physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft"
-				},
-				"ton-force": {
-					"name": "Ton Force",
-					"abbr": "tonf",
-					"definition": "The ton-force is a unit of force equal to the force exerted by one ton of mass in standard gravity. It is used in engineering and physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft"
-				},
-				"poundal": {
-					"name": "Poundal",
-					"abbr": "pdl",
-					"definition": "The poundal is a unit of force in the foot-pound-second system. It is equal to 0.138255 newtons and is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Poundal"
-				},
-				"ounceal": {
-					"name": "Ounceal",
-					"abbr": "ozal",
-					"definition": "The ounceal is a unit of force in the foot-pound-second system. It is equal to 0.008640 newtons and is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Ounceal"
-				},
-				"tonal": {
-					"name": "Tonal",
-					"abbr": "tonal",
-					"definition": "The tonal is a unit of force in the foot-pound-second system. It is equal to 2000 poundals and is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Tonal"
-				}
-			},
-			"density": {
-				"name": "Density",
-				"kilogram-per-cubic-meter": {
-					"name": "Kilogram per Cubic Meter",
-					"abbr": "kg/m³",
-					"definition": "Density in kilograms per cubic-meter is an SI unit that indicates mass per unit volume. It is used to characterize the properties of materials.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-centimeter": {
-					"name": "Gram per Cubic Centimeter",
-					"abbr": "g/cm³ ",
-					"definition": "Density in grams per cubic-centimeter is often used in materials science to determine the mass in a given volume. This unit allows comparison of material densities.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-centimeter": {
-					"name": "Kilogram per Cubic Centimeter",
-					"abbr": "kg/cm³",
-					"definition": "Density in kilograms per cubic centimeter is used to measure very dense materials. This unit is common in materials science and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-meter": {
-					"name": "Gram per Cubic Meter",
-					"abbr": "g/m³",
-					"definition": "Density in grams per cubic meter is used to measure very low density materials. This unit is common in environmental science.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-kilometer": {
-					"name": "Kilogram per Cubic Kilometer",
-					"abbr": "kg/km³",
-					"definition": "Density in kilograms per cubic kilometer is used to measure extremely low density materials. This unit is used in scientific research.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-kilometer": {
-					"name": "Gram per Cubic Kilometer",
-					"abbr": "g/km³",
-					"definition": "Density in grams per cubic kilometer is used to measure extremely low density materials. This unit is used in scientific research.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-millimeter": {
-					"name": "Kilogram per Cubic Millimeter",
-					"abbr": "kg/mm³",
-					"definition": "Density in kilograms per cubic millimeter is used to measure very dense materials. This unit is common in materials science.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-millimeter": {
-					"name": "Gram per Cubic Millimeter",
-					"abbr": "g/mm³",
-					"definition": "Density in grams per cubic millimeter is used to measure very dense materials. This unit is common in materials science.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-mile": {
-					"name": "Kilogram per Cubic Mile",
-					"abbr": "kg/mi³",
-					"definition": "Density in kilograms per cubic mile is used to measure materials in large volumes. This unit is used in environmental science.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-mile": {
-					"name": "Gram per Cubic Mile",
-					"abbr": "g/mi³",
-					"definition": "Density in grams per cubic mile is used to measure materials in large volumes. This unit is used in environmental science.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-yard": {
-					"name": "Kilogram per Cubic Yard",
-					"abbr": "kg/yd³",
-					"definition": "Density in kilograms per cubic yard is used to measure materials in construction. This unit is common in the United States.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-yard": {
-					"name": "Gram per Cubic Yard",
-					"abbr": "g/yd³",
-					"definition": "Density in grams per cubic yard is used to measure materials in construction. This unit is common in the United States.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-foot": {
-					"name": "Kilogram per Cubic Foot",
-					"abbr": "kg/ft³",
-					"definition": "Density in kilograms per cubic foot is used to measure materials in construction. This unit is common in the United States.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-foot": {
-					"name": "Gram per Cubic Foot",
-					"abbr": "g/ft³",
-					"definition": "Density in grams per cubic foot is used to measure materials in construction. This unit is common in the United States.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"kilogram-per-cubic-inch": {
-					"name": "Kilogram per Cubic Inch",
-					"abbr": "kg/in³",
-					"definition": "Density in kilograms per cubic inch is used to measure materials in construction. This unit is common in the United States.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"gram-per-cubic-inch": {
-					"name": "Gram per Cubic Inch",
-					"abbr": "g/in³",
-					"definition": "Density in grams per cubic inch is used to measure materials in construction. This unit is common in the United States.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				},
-				"pound-per-cubic-foot": {
-					"name": "Pound per Cubic Foot",
-					"abbr": "lb/ft³",
-					"definition": "Density in pounds per cubic foot is a unit commonly used in the Anglophone world. It measures mass per unit volume and is frequently used in construction and materials engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Dichte"
-				}
-			},
-			"volume-flow": {
-				"name": "Volume Flow",
-				"cubic-meters-per-second": {
-					"name": "Cubic Meters per Second",
-					"abbr": "m³/s",
-					"definition": "The volume flow in cubic-meters per second measures the amount of a fluid flowing through a cross-section per second. This unit is important in fluid dynamics.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-kilometer-per-second": {
-					"name": "Cubic Kilometer per Second",
-					"abbr": "km³/s",
-					"definition": "The volume flow in cubic kilometers per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in large-scale fluid dynamics.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-centimeter-per-second": {
-					"name": "Cubic Centimeter per Second",
-					"abbr": "cm³/s",
-					"definition": "The volume flow in cubic centimeters per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in small-scale fluid dynamics.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-millimeter-per-second": {
-					"name": "Cubic Millimeter per Second",
-					"abbr": "mm³/s",
-					"definition": "The volume flow in cubic millimeters per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in very small-scale fluid dynamics.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-mile-per-second": {
-					"name": "Cubic Mile per Second",
-					"abbr": "mi³/s",
-					"definition": "The volume flow in cubic miles per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in large-scale fluid dynamics.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-yard-per-second": {
-					"name": "Cubic Yard per Second",
-					"abbr": "yd³/s",
-					"definition": "The volume flow in cubic yards per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in construction and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-foot-per-second": {
-					"name": "Cubic Foot per Second",
-					"abbr": "ft³/s",
-					"definition": "The volume flow in cubic feet per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in construction and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-inch-per-second": {
-					"name": "Cubic Inch per Second",
-					"abbr": "in³/s",
-					"definition": "The volume flow in cubic inches per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in construction and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-meter-per-hour": {
-					"name": "Cubic Meter per Hour",
-					"abbr": "m³/h",
-					"definition": "The volume flow in cubic meters per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in fluid dynamics.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-kilometer-per-hour": {
-					"name": "Cubic Kilometer per Hour",
-					"abbr": "km³/h",
-					"definition": "The volume flow in cubic kilometers per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in large-scale fluid dynamics.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-centimeter-per-hour": {
-					"name": "Cubic Centimeter per Hour",
-					"abbr": "cm³/h",
-					"definition": "The volume flow in cubic centimeters per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in small-scale fluid dynamics.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-millimeter-per-hour": {
-					"name": "Cubic Millimeter per Hour",
-					"abbr": "mm³/h",
-					"definition": "The volume flow in cubic millimeters per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in very small-scale fluid dynamics.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-mile-per-hour": {
-					"name": "Cubic Mile per Hour",
-					"abbr": "mi³/h",
-					"definition": "The volume flow in cubic miles per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in large-scale fluid dynamics.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-yard-per-hour": {
-					"name": "Cubic Yard per Hour",
-					"abbr": "yd³/h",
-					"definition": "The volume flow in cubic yards per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in construction and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-foot-per-hour": {
-					"name": "Cubic Foot per Hour",
-					"abbr": "ft³/h",
-					"definition": "The volume flow in cubic feet per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in construction and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"cubic-inch-per-hour": {
-					"name": "Cubic Inch per Hour",
-					"abbr": "in³/h",
-					"definition": "The volume flow in cubic inches per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in construction and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"liters-per-second": {
-					"name": "Liters per Second",
-					"abbr": "L/s",
-					"definition": "The volume flow in liters per second indicates how many liters of a fluid flow per second. This unit is frequently used in process engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
-				},
-				"gallons-per-minute": {
-					"name": "Gallons per Minute",
-					"abbr": "gal/min",
-					"definition": "The volume flow in gallons per minute measures the amount of a fluid flowing per minute. This unit is common in the USA and used in technical applications.",
-					"wiki": "https://de.wikipedia.org/wiki/Gallone"
-				}
-			},
-			"acceleration": {
-				"name": "Acceleration",
-				"meters-per-second-squared": {
-					"name": "Meters per Second Squared",
-					"abbr": "m/s²",
-					"definition": "Acceleration in meters per second squared indicates how quickly the speed changes. It is the SI unit for acceleration and central to physics.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"kilometer-per-second-squared": {
-					"name": "Kilometer per Second Squared",
-					"abbr": "km/s²",
-					"definition": "Acceleration in kilometers per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"centimeter-per-second-squared": {
-					"name": "Centimeter per Second Squared",
-					"abbr": "cm/s²",
-					"definition": "Acceleration in centimeters per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"millimeter-per-second-squared": {
-					"name": "Millimeter per Second Squared",
-					"abbr": "mm/s²",
-					"definition": "Acceleration in millimeters per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"mile-per-second-squared": {
-					"name": "Mile per Second Squared",
-					"abbr": "mi/s²",
-					"definition": "Acceleration in miles per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"yard-per-second-squared": {
-					"name": "Yard per Second Squared",
-					"abbr": "yd/s²",
-					"definition": "Acceleration in yards per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"foot-per-second-squared": {
-					"name": "Foot per Second Squared",
-					"abbr": "ft/s²",
-					"definition": "Acceleration in feet per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"inch-per-second-squared": {
-					"name": "Inch per Second Squared",
-					"abbr": "in/s²",
-					"definition": "Acceleration in inches per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"meter-per-hour-squared": {
-					"name": "Meter per Hour Squared",
-					"abbr": "m/h²",
-					"definition": "Acceleration in meters per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"kilometer-per-hour-squared": {
-					"name": "Kilometer per Hour Squared",
-					"abbr": "km/h²",
-					"definition": "Acceleration in kilometers per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"centimeter-per-hour-squared": {
-					"name": "Centimeter per Hour Squared",
-					"abbr": "cm/h²",
-					"definition": "Acceleration in centimeters per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"millimeter-per-hour-squared": {
-					"name": "Millimeter per Hour Squared",
-					"abbr": "mm/h²",
-					"definition": "Acceleration in millimeters per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"mile-per-hour-squared": {
-					"name": "Mile per Hour Squared",
-					"abbr": "mi/h²",
-					"definition": "Acceleration in miles per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"yard-per-hour-squared": {
-					"name": "Yard per Hour Squared",
-					"abbr": "yd/h²",
-					"definition": "Acceleration in yards per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"foot-per-hour-squared": {
-					"name": "Foot per Hour Squared",
-					"abbr": "ft/h²",
-					"definition": "Acceleration in feet per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"inch-per-hour-squared": {
-					"name": "Inch per Hour Squared",
-					"abbr": "in/h²",
-					"definition": "Acceleration in inches per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				},
-				"kilometers-per-hour-per-second": {
-					"name": "Kilometers per Hour per Second",
-					"abbr": "km/h/s",
-					"definition": "Acceleration in kilometers per hour per second measures how quickly the speed in km/h changes. This unit is frequently used in the automotive sector.",
-					"wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
-				}
-			},
-			"area-density": {
-				"name": "Area Density",
-				"kilogram-per-square-meter": {
-					"name": "Kilogram per Square Meter",
-					"abbr": "kg/m²",
-					"definition": "Area density in kilograms per square meter indicates how much mass is distributed over a given area. It is used primarily in construction and materials science.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-centimeter": {
-					"name": "Gram per Square Centimeter",
-					"abbr": "g/cm²",
-					"definition": "Area density in grams per square centimeter measures the mass per unit area and is used in engineering. This unit enables precise calculations for small areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-centimeter": {
-					"name": "Kilogram per Square Centimeter",
-					"abbr": "kg/cm²",
-					"definition": "Area density in kilograms per square centimeter measures the mass per unit area and is used in engineering. This unit enables precise calculations for small areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-meter": {
-					"name": "Gram per Square Meter",
-					"abbr": "g/m²",
-					"definition": "Area density in grams per square meter measures the mass per unit area and is used in engineering. This unit enables precise calculations for small areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-kilometer": {
-					"name": "Kilogram per Square Kilometer",
-					"abbr": "kg/km²",
-					"definition": "Area density in kilograms per square kilometer measures the mass per unit area and is used in engineering. This unit enables precise calculations for large areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-kilometer": {
-					"name": "Gram per Square Kilometer",
-					"abbr": "g/km²",
-					"definition": "Area density in grams per square kilometer measures the mass per unit area and is used in engineering. This unit enables precise calculations for large areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-millimeter": {
-					"name": "Kilogram per Square Millimeter",
-					"abbr": "kg/mm²",
-					"definition": "Area density in kilograms per square millimeter measures the mass per unit area and is used in engineering. This unit enables precise calculations for very small areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-millimeter": {
-					"name": "Gram per Square Millimeter",
-					"abbr": "g/mm²",
-					"definition": "Area density in grams per square millimeter measures the mass per unit area and is used in engineering. This unit enables precise calculations for very small areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-mile": {
-					"name": "Kilogram per Square Mile",
-					"abbr": "kg/mi²",
-					"definition": "Area density in kilograms per square mile measures the mass per unit area and is used in engineering. This unit enables precise calculations for large areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-mile": {
-					"name": "Gram per Square Mile",
-					"abbr": "g/mi²",
-					"definition": "Area density in grams per square mile measures the mass per unit area and is used in engineering. This unit enables precise calculations for large areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-yard": {
-					"name": "Kilogram per Square Yard",
-					"abbr": "kg/yd²",
-					"definition": "Area density in kilograms per square yard measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-yard": {
-					"name": "Gram per Square Yard",
-					"abbr": "g/yd²",
-					"definition": "Area density in grams per square yard measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-foot": {
-					"name": "Kilogram per Square Foot",
-					"abbr": "kg/ft²",
-					"definition": "Area density in kilograms per square foot measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-foot": {
-					"name": "Gram per Square Foot",
-					"abbr": "g/ft²",
-					"definition": "Area density in grams per square foot measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"kilogram-per-square-inch": {
-					"name": "Kilogram per Square Inch",
-					"abbr": "kg/in²",
-					"definition": "Area density in kilograms per square inch measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				},
-				"gram-per-square-inch": {
-					"name": "Gram per Square Inch",
-					"abbr": "g/in²",
-					"definition": "Area density in grams per square inch measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
-					"wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
-				}
-			},
-			"illuminance": {
-				"name": "Illuminance",
-				"lux": {
-					"name": "Lux",
-					"abbr": "lx",
-					"definition": "The lux is the SI unit for illuminance and measures how much light falls on a surface per square meter. It is significant in lighting technology and architecture.",
-					"wiki": "https://de.wikipedia.org/wiki/Lux"
-				},
-				"foot-candle": {
-					"name": "Foot Candle",
-					"abbr": "fc",
-					"definition": "A foot-candle is a unit of illuminance used primarily in the Anglophone world that indicates how much light falls on one square foot. This unit is often used in lighting design.",
-					"wiki": "https://de.wikipedia.org/wiki/Foot-candle"
-				},
-				"lumen-per-square-meter": {
-					"name": "Lumen per Square Meter",
-					"abbr": "lm/m²",
-					"definition": "Lumens per square meter is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Lux"
-				},
-				"lumen-per-square-centimeter": {
-					"name": "Lumen per Square Centimeter",
-					"abbr": "lm/cm²",
-					"definition": "Lumens per square centimeter is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Lux"
-				},
-				"lumen-per-square-millimeter": {
-					"name": "Lumen per Square Millimeter",
-					"abbr": "lm/mm²",
-					"definition": "Lumens per square millimeter is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Lux"
-				},
-				"lumen-per-square-foot": {
-					"name": "Lumen per Square Foot",
-					"abbr": "lm/ft²",
-					"definition": "Lumens per square foot is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Lux"
-				},
-				"lumen-per-square-inch": {
-					"name": "Lumen per Square Inch",
-					"abbr": "lm/in²",
-					"definition": "Lumens per square inch is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Lux"
-				},
-				"lumen-per-square-yard": {
-					"name": "Lumen per Square Yard",
-					"abbr": "lm/yd²",
-					"definition": "Lumens per square yard is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Lux"
-				},
-				"lumen-per-square-kilometer": {
-					"name": "Lumen per Square Kilometer",
-					"abbr": "lm/km²",
-					"definition": "Lumens per square kilometer is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Lux"
-				},
-				"lumen-per-square-mile": {
-					"name": "Lumen per Square Mile",
-					"abbr": "lm/mi²",
-					"definition": "Lumens per square mile is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
-					"wiki": "https://de.wikipedia.org/wiki/Lux"
-				}
-			},
-			"data-rate": {
-				"name": "Data Transfer Rate",
-				"bits-per-second": {
-					"name": "Bits per Second",
-					"abbr": "bit/s",
-					"definition": "Bits per second is the unit for data transfer rate and indicates how many bits are transmitted in one second. This unit is central in information technology.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"kilobits-per-second": {
-					"name": "Kilobits per Second",
-					"abbr": "kbit/s",
-					"definition": "Kilobits per second equals 1000 bits per second and is frequently used in network communications. This unit helps determine internet speeds.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"megabits-per-second": {
-					"name": "Megabits per Second",
-					"abbr": "Mbit/s",
-					"definition": "Megabits per second equals 1,000,000 bits per second and is often used to indicate internet and data transfer speeds. It is common in telecommunications.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"gigabits-per-second": {
-					"name": "Gigabits per Second",
-					"abbr": "Gbit/s",
-					"definition": "Gigabits per second equals 1,000,000,000 bits per second and is primarily used in high-speed networks. This unit is indispensable for modern data communication systems.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"terabits-per-second": {
-					"name": "Terabits per Second",
-					"abbr": "Tbit/s",
-					"definition": "Terabits per second equals 1,000,000,000,000 bits per second and is used in high-speed networks. This unit is significant in modern data communication systems.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"petabits-per-second": {
-					"name": "Petabits per Second",
-					"abbr": "Pbit/s",
-					"definition": "Petabits per second equals 1,000,000,000,000,000 bits per second and is used in high-speed networks. This unit is significant in modern data communication systems.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"exabits-per-second": {
-					"name": "Exabits per Second",
-					"abbr": "Ebit/s",
-					"definition": "Exabits per second equals 1,000,000,000,000,000,000 bits per second and is used in high-speed networks. This unit is significant in modern data communication systems.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"zettabits-per-second": {
-					"name": "Zettabits per Second",
-					"abbr": "Zbit/s",
-					"definition": "Zettabits per second equals 1,000,000,000,000,000,000,000 bits per second and is used in high-speed networks. This unit is significant in modern data communication systems.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"yottabits-per-second": {
-					"name": "Yottabits per Second",
-					"abbr": "Ybit/s",
-					"definition": "Yottabits per second equals 1,000,000,000,000,000,000,000,000 bits per second and is used in high-speed networks. This unit is significant in modern data communication systems.",
-					"wiki": "https://de.wikipedia.org/wiki/Bitrate"
-				},
-				"bytes-per-second": {
-					"name": "Bytes per Second",
-					"abbr": "B/s",
-					"definition": "Bytes per second measures the data transfer rate in bytes and is used to determine the speed of data transfers. This unit is relevant in computer technology.",
-					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-				},
-				"kilobytes-per-second": {
-					"name": "Kilobytes per Second",
-					"abbr": "KB/s",
-					"definition": "Kilobytes per second equals 1024 bytes per second and is often used to measure download and upload speeds. This unit is common in computer science.",
-					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-				},
-				"megabytes-per-second": {
-					"name": "Megabytes per Second",
-					"abbr": "MB/s",
-					"definition": "Megabytes per second equals 1024 kilobytes per second and is used to indicate data transfer rates in computers and networks. This unit is common in digital data transfer.",
-					"wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
-				}
-			}
-		},
-		"labels": {
-			"category": "Category",
-			"value": "Value",
-			"from": "From",
-			"to": "To",
-			"calculate": "Calculate",
-			"result": "Result",
-			"select": "Select",
-			"invalidNumber": "Please enter a valid number.",
-			"differentUnits": "Please select different units."
-		}
-	}
+  "HomePage": {
+    "heroTitle": "Advanced Online Toolbox for Modern Digital Workflows",
+    "heroSubtitle": "Empowering developers, designers, and creative professionals with innovative digital solutions",
+    "heroDescription": "Discover a comprehensive suite of online tools designed to streamline your work. From advanced unit converters to efficient file format changers and beyond, our platform boosts productivity and creativity.",
+    "usageInstructions": "Use the burger menu in the top-right corner to choose your tools, change the theme, or switch the language between English, German, French, Spanish, Portuguese, Ukrainian, and Chinese.",
+    "ctaButton": "Explore Our Tools Now",
+    "toolsOverviewTitle": "Explore Our Diverse Range of Tools",
+    "toolsOverviewSubtitle": "Browse our powerful, cutting-edge tools that simplify complex tasks and elevate your digital workflow.",
+    "toolCard1Title": "Unit Converter",
+    "toolCard1Description": "Easily convert measurements like length, weight, temperature, and more with high precision.",
+    "toolCard2Title": "File Converter",
+    "toolCard2Description": "Quickly transform files between various formats with just a few clicks.",
+    "toolCard3Title": "Password Generator",
+    "toolCard3Description": "Generate secure and random passwords with ease and customizable options.",
+    "toolCard4Title": "QR Code Generator",
+    "toolCard4Description": "Create QR codes for URLs, texts, and more in seconds with our easy-to-use tool.",
+    "toolCard5Title": "Tip Generator",
+    "toolCard5Description": "Quickly calculate the perfect tip for your bill with our intuitive tip generator.",
+    "toolCard6Title": "JSON Formatter & Validator",
+    "toolCard6Description": "Format and validate your JSON data effortlessly to ensure proper syntax and structure.",
+    "additionalTitle": "Innovative Solutions to Transform Your Digital Experience",
+    "additionalDescription": "Our ever-evolving platform provides the latest tools and features designed to maximize your efficiency. Experience unmatched versatility and performance.",
+    "learnMoreButton": "Learn More About Us",
+    "description": "Toolboxes.app is the premier online resource offering a powerful collection of tools to revolutionize your digital workflow.",
+    "seeMoreButton": "See More"
+  },
+  "UnitConverterPage": {
+    "definitions": {
+      "for": "Definition for",
+      "more": "More on Wikipedia"
+    },
+    "description": "A comprehensive unit converter",
+    "to": "to",
+    "units": {
+      "length": {
+        "name": "Length",
+        "meter": {
+          "name": "Meter",
+          "abbr": "m",
+          "definition": "The meter is the SI base unit of length and serves as the standard measure for distances. It is historically defined and recognized worldwide.",
+          "wiki": "https://de.wikipedia.org/wiki/Meter"
+        },
+        "kilometer": {
+          "name": "Kilometer",
+          "abbr": "km",
+          "definition": "A kilometer equals 1000 meters and is commonly used to indicate distances in practice. It is a common unit in everyday life.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilometer"
+        },
+        "centimeter": {
+          "name": "Centimeter",
+          "abbr": "cm",
+          "definition": "A centimeter is one hundredth of a meter and is often used to measure small lengths. This unit is used in many everyday applications.",
+          "wiki": "https://de.wikipedia.org/wiki/Zentimeter"
+        },
+        "millimeter": {
+          "name": "Millimeter",
+          "abbr": "mm",
+          "definition": "A millimeter is one thousandth of a meter and is used for precise measurement of small lengths. This unit is important especially in technical fields.",
+          "wiki": "https://de.wikipedia.org/wiki/Millimeter"
+        },
+        "mile": {
+          "name": "Mile",
+          "abbr": "mi",
+          "definition": "A mile is a unit of length primarily used in the Anglophone world. It is approximately equal to 1.609 kilometers and has historical significance.",
+          "wiki": "https://de.wikipedia.org/wiki/Meile"
+        },
+        "yard": {
+          "name": "Yard",
+          "abbr": "yd",
+          "definition": "A yard is a unit of length commonly used in the USA and the UK. It is equivalent to 0.9144 meters and is used, among others, in the textile and sports industries.",
+          "wiki": "https://de.wikipedia.org/wiki/Yard"
+        },
+        "foot": {
+          "name": "Foot",
+          "abbr": "ft",
+          "definition": "A foot is a traditional unit of length used in the USA and some other countries. It is equivalent to 0.3048 meters and is mainly used in construction.",
+          "wiki": "https://de.wikipedia.org/wiki/Fuß"
+        },
+        "inch": {
+          "name": "Inch",
+          "abbr": "in",
+          "definition": "An inch is a unit of length used primarily in the Anglophone world. It is equivalent to 2.54 centimeters and is used in technology as well as everyday life.",
+          "wiki": "https://de.wikipedia.org/wiki/Inch"
+        }
+      },
+      "weight": {
+        "name": "Weight",
+        "kilogram": {
+          "name": "Kilogram",
+          "abbr": "kg",
+          "definition": "The kilogram is the SI base unit for mass and serves as the standard measure in science and commerce. It is recognized as a unit of measurement worldwide.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilogramm"
+        },
+        "gram": {
+          "name": "Gram",
+          "abbr": "g",
+          "definition": "A gram is one thousandth of a kilogram and is frequently used for lighter masses. This unit is especially common in the kitchen and in commerce.",
+          "wiki": "https://de.wikipedia.org/wiki/Gramm"
+        },
+        "milligram": {
+          "name": "Milligram",
+          "abbr": "mg",
+          "definition": "A milligram is one thousandth of a gram and is used to measure very small masses, especially in medicine. It is often used for precise dosage measurements.",
+          "wiki": "https://de.wikipedia.org/wiki/Milligramm"
+        },
+        "pound": {
+          "name": "Pound",
+          "abbr": "lb",
+          "definition": "The pound is a traditional unit of mass used primarily in the Anglophone world. It is approximately equal to 0.4536 kilograms and is used in commerce and everyday life.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund"
+        },
+        "ounce": {
+          "name": "Ounce",
+          "abbr": "oz",
+          "definition": "An ounce is a smaller unit of mass known primarily in the Anglophone world. It is approximately 28.35 grams and is often used in the food industry.",
+          "wiki": "https://de.wikipedia.org/wiki/Unze"
+        }
+      },
+      "area": {
+        "name": "Area",
+        "square-meter": {
+          "name": "Square Meter",
+          "abbr": "m²",
+          "definition": "The square meter is the unit of area in the International System of Units and is used for measuring areas in architecture and agriculture. It is a standardized and widely used unit.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratmeter"
+        },
+        "square-kilometer": {
+          "name": "Square Kilometer",
+          "abbr": "km²",
+          "definition": "A square kilometer corresponds to an area of one million square meters. This unit is primarily used to represent large areas, such as land regions.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratkilometer"
+        },
+        "square-centimeter": {
+          "name": "Square Centimeter",
+          "abbr": "cm²",
+          "definition": "A square centimeter is a small unit of area, often used in materials science and everyday life. It measures the area of a square with a side length of 1 cm.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratzentimeter"
+        },
+        "square-foot": {
+          "name": "Square Foot",
+          "abbr": "ft²",
+          "definition": "A square foot is an area unit used primarily in the USA and the UK, approximately equal to 0.0929 square meters. This unit is often used in real estate.",
+          "wiki": "https://de.wikipedia.org/wiki/Quadratfuß"
+        },
+        "acre": {
+          "name": "Acre",
+          "abbr": "ac",
+          "definition": "An acre is a traditional unit of area used primarily in the USA and the UK. It is approximately equal to 4047 square meters and is used in agriculture and real estate appraisal.",
+          "wiki": "https://de.wikipedia.org/wiki/Acre"
+        }
+      },
+      "volume": {
+        "name": "Volume",
+        "cubic-meter": {
+          "name": "Cubic Meter",
+          "abbr": "m³",
+          "definition": "The cubic-meter is the unit of volume in the International System of Units and is used to measure space. This unit is important in fields such as construction, storage, and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikmeter"
+        },
+        "cubic-kilometer": {
+          "name": "Cubic Kilometer",
+          "abbr": "km³",
+          "definition": "A cubic kilometer is a unit of volume equal to one billion cubic meters. It is used to measure large volumes, such as the volume of oceans or reservoirs.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikkilometer"
+        },
+        "cubic-centimeter": {
+          "name": "Cubic Centimeter",
+          "abbr": "cm³",
+          "definition": "A cubic centimeter is a unit of volume equal to one millionth of a cubic meter. It is commonly used in medicine and engineering for small volume measurements.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikzentimeter"
+        },
+        "cubic-millimeter": {
+          "name": "Cubic Millimeter",
+          "abbr": "mm³",
+          "definition": "A cubic millimeter is a unit of volume equal to one billionth of a cubic meter. It is used for very small volume measurements in scientific and medical applications.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikmillimeter"
+        },
+        "cubic-mile": {
+          "name": "Cubic Mile",
+          "abbr": "mi³",
+          "definition": "A cubic mile is a unit of volume used primarily in the United States. It is approximately equal to 4.168 cubic kilometers and is used for large-scale volume measurements.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikmeile"
+        },
+        "cubic-yard": {
+          "name": "Cubic Yard",
+          "abbr": "yd³",
+          "definition": "A cubic yard is a unit of volume used in the United States and the United Kingdom. It is approximately equal to 0.7646 cubic meters and is commonly used in construction.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikyard"
+        },
+        "cubic-foot": {
+          "name": "Cubic Foot",
+          "abbr": "ft³",
+          "definition": "A cubic foot is a unit of volume used in the United States and the United Kingdom. It is approximately equal to 0.0283 cubic meters and is used in various industries.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikfuß"
+        },
+        "cubic-inch": {
+          "name": "Cubic Inch",
+          "abbr": "in³",
+          "definition": "A cubic inch is a unit of volume used in the United States and the United Kingdom. It is approximately equal to 0.0000164 cubic meters and is used in engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Kubikzoll"
+        },
+        "liter": {
+          "name": "Liter",
+          "abbr": "L",
+          "definition": "The liter is a unit of volume equal to one cubic decimeter. It is commonly used to measure liquid volumes and is recognized worldwide.",
+          "wiki": "https://de.wikipedia.org/wiki/Liter"
+        },
+        "milliliter": {
+          "name": "Milliliter",
+          "abbr": "mL",
+          "definition": "A milliliter is a unit of volume equal to one thousandth of a liter. It is used for small liquid measurements in medicine and cooking.",
+          "wiki": "https://de.wikipedia.org/wiki/Milliliter"
+        },
+        "gallon": {
+          "name": "Gallon",
+          "abbr": "gal",
+          "definition": "A gallon is a unit of volume used in the United States and the United Kingdom. It is approximately equal to 3.785 liters and is used for liquid measurements.",
+          "wiki": "https://de.wikipedia.org/wiki/Gallone"
+        }
+      },
+      "temperature": {
+        "name": "Temperature",
+        "celsius": {
+          "name": "Celsius",
+          "abbr": "°C",
+          "definition": "The Celsius scale is a temperature unit where 0 °C represents the freezing point of water. It is used worldwide in most countries and is easy to understand.",
+          "wiki": "https://de.wikipedia.org/wiki/Celsius"
+        },
+        "fahrenheit": {
+          "name": "Fahrenheit",
+          "abbr": "°F",
+          "definition": "The Fahrenheit scale is a temperature unit primarily used in the USA. On this scale, the freezing point of water is at 32 °F, distinguishing it from Celsius.",
+          "wiki": "https://de.wikipedia.org/wiki/Fahrenheit"
+        },
+        "kelvin": {
+          "name": "Kelvin",
+          "abbr": "K",
+          "definition": "The Kelvin scale is the SI unit for temperature measurements and starts at absolute zero. It is mainly used in science and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Kelvin"
+        }
+      },
+      "speed": {
+        "name": "Speed",
+        "meters-per-second": {
+          "name": "Meters per Second",
+          "abbr": "m/s",
+          "definition": "Speed in meters per second is an SI unit that indicates how many meters are traveled in one second. It is widely used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
+        },
+        "kilometers-per-hour": {
+          "name": "Kilometers per Hour",
+          "abbr": "km/h",
+          "definition": "Kilometers per hour indicate how many kilometers are traveled in one hour. This unit is often used in road traffic and meteorology.",
+          "wiki": "https://de.wikipedia.org/wiki/Geschwindigkeit"
+        },
+        "miles-per-hour": {
+          "name": "Miles per Hour",
+          "abbr": "mph",
+          "definition": "Miles per hour is a speed unit primarily used in the USA and the UK. It measures how many miles are traveled in one hour.",
+          "wiki": "https://de.wikipedia.org/wiki/Meile"
+        },
+        "knot": {
+          "name": "Knot",
+          "abbr": "kn",
+          "definition": "A knot is a unit of speed used in maritime and aviation contexts. It is equal to one nautical mile per hour, approximately 1.852 kilometers per hour.",
+          "wiki": "https://de.wikipedia.org/wiki/Knoten_(Geschwindigkeit)"
+        }
+      },
+      "time": {
+        "name": "Time",
+        "second": {
+          "name": "Second",
+          "abbr": "s",
+          "definition": "The second is the base unit of time in the International System of Units. It is used to measure time intervals and is standardized worldwide.",
+          "wiki": "https://de.wikipedia.org/wiki/Sekunde"
+        },
+        "minute": {
+          "name": "Minute",
+          "abbr": "min",
+          "definition": "A minute consists of 60 seconds and is used to measure shorter time periods. This unit is very common in everyday life.",
+          "wiki": "https://de.wikipedia.org/wiki/Minute"
+        },
+        "hour": {
+          "name": "Hour",
+          "abbr": "h",
+          "definition": "An hour consists of 60 minutes and is a common unit of time for daily use. It is used worldwide and forms the basis of many schedules.",
+          "wiki": "https://de.wikipedia.org/wiki/Stunde"
+        },
+        "day": {
+          "name": "Day",
+          "abbr": "d",
+          "definition": "A day corresponds to the Earth's rotation and comprises 24 hours. It is the fundamental unit of time in daily life and is used in almost all cultures.",
+          "wiki": "https://de.wikipedia.org/wiki/Tag"
+        },
+        "week": {
+          "name": "Week",
+          "abbr": "wk",
+          "definition": "A week is a unit of time equal to seven days. It is used for organizing schedules and is a common unit in business and personal planning.",
+          "wiki": "https://de.wikipedia.org/wiki/Woche"
+        },
+        "month": {
+          "name": "Month",
+          "abbr": "mo",
+          "definition": "A month is a unit of time based on the lunar cycle. It is used for longer-term planning and is a common unit in calendars and financial calculations.",
+          "wiki": "https://de.wikipedia.org/wiki/Monat"
+        },
+        "year": {
+          "name": "Year",
+          "abbr": "yr",
+          "definition": "A year is a unit of time based on the Earth's orbit around the Sun. It is used for long-term planning and is a fundamental unit in calendars and historical records.",
+          "wiki": "https://de.wikipedia.org/wiki/Jahr"
+        }
+      },
+      "pressure": {
+        "name": "Pressure",
+        "pascal": {
+          "name": "Pascal",
+          "abbr": "Pa",
+          "definition": "The pascal is the SI unit for pressure and measures the force per unit area. It is used in physics and engineering to describe pressure conditions.",
+          "wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
+        },
+        "kilopascal": {
+          "name": "Kilopascal",
+          "abbr": "kPa",
+          "definition": "A kilopascal equals 1000 pascals and is often used to represent pressures in engineering and meteorology. It extends the representation of the pascal to higher values.",
+          "wiki": "https://de.wikipedia.org/wiki/Pascal_(Einheit)"
+        },
+        "bar": {
+          "name": "Bar",
+          "abbr": "bar",
+          "definition": "The bar is a unit of pressure used primarily in engineering and weather reports. One bar equals 100,000 pascals and is easy to understand.",
+          "wiki": "https://de.wikipedia.org/wiki/Bar_(Einheit)"
+        },
+        "atmosphere": {
+          "name": "Atmosphere",
+          "abbr": "atm",
+          "definition": "The atmosphere is a unit of pressure based on the average atmospheric pressure at sea level. It is approximately equal to 101,325 pascals and is used in meteorology.",
+          "wiki": "https://de.wikipedia.org/wiki/Atmosphäre_(Einheit)"
+        },
+        "torr": {
+          "name": "Torr",
+          "abbr": "Torr",
+          "definition": "The torr is a unit of pressure named after Evangelista Torricelli. It is approximately equal to 133.322 pascals and is used in vacuum measurements.",
+          "wiki": "https://de.wikipedia.org/wiki/Torr"
+        },
+        "psi": {
+          "name": "Pounds per Square Inch",
+          "abbr": "psi",
+          "definition": "PSI stands for pounds per square inch and is a pressure unit commonly used in the USA. It measures pressure as force per unit area and is often used in the automotive sector.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund_pro_Quadratzoll"
+        }
+      },
+      "energy": {
+        "name": "Energy",
+        "joule": {
+          "name": "Joule",
+          "abbr": "J",
+          "definition": "The joule is the SI unit for energy and measures the amount of work or heat. It is used in physics, engineering, and chemistry.",
+          "wiki": "https://de.wikipedia.org/wiki/Joule"
+        },
+        "kilojoule": {
+          "name": "Kilojoule",
+          "abbr": "kJ",
+          "definition": "A kilojoule equals 1000 joules and is often used in nutrition and engineering. This unit facilitates dealing with larger amounts of energy.",
+          "wiki": "https://de.wikipedia.org/wiki/Joule"
+        },
+        "calorie": {
+          "name": "Calorie",
+          "abbr": "cal",
+          "definition": "The calorie is a unit of energy often used in nutrition. It measures the amount of energy needed to raise the temperature of water.",
+          "wiki": "https://de.wikipedia.org/wiki/Kalorie"
+        },
+        "kilocalorie": {
+          "name": "Kilocalorie",
+          "abbr": "kcal",
+          "definition": "The kilocalorie corresponds to 1000 calories and is commonly used to indicate the energy content of foods. It is widely used in nutrition science.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
+        },
+        "kilowatt-hour": {
+          "name": "Kilowatt Hour",
+          "abbr": "kWh",
+          "definition": "The kilowatt-hour is a unit of energy primarily used for billing electric power. It measures energy consumption over one hour at a power of one kilowatt.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilowattstunde"
+        },
+        "electronvolt": {
+          "name": "Electronvolt",
+          "abbr": "eV",
+          "definition": "The electronvolt is a unit of energy used in particle physics. It is the amount of energy gained by an electron when it moves through an electric potential difference of one volt.",
+          "wiki": "https://de.wikipedia.org/wiki/Elektronenvolt"
+        },
+        "hartree": {
+          "name": "Hartree",
+          "abbr": "Eh",
+          "definition": "The hartree is a unit of energy used in atomic physics and quantum chemistry. It is approximately equal to 27.2114 electronvolts.",
+          "wiki": "https://de.wikipedia.org/wiki/Hartree"
+        },
+        "kilogram-force-meter": {
+          "name": "Kilogram Force Meter",
+          "abbr": "kgf·m",
+          "definition": "The kilogram-force meter is a unit of energy representing the work done by a force of one kilogram-force acting through a distance of one meter.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilogramm-Kraft-Meter"
+        },
+        "kilopond-meter": {
+          "name": "Kilopond Meter",
+          "abbr": "kpm",
+          "definition": "The kilopond meter is a unit of energy equal to the work done by a force of one kilopond acting through a distance of one meter.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilopond-Meter"
+        },
+        "gram-force-meter": {
+          "name": "Gram Force Meter",
+          "abbr": "gf·m",
+          "definition": "The gram-force meter is a unit of energy representing the work done by a force of one gram-force acting through a distance of one meter.",
+          "wiki": "https://de.wikipedia.org/wiki/Gramm-Kraft-Meter"
+        },
+        "pound-force-foot": {
+          "name": "Pound Force Foot",
+          "abbr": "lbf·ft",
+          "definition": "The pound-force foot is a unit of energy representing the work done by a force of one pound-force acting through a distance of one foot.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft-Fuß"
+        },
+        "pound-force-inch": {
+          "name": "Pound Force Inch",
+          "abbr": "lbf·in",
+          "definition": "The pound-force inch is a unit of energy representing the work done by a force of one pound-force acting through a distance of one inch.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft-Zoll"
+        },
+        "ounce-force-foot": {
+          "name": "Ounce Force Foot",
+          "abbr": "ozf·ft",
+          "definition": "The ounce-force foot is a unit of energy representing the work done by a force of one ounce-force acting through a distance of one foot.",
+          "wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft-Fuß"
+        },
+        "ounce-force-inch": {
+          "name": "Ounce Force Inch",
+          "abbr": "ozf·in",
+          "definition": "The ounce-force inch is a unit of energy representing the work done by a force of one ounce-force acting through a distance of one inch.",
+          "wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft-Zoll"
+        },
+        "ton-force-foot": {
+          "name": "Ton Force Foot",
+          "abbr": "tonf·ft",
+          "definition": "The ton-force foot is a unit of energy representing the work done by a force of one ton-force acting through a distance of one foot.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft-Fuß"
+        },
+        "ton-force-inch": {
+          "name": "Ton Force Inch",
+          "abbr": "tonf·in",
+          "definition": "The ton-force inch is a unit of energy representing the work done by a force of one ton-force acting through a distance of one inch.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft-Zoll"
+        },
+        "poundal-foot": {
+          "name": "Poundal Foot",
+          "abbr": "pdl·ft",
+          "definition": "The poundal foot is a unit of energy representing the work done by a force of one poundal acting through a distance of one foot.",
+          "wiki": "https://de.wikipedia.org/wiki/Poundal-Fuß"
+        },
+        "poundal-inch": {
+          "name": "Poundal Inch",
+          "abbr": "pdl·in",
+          "definition": "The poundal inch is a unit of energy representing the work done by a force of one poundal acting through a distance of one inch.",
+          "wiki": "https://de.wikipedia.org/wiki/Poundal-Zoll"
+        },
+        "ounceal-foot": {
+          "name": "Ounceal Foot",
+          "abbr": "ozal·ft",
+          "definition": "The ounceal foot is a unit of energy representing the work done by a force of one ounceal acting through a distance of one foot.",
+          "wiki": "https://de.wikipedia.org/wiki/Ounceal-Fuß"
+        },
+        "ounceal-inch": {
+          "name": "Ounceal Inch",
+          "abbr": "ozal·in",
+          "definition": "The ounceal inch is a unit of energy representing the work done by a force of one ounceal acting through a distance of one inch.",
+          "wiki": "https://de.wikipedia.org/wiki/Ounceal-Zoll"
+        },
+        "tonal-foot": {
+          "name": "Tonal Foot",
+          "abbr": "tonal·ft",
+          "definition": "The tonal foot is a unit of energy representing the work done by a force of one tonal acting through a distance of one foot.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonal-Fuß"
+        },
+        "tonal-inch": {
+          "name": "Tonal Inch",
+          "abbr": "tonal·in",
+          "definition": "The tonal inch is a unit of energy representing the work done by a force of one tonal acting through a distance of one inch.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonal-Zoll"
+        }
+      },
+      "power": {
+        "name": "Power",
+        "watt": {
+          "name": "Watt",
+          "abbr": "W",
+          "definition": "The watt is the SI unit of power and measures the amount of energy transferred per unit time. It is used in electrical engineering and physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Watt"
+        },
+        "kilowatt": {
+          "name": "Kilowatt",
+          "abbr": "kW",
+          "definition": "A kilowatt equals 1000 watts and is often used to indicate the power of devices and engines. This unit is widely used in the energy industry and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilowatt"
+        },
+        "horsepower": {
+          "name": "Horsepower",
+          "abbr": "hp",
+          "definition": "Horsepower is a unit of power historically used to describe the power of machines. It indicates how much power is required to perform a certain amount of work and is often used in the automotive industry.",
+          "wiki": "https://de.wikipedia.org/wiki/Pferdestärke"
+        },
+        "british-thermal-unit-per-hour": {
+          "name": "British Thermal Unit per Hour",
+          "abbr": "BTU/h",
+          "definition": "The British thermal unit per hour is a unit of power used primarily in the United States. It measures the rate of energy transfer and is common in heating and cooling systems.",
+          "wiki": "https://de.wikipedia.org/wiki/British_Thermal_Unit"
+        },
+        "calorie-per-second": {
+          "name": "Calorie per Second",
+          "abbr": "cal/s",
+          "definition": "Calories per second is a unit of power measuring the rate of energy transfer. It is used in thermal engineering and nutrition science.",
+          "wiki": "https://de.wikipedia.org/wiki/Kalorie"
+        },
+        "kilocalorie-per-second": {
+          "name": "Kilocalorie per Second",
+          "abbr": "kcal/s",
+          "definition": "Kilocalories per second is a unit of power measuring the rate of energy transfer. It is used in thermal engineering and large-scale energy calculations.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
+        },
+        "watt-per-square-meter": {
+          "name": "Watt per Square Meter",
+          "abbr": "W/m²",
+          "definition": "Watts per square meter is a unit of power density measuring the rate of energy transfer per unit area. It is used in solar radiation and heat transfer calculations.",
+          "wiki": "https://de.wikipedia.org/wiki/Watt_pro_Quadratmeter"
+        },
+        "kilowatt-per-square-meter": {
+          "name": "Kilowatt per Square Meter",
+          "abbr": "kW/m²",
+          "definition": "Kilowatts per square meter is a unit of power density measuring the rate of energy transfer per unit area. It is used in large-scale energy calculations.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilowatt_pro_Quadratmeter"
+        },
+        "horsepower-per-square-meter": {
+          "name": "Horsepower per Square Meter",
+          "abbr": "hp/m²",
+          "definition": "Horsepower per square meter is a unit of power density measuring the rate of energy transfer per unit area. It is used in engineering applications.",
+          "wiki": "https://de.wikipedia.org/wiki/Pferdestärke_pro_Quadratmeter"
+        },
+        "british-thermal-unit-per-hour-per-square-foot": {
+          "name": "British Thermal Unit per Hour per Square Foot",
+          "abbr": "BTU/h·ft²",
+          "definition": "British thermal units per hour per square foot is a unit of power density used in the United States. It measures the rate of energy transfer per unit area.",
+          "wiki": "https://de.wikipedia.org/wiki/British_Thermal_Unit"
+        },
+        "calorie-per-second-per-square-meter": {
+          "name": "Calorie per Second per Square Meter",
+          "abbr": "cal/s·m²",
+          "definition": "Calories per second per square meter is a unit of power density measuring the rate of energy transfer per unit area. It is used in thermal engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Kalorie"
+        },
+        "kilocalorie-per-second-per-square-meter": {
+          "name": "Kilocalorie per Second per Square Meter",
+          "abbr": "kcal/s·m²",
+          "definition": "Kilocalories per second per square meter is a unit of power density measuring the rate of energy transfer per unit area. It is used in large-scale thermal engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilokalorie"
+        },
+        "watt-per-square-meter-kelvin": {
+          "name": "Watt per Square Meter Kelvin",
+          "abbr": "W/m²·K",
+          "definition": "Watts per square meter kelvin is a unit of heat transfer coefficient. It measures the rate of heat transfer per unit area per unit temperature difference.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        },
+        "kilowatt-per-square-meter-kelvin": {
+          "name": "Kilowatt per Square Meter Kelvin",
+          "abbr": "kW/m²·K",
+          "definition": "Kilowatts per square meter kelvin is a unit of heat transfer coefficient. It measures the rate of heat transfer per unit area per unit temperature difference.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        },
+        "horsepower-per-square-meter-kelvin": {
+          "name": "Horsepower per Square Meter Kelvin",
+          "abbr": "hp/m²·K",
+          "definition": "Horsepower per square meter kelvin is a unit of heat transfer coefficient. It measures the rate of heat transfer per unit area per unit temperature difference.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        },
+        "british-thermal-unit-per-hour-per-square-foot-kelvin": {
+          "name": "British Thermal Unit per Hour per Square Foot Kelvin",
+          "abbr": "BTU/h·ft²·°F",
+          "definition": "British thermal units per hour per square foot kelvin is a unit of heat transfer coefficient used in the United States. It measures the rate of heat transfer per unit area per unit temperature difference.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        },
+        "calorie-per-second-per-square-meter-kelvin": {
+          "name": "Calorie per Second per Square Meter Kelvin",
+          "abbr": "cal/s·m²·K",
+          "definition": "Calories per second per square meter kelvin is a unit of heat transfer coefficient. It measures the rate of heat transfer per unit area per unit temperature difference.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        },
+        "kilocalorie-per-second-per-square-meter-kelvin": {
+          "name": "Kilocalorie per Second per Square Meter Kelvin",
+          "abbr": "kcal/s·m²·K",
+          "definition": "Kilocalories per second per square meter kelvin is a unit of heat transfer coefficient. It measures the rate of heat transfer per unit area per unit temperature difference.",
+          "wiki": "https://de.wikipedia.org/wiki/Wärmeübergangskoeffizient"
+        }
+      },
+      "data-storage": {
+        "name": "Data Storage",
+        "byte": {
+          "name": "Byte",
+          "abbr": "B",
+          "definition": "A byte is the basic unit of digital information, typically consisting of 8 bits. It forms the basis of data storage in computers.",
+          "wiki": "https://de.wikipedia.org/wiki/Byte"
+        },
+        "kilobyte": {
+          "name": "Kilobyte",
+          "abbr": "KB",
+          "definition": "A kilobyte equals 1024 bytes and is used to measure the size of small files. This unit is common in computer science.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilobyte"
+        },
+        "megabyte": {
+          "name": "Megabyte",
+          "abbr": "MB",
+          "definition": "A megabyte equals 1024 kilobytes and is often used to describe file size or storage capacity. This unit is common in the digital world.",
+          "wiki": "https://de.wikipedia.org/wiki/Megabyte"
+        },
+        "gigabyte": {
+          "name": "Gigabyte",
+          "abbr": "GB",
+          "definition": "A gigabyte equals 1024 megabytes and is used to measure the storage capacity of hard drives and other devices. This unit is common in information technology.",
+          "wiki": "https://de.wikipedia.org/wiki/Gigabyte"
+        },
+        "terabyte": {
+          "name": "Terabyte",
+          "abbr": "TB",
+          "definition": "A terabyte equals 1024 gigabytes and is used to measure large storage capacities. This unit is common in data centers and large-scale storage systems.",
+          "wiki": "https://de.wikipedia.org/wiki/Terabyte"
+        },
+        "petabyte": {
+          "name": "Petabyte",
+          "abbr": "PB",
+          "definition": "A petabyte equals 1024 terabytes and is used to measure very large storage capacities. This unit is common in big data and cloud storage systems.",
+          "wiki": "https://de.wikipedia.org/wiki/Petabyte"
+        },
+        "exabyte": {
+          "name": "Exabyte",
+          "abbr": "EB",
+          "definition": "An exabyte equals 1024 petabytes and is used to measure extremely large storage capacities. This unit is common in global data storage calculations.",
+          "wiki": "https://de.wikipedia.org/wiki/Exabyte"
+        },
+        "zettabyte": {
+          "name": "Zettabyte",
+          "abbr": "ZB",
+          "definition": "A zettabyte equals 1024 exabytes and is used to measure massive storage capacities. This unit is used in global data volume calculations.",
+          "wiki": "https://de.wikipedia.org/wiki/Zettabyte"
+        },
+        "yottabyte": {
+          "name": "Yottabyte",
+          "abbr": "YB",
+          "definition": "A yottabyte equals 1024 zettabytes and is used to measure the largest storage capacities. This unit is used in theoretical data volume calculations.",
+          "wiki": "https://de.wikipedia.org/wiki/Yottabyte"
+        }
+      },
+      "angle": {
+        "name": "Angle",
+        "degree": {
+          "name": "Degree",
+          "abbr": "°",
+          "definition": "The degree is a common unit for angles, with a full circle consisting of 360 degrees. It is frequently used in geometry and everyday life.",
+          "wiki": "https://de.wikipedia.org/wiki/Grad"
+        },
+        "radian": {
+          "name": "Radian",
+          "abbr": "rad",
+          "definition": "The radian is the SI unit for measuring angles and describes the angle as the arc length relative to the radius of a circle. It is fundamental in mathematics and physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Radiant"
+        },
+        "gradian": {
+          "name": "Gradian",
+          "abbr": "gon",
+          "definition": "The gradian is an alternative unit for measuring angles, where a right angle is equal to 100 gradians. It is used in certain technical fields and provides a decimal-based representation.",
+          "wiki": "https://de.wikipedia.org/wiki/Gon"
+        },
+        "minute": {
+          "name": "Minute of Arc",
+          "abbr": "'",
+          "definition": "A minute of arc is one sixtieth of a degree. It is used for precise angle measurements in astronomy and navigation.",
+          "wiki": "https://de.wikipedia.org/wiki/Winkelminute"
+        },
+        "second": {
+          "name": "Second of Arc",
+          "abbr": "\"",
+          "definition": "A second of arc is one sixtieth of a minute of arc. It is used for very precise angle measurements in astronomy and geodesy.",
+          "wiki": "https://de.wikipedia.org/wiki/Winkelsekunde"
+        },
+        "milliradian": {
+          "name": "Milliradian",
+          "abbr": "mrad",
+          "definition": "A milliradian is one thousandth of a radian. It is used in military and engineering applications for precise angle measurements.",
+          "wiki": "https://de.wikipedia.org/wiki/Milliradian"
+        },
+        "milligradian": {
+          "name": "Milligradian",
+          "abbr": "mgon",
+          "definition": "A milligradian is one thousandth of a gradian. It is used in surveying and engineering for precise angle measurements.",
+          "wiki": "https://de.wikipedia.org/wiki/Milligon"
+        },
+        "milliarc-second": {
+          "name": "Milliarc Second",
+          "abbr": "mas",
+          "definition": "A milliarc second is one thousandth of an arc second. It is used in astronomy for very precise angle measurements.",
+          "wiki": "https://de.wikipedia.org/wiki/Milliarcsecond"
+        },
+        "microarc-second": {
+          "name": "Microarc Second",
+          "abbr": "μas",
+          "definition": "A microarc second is one millionth of an arc second. It is used in astronomy for extremely precise angle measurements.",
+          "wiki": "https://de.wikipedia.org/wiki/Mikroarcsecond"
+        },
+        "microarc-minute": {
+          "name": "Microarc Minute",
+          "abbr": "μam",
+          "definition": "A microarc minute is one millionth of an arc minute. It is used in astronomy for very precise angle measurements.",
+          "wiki": "https://de.wikipedia.org/wiki/Mikroarcminute"
+        }
+      },
+      "frequency": {
+        "name": "Frequency",
+        "hertz": {
+          "name": "Hertz",
+          "abbr": "Hz",
+          "definition": "The hertz is the SI unit for frequency and indicates how many oscillations occur per second. It is widely used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "kilohertz": {
+          "name": "Kilohertz",
+          "abbr": "kHz",
+          "definition": "A kilohertz equals 1000 hertz and is frequently used to describe audio frequencies and in communication technology. This unit is common in electronics.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "megahertz": {
+          "name": "Megahertz",
+          "abbr": "MHz",
+          "definition": "A megahertz equals 1,000,000 hertz and is often used in radio technology and frequency measurements. It is significant in communication and electronics.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "gigahertz": {
+          "name": "Gigahertz",
+          "abbr": "GHz",
+          "definition": "A gigahertz equals 1,000,000,000 hertz and is primarily used in describing processor and radio frequencies. This unit is indispensable in modern technology.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "terahertz": {
+          "name": "Terahertz",
+          "abbr": "THz",
+          "definition": "A terahertz equals 1,000,000,000,000 hertz and is used in advanced scientific research and technology. This unit is significant in spectroscopy and imaging.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "petahertz": {
+          "name": "Petahertz",
+          "abbr": "PHz",
+          "definition": "A petahertz equals 1,000,000,000,000,000 hertz and is used in cutting-edge scientific research. This unit is significant in quantum physics and advanced spectroscopy.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "exahertz": {
+          "name": "Exahertz",
+          "abbr": "EHz",
+          "definition": "An exahertz equals 1,000,000,000,000,000,000 hertz and is used in theoretical physics and advanced scientific research. This unit is significant in quantum mechanics.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "zettahertz": {
+          "name": "Zettahertz",
+          "abbr": "ZHz",
+          "definition": "A zettahertz equals 1,000,000,000,000,000,000,000 hertz and is used in theoretical physics. This unit is significant in advanced scientific research.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        },
+        "yottahertz": {
+          "name": "Yottahertz",
+          "abbr": "YHz",
+          "definition": "A yottahertz equals 1,000,000,000,000,000,000,000,000 hertz and is used in theoretical physics. This unit is significant in advanced scientific research.",
+          "wiki": "https://de.wikipedia.org/wiki/Hertz"
+        }
+      },
+      "force": {
+        "name": "Force",
+        "newton": {
+          "name": "Newton",
+          "abbr": "N",
+          "definition": "The newton is the SI unit for force and is defined as the force needed to accelerate a 1-kilogram mass at 1 m/s². This unit is fundamental in physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "kilonewton": {
+          "name": "Kilonewton",
+          "abbr": "kN",
+          "definition": "A kilonewton equals 1000 newtons and is frequently used in engineering and construction to measure larger forces. It provides a more convenient representation of high force values.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "meganewton": {
+          "name": "Meganewton",
+          "abbr": "MN",
+          "definition": "A meganewton equals 1,000,000 newtons and is used to measure very large forces. This unit is common in structural engineering and aerospace.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "giganewton": {
+          "name": "Giganewton",
+          "abbr": "GN",
+          "definition": "A giganewton equals 1,000,000,000 newtons and is used to measure extremely large forces. This unit is used in theoretical physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "teranewton": {
+          "name": "Teranewton",
+          "abbr": "TN",
+          "definition": "A teranewton equals 1,000,000,000,000 newtons and is used to measure massive forces. This unit is used in theoretical physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "petanewton": {
+          "name": "Petanewton",
+          "abbr": "PN",
+          "definition": "A petanewton equals 1,000,000,000,000,000 newtons and is used to measure extremely large forces. This unit is used in theoretical physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "exanewton": {
+          "name": "Exanewton",
+          "abbr": "EN",
+          "definition": "An exanewton equals 1,000,000,000,000,000,000 newtons and is used to measure massive forces. This unit is used in theoretical physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "zettahertz": {
+          "name": "Zettanewton",
+          "abbr": "ZN",
+          "definition": "A zettanewton equals 1,000,000,000,000,000,000,000 newtons and is used to measure extremely large forces. This unit is used in theoretical physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "yottahertz": {
+          "name": "Yottanewton",
+          "abbr": "YN",
+          "definition": "A yottanewton equals 1,000,000,000,000,000,000,000,000 newtons and is used to measure massive forces. This unit is used in theoretical physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Newton_(Einheit)"
+        },
+        "dyne": {
+          "name": "Dyne",
+          "abbr": "dyn",
+          "definition": "The dyne is a unit of force in the centimeter-gram-second system. It is equal to 10⁻⁵ newtons and is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Dyne"
+        },
+        "kilogram-force": {
+          "name": "Kilogram Force",
+          "abbr": "kgf",
+          "definition": "The kilogram-force is a unit of force equal to the force exerted by one kilogram of mass in standard gravity. It is used in engineering and physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilogramm-Kraft"
+        },
+        "kilopond": {
+          "name": "Kilopond",
+          "abbr": "kp",
+          "definition": "The kilopond is a unit of force equal to the force exerted by one kilogram of mass in standard gravity. It is used in engineering and physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Kilopond"
+        },
+        "gram-force": {
+          "name": "Gram Force",
+          "abbr": "gf",
+          "definition": "The gram-force is a unit of force equal to the force exerted by one gram of mass in standard gravity. It is used in engineering and physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Gramm-Kraft"
+        },
+        "pound-force": {
+          "name": "Pound Force",
+          "abbr": "lbf",
+          "definition": "Pound-force is a unit of force used primarily in the Anglophone world that indicates the force resulting from the weight of one pound. This unit is often used in engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Pfund-Kraft"
+        },
+        "ounce-force": {
+          "name": "Ounce Force",
+          "abbr": "ozf",
+          "definition": "The ounce-force is a unit of force equal to the force exerted by one ounce of mass in standard gravity. It is used in engineering and physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Unzen-Kraft"
+        },
+        "ton-force": {
+          "name": "Ton Force",
+          "abbr": "tonf",
+          "definition": "The ton-force is a unit of force equal to the force exerted by one ton of mass in standard gravity. It is used in engineering and physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonnen-Kraft"
+        },
+        "poundal": {
+          "name": "Poundal",
+          "abbr": "pdl",
+          "definition": "The poundal is a unit of force in the foot-pound-second system. It is equal to 0.138255 newtons and is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Poundal"
+        },
+        "ounceal": {
+          "name": "Ounceal",
+          "abbr": "ozal",
+          "definition": "The ounceal is a unit of force in the foot-pound-second system. It is equal to 0.008640 newtons and is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Ounceal"
+        },
+        "tonal": {
+          "name": "Tonal",
+          "abbr": "tonal",
+          "definition": "The tonal is a unit of force in the foot-pound-second system. It is equal to 2000 poundals and is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Tonal"
+        }
+      },
+      "density": {
+        "name": "Density",
+        "kilogram-per-cubic-meter": {
+          "name": "Kilogram per Cubic Meter",
+          "abbr": "kg/m³",
+          "definition": "Density in kilograms per cubic-meter is an SI unit that indicates mass per unit volume. It is used to characterize the properties of materials.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-centimeter": {
+          "name": "Gram per Cubic Centimeter",
+          "abbr": "g/cm³ ",
+          "definition": "Density in grams per cubic-centimeter is often used in materials science to determine the mass in a given volume. This unit allows comparison of material densities.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-centimeter": {
+          "name": "Kilogram per Cubic Centimeter",
+          "abbr": "kg/cm³",
+          "definition": "Density in kilograms per cubic centimeter is used to measure very dense materials. This unit is common in materials science and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-meter": {
+          "name": "Gram per Cubic Meter",
+          "abbr": "g/m³",
+          "definition": "Density in grams per cubic meter is used to measure very low density materials. This unit is common in environmental science.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-kilometer": {
+          "name": "Kilogram per Cubic Kilometer",
+          "abbr": "kg/km³",
+          "definition": "Density in kilograms per cubic kilometer is used to measure extremely low density materials. This unit is used in scientific research.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-kilometer": {
+          "name": "Gram per Cubic Kilometer",
+          "abbr": "g/km³",
+          "definition": "Density in grams per cubic kilometer is used to measure extremely low density materials. This unit is used in scientific research.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-millimeter": {
+          "name": "Kilogram per Cubic Millimeter",
+          "abbr": "kg/mm³",
+          "definition": "Density in kilograms per cubic millimeter is used to measure very dense materials. This unit is common in materials science.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-millimeter": {
+          "name": "Gram per Cubic Millimeter",
+          "abbr": "g/mm³",
+          "definition": "Density in grams per cubic millimeter is used to measure very dense materials. This unit is common in materials science.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-mile": {
+          "name": "Kilogram per Cubic Mile",
+          "abbr": "kg/mi³",
+          "definition": "Density in kilograms per cubic mile is used to measure materials in large volumes. This unit is used in environmental science.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-mile": {
+          "name": "Gram per Cubic Mile",
+          "abbr": "g/mi³",
+          "definition": "Density in grams per cubic mile is used to measure materials in large volumes. This unit is used in environmental science.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-yard": {
+          "name": "Kilogram per Cubic Yard",
+          "abbr": "kg/yd³",
+          "definition": "Density in kilograms per cubic yard is used to measure materials in construction. This unit is common in the United States.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-yard": {
+          "name": "Gram per Cubic Yard",
+          "abbr": "g/yd³",
+          "definition": "Density in grams per cubic yard is used to measure materials in construction. This unit is common in the United States.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-foot": {
+          "name": "Kilogram per Cubic Foot",
+          "abbr": "kg/ft³",
+          "definition": "Density in kilograms per cubic foot is used to measure materials in construction. This unit is common in the United States.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-foot": {
+          "name": "Gram per Cubic Foot",
+          "abbr": "g/ft³",
+          "definition": "Density in grams per cubic foot is used to measure materials in construction. This unit is common in the United States.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "kilogram-per-cubic-inch": {
+          "name": "Kilogram per Cubic Inch",
+          "abbr": "kg/in³",
+          "definition": "Density in kilograms per cubic inch is used to measure materials in construction. This unit is common in the United States.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "gram-per-cubic-inch": {
+          "name": "Gram per Cubic Inch",
+          "abbr": "g/in³",
+          "definition": "Density in grams per cubic inch is used to measure materials in construction. This unit is common in the United States.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        },
+        "pound-per-cubic-foot": {
+          "name": "Pound per Cubic Foot",
+          "abbr": "lb/ft³",
+          "definition": "Density in pounds per cubic foot is a unit commonly used in the Anglophone world. It measures mass per unit volume and is frequently used in construction and materials engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Dichte"
+        }
+      },
+      "volume-flow": {
+        "name": "Volume Flow",
+        "cubic-meters-per-second": {
+          "name": "Cubic Meters per Second",
+          "abbr": "m³/s",
+          "definition": "The volume flow in cubic-meters per second measures the amount of a fluid flowing through a cross-section per second. This unit is important in fluid dynamics.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-kilometer-per-second": {
+          "name": "Cubic Kilometer per Second",
+          "abbr": "km³/s",
+          "definition": "The volume flow in cubic kilometers per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in large-scale fluid dynamics.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-centimeter-per-second": {
+          "name": "Cubic Centimeter per Second",
+          "abbr": "cm³/s",
+          "definition": "The volume flow in cubic centimeters per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in small-scale fluid dynamics.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-millimeter-per-second": {
+          "name": "Cubic Millimeter per Second",
+          "abbr": "mm³/s",
+          "definition": "The volume flow in cubic millimeters per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in very small-scale fluid dynamics.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-mile-per-second": {
+          "name": "Cubic Mile per Second",
+          "abbr": "mi³/s",
+          "definition": "The volume flow in cubic miles per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in large-scale fluid dynamics.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-yard-per-second": {
+          "name": "Cubic Yard per Second",
+          "abbr": "yd³/s",
+          "definition": "The volume flow in cubic yards per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in construction and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-foot-per-second": {
+          "name": "Cubic Foot per Second",
+          "abbr": "ft³/s",
+          "definition": "The volume flow in cubic feet per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in construction and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-inch-per-second": {
+          "name": "Cubic Inch per Second",
+          "abbr": "in³/s",
+          "definition": "The volume flow in cubic inches per second measures the amount of a fluid flowing through a cross-section per second. This unit is used in construction and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-meter-per-hour": {
+          "name": "Cubic Meter per Hour",
+          "abbr": "m³/h",
+          "definition": "The volume flow in cubic meters per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in fluid dynamics.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-kilometer-per-hour": {
+          "name": "Cubic Kilometer per Hour",
+          "abbr": "km³/h",
+          "definition": "The volume flow in cubic kilometers per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in large-scale fluid dynamics.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-centimeter-per-hour": {
+          "name": "Cubic Centimeter per Hour",
+          "abbr": "cm³/h",
+          "definition": "The volume flow in cubic centimeters per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in small-scale fluid dynamics.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-millimeter-per-hour": {
+          "name": "Cubic Millimeter per Hour",
+          "abbr": "mm³/h",
+          "definition": "The volume flow in cubic millimeters per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in very small-scale fluid dynamics.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-mile-per-hour": {
+          "name": "Cubic Mile per Hour",
+          "abbr": "mi³/h",
+          "definition": "The volume flow in cubic miles per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in large-scale fluid dynamics.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-yard-per-hour": {
+          "name": "Cubic Yard per Hour",
+          "abbr": "yd³/h",
+          "definition": "The volume flow in cubic yards per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in construction and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-foot-per-hour": {
+          "name": "Cubic Foot per Hour",
+          "abbr": "ft³/h",
+          "definition": "The volume flow in cubic feet per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in construction and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "cubic-inch-per-hour": {
+          "name": "Cubic Inch per Hour",
+          "abbr": "in³/h",
+          "definition": "The volume flow in cubic inches per hour measures the amount of a fluid flowing through a cross-section per hour. This unit is used in construction and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "liters-per-second": {
+          "name": "Liters per Second",
+          "abbr": "L/s",
+          "definition": "The volume flow in liters per second indicates how many liters of a fluid flow per second. This unit is frequently used in process engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Volumenstrom"
+        },
+        "gallons-per-minute": {
+          "name": "Gallons per Minute",
+          "abbr": "gal/min",
+          "definition": "The volume flow in gallons per minute measures the amount of a fluid flowing per minute. This unit is common in the USA and used in technical applications.",
+          "wiki": "https://de.wikipedia.org/wiki/Gallone"
+        }
+      },
+      "acceleration": {
+        "name": "Acceleration",
+        "meters-per-second-squared": {
+          "name": "Meters per Second Squared",
+          "abbr": "m/s²",
+          "definition": "Acceleration in meters per second squared indicates how quickly the speed changes. It is the SI unit for acceleration and central to physics.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "kilometer-per-second-squared": {
+          "name": "Kilometer per Second Squared",
+          "abbr": "km/s²",
+          "definition": "Acceleration in kilometers per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "centimeter-per-second-squared": {
+          "name": "Centimeter per Second Squared",
+          "abbr": "cm/s²",
+          "definition": "Acceleration in centimeters per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "millimeter-per-second-squared": {
+          "name": "Millimeter per Second Squared",
+          "abbr": "mm/s²",
+          "definition": "Acceleration in millimeters per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "mile-per-second-squared": {
+          "name": "Mile per Second Squared",
+          "abbr": "mi/s²",
+          "definition": "Acceleration in miles per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "yard-per-second-squared": {
+          "name": "Yard per Second Squared",
+          "abbr": "yd/s²",
+          "definition": "Acceleration in yards per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "foot-per-second-squared": {
+          "name": "Foot per Second Squared",
+          "abbr": "ft/s²",
+          "definition": "Acceleration in feet per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "inch-per-second-squared": {
+          "name": "Inch per Second Squared",
+          "abbr": "in/s²",
+          "definition": "Acceleration in inches per second squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "meter-per-hour-squared": {
+          "name": "Meter per Hour Squared",
+          "abbr": "m/h²",
+          "definition": "Acceleration in meters per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "kilometer-per-hour-squared": {
+          "name": "Kilometer per Hour Squared",
+          "abbr": "km/h²",
+          "definition": "Acceleration in kilometers per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "centimeter-per-hour-squared": {
+          "name": "Centimeter per Hour Squared",
+          "abbr": "cm/h²",
+          "definition": "Acceleration in centimeters per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "millimeter-per-hour-squared": {
+          "name": "Millimeter per Hour Squared",
+          "abbr": "mm/h²",
+          "definition": "Acceleration in millimeters per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "mile-per-hour-squared": {
+          "name": "Mile per Hour Squared",
+          "abbr": "mi/h²",
+          "definition": "Acceleration in miles per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "yard-per-hour-squared": {
+          "name": "Yard per Hour Squared",
+          "abbr": "yd/h²",
+          "definition": "Acceleration in yards per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "foot-per-hour-squared": {
+          "name": "Foot per Hour Squared",
+          "abbr": "ft/h²",
+          "definition": "Acceleration in feet per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "inch-per-hour-squared": {
+          "name": "Inch per Hour Squared",
+          "abbr": "in/h²",
+          "definition": "Acceleration in inches per hour squared indicates how quickly the speed changes. This unit is used in physics and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        },
+        "kilometers-per-hour-per-second": {
+          "name": "Kilometers per Hour per Second",
+          "abbr": "km/h/s",
+          "definition": "Acceleration in kilometers per hour per second measures how quickly the speed in km/h changes. This unit is frequently used in the automotive sector.",
+          "wiki": "https://de.wikipedia.org/wiki/Beschleunigung"
+        }
+      },
+      "area-density": {
+        "name": "Area Density",
+        "kilogram-per-square-meter": {
+          "name": "Kilogram per Square Meter",
+          "abbr": "kg/m²",
+          "definition": "Area density in kilograms per square meter indicates how much mass is distributed over a given area. It is used primarily in construction and materials science.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-centimeter": {
+          "name": "Gram per Square Centimeter",
+          "abbr": "g/cm²",
+          "definition": "Area density in grams per square centimeter measures the mass per unit area and is used in engineering. This unit enables precise calculations for small areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-centimeter": {
+          "name": "Kilogram per Square Centimeter",
+          "abbr": "kg/cm²",
+          "definition": "Area density in kilograms per square centimeter measures the mass per unit area and is used in engineering. This unit enables precise calculations for small areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-meter": {
+          "name": "Gram per Square Meter",
+          "abbr": "g/m²",
+          "definition": "Area density in grams per square meter measures the mass per unit area and is used in engineering. This unit enables precise calculations for small areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-kilometer": {
+          "name": "Kilogram per Square Kilometer",
+          "abbr": "kg/km²",
+          "definition": "Area density in kilograms per square kilometer measures the mass per unit area and is used in engineering. This unit enables precise calculations for large areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-kilometer": {
+          "name": "Gram per Square Kilometer",
+          "abbr": "g/km²",
+          "definition": "Area density in grams per square kilometer measures the mass per unit area and is used in engineering. This unit enables precise calculations for large areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-millimeter": {
+          "name": "Kilogram per Square Millimeter",
+          "abbr": "kg/mm²",
+          "definition": "Area density in kilograms per square millimeter measures the mass per unit area and is used in engineering. This unit enables precise calculations for very small areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-millimeter": {
+          "name": "Gram per Square Millimeter",
+          "abbr": "g/mm²",
+          "definition": "Area density in grams per square millimeter measures the mass per unit area and is used in engineering. This unit enables precise calculations for very small areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-mile": {
+          "name": "Kilogram per Square Mile",
+          "abbr": "kg/mi²",
+          "definition": "Area density in kilograms per square mile measures the mass per unit area and is used in engineering. This unit enables precise calculations for large areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-mile": {
+          "name": "Gram per Square Mile",
+          "abbr": "g/mi²",
+          "definition": "Area density in grams per square mile measures the mass per unit area and is used in engineering. This unit enables precise calculations for large areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-yard": {
+          "name": "Kilogram per Square Yard",
+          "abbr": "kg/yd²",
+          "definition": "Area density in kilograms per square yard measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-yard": {
+          "name": "Gram per Square Yard",
+          "abbr": "g/yd²",
+          "definition": "Area density in grams per square yard measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-foot": {
+          "name": "Kilogram per Square Foot",
+          "abbr": "kg/ft²",
+          "definition": "Area density in kilograms per square foot measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-foot": {
+          "name": "Gram per Square Foot",
+          "abbr": "g/ft²",
+          "definition": "Area density in grams per square foot measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "kilogram-per-square-inch": {
+          "name": "Kilogram per Square Inch",
+          "abbr": "kg/in²",
+          "definition": "Area density in kilograms per square inch measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        },
+        "gram-per-square-inch": {
+          "name": "Gram per Square Inch",
+          "abbr": "g/in²",
+          "definition": "Area density in grams per square inch measures the mass per unit area and is used in engineering. This unit enables precise calculations for areas.",
+          "wiki": "https://de.wikipedia.org/wiki/Flächenmasse"
+        }
+      },
+      "illuminance": {
+        "name": "Illuminance",
+        "lux": {
+          "name": "Lux",
+          "abbr": "lx",
+          "definition": "The lux is the SI unit for illuminance and measures how much light falls on a surface per square meter. It is significant in lighting technology and architecture.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        },
+        "foot-candle": {
+          "name": "Foot Candle",
+          "abbr": "fc",
+          "definition": "A foot-candle is a unit of illuminance used primarily in the Anglophone world that indicates how much light falls on one square foot. This unit is often used in lighting design.",
+          "wiki": "https://de.wikipedia.org/wiki/Foot-candle"
+        },
+        "lumen-per-square-meter": {
+          "name": "Lumen per Square Meter",
+          "abbr": "lm/m²",
+          "definition": "Lumens per square meter is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        },
+        "lumen-per-square-centimeter": {
+          "name": "Lumen per Square Centimeter",
+          "abbr": "lm/cm²",
+          "definition": "Lumens per square centimeter is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        },
+        "lumen-per-square-millimeter": {
+          "name": "Lumen per Square Millimeter",
+          "abbr": "lm/mm²",
+          "definition": "Lumens per square millimeter is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        },
+        "lumen-per-square-foot": {
+          "name": "Lumen per Square Foot",
+          "abbr": "lm/ft²",
+          "definition": "Lumens per square foot is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        },
+        "lumen-per-square-inch": {
+          "name": "Lumen per Square Inch",
+          "abbr": "lm/in²",
+          "definition": "Lumens per square inch is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        },
+        "lumen-per-square-yard": {
+          "name": "Lumen per Square Yard",
+          "abbr": "lm/yd²",
+          "definition": "Lumens per square yard is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        },
+        "lumen-per-square-kilometer": {
+          "name": "Lumen per Square Kilometer",
+          "abbr": "lm/km²",
+          "definition": "Lumens per square kilometer is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        },
+        "lumen-per-square-mile": {
+          "name": "Lumen per Square Mile",
+          "abbr": "lm/mi²",
+          "definition": "Lumens per square mile is a unit of illuminance measuring the luminous flux per unit area. It is used in lighting design and engineering.",
+          "wiki": "https://de.wikipedia.org/wiki/Lux"
+        }
+      },
+      "data-rate": {
+        "name": "Data Transfer Rate",
+        "bits-per-second": {
+          "name": "Bits per Second",
+          "abbr": "bit/s",
+          "definition": "Bits per second is the unit for data transfer rate and indicates how many bits are transmitted in one second. This unit is central in information technology.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "kilobits-per-second": {
+          "name": "Kilobits per Second",
+          "abbr": "kbit/s",
+          "definition": "Kilobits per second equals 1000 bits per second and is frequently used in network communications. This unit helps determine internet speeds.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "megabits-per-second": {
+          "name": "Megabits per Second",
+          "abbr": "Mbit/s",
+          "definition": "Megabits per second equals 1,000,000 bits per second and is often used to indicate internet and data transfer speeds. It is common in telecommunications.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "gigabits-per-second": {
+          "name": "Gigabits per Second",
+          "abbr": "Gbit/s",
+          "definition": "Gigabits per second equals 1,000,000,000 bits per second and is primarily used in high-speed networks. This unit is indispensable for modern data communication systems.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "terabits-per-second": {
+          "name": "Terabits per Second",
+          "abbr": "Tbit/s",
+          "definition": "Terabits per second equals 1,000,000,000,000 bits per second and is used in high-speed networks. This unit is significant in modern data communication systems.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "petabits-per-second": {
+          "name": "Petabits per Second",
+          "abbr": "Pbit/s",
+          "definition": "Petabits per second equals 1,000,000,000,000,000 bits per second and is used in high-speed networks. This unit is significant in modern data communication systems.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "exabits-per-second": {
+          "name": "Exabits per Second",
+          "abbr": "Ebit/s",
+          "definition": "Exabits per second equals 1,000,000,000,000,000,000 bits per second and is used in high-speed networks. This unit is significant in modern data communication systems.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "zettabits-per-second": {
+          "name": "Zettabits per Second",
+          "abbr": "Zbit/s",
+          "definition": "Zettabits per second equals 1,000,000,000,000,000,000,000 bits per second and is used in high-speed networks. This unit is significant in modern data communication systems.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "yottabits-per-second": {
+          "name": "Yottabits per Second",
+          "abbr": "Ybit/s",
+          "definition": "Yottabits per second equals 1,000,000,000,000,000,000,000,000 bits per second and is used in high-speed networks. This unit is significant in modern data communication systems.",
+          "wiki": "https://de.wikipedia.org/wiki/Bitrate"
+        },
+        "bytes-per-second": {
+          "name": "Bytes per Second",
+          "abbr": "B/s",
+          "definition": "Bytes per second measures the data transfer rate in bytes and is used to determine the speed of data transfers. This unit is relevant in computer technology.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "kilobytes-per-second": {
+          "name": "Kilobytes per Second",
+          "abbr": "KB/s",
+          "definition": "Kilobytes per second equals 1024 bytes per second and is often used to measure download and upload speeds. This unit is common in computer science.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        },
+        "megabytes-per-second": {
+          "name": "Megabytes per Second",
+          "abbr": "MB/s",
+          "definition": "Megabytes per second equals 1024 kilobytes per second and is used to indicate data transfer rates in computers and networks. This unit is common in digital data transfer.",
+          "wiki": "https://de.wikipedia.org/wiki/Datendurchsatz"
+        }
+      }
+    },
+    "labels": {
+      "category": "Category",
+      "value": "Value",
+      "from": "From",
+      "to": "To",
+      "calculate": "Calculate",
+      "result": "Result",
+      "select": "Select",
+      "invalidNumber": "Please enter a valid number.",
+      "differentUnits": "Please select different units."
+    }
+  }
 }
