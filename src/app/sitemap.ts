@@ -72,7 +72,7 @@ const generateUnitConversionEntry = (
   toUnit: string
 ): SitemapEntry => {
   return {
-    url: `https://toolboxes.app/${locale}/tools/unit-converter/${category}/${fromUnit}/${toUnit}`,
+    url: `https://toolboxes.app/${locale}/tools/unit-converter/${category}/${fromUnit}-to-${toUnit}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
