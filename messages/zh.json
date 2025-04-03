@@ -800,5 +800,20 @@
       "invalidNumber": "请输入有效数字。",
       "differentUnits": "请选择不同的单位。"
     }
+  },
+  "PasswordGeneratorPage": {
+    "description": "密码生成器",
+    "length": "密码长度",
+    "uppercase": "大写字母",
+    "lowercase": "小写字母",
+    "numbers": "数字",
+    "specialChars": "特殊字符",
+    "generate": "生成密码",
+    "generatedPassword": "生成的密码",
+    "copy": "复制",
+    "selectAtLeastOne": "请至少选择一个字符类型。",
+    "passwordInfoHeader": "密码安全信息",
+    "additionalResources": "附加资源",
+    "passwordInfoText": "强密码对于保护您的在线安全和隐私至关重要。一个好的密码可以显著降低黑客攻击、身份盗窃和未经授权访问您账户的风险。密码安全对于保护您的个人数据、财务信息和敏感通信至关重要。弱密码可能通过暴力破解、钓鱼或身份盗窃等方法轻易被破解，使您容易受到网络犯罪的影响。使用可靠的密码生成器可以帮助创建复杂且独特的密码，从而提高您在线生活的安全性。优先考虑密码强度和定期更新密码是维护强大互联网安全和保护您数字生活的基础。"
   }
 }

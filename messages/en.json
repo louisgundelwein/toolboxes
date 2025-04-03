@@ -1461,5 +1461,20 @@
       "invalidNumber": "Please enter a valid number.",
       "differentUnits": "Please select different units."
     }
+  },
+  "PasswordGeneratorPage": {
+    "description": "Password Generator",
+    "length": "Password Length",
+    "uppercase": "Uppercase Letters",
+    "lowercase": "Lowercase Letters",
+    "numbers": "Numbers",
+    "specialChars": "Special Characters",
+    "generatedPassword": "Generated Password",
+    "generate": "Generate Password",
+    "copy": "Copy",
+    "selectAtLeastOne": "Please select at least one character type.",
+    "passwordInfoHeader": "Password Security Information",
+    "additionalResources": "Additional Resources",
+    "passwordInfoText": "Strong passwords are crucial for protecting your online security and privacy. A good password significantly reduces the risk of hacking, identity theft, and unauthorized access to your accounts. Password security is essential to safeguard your personal data, financial information, and sensitive communications from cyber threats. Weak passwords can be easily compromised through methods like brute-force attacks, phishing, or credential stuffing, making you vulnerable to cybercrime. Using a reliable password generator helps create complex, unique passwords that enhance cybersecurity and offer better defense against hackers. Prioritizing password strength and regular password updates are fundamental practices for maintaining robust internet safety and protecting your digital life."
   }
 }

@@ -836,5 +836,20 @@
       "invalidNumber": "Por favor, introduce un número válido.",
       "differentUnits": "Por favor, elige unidades diferentes."
     }
+  },
+  "PasswordGeneratorPage": {
+    "description": "Generador de contraseñas",
+    "length": "Longitud de contraseña",
+    "uppercase": "Letras mayúsculas",
+    "lowercase": "Letras minúsculas",
+    "numbers": "Números",
+    "specialChars": "Caracteres especiales",
+    "generate": "Generar contraseña",
+    "generatedPassword": "Contraseña generada",
+    "copy": "Copiar",
+    "selectAtLeastOne": "Por favor, selecciona al menos un tipo de carácter.",
+    "passwordInfoHeader": "Información de seguridad de contraseña",
+    "additionalResources": "Recursos adicionales",
+    "passwordInfoText": "Las contraseñas fuertes son esenciales para proteger tu seguridad y privacidad en línea. Una buena contraseña reduce significativamente el riesgo de hackeo, robo de identidad y acceso no autorizado a tus cuentas. La seguridad de las contraseñas es esencial para proteger tus datos personales, información financiera y comunicaciones sensibles contra amenazas cibernéticas. Las contraseñas débiles pueden ser comprometidas fácilmente mediante métodos como ataques de fuerza bruta, phishing o suplantación de identidad, lo que te hace vulnerable al crimen cibernético. Utilizar un generador de contraseñas confiable ayuda a crear contraseñas complejas y únicas que mejoran la seguridad de tu vida en línea."
   }
 }

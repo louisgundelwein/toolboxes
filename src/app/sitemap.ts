@@ -104,8 +104,19 @@ const getAllUnitConverterRoutes = async (): Promise<SitemapEntry[]> => {
   return resolvedRoutes.flat();
 };
 
+// Get all posible password generator routes
+const getAllPasswordGeneratorRoutes = async (): Promise<SitemapEntry[]> => {
+  return LOCALES.map((locale) => ({
+    url: `https://toolboxes.app/${locale}/tools/password-generator`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }));
+};
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const unitConverterRoutes = await getAllUnitConverterRoutes();
+  const passwordGeneratorRoutes = await getAllPasswordGeneratorRoutes();
 
   // Combine all routes
   return [
@@ -113,5 +124,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...getToolRoutes(),
     ...getUnitConverterCategoriesRoutes(),
     ...unitConverterRoutes,
+    ...passwordGeneratorRoutes,
   ];
 }
