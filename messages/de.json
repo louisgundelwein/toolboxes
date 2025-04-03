@@ -1482,5 +1482,15 @@
     "passwordInfoHeader": "Passwort-Sicherheitshinweise",
     "additionalResources": "Zusätzliche Ressourcen",
     "passwordInfoText": "Starke Passwörter sind essentiell für das Schutz Ihrer Online-Sicherheit und Privatsphäre. Ein gutes Passwort reduziert das Risiko von Hacking, Identitätsdiebstahl und unbefugtem Zugriff auf Ihre Konten. Die Passwortsicherheit ist essentiell, um Ihre persönlichen Daten, Finanzinformationen und sensible Kommunikationen vor Cyber-Bedrohungen zu schützen. Schwache Passwörter können leicht durch Methoden wie Brute-Force-Angriffe, Phishing oder Anmeldeinformationen-Stichwörter kompromittiert werden, wodurch Sie anfällig für Cyberkriminalität werden. Das Verwenden eines zuverlässigen Passwortgenerators hilft, komplexe, einzigartige Passwörter zu erstellen, die die Sicherheit Ihres Online-Lebens verbessern."
+  },
+  "TipCalculatorPage": {
+    "description": "Trinkgeldrechner",
+    "billAmount": "Rechnungsbetrag",
+    "tipPercentage": "Trinkgeldprozent",
+    "splitBill": "Rechnung aufteilen",
+    "people": "Personen",
+    "tipAmount": "Trinkgeldbetrag",
+    "totalAmount": "Gesamtbetrag",
+    "perPerson": "Pro Person"
   }
 }

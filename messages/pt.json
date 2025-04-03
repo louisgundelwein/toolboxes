@@ -735,5 +735,15 @@
     "passwordInfoHeader": "Informações de segurança da senha",
     "additionalResources": "Recursos adicionais",
     "passwordInfoText": "As senhas fortes são essenciais para proteger sua segurança e privacidade online. Uma boa senha reduz significativamente o risco de hacking, roubo de identidade e acesso não autorizado a suas contas. A segurança das senhas é essencial para proteger seus dados pessoais, informações financeiras e comunicações sensíveis contra ameaças cibernéticas. As senhas fracas podem ser comprometidas facilmente por meios como ataques de força bruta, phishing ou suplantar identidade, tornando-o vulnerável ao crime cibernético. Usar um gerador de senhas confiável ajuda a criar senhas complexas e únicas que melhoram a segurança da sua vida online."
+  },
+  "TipCalculatorPage": {
+    "description": "Calculadora de gorjetas",
+    "billAmount": "Valor da conta",
+    "tipPercentage": "Porcentagem da gorjeta",
+    "splitBill": "Dividir a conta",
+    "people": "Pessoas",
+    "tipAmount": "Valor da gorjeta",
+    "totalAmount": "Valor total",
+    "perPerson": "Por pessoa"
   }
 }

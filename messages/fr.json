@@ -872,5 +872,15 @@
     "passwordInfoHeader": "Informations de sécurité du mot de passe",
     "additionalResources": "Ressources supplémentaires",
     "passwordInfoText": "Les mots de passe forts sont essentiels pour protéger votre sécurité et votre vie privée en ligne. Un bon mot de passe réduit considérablement le risque de piratage, de vol d'identité et d'accès non autorisé à vos comptes. La sécurité des mots de passe est essentielle pour protéger vos données personnelles, vos informations financières et vos communications sensibles contre les menaces cybersécurisées. Les mots de passe faibles peuvent être facilement compromis par des méthodes comme les attaques de force brute, le phishing ou le vol d'identité, vous rendant vulnérable au crime cyber. Utiliser un générateur de mots de passe fiable aide à créer des mots de passe complexes et uniques qui renforcent la sécurité de votre vie en ligne."
+  },
+  "TipCalculatorPage": {
+    "description": "Calculatrice de pourboire",
+    "billAmount": "Montant de la facture",
+    "tipPercentage": "Pourcentage de pourboire",
+    "splitBill": "Diviser la facture",
+    "people": "Personnes",
+    "tipAmount": "Montant du pourboire",
+    "totalAmount": "Montant total",
+    "perPerson": "Par personne"
   }
 }

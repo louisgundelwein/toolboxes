@@ -1476,5 +1476,15 @@
     "passwordInfoHeader": "Password Security Information",
     "additionalResources": "Additional Resources",
     "passwordInfoText": "Strong passwords are crucial for protecting your online security and privacy. A good password significantly reduces the risk of hacking, identity theft, and unauthorized access to your accounts. Password security is essential to safeguard your personal data, financial information, and sensitive communications from cyber threats. Weak passwords can be easily compromised through methods like brute-force attacks, phishing, or credential stuffing, making you vulnerable to cybercrime. Using a reliable password generator helps create complex, unique passwords that enhance cybersecurity and offer better defense against hackers. Prioritizing password strength and regular password updates are fundamental practices for maintaining robust internet safety and protecting your digital life."
+  },
+  "TipCalculatorPage": {
+    "description": "Tip Calculator",
+    "billAmount": "Bill Amount",
+    "tipPercentage": "Tip Percentage",
+    "splitBill": "Split Bill",
+    "people": "People",
+    "tipAmount": "Tip Amount",
+    "totalAmount": "Total Amount",
+    "perPerson": "Per Person"
   }
 }

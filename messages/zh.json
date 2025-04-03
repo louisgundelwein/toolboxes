@@ -815,5 +815,15 @@
     "passwordInfoHeader": "密码安全信息",
     "additionalResources": "附加资源",
     "passwordInfoText": "强密码对于保护您的在线安全和隐私至关重要。一个好的密码可以显著降低黑客攻击、身份盗窃和未经授权访问您账户的风险。密码安全对于保护您的个人数据、财务信息和敏感通信至关重要。弱密码可能通过暴力破解、钓鱼或身份盗窃等方法轻易被破解，使您容易受到网络犯罪的影响。使用可靠的密码生成器可以帮助创建复杂且独特的密码，从而提高您在线生活的安全性。优先考虑密码强度和定期更新密码是维护强大互联网安全和保护您数字生活的基础。"
+  },
+  "TipCalculatorPage": {
+    "description": "小费计算器",
+    "billAmount": "账单金额",
+    "tipPercentage": "小费百分比",
+    "splitBill": "分账",
+    "people": "人数",
+    "tipAmount": "小费金额",
+    "totalAmount": "总金额",
+    "perPerson": "每人"
   }
 }

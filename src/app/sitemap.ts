@@ -114,9 +114,20 @@ const getAllPasswordGeneratorRoutes = async (): Promise<SitemapEntry[]> => {
   }));
 };
 
+// Get all posible tip calculator routes
+const getAllTipCalculatorRoutes = async (): Promise<SitemapEntry[]> => {
+  return LOCALES.map((locale) => ({
+    url: `https://toolboxes.app/${locale}/tools/tip-calculator`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }));
+};
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const unitConverterRoutes = await getAllUnitConverterRoutes();
   const passwordGeneratorRoutes = await getAllPasswordGeneratorRoutes();
+  const tipCalculatorRoutes = await getAllTipCalculatorRoutes();
 
   // Combine all routes
   return [
@@ -125,5 +136,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...getUnitConverterCategoriesRoutes(),
     ...unitConverterRoutes,
     ...passwordGeneratorRoutes,
+    ...tipCalculatorRoutes,
   ];
 }
